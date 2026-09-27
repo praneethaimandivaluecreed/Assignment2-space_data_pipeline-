@@ -1,0 +1,533 @@
+launcher_configuration_id,launcher_name,full_name,variant,manufacturer_id,manufacturer_name,active,reusable
+136,Angara 1.2,Angara 1.2,1.2,96,Khrunichev State Research and Production Space Center,True,False
+53,Angara-1.2pp,Angara 1.2pp,1.2pp,96,Khrunichev State Research and Production Space Center,False,False
+73,Angara A5,Angara A5,,96,Khrunichev State Research and Production Space Center,True,False
+196,Angara A5/Blok DM-03,Angara A5/Blok DM-03,A5/DM-03,96,Khrunichev State Research and Production Space Center,True,False
+504,Angara A5/Briz-M,Angara A5/Briz-M,A5/Briz-M,96,Khrunichev State Research and Production Space Center,True,False
+69,Antares 110,Antares 110,110,100,Orbital Sciences Corporation,False,False
+63,Antares 120,Antares 120,120,100,Orbital Sciences Corporation,False,False
+59,Antares 130,Antares 130,130,100,Orbital Sciences Corporation,False,False
+165,Antares 230,Antares 230,230,257,Northrop Grumman Space Systems,False,False
+210,Antares 230+,Antares 230+,230+,257,Northrop Grumman Space Systems,False,False
+487,Antares 330,Antares 330,330,257,Northrop Grumman Space Systems,False,False
+513,Apollo LM,Apollo LM Ascent Stage,,257,Northrop Grumman Space Systems,False,False
+126,Ares I-X,Ares I-X,I-X,44,National Aeronautics and Space Administration,False,False
+219,Ariane 1,Ariane 1,1,1003,Aérospatiale,False,False
+220,Ariane 2,Ariane 2,2,1003,Aérospatiale,False,False
+221,Ariane 3,Ariane 3,3,1003,Aérospatiale,False,False
+222,Ariane 40,Ariane 40,40,1003,Aérospatiale,False,False
+223,Ariane 42L,Ariane 42L,42L,1003,Aérospatiale,False,False
+224,Ariane 42P,Ariane 42P,42P,1003,Aérospatiale,False,False
+225,Ariane 44L,Ariane 44L,44L,1003,Aérospatiale,False,False
+226,Ariane 44LP,Ariane 44LP,44LP,1003,Aérospatiale,False,False
+227,Ariane 44P,Ariane 44P,44P,1003,Aérospatiale,False,False
+20,Ariane 5 ECA,Ariane 5 ECA,ECA,1044,ArianeGroup,False,False
+215,Ariane 5 ECA+,Ariane 5 ECA+,ECA+,1044,ArianeGroup,False,False
+18,Ariane 5 ES,Ariane 5 ES,ES,1044,ArianeGroup,False,False
+131,Ariane 5 G,Ariane 5 G,G,1044,ArianeGroup,False,False
+146,Ariane 5 G+,Ariane 5 G+,G+,1044,ArianeGroup,False,False
+149,Ariane 5 GS,Ariane 5 GS,GS,1044,ArianeGroup,False,False
+506,Ariane 6,Ariane 6,N/A,1044,ArianeGroup,True,False
+121,Ariane 62,Ariane 62,62,1044,ArianeGroup,True,False
+553,Ariane 62,Ariane 62 Block 2,62 Block 2,1044,ArianeGroup,True,False
+512,Ariane 64,Ariane 64 Block 2,64 Block 2,1044,ArianeGroup,True,False
+116,Ariane 64,Ariane 64,64,1044,ArianeGroup,False,False
+218,ASLV,ASLV,,31,Indian Space Research Organization,False,False
+213,Astra Rocket 3,Astra Rocket 3,3,285,Astra Space,False,False
+526,Astra Rocket 4,Astra Rocket 4,4,285,Astra Space,True,False
+228,Athena I,Athena I,I,82,Lockheed Martin,False,False
+229,Athena II,Athena II,II,82,Lockheed Martin,False,False
+230,Atlas-Able,Atlas-Able,,1004,Convair,False,False
+231,Atlas Agena A,Atlas LV-3 Agena A,Agena A,1004,Convair,False,False
+183,Atlas Agena B,Atlas LV-3 Agena B,LV-3 Agena B,161,United States Air Force,False,False
+232,Atlas Agena D,Atlas LV-3 Agena D,Agena D,1004,Convair,False,False
+233,Atlas B,SM-65B Atlas,B,1004,Convair,False,False
+234,Atlas Burner 2,Atlas SLV-3 Burner-2,Burner-2,1004,Convair,False,False
+235,Atlas Centaur,Atlas LV-3C Centaur,Centaur,1004,Convair,False,False
+236,Atlas Centaur D,Atlas LV-3C Centaur D,Centaur D,1004,Convair,False,False
+237,Atlas D,SM-65D Atlas,D,1004,Convair,False,False
+238,Atlas E,SM-65E Atlas,E,1004,Convair,False,False
+239,Atlas E Altair,Atlas E Altair,E Altair,1004,Convair,False,False
+240,Atlas E/MSD,Atlas E MSD,E/MSD,1004,Convair,False,False
+241,Atlas E/OIS,Atlas E/OIS,E/OIS,1004,Convair,False,False
+242,Atlas E/SGS-2,Atlas E/SGS-2,E/SGS-2,1004,Convair,False,False
+243,Atlas E/SVS,Atlas E/SVS,E/SVS,1004,Convair,False,False
+244,Atlas F,SM-65F Atlas,F,1004,Convair,False,False
+245,Atlas F/Agena D,Atlas F/Agena D,F/Agena D,1004,Convair,False,False
+246,Atlas F/MSD,Atlas F MSD,F/MSD,1004,Convair,False,False
+247,Atlas F/OIS,Atlas F/OIS,F/OIS,1004,Convair,False,False
+248,Atlas F/PTS,Atlas F/PTS,F/PTS,1004,Convair,False,False
+249,Atlas F/SVS,Atlas F/SVS,F/SVS,1004,Convair,False,False
+250,Atlas G Centaur,Atlas G Centaur,G Centaur,1004,Convair,False,False
+251,Atlas H,Atlas H,H,1004,Convair,False,False
+252,Atlas I,Atlas I,I,106,General Dynamics,False,False
+253,Atlas II,Atlas II,II,82,Lockheed Martin,False,False
+254,Atlas IIA,Atlas IIA,IIA,82,Lockheed Martin,False,False
+255,Atlas IIAS,Atlas IIAS,IIAS,82,Lockheed Martin,False,False
+471,Atlas IIIA,Atlas IIIA,IIIA,82,Lockheed Martin,False,False
+472,Atlas IIIB,Atlas IIIB,IIIB,82,Lockheed Martin,False,False
+162,Atlas LV-3B,Atlas LV-3B,LV-3B,44,National Aeronautics and Space Administration,False,False
+256,Atlas SLV-3,Atlas SLV-3,SLV-3,1004,Convair,False,False
+259,Atlas SLV-3A Agena D,Atlas SLV-3A Agena D,SLV-3A Agena D,1004,Convair,False,False
+257,Atlas SLV-3 Agena B,Atlas SLV-3 Agena B,SLV-3 Agena B,1004,Convair,False,False
+258,Atlas SLV-3 Agena D,Atlas SLV-3 Agena D,SLV-3 Agena D,1004,Convair,False,False
+260,Atlas SLV-3C Centaur,Atlas SLV-3C Centaur,SLV-3C Centaur,1004,Convair,False,False
+261,Atlas SLV-3D Centaur,Atlas SLV-3D Centaur,SLV-3D Centaur,1004,Convair,False,False
+182,Atlas V,Atlas V,V,124,United Launch Alliance,True,False
+16,Atlas V 401,Atlas V 401,401,124,United Launch Alliance,False,False
+83,Atlas V 411,Atlas V 411,411,124,United Launch Alliance,False,False
+28,Atlas V 421,Atlas V 421,421,124,United Launch Alliance,False,False
+111,Atlas V 431,Atlas V 431,431,124,United Launch Alliance,False,False
+4,Atlas V 501,Atlas V 501,501,124,United Launch Alliance,False,False
+214,Atlas V 511,Atlas V 511,511,124,United Launch Alliance,False,False
+262,Atlas V 521,Atlas V 521,521,124,United Launch Alliance,False,False
+8,Atlas V 531,Atlas V 531,531,124,United Launch Alliance,False,False
+1,Atlas V 541,Atlas V 541,541,124,United Launch Alliance,False,False
+27,Atlas V 551,Atlas V 551,551,124,United Launch Alliance,False,False
+166,Atlas V N22,Atlas V N22,V N22,124,United Launch Alliance,True,False
+535,Baguette One,Baguette One,One,1101,HyPrSpace,True,False
+263,Black Arrow,Black Arrow,,1005,Royal Aircraft Establishment,False,False
+481,Black Brant IX,Black Brant IX,IX,1039,Magellan Aerospace Corporation,True,False
+264,Blue Scout II,Blue Scout II,II,1006,Vought,False,False
+265,Blue Scout Jr,Blue Scout Jr,Jr,1006,Vought,False,False
+524,Callisto,Callisto,,46,National Center of Space Research,True,True
+461,Ceres-1,Ceres-1,Ceres-1,1021,Galactic Energy,True,False
+500,Ceres-1S,Ceres-1S,Ceres-1S,1021,Galactic Energy,True,False
+546,Ceres-2,Ceres-2,,1021,Galactic Energy,True,False
+515,Chang'e,Chang'e Sample Ascender,,88,China Aerospace Science and Technology Corporation,False,False
+495,Chollima-1,Chollima-1,Chollima-1,40,Korean Committee of Space Technology,True,False
+272,Commercial Titan III,Commercial Titan III,III,82,Lockheed Martin,False,False
+273,Conestoga 1620,Conestoga 1620,1620,1007,Space Services Inc.,False,False
+275,Delta 0300,Delta 0300,0300,153,McDonnell Douglas,False,False
+276,Delta 0900,Delta 0900,0900,153,McDonnell Douglas,False,False
+277,Delta 1410,Delta 1410,1410,153,McDonnell Douglas,False,False
+278,Delta 1604,Delta 1604,1604,153,McDonnell Douglas,False,False
+279,Delta 1900,Delta 1900,1900,153,McDonnell Douglas,False,False
+280,Delta 1910,Delta 1910,1910,153,McDonnell Douglas,False,False
+281,Delta 1913,Delta 1913,1913,153,McDonnell Douglas,False,False
+282,Delta 1914,Delta 1914,1914,153,McDonnell Douglas,False,False
+283,Delta 2310,Delta 2310,2310,153,McDonnell Douglas,False,False
+284,Delta 2313,Delta 2313,2313,153,McDonnell Douglas,False,False
+285,Delta 2910,Delta 2910,2910,153,McDonnell Douglas,False,False
+286,Delta 2913,Delta 2913,2913,153,McDonnell Douglas,False,False
+287,Delta 2914,Delta 2914,2914,153,McDonnell Douglas,False,False
+288,Delta 3910,Delta 3910,3910,153,McDonnell Douglas,False,False
+289,Delta 3910/PAM,Delta 3910/PAM,3910/PAM,153,McDonnell Douglas,False,False
+290,Delta 3913,Delta 3913,3913,153,McDonnell Douglas,False,False
+291,Delta 3914,Delta 3914,3914,153,McDonnell Douglas,False,False
+292,Delta 3920,Delta 3920,3920,153,McDonnell Douglas,False,False
+293,Delta 3920-8,Delta 3920-8,3920-8,153,McDonnell Douglas,False,False
+294,Delta 3920/PAM,Delta 3920/PAM,3920/PAM,153,McDonnell Douglas,False,False
+295,Delta 3924,Delta 3924,3924,153,McDonnell Douglas,False,False
+296,Delta 4925-8,Delta 4925-8,4925-8,153,McDonnell Douglas,False,False
+297,Delta 5920-8,Delta 5920-8,5920-8,153,McDonnell Douglas,False,False
+189,Delta DM-19,Thor-Delta,DM-19,161,United States Air Force,False,False
+151,Delta II,Delta II 7925-10L,7925-10L,124,United Launch Alliance,False,False
+155,Delta II,Delta II 7925H-9.5,7925H-9.5,124,United Launch Alliance,False,False
+159,Delta II,Delta II 7925,7925,124,United Launch Alliance,False,False
+301,Delta II,Delta II 6925-8,6925-8,153,McDonnell Douglas,False,False
+304,Delta II,Delta II 7425-9.5,7425-9.5,153,McDonnell Douglas,False,False
+306,Delta II,Delta II 7920-10L,7920-10L,153,McDonnell Douglas,False,False
+307,Delta II,Delta II 7920-8,7920-8,153,McDonnell Douglas,False,False
+305,Delta II,Delta II 7426-9.5,7426-9.5,153,McDonnell Douglas,False,False
+309,Delta II,Delta II 7925-8,7925-8,153,McDonnell Douglas,False,False
+81,Delta II,Delta II 7920H,7920H,124,United Launch Alliance,False,False
+154,Delta II,Delta II 7920H-10C,7920H-10C,124,United Launch Alliance,False,False
+302,Delta II,Delta II 7326-9.5,7326-9.5,153,McDonnell Douglas,False,False
+308,Delta II,Delta II 7925-10,7925-10,153,McDonnell Douglas,False,False
+157,Delta II,Delta II 7925-10C,7925-10C,124,United Launch Alliance,False,False
+298,Delta II,Delta II 6920-10,6920-10,153,McDonnell Douglas,False,False
+99,Delta II,Delta II 7920-10C,7920-10C,124,United Launch Alliance,False,False
+467,Delta II,Delta II 7420-10C,7420-10C,153,McDonnell Douglas,False,False
+88,Delta II,Delta II 7320,7320,124,United Launch Alliance,False,False
+140,Delta II,Delta II 7925-9.5,7925-9.5,124,United Launch Alliance,False,False
+300,Delta II,Delta II 6925,6925,153,McDonnell Douglas,False,False
+303,Delta II,Delta II 7425-10,7425-10,153,McDonnell Douglas,False,False
+299,Delta II,Delta II 6920-8,6920-8,153,McDonnell Douglas,False,False
+105,Delta II,Delta II 7420-10C,7420-10C,124,United Launch Alliance,False,False
+56,Delta II,Delta II 7320-10C,7320-10C,124,United Launch Alliance,False,False
+75,Delta II,Delta II 7920-10,7920-10,124,United Launch Alliance,False,False
+310,Delta III,Delta III 8930,8930,80,Boeing,False,False
+21,Delta IV Heavy,Delta IV Heavy,Heavy,124,United Launch Alliance,False,False
+458,Delta IV M,Delta IV M,M,124,United Launch Alliance,False,False
+33,"Delta IV M+(4,2)","Delta IV M+(4,2)","M+(4,2)",124,United Launch Alliance,False,False
+35,"Delta IV M+(5,2)","Delta IV M+(5,2)","M+(5,2)",124,United Launch Alliance,False,False
+23,"Delta IV M+(5,4)","Delta IV M+(5,4)","M+(5,4)",124,United Launch Alliance,False,False
+311,Diamant A,Diamant A,A,1008,Société d'étude et de réalisation d'engins balistiques,False,False
+312,Diamant B,Diamant B,B,1008,Société d'étude et de réalisation d'engins balistiques,False,False
+313,Diamant BP4,Diamant BP4,BP4,1008,Société d'étude et de réalisation d'engins balistiques,False,False
+31,Dnepr,Dnepr 1,1,119,ISC Kosmotras,False,False
+26,Electron,Electron,,147,Rocket Lab,True,False
+314,Energiya,Energiya,,1000,Energia,False,False
+315,Energiya/Buran,Energiya/Buran,,1000,Energia,False,True
+112,Epsilon,Epsilon,,37,Japan Aerospace Exploration Agency,True,False
+115,Epsilon S,Epsilon S,S,37,Japan Aerospace Exploration Agency,True,False
+460,Eris-1,Eris Block 1,1,188,Gilmour Space Technologies,True,False
+316,Europa I,Europa I,I,1015,European Launcher Development Organisation,False,False
+317,Europa II,Europa II,II,1015,European Launcher Development Organisation,False,False
+133,Falcon 1,Falcon 1,1,121,SpaceX,False,False
+164,Falcon 9,Falcon 9 Block 5,Block 5,121,SpaceX,True,True
+169,Falcon 9,Falcon 9 v1.0,v1.0,121,SpaceX,False,False
+145,Falcon 9,Falcon 9 Block 4,Block 4,121,SpaceX,False,True
+55,Falcon 9,Falcon 9 Full Thrust,Full Thrust,121,SpaceX,False,True
+14,Falcon 9,Falcon 9 v1.1,v1.1,121,SpaceX,False,False
+161,Falcon Heavy,Falcon Heavy,Heavy,121,SpaceX,True,True
+318,Feng Bao 1,Feng Bao 1,1,88,China Aerospace Science and Technology Corporation,False,False
+179,Firefly Alpha,Firefly Alpha,,265,Firefly Aerospace,True,False
+551,Firefly Alpha Block 2,Firefly Alpha Block 2,Block 2,265,Firefly Aerospace,True,False
+497,Gaganyaan Abort Test Booster,Gaganyaan Abort Test Booster,L40,31,Indian Space Research Organization,True,False
+503,Gravity-1,Gravity-1,Gravity-1,1080,Orienspace Technology,False,False
+544,Gravity-2,Gravity-2,,1080,Orienspace Technology,True,True
+5,GSLV,GSLV,,31,Indian Space Research Organization,True,False
+168,GSLV Mk II,GSLV Mk. II,,31,Indian Space Research Organization,True,False
+319,H-1,H-I,I,98,Mitsubishi Heavy Industries,False,False
+30,H3,H3,,98,Mitsubishi Heavy Industries,True,False
+486,H3-22,H3-22,22,98,Mitsubishi Heavy Industries,True,False
+204,H3-24,H3-24,24,98,Mitsubishi Heavy Industries,True,False
+203,H3-30,H3-30,30,98,Mitsubishi Heavy Industries,True,False
+530,HANBIT-Nano,HANBIT-Nano,Nano,1098,Innospace,True,False
+529,HANBIT-TLV,HANBIT-TLV,TLV,1098,Innospace,False,False
+474,Hapith I,Hapith I,I,1029,TiSPACE,True,False
+320,H-II,H-II,,98,Mitsubishi Heavy Industries,False,False
+321,H-IIA,H-IIA 2022,2022,98,Mitsubishi Heavy Industries,False,False
+322,H-IIA,H-IIA 2024,2024,98,Mitsubishi Heavy Industries,False,False
+48,H-IIA,H-IIA 204,204,98,Mitsubishi Heavy Industries,False,False
+32,H-IIA,H-IIA 202,202,98,Mitsubishi Heavy Industries,False,False
+77,H-IIB,H-IIB 304,304,98,Mitsubishi Heavy Industries,False,False
+193,Hyperbola-1,Hyperbola-1,1,274,i-Space,True,False
+543,Hyperbola-3,Hyperbola-3,,274,i-Space,True,True
+324,Juno-I,Juno-I,Juno I,158,Chrysler,False,False
+188,Juno II,Juno II,,271,Army Ballistic Missile Agency,False,False
+325,K65M-RB,K65M-RB,,154,Production Corporation Polyot,False,False
+507,KAIROS,Kii-based Advanced & Instant ROcket System,,1083,Space One,True,False
+125,Kaituozhe,Kaituozhe-2,2,184,China Aerospace Science and Industry Corporation,False,False
+326,Kaituozhe-1,Kaituozhe-1,1,184,China Aerospace Science and Industry Corporation,False,False
+483,Kinetica 1,Kinetica 1,,1040,CAS Space,True,False
+541,Kinetica 2,Kinetica 2,,1040,CAS Space,True,True
+327,Kosmos 11K63,Kosmos 11K63,11K63,270,Strategic Rocket Forces,False,False
+328,Kosmos 11K65,Kosmos 11K65,11K65,270,Strategic Rocket Forces,False,False
+190,Kosmos-2I 63S1,Kosmos-2I,,270,Strategic Rocket Forces,False,False
+102,Kosmos-3M,Kosmos-3M (11K65M),-3M,193,Russian Space Forces,False,False
+329,Kosmos 65S3,Kosmos 65S3,65S3,270,Strategic Rocket Forces,False,False
+147,KSLV 2 TLV,KSLV 2 TLV,TLV,41,Korea Aerospace Research Institute,False,False
+65,Kuaizhou,Kuaizhou,,184,China Aerospace Science and Industry Corporation,False,False
+194,Kuaizhou 11,Kuaizhou 11,11,194,ExPace,True,False
+135,Kuaizhou 1A,Kuaizhou 1A,1A,194,ExPace,True,False
+330,Kwangmyongsong,Kwangmyongsong,,40,Korean Committee of Space Technology,False,False
+333,Lambda 4S,Lambda 4S,4S,1009,Institute of Space and Astronautical Science,False,False
+141,LauncherOne,LauncherOne,One,199,Virgin Orbit,False,False
+473,Little Joe,Little Joe,,999,North American Aviation,False,False
+470,Little Joe II,Little Joe II,II,1004,Convair,False,False
+120,Long March,Long March (Unknown Variant),,88,China Aerospace Science and Technology Corporation,True,False
+92,Long March 1,Long March 1,,88,China Aerospace Science and Technology Corporation,False,False
+536,Long March 10,Long March 10,,88,China Aerospace Science and Technology Corporation,True,False
+537,Long March 10A,Long March 10A,,88,China Aerospace Science and Technology Corporation,True,True
+554,Long March 10B,Long March 10B,,88,China Aerospace Science and Technology Corporation,True,True
+47,Long March 11,Long March 11,,88,China Aerospace Science and Technology Corporation,True,False
+517,Long March 12,Long March 12,,88,China Aerospace Science and Technology Corporation,True,False
+538,Long March 12A,Long March 12A,,88,China Aerospace Science and Technology Corporation,True,True
+552,Long March 12B,Long March 12B,,88,China Aerospace Science and Technology Corporation,True,True
+266,Long March 2A,Long March 2A,A,88,China Aerospace Science and Technology Corporation,False,False
+61,Long March 2C,Long March 2C,C,88,China Aerospace Science and Technology Corporation,True,False
+267,Long March 2C/SD,Long March 2C/SD,C/SD,88,China Aerospace Science and Technology Corporation,False,False
+269,Long March 2C/SM,Long March 2C/SM,C/SM,88,China Aerospace Science and Technology Corporation,False,False
+66,Long March 2C/SMA,Long March 2C/SMA,C/SMA,88,China Aerospace Science and Technology Corporation,False,False
+156,Long March 2C/YZ-1S,Long March 2C/YZ-1S,C/YZ-1S,88,China Aerospace Science and Technology Corporation,True,False
+17,Long March 2D,Long March 2D,D,88,China Aerospace Science and Technology Corporation,True,False
+176,Long March 2D/YZ-3,Long March 2D/YZ-3,D/YZ-3,88,China Aerospace Science and Technology Corporation,True,False
+268,Long March 2E,Long March 2E,E,88,China Aerospace Science and Technology Corporation,False,False
+79,Long March 2F,Long March 2F,F,88,China Aerospace Science and Technology Corporation,False,False
+84,Long March 2F/G,Long March 2F/G,F/G,88,China Aerospace Science and Technology Corporation,True,False
+270,Long March 3,Long March 3,,88,China Aerospace Science and Technology Corporation,False,False
+71,Long March 3A,Long March 3A,A,88,China Aerospace Science and Technology Corporation,True,False
+19,Long March 3B,Long March 3B,B,88,China Aerospace Science and Technology Corporation,True,False
+50,Long March 3B/E,Long March 3B/E,B/E,88,China Aerospace Science and Technology Corporation,True,False
+78,Long March 3B/YZ-1,Long March 3B/YZ-1,B/YZ-1,88,China Aerospace Science and Technology Corporation,True,False
+90,Long March 3C,Long March 3C,C,88,China Aerospace Science and Technology Corporation,True,False
+51,Long March 3C/E,Long March 3C/E,C/E,88,China Aerospace Science and Technology Corporation,True,False
+36,Long March 3C/YZ-1,Long March 3C/YZ-1,C/YZ-1,88,China Aerospace Science and Technology Corporation,True,False
+271,Long March 4A,Long March 4A,A,88,China Aerospace Science and Technology Corporation,False,False
+10,Long March 4B,Long March 4B,B,88,China Aerospace Science and Technology Corporation,True,False
+64,Long March 4C,Long March 4C,C,88,China Aerospace Science and Technology Corporation,True,False
+128,Long March 5,Long March 5,,88,China Aerospace Science and Technology Corporation,True,False
+208,Long March 5B,Long March 5B,B,88,China Aerospace Science and Technology Corporation,True,False
+508,Long March 5B/YZ-2,Long March 5B/YZ-2,B/YZ-2,88,China Aerospace Science and Technology Corporation,True,False
+123,Long March 5/YZ-2,Long March 5/YZ-2,YZ-2,88,China Aerospace Science and Technology Corporation,True,False
+54,Long March 6,Long March 6,,88,China Aerospace Science and Technology Corporation,True,False
+478,Long March 6A,Long March 6A,A,88,China Aerospace Science and Technology Corporation,True,False
+510,Long March 6C,Long March 6C,C,88,China Aerospace Science and Technology Corporation,True,False
+100,Long March 7,Long March 7,,88,China Aerospace Science and Technology Corporation,True,False
+216,Long March 7A,Long March 7A,A,88,China Aerospace Science and Technology Corporation,True,False
+109,Long March 7/YZ-1A,Long March 7/YZ-1A,YZ-1A,88,China Aerospace Science and Technology Corporation,True,False
+462,Long March 8,Long March 8,,88,China Aerospace Science and Technology Corporation,True,False
+518,Long March 8A,Long March 8A,A,88,China Aerospace Science and Technology Corporation,True,False
+477,Long March 8 (Core Only),Long March 8 (Core Only),8,88,China Aerospace Science and Technology Corporation,True,False
+514,Luna,Luna Ascent Stage,,97,NPO Lavochkin,False,False
+172,LVM-3 (GSLV Mk III),Launch Vehicle Mark-3 (GSLV Mk III),,31,Indian Space Research Organization,True,False
+547,Maia,Maia,,1103,MaiaSpace,True,True
+82,Minotaur,Minotaur C,C,179,Orbital ATK,False,False
+383,Minotaur-C 1110,Minotaur-C 1110,1110,100,Orbital Sciences Corporation,True,False
+384,Minotaur-C 2110,Minotaur-C 2110,2110,100,Orbital Sciences Corporation,True,False
+385,Minotaur-C 2210,Minotaur-C 2210,2210,100,Orbital Sciences Corporation,True,False
+386,Minotaur-C 3110,Minotaur-C 3110,3110,100,Orbital Sciences Corporation,True,False
+387,Minotaur-C 3210,Minotaur-C 3210,3210,100,Orbital Sciences Corporation,True,False
+175,Minotaur I,Minotaur I,,100,Orbital Sciences Corporation,True,False
+108,Minotaur IV,Minotaur IV HAPS,HAPS,100,Orbital Sciences Corporation,True,False
+85,Minotaur IV,Minotaur IV+,+,100,Orbital Sciences Corporation,True,False
+52,Minotaur IV,Minotaur IV,,179,Orbital ATK,True,False
+13,Minotaur V,Minotaur V,,100,Orbital Sciences Corporation,True,False
+502,Mir,Mir,,1079,Agency for Defense Development,True,False
+501,Mir (3 stage),Mir (3 stage),,1079,Agency for Defense Development,False,False
+494,Miura 1,Miura 1,,1051,Payload Aerospace S.L.,True,True
+509,Miura 5,Miura 5,,1051,Payload Aerospace S.L.,True,True
+184,Molniya 8K78,Molniya 8K78,8K78,270,Strategic Rocket Forces,False,False
+335,Molniya 8K78M-PVB,Molniya 8K78M-PVB,8K78M-PVB,111,Progress Rocket Space Center,False,False
+106,Molniya-M,Molniya-M 2BL,2BL,193,Russian Space Forces,False,False
+198,MOMO v0,MOMO v0,v0,1002,Interstellar Technologies,False,False
+466,MOMO v1,MOMO v1,v1,1002,Interstellar Technologies,True,False
+336,Mu-3C,Mu-3C,C,1009,Institute of Space and Astronautical Science,False,False
+337,Mu-3H,Mu-3H,H,1009,Institute of Space and Astronautical Science,False,False
+338,Mu-3S,Mu-3S,S,1009,Institute of Space and Astronautical Science,False,False
+339,Mu-3S-II,Mu-3S-II,S-II,1009,Institute of Space and Astronautical Science,False,False
+340,Mu-4S,Mu-4S,S,1009,Institute of Space and Astronautical Science,False,False
+334,M-V,M-V,V,94,IHI Corporation,False,False
+114,N1,N1,N1,63,Russian Federal Space Agency (ROSCOSMOS),False,False
+341,N-2,N-2,2,98,Mitsubishi Heavy Industries,False,False
+12,Naro-1,KSLV Naro-1,1,41,Korea Aerospace Research Institute,False,False
+545,Nebula-1,Nebula-1,,1102,Deep Blue Aerospace,True,True
+476,Neutron,Neutron,,147,Rocket Lab,False,True
+138,New Glenn,New Glenn,,141,Blue Origin,True,True
+550,New Glenn 9x4,New Glenn 9x4,9x4,141,Blue Origin,False,True
+137,New Shepard,New Shepard,,141,Blue Origin,False,True
+459,N-I,N-I,,98,Mitsubishi Heavy Industries,False,False
+342,Nike Cajun,Nike Cajun,,44,National Aeronautics and Space Administration,False,False
+209,North American X-15,North American X-15,,999,North American Aviation,False,True
+533,Nova,Nova,,1048,Stoke Space,True,True
+117,Nuri,KSLV-2 Nuri,2,41,Korea Aerospace Research Institute,True,False
+195,Orion Abort Test Booster,Orion Abort Test Booster,,44,National Aeronautics and Space Administration,False,False
+177,OS-M1,OS-M1,,263,OneSpace,False,False
+343,Paektusan 1,Paektusan 1,1,40,Korean Committee of Space Technology,False,False
+542,Pallas-1,Pallas-1,,1021,Galactic Energy,True,True
+119,Pegasus,Pegasus,,100,Orbital Sciences Corporation,False,False
+132,Pegasus HAPS,Pegasus HAPS,HAPS,100,Orbital Sciences Corporation,False,False
+129,Pegasus Hybrid,Pegasus Hybrid,Hybrid,100,Orbital Sciences Corporation,False,False
+173,Pegasus XL,Pegasus XL,,100,Orbital Sciences Corporation,True,False
+118,Pegasus XL HAPS,Pegasus XL HAPS,HAPS,100,Orbital Sciences Corporation,True,False
+480,Prime,Orbex Prime,Prime,1033,Orbex,False,False
+344,Project Pilot,Project Pilot,,166,US Navy,False,False
+191,Proton,Proton / UR-500 K/D,K/D,63,Russian Federal Space Agency (ROSCOSMOS),False,False
+80,Proton,Proton K/DM-2,K/DM-2,96,Khrunichev State Research and Production Space Center,False,False
+95,Proton,Proton-K,K,96,Khrunichev State Research and Production Space Center,False,False
+345,Proton-K/17S40,Proton-K/17S40,17S40,96,Khrunichev State Research and Production Space Center,False,False
+346,Proton-K/Briz-M,Proton-K/Briz-M,Briz-M,96,Khrunichev State Research and Production Space Center,False,False
+347,Proton-K/D-1,Proton-K/D-1,D-1,96,Khrunichev State Research and Production Space Center,False,False
+348,Proton-K/D-2,Proton-K/D-2,D-2,96,Khrunichev State Research and Production Space Center,False,False
+349,Proton-K/DM,Proton-K/DM,DM,96,Khrunichev State Research and Production Space Center,False,False
+350,Proton-K/DM-2M,Proton-K/DM-2M,DM-2M,96,Khrunichev State Research and Production Space Center,False,False
+87,Proton-M,Proton-M Briz-M Enhanced,Briz-M Enhanced,96,Khrunichev State Research and Production Space Center,True,False
+46,Proton-M,Proton-M Blok DM-03,M Blok DM-03,96,Khrunichev State Research and Production Space Center,True,False
+152,Proton-M,Proton-M,,96,Khrunichev State Research and Production Space Center,True,False
+94,Proton-M,Proton-M DM-2 Enhanced,DM-2 Enhanced,96,Khrunichev State Research and Production Space Center,True,False
+22,Proton-M Briz-M,Proton-M Briz-M,Briz-M,96,Khrunichev State Research and Production Space Center,True,False
+7,PSLV,PSLV,,31,Indian Space Research Organization,True,False
+43,PSLV,PSLV-CA,CA,31,Indian Space Research Organization,True,False
+178,PSLV-DL,PSLV-DL,DL,31,Indian Space Research Organization,True,False
+181,PSLV-QL,PSLV-QL,QL,31,Indian Space Research Organization,True,False
+38,PSLV-XL,PSLV XL,XL,31,Indian Space Research Organization,True,False
+505,Qaem 100,Qaem 100,,1032,Islamic Revolutionary Guard Corps Aerospace Force,True,False
+217,Qased,Qased,,1032,Islamic Revolutionary Guard Corps Aerospace Force,True,False
+351,R-36O 8K69,R-36O 8K69,8K69,112,Yuzhnoye Design Bureau,False,False
+352,R-36O 8K69M,R-36O 8K69M,8K69M,112,Yuzhnoye Design Bureau,False,False
+206,Ravn X,Ravn X,,282,Aevum,True,False
+107,Redstone,Redstone MRLV,MRLV,158,Chrysler,False,False
+488,RFA One,RFA One,One,1045,Rocket Factory Augsburg,False,False
+3,Rokot/Briz-K,Rokot/Briz-K,Briz-K,96,Khrunichev State Research and Production Space Center,False,False
+40,Rokot/Briz-KM,Rokot/Briz-KM,Briz-KM,163,Russian Aerospace Defence Forces,True,False
+475,RS1,RS1,1,1030,Long Wall,False,False
+39,Safir,Safir,,34,Iranian Space Agency,True,False
+74,Safir 1B,Safir 1B,1B,34,Iranian Space Agency,True,False
+197,SARGE,SARGE,,1001,EXOS Aerospace,True,True
+355,Saturn I,Saturn I,I,158,Chrysler,False,False
+163,Saturn IB,Saturn IB,IB,44,National Aeronautics and Space Administration,False,False
+93,Saturn V,Saturn V,V,44,National Aeronautics and Space Administration,False,False
+356,Scout A,Scout A,A,1006,Vought,False,False
+357,Scout A-1,Scout A-1,A-1,1006,Vought,False,False
+358,Scout B,Scout B,B,1006,Vought,False,False
+359,Scout B-1,Scout B-1,B-1,1006,Vought,False,False
+360,Scout D-1,Scout D-1,D-1,1006,Vought,False,False
+361,Scout E-1,Scout E-1,E-1,1006,Vought,False,False
+362,Scout F-1,Scout F-1,F-1,1006,Vought,False,False
+363,Scout G-1,Scout G-1,G-1,1006,Vought,False,False
+185,Scout X-1,Scout X-1,X-1,44,National Aeronautics and Space Administration,False,False
+364,Scout X-2,Scout X-2,X-2,1006,Vought,False,False
+365,Scout X-2B,Scout X-2B,X-2B,1006,Vought,False,False
+366,Scout X-2M,Scout X-2M,X-2M,1006,Vought,False,False
+367,Scout X-3,Scout X-3,3,1006,Vought,False,False
+368,Scout X-3A,Scout X-3A,3A,1006,Vought,False,False
+369,Scout X-3M,Scout X-3M,3M,1006,Vought,False,False
+370,Scout X-4,Scout X-4,4,1006,Vought,False,False
+371,Scout X-4A,Scout X-4A,4A,1006,Vought,False,False
+44,Shavit,Shavit,,35,Israeli Space Agency,True,False
+110,Shavit-2,Shavit-2,2,95,Israel Aerospace Industries,True,False
+372,Shtil'-1,Shtil'-1,1,1010,KB Mashinostroyeniya,False,False
+142,Simorgh,Simorgh,,34,Iranian Space Agency,True,False
+485,Skyrora XL,Skyrora XL,XL,1042,Skyrora,False,False
+531,SL1,SL1,,1066,HyImpulse,True,False
+353,SLV-3,SLV-3,3,31,Indian Space Research Organization,False,False
+192,Smart Dragon 1,Smart Dragon 1,,272,China Rocket Co. Ltd.,True,False
+484,Smart Dragon 3,Smart Dragon 3,,272,China Rocket Co. Ltd.,True,False
+153,Soyuz,Soyuz 2.1v,2.1v,175,Ministry of Defence of the Russian Federation,False,False
+34,Soyuz,Soyuz FG,FG,111,Progress Rocket Space Center,False,False
+113,Soyuz,Soyuz Fregat,Fregat,63,Russian Federal Space Agency (ROSCOSMOS),False,False
+96,Soyuz,Soyuz,,63,Russian Federal Space Agency (ROSCOSMOS),True,False
+373,Soyuz 11A510,Soyuz 11A510,11A510,1000,Energia,False,False
+374,Soyuz 11A511,Soyuz 11A511,11A511,1000,Energia,False,False
+375,Soyuz 11A511L,Soyuz 11A511L,11A511L,1000,Energia,False,False
+376,Soyuz 11A511M,Soyuz 11A511M,11A511M,1000,Energia,False,False
+24,Soyuz 2.1a,Soyuz 2.1a,,111,Progress Rocket Space Center,True,False
+212,Soyuz 2.1a/Fregat,Soyuz 2.1a Fregat,Fregat,111,Progress Rocket Space Center,True,False
+45,Soyuz 2.1a/Fregat-M,Soyuz 2.1a Fregat-M,Fregat-M,111,Progress Rocket Space Center,True,False
+57,Soyuz 2.1a/Volga,Soyuz 2.1a Volga,Volga,111,Progress Rocket Space Center,True,False
+15,Soyuz 2.1b,Soyuz 2.1b,,111,Progress Rocket Space Center,True,False
+42,Soyuz 2.1b/Fregat,Soyuz 2.1b Fregat,Fregat,111,Progress Rocket Space Center,True,False
+134,Soyuz 2.1b/Fregat-M,Soyuz 2.1b Fregat-M,Fregat-M,111,Progress Rocket Space Center,True,False
+555,Soyuz 2.1b/Volga,Soyuz 2.1b Volga,Volga,111,Progress Rocket Space Center,True,False
+60,Soyuz 2.1v,Soyuz 2.1v Volga,Volga,111,Progress Rocket Space Center,False,False
+521,Soyuz-5,Soyuz-5,,103,RKK Energiya,True,False
+70,Soyuz-FG,Soyuz-FG Fregat,Fregat,111,Progress Rocket Space Center,False,False
+49,Soyuz STA,Soyuz STA Fregat,Fregat,111,Progress Rocket Space Center,False,False
+72,Soyuz STB,Soyuz STB Fregat-MT,Fregat-MT,111,Progress Rocket Space Center,False,False
+171,Soyuz STB,Soyuz STB Fregat,STB/Fregat,111,Progress Rocket Space Center,False,False
+37,Soyuz U,Soyuz U,,63,Russian Federal Space Agency (ROSCOSMOS),False,False
+101,Soyuz-U,Soyuz-U2,2,66,Soviet Space Program,False,False
+378,Soyuz-U-PVB,Soyuz-U-PVB,U-PVB,111,Progress Rocket Space Center,False,False
+143,Space Launch System (SLS),Space Launch System Block 1,Block 1,44,National Aeronautics and Space Administration,True,False
+205,Space Launch System (SLS),Space Launch System Block 1B,Block 1B,44,National Aeronautics and Space Administration,False,False
+465,SpaceShipTwo,SpaceShipTwo,,1024,Virgin Galactic,True,True
+493,Space Shuttle,Space Shuttle,,44,National Aeronautics and Space Administration,False,True
+62,SPARK,SPARK,,195,Sandia National Laboratories,False,False
+354,SPARTA,SPARTA,,158,Chrysler,False,False
+491,Spectrum,Spectrum,,1046,Isar Aerospace,True,False
+379,Sputnik 11A59,Sputnik 11A59,11A59,1000,Energia,False,False
+469,Sputnik 8A91,Sputnik 8A91,8A91,1000,Energia,False,False
+468,Sputnik 8K74PS,Sputnik 8K74PS,8K74PS,1000,Energia,False,False
+499,SR75,SR75,,1066,HyImpulse,True,False
+122,SS-520,SS-520-4,4,37,Japan Aerospace Exploration Agency,False,False
+144,SS-520,SS-520-5,5,37,Japan Aerospace Exploration Agency,False,False
+150,SSLV,SSLV,,31,Indian Space Research Organization,True,False
+527,Starship,Starship V2,V2,121,SpaceX,False,True
+464,Starship,Starship V1,V1,121,SpaceX,False,True
+522,Starship,Starship V3,V3,121,SpaceX,True,True
+528,Starship,Starship,N/A,121,SpaceX,True,False
+207,Starship Prototype,Starship Prototype,Prototype,121,SpaceX,False,True
+380,Start,Start,,1011,Moscow Institute of Thermal Technology,False,False
+381,Start-1,Start-1,1,1011,Moscow Institute of Thermal Technology,False,False
+382,Start-1.2,Start-1.2,1.2,1011,Moscow Institute of Thermal Technology,False,False
+76,Strela,Strela,Strela,96,Khrunichev State Research and Production Space Center,False,False
+463,Super Heavy Prototype,Super Heavy Prototype,Prototype,121,SpaceX,True,True
+180,Terran 1,Terran 1,1,266,Relativity Space,False,False
+482,Terran R,Terran R,R,266,Relativity Space,True,True
+523,Themis Demonstrator,Themis Demonstrator,,1044,ArianeGroup,True,True
+388,Thor Able I,Thor Able I,Able I,153,McDonnell Douglas,False,False
+389,Thor Able II,Thor Able II,Able II,153,McDonnell Douglas,False,False
+390,Thor Able III,Thor Able III,Able III,153,McDonnell Douglas,False,False
+391,Thor Able IV,Thor Able IV,Able IV,153,McDonnell Douglas,False,False
+418,Thorad SLV-2G Agena D,Thorad SLV-2G Agena D,SLV-2G Agena D,153,McDonnell Douglas,False,False
+419,Thorad SLV-2H Agena D,Thorad SLV-2H Agena D,SLV-2H Agena D,153,McDonnell Douglas,False,False
+392,Thor Agena A,Thor Agena A,Agena A,153,McDonnell Douglas,False,False
+393,Thor Agena D,Thor Agena D,Agena D,153,McDonnell Douglas,False,False
+394,Thor Burner 1,Thor Burner 1,Burner 1,153,McDonnell Douglas,False,False
+395,Thor Burner 2,Thor Burner 2,Burner 2,153,McDonnell Douglas,False,False
+396,Thor Burner 2A,Thor Burner 2A,Burner 2A,153,McDonnell Douglas,False,False
+398,Thor Delta,Thor Delta,Delta,153,McDonnell Douglas,False,False
+399,Thor Delta A,Thor Delta A,Delta A,153,McDonnell Douglas,False,False
+400,Thor Delta B,Thor Delta B,Delta B,153,McDonnell Douglas,False,False
+401,Thor Delta C,Thor Delta C,Delta C,153,McDonnell Douglas,False,False
+402,Thor Delta C1,Thor Delta C1,Delta C1,153,McDonnell Douglas,False,False
+403,Thor Delta D,Thor Delta D,Delta D,153,McDonnell Douglas,False,False
+404,Thor Delta E,Thor Delta E,Delta E,153,McDonnell Douglas,False,False
+405,Thor Delta E1,Thor Delta E1,Delta E1,153,McDonnell Douglas,False,False
+406,Thor Delta G,Thor Delta G,Delta G,153,McDonnell Douglas,False,False
+407,Thor Delta J,Thor Delta J,Delta J,153,McDonnell Douglas,False,False
+408,Thor Delta L,Thor Delta L,Delta L,153,McDonnell Douglas,False,False
+409,Thor Delta M,Thor Delta M,Delta M,153,McDonnell Douglas,False,False
+410,Thor Delta M6,Thor Delta M6,Delta M6,153,McDonnell Douglas,False,False
+411,Thor Delta N,Thor Delta N,Delta N,153,McDonnell Douglas,False,False
+412,Thor Delta N6,Thor Delta N6,Delta N6,153,McDonnell Douglas,False,False
+187,Thor DM-21 Ablestar,Thor DM-21 Ablestar,DM-21,161,United States Air Force,False,False
+186,Thor DM-21 Agena-B,Thor DM-21 Agena-B,,161,United States Air Force,False,False
+397,Thor DSV-2U,Thor DSV-2U,DSV-2U,153,McDonnell Douglas,False,False
+413,Thor MG-18,Thor MG-18,MG-18,153,McDonnell Douglas,False,False
+416,Thor SLV-2A Agena B,Thor SLV-2A Agena B,SLV-2A Agena B,153,McDonnell Douglas,False,False
+417,Thor SLV-2A Agena D,Thor SLV-2A Agena D,SLV-2A Agena D,153,McDonnell Douglas,False,False
+414,Thor SLV-2 Agena B,Thor SLV-2 Agena B,SLV-2 Agena B,153,McDonnell Douglas,False,False
+415,Thor SLV-2 Agena D,Thor SLV-2 Agena D,SLV-2 Agena D,153,McDonnell Douglas,False,False
+492,Tianlong-2,Tianlong-2,,1049,Space Pioneer,True,False
+540,Tianlong-3,Tianlong-3,,1049,Space Pioneer,True,True
+420,Titan 23B,Titan 23B,23B,82,Lockheed Martin,False,False
+421,Titan 24B,Titan 24B,24B,82,Lockheed Martin,False,False
+422,Titan 33B,Titan 33B,33B,82,Lockheed Martin,False,False
+423,Titan 34B,Titan 34B,34B,82,Lockheed Martin,False,False
+424,Titan 34D,Titan 34D,34D,82,Lockheed Martin,False,False
+425,Titan 34D IUS,Titan 34D IUS,34D IUS,82,Lockheed Martin,False,False
+426,Titan 34D Transtage,Titan 34D Transtage,34D Transtage,82,Lockheed Martin,False,False
+427,Titan 401A Centaur,Titan 401A Centaur,401A Centaur,82,Lockheed Martin,False,False
+428,Titan 402A IUS,Titan 402A IUS,402A IUS,82,Lockheed Martin,False,False
+429,Titan 402B IUS,Titan 402B IUS,402B IUS,82,Lockheed Martin,False,False
+430,Titan 403A,Titan 403A,403A,82,Lockheed Martin,False,False
+431,Titan 403B,Titan 403B,403B,82,Lockheed Martin,False,False
+432,Titan 404A,Titan 404A,404A,82,Lockheed Martin,False,False
+433,Titan 404B,Titan 404B,404B,82,Lockheed Martin,False,False
+434,Titan 405A,Titan 405A,405A,82,Lockheed Martin,False,False
+435,Titan 405B,Titan 405B,405B,82,Lockheed Martin,False,False
+98,Titan II,Titan II GLV,GLV,44,National Aeronautics and Space Administration,False,False
+148,Titan III,Titan IIIE,E,82,Lockheed Martin,False,False
+437,Titan IIIA,Titan IIIA,IIIA,82,Lockheed Martin,False,False
+438,Titan IIIB,Titan IIIB,IIIB,82,Lockheed Martin,False,False
+439,Titan IIIC,Titan IIIC,IIIC,82,Lockheed Martin,False,False
+440,Titan IIID,Titan IIID,IIID,82,Lockheed Martin,False,False
+436,Titan II SLV,Titan II SLV,23G,82,Lockheed Martin,False,False
+130,Titan IVB,Titan IVB/Centaur,Centaur,82,Lockheed Martin,False,False
+441,Trailblazer 1,Trailblazer 1,1,44,National Aeronautics and Space Administration,False,False
+442,Trailblazer 2,Trailblazer 2,2,44,National Aeronautics and Space Administration,False,False
+443,Tsiklon-2,Tsiklon-2,2,112,Yuzhnoye Design Bureau,False,False
+444,Tsiklon-2A,Tsiklon-2A,2A,112,Yuzhnoye Design Bureau,False,False
+445,Tsiklon-3,Tsiklon-3,3,112,Yuzhnoye Design Bureau,False,False
+86,Unha,Unha,Unha,40,Korean Committee of Space Technology,True,False
+67,Unha-3,Unha-3,Unha-3,40,Korean Committee of Space Technology,True,False
+511,Unknown Launch Vehicle,Unknown Launch Vehicle,,183,Unknown,True,False
+446,UR-500,UR-500,,96,Khrunichev State Research and Production Space Center,False,False
+449,Vanguard,Vanguard,,82,Lockheed Martin,False,False
+139,Vector,Vector-R,R,201,Vector,True,False
+167,Vega,Vega,,159,Avio S.p.A,False,False
+127,Vega-C,Vega-C,,159,Avio S.p.A,True,False
+548,Vega-C,Vega-C Block 2,Block 2,159,Avio S.p.A,False,False
+549,Vega-E,Vega-E,,159,Avio S.p.A,False,False
+532,Vikram-I,Vikram-I,,1099,Skyroot Aerospace,True,False
+448,VLS-1,VLS-1,1,1012,Department of Aerospace Science and Technology,False,False
+450,Volna,Volna,,1013,Makeyev Rocket Design Bureau,False,False
+104,Voskhod,Voskhod,Voskhod,66,Soviet Space Program,False,False
+103,Vostok,Vostok-K,K,66,Soviet Space Program,False,False
+451,Vostok 8A92,Vostok 8A92,8A92,103,RKK Energiya,False,False
+452,Vostok 8A92M,Vostok 8A92M,8A92M,103,RKK Energiya,False,False
+453,Vostok 8K72,Vostok 8K72,8K72,103,RKK Energiya,False,False
+454,Vostok-L 8K72,Vostok-L 8K72,L 8K72,1000,Energia,False,False
+200,Vulcan,Vulcan,Vulcan,124,United Launch Alliance,True,False
+201,Vulcan VC2S,Vulcan VC2S,VC2S,124,United Launch Alliance,True,False
+202,Vulcan VC4L,Vulcan VC4L,VC4L,124,United Launch Alliance,True,False
+516,Vulcan VC4S,Vulcan VC4S,VC4S,124,United Launch Alliance,True,False
+479,Vulcan VC6L,Vulcan VC6L,VC6L,124,United Launch Alliance,True,False
+11,Zenit,Zenit 3SL,3SL,122,Sea Launch,False,False
+91,Zenit,Zenit 3SLB,3SLB,196,Land Launch,False,False
+455,Zenit-2,Zenit-2,2,112,Yuzhnoye Design Bureau,False,False
+456,Zenit-2 11K77.05,Zenit-2 11K77.05,2 11K77.05,112,Yuzhnoye Design Bureau,False,False
+89,Zenit 2M,Zenit 2M,,63,Russian Federal Space Agency (ROSCOSMOS),False,False
+457,Zenit-2SB,Zenit-2SB,2SB,112,Yuzhnoye Design Bureau,False,False
+58,Zenit 3F,Zenit,,63,Russian Federal Space Agency (ROSCOSMOS),False,False
+534,Zéphyr,Zéphyr,,1100,Latitude,True,False
+498,ZERO,ZERO,,1002,Interstellar Technologies,False,False
+160,Zhuque-1,Zhuque-1,,259,LandSpace,False,False
+199,Zhuque-2,Zhuque-2,,259,LandSpace,False,False
+519,Zhuque-2E,Zhuque-2E,2E,259,LandSpace,True,False
+556,Zhuque-2E Block 2,Zhuque-2E Block 2,2E Block 2,259,LandSpace,True,False
+539,Zhuque-3,Zhuque-3,,259,LandSpace,True,True

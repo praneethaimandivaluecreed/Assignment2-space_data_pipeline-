@@ -1,0 +1,1002 @@
+2026-09-26 23:28:49,101 | INFO | ======================================================================
+2026-09-26 23:28:49,104 | INFO | SPACE DATA EXTRACTION PIPELINE STARTED
+2026-09-26 23:28:49,104 | INFO | ======================================================================
+2026-09-26 23:28:49,104 | INFO | Raw data directory: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw
+2026-09-26 23:28:49,104 | INFO | ======================================================================
+2026-09-26 23:28:49,104 | INFO | EXTRACTING: LAUNCHES
+2026-09-26 23:28:49,104 | INFO | ======================================================================
+2026-09-26 23:28:49,105 | INFO | Raw data directory: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launches
+2026-09-26 23:28:49,105 | INFO | Requesting page 1
+2026-09-26 23:28:49,105 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launches/
+2026-09-26 23:28:51,626 | INFO | HTTP Status: 200
+2026-09-26 23:28:51,680 | INFO | Raw data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launches\page_1.json
+2026-09-26 23:28:51,682 | INFO | Records in page: 100
+2026-09-26 23:28:51,682 | INFO | Total records retrieved: 100
+2026-09-26 23:28:51,683 | INFO | Next page available.
+2026-09-26 23:28:51,683 | INFO | Requesting page 2
+2026-09-26 23:28:51,683 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launches/?limit=100&offset=100
+2026-09-26 23:28:55,510 | INFO | HTTP Status: 200
+2026-09-26 23:28:55,569 | INFO | Raw data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launches\page_2.json
+2026-09-26 23:28:55,569 | INFO | Records in page: 100
+2026-09-26 23:28:55,569 | INFO | Total records retrieved: 200
+2026-09-26 23:28:55,569 | INFO | Next page available.
+2026-09-26 23:28:55,569 | INFO | Extraction completed for launches.
+2026-09-26 23:28:55,569 | INFO | Total launches records retrieved: 200
+2026-09-26 23:28:55,569 | INFO | ======================================================================
+2026-09-26 23:28:55,569 | INFO | EXTRACTING: LAUNCHER_CONFIGURATIONS
+2026-09-26 23:28:55,569 | INFO | ======================================================================
+2026-09-26 23:28:55,569 | INFO | Raw data directory: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations
+2026-09-26 23:28:55,573 | INFO | Requesting page 1
+2026-09-26 23:28:55,573 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/
+2026-09-26 23:28:58,752 | INFO | HTTP Status: 200
+2026-09-26 23:28:58,900 | INFO | Raw data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_1.json
+2026-09-26 23:28:58,900 | INFO | Records in page: 100
+2026-09-26 23:28:58,900 | INFO | Total records retrieved: 100
+2026-09-26 23:28:58,900 | INFO | Next page available.
+2026-09-26 23:28:58,900 | INFO | Requesting page 2
+2026-09-26 23:28:58,900 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/?limit=100&offset=100
+2026-09-26 23:29:01,082 | INFO | HTTP Status: 200
+2026-09-26 23:29:01,158 | INFO | Raw data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_2.json
+2026-09-26 23:29:01,158 | INFO | Records in page: 100
+2026-09-26 23:29:01,158 | INFO | Total records retrieved: 200
+2026-09-26 23:29:01,158 | INFO | Next page available.
+2026-09-26 23:29:01,158 | INFO | Requesting page 3
+2026-09-26 23:29:01,158 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/?limit=100&offset=200
+2026-09-26 23:29:04,943 | INFO | HTTP Status: 200
+2026-09-26 23:29:05,018 | INFO | Raw data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_3.json
+2026-09-26 23:29:05,018 | INFO | Records in page: 100
+2026-09-26 23:29:05,018 | INFO | Total records retrieved: 300
+2026-09-26 23:29:05,018 | INFO | Next page available.
+2026-09-26 23:29:05,018 | INFO | Requesting page 4
+2026-09-26 23:29:05,018 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/?limit=100&offset=300
+2026-09-26 23:29:08,827 | INFO | HTTP Status: 200
+2026-09-26 23:29:08,871 | INFO | Raw data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_4.json
+2026-09-26 23:29:08,871 | INFO | Records in page: 100
+2026-09-26 23:29:08,876 | INFO | Total records retrieved: 400
+2026-09-26 23:29:08,876 | INFO | Next page available.
+2026-09-26 23:29:08,876 | INFO | Requesting page 5
+2026-09-26 23:29:08,876 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/?limit=100&offset=400
+2026-09-26 23:29:10,671 | INFO | HTTP Status: 200
+2026-09-26 23:29:10,721 | INFO | Raw data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_5.json
+2026-09-26 23:29:10,721 | INFO | Records in page: 100
+2026-09-26 23:29:10,721 | INFO | Total records retrieved: 500
+2026-09-26 23:29:10,721 | INFO | Next page available.
+2026-09-26 23:29:10,721 | INFO | Requesting page 6
+2026-09-26 23:29:10,721 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/?limit=100&offset=500
+2026-09-26 23:29:13,023 | INFO | HTTP Status: 200
+2026-09-26 23:29:13,044 | INFO | Raw data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_6.json
+2026-09-26 23:29:13,044 | INFO | Records in page: 32
+2026-09-26 23:29:13,044 | INFO | Total records retrieved: 532
+2026-09-26 23:29:13,044 | INFO | No more pages available.
+2026-09-26 23:29:13,044 | INFO | Extraction completed for launcher_configurations.
+2026-09-26 23:29:13,044 | INFO | Total launcher_configurations records retrieved: 532
+2026-09-26 23:29:13,044 | INFO | ======================================================================
+2026-09-26 23:29:13,044 | INFO | EXTRACTING: AGENCIES
+2026-09-26 23:29:13,044 | INFO | ======================================================================
+2026-09-26 23:29:13,044 | INFO | Raw data directory: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies
+2026-09-26 23:29:13,044 | INFO | Requesting page 1
+2026-09-26 23:29:13,044 | INFO | URL: https://ll.thespacedevs.com/2.3.0/agencies/
+2026-09-26 23:29:14,972 | INFO | HTTP Status: 200
+2026-09-26 23:29:14,998 | INFO | Raw data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_1.json
+2026-09-26 23:29:15,000 | INFO | Records in page: 100
+2026-09-26 23:29:15,000 | INFO | Total records retrieved: 100
+2026-09-26 23:29:15,000 | INFO | Next page available.
+2026-09-26 23:29:15,000 | INFO | Requesting page 2
+2026-09-26 23:29:15,000 | INFO | URL: https://ll.thespacedevs.com/2.3.0/agencies/?limit=100&offset=100
+2026-09-26 23:29:16,301 | INFO | HTTP Status: 200
+2026-09-26 23:29:16,316 | INFO | Raw data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_2.json
+2026-09-26 23:29:16,316 | INFO | Records in page: 100
+2026-09-26 23:29:16,316 | INFO | Total records retrieved: 200
+2026-09-26 23:29:16,317 | INFO | Next page available.
+2026-09-26 23:29:16,317 | INFO | Requesting page 3
+2026-09-26 23:29:16,317 | INFO | URL: https://ll.thespacedevs.com/2.3.0/agencies/?limit=100&offset=200
+2026-09-26 23:29:18,147 | INFO | HTTP Status: 200
+2026-09-26 23:29:18,160 | INFO | Raw data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_3.json
+2026-09-26 23:29:18,162 | INFO | Records in page: 100
+2026-09-26 23:29:18,162 | INFO | Total records retrieved: 300
+2026-09-26 23:29:18,164 | INFO | Next page available.
+2026-09-26 23:29:18,164 | INFO | Requesting page 4
+2026-09-26 23:29:18,164 | INFO | URL: https://ll.thespacedevs.com/2.3.0/agencies/?limit=100&offset=300
+2026-09-26 23:29:19,678 | INFO | HTTP Status: 200
+2026-09-26 23:29:19,698 | INFO | Raw data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_4.json
+2026-09-26 23:29:19,709 | INFO | Records in page: 50
+2026-09-26 23:29:19,709 | INFO | Total records retrieved: 350
+2026-09-26 23:29:19,709 | INFO | No more pages available.
+2026-09-26 23:29:19,709 | INFO | Extraction completed for agencies.
+2026-09-26 23:29:19,709 | INFO | Total agencies records retrieved: 350
+2026-09-26 23:29:19,711 | INFO | ======================================================================
+2026-09-26 23:29:19,711 | INFO | EXTRACTING: PADS
+2026-09-26 23:29:19,711 | INFO | ======================================================================
+2026-09-26 23:29:19,711 | INFO | Raw data directory: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\pads
+2026-09-26 23:29:19,711 | INFO | Requesting page 1
+2026-09-26 23:29:19,711 | INFO | URL: https://ll.thespacedevs.com/2.3.0/pads/
+2026-09-26 23:29:23,264 | INFO | HTTP Status: 200
+2026-09-26 23:29:23,297 | INFO | Raw data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\pads\page_1.json
+2026-09-26 23:29:23,297 | INFO | Records in page: 100
+2026-09-26 23:29:23,297 | INFO | Total records retrieved: 100
+2026-09-26 23:29:23,297 | INFO | Next page available.
+2026-09-26 23:29:23,297 | INFO | Requesting page 2
+2026-09-26 23:29:23,297 | INFO | URL: https://ll.thespacedevs.com/2.3.0/pads/?limit=100&offset=100
+2026-09-26 23:29:26,645 | INFO | HTTP Status: 200
+2026-09-26 23:29:26,690 | INFO | Raw data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\pads\page_2.json
+2026-09-26 23:29:26,693 | INFO | Records in page: 100
+2026-09-26 23:29:26,693 | INFO | Total records retrieved: 200
+2026-09-26 23:29:26,693 | INFO | Next page available.
+2026-09-26 23:29:26,693 | INFO | Requesting page 3
+2026-09-26 23:29:26,694 | INFO | URL: https://ll.thespacedevs.com/2.3.0/pads/?limit=100&offset=200
+2026-09-26 23:29:29,607 | INFO | HTTP Status: 200
+2026-09-26 23:29:29,631 | INFO | Raw data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\pads\page_3.json
+2026-09-26 23:29:29,633 | INFO | Records in page: 51
+2026-09-26 23:29:29,633 | INFO | Total records retrieved: 251
+2026-09-26 23:29:29,633 | INFO | No more pages available.
+2026-09-26 23:29:29,633 | INFO | Extraction completed for pads.
+2026-09-26 23:29:29,633 | INFO | Total pads records retrieved: 251
+2026-09-26 23:29:29,633 | INFO | ======================================================================
+2026-09-26 23:29:29,633 | INFO | EXTRACTION SUMMARY
+2026-09-26 23:29:29,633 | INFO | ======================================================================
+2026-09-26 23:29:29,633 | INFO | launches: 200 records
+2026-09-26 23:29:29,633 | INFO | launcher_configurations: 532 records
+2026-09-26 23:29:29,633 | INFO | agencies: 350 records
+2026-09-26 23:29:29,633 | INFO | pads: 251 records
+2026-09-26 23:29:29,633 | INFO | ======================================================================
+2026-09-26 23:29:29,633 | INFO | SPACE DATA EXTRACTION PIPELINE FINISHED
+2026-09-26 23:29:29,633 | INFO | ======================================================================
+2026-09-26 23:29:56,541 | INFO | ======================================================================
+2026-09-26 23:29:56,541 | INFO | SPACE DATA TRANSFORMATION PIPELINE STARTED
+2026-09-26 23:29:56,543 | INFO | ======================================================================
+2026-09-26 23:29:56,543 | INFO | Reading raw dataset: agencies
+2026-09-26 23:29:56,543 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_1.json
+2026-09-26 23:29:56,575 | INFO | Records loaded from file: 100
+2026-09-26 23:29:56,575 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_2.json
+2026-09-26 23:29:56,633 | INFO | Records loaded from file: 100
+2026-09-26 23:29:56,635 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_3.json
+2026-09-26 23:29:56,661 | INFO | Records loaded from file: 100
+2026-09-26 23:29:56,662 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_4.json
+2026-09-26 23:29:56,692 | INFO | Records loaded from file: 50
+2026-09-26 23:29:56,692 | INFO | Total raw records for agencies: 350
+2026-09-26 23:29:56,692 | INFO | Reading raw dataset: launcher_configurations
+2026-09-26 23:29:56,692 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_1.json
+2026-09-26 23:29:56,725 | INFO | Records loaded from file: 100
+2026-09-26 23:29:56,725 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_2.json
+2026-09-26 23:29:56,802 | INFO | Records loaded from file: 100
+2026-09-26 23:29:56,810 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_3.json
+2026-09-26 23:29:56,845 | INFO | Records loaded from file: 100
+2026-09-26 23:29:56,845 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_4.json
+2026-09-26 23:29:56,869 | INFO | Records loaded from file: 100
+2026-09-26 23:29:56,869 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_5.json
+2026-09-26 23:29:56,897 | INFO | Records loaded from file: 100
+2026-09-26 23:29:56,897 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_6.json
+2026-09-26 23:29:56,916 | INFO | Records loaded from file: 32
+2026-09-26 23:29:56,916 | INFO | Total raw records for launcher_configurations: 532
+2026-09-26 23:29:56,920 | INFO | Reading raw dataset: pads
+2026-09-26 23:29:56,920 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\pads\page_1.json
+2026-09-26 23:29:56,947 | INFO | Records loaded from file: 100
+2026-09-26 23:29:56,947 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\pads\page_2.json
+2026-09-26 23:29:56,976 | INFO | Records loaded from file: 100
+2026-09-26 23:29:56,976 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\pads\page_3.json
+2026-09-26 23:29:57,004 | INFO | Records loaded from file: 51
+2026-09-26 23:29:57,004 | INFO | Total raw records for pads: 251
+2026-09-26 23:29:57,004 | INFO | Reading raw dataset: launches
+2026-09-26 23:29:57,004 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launches\page_1.json
+2026-09-26 23:29:57,039 | INFO | Records loaded from file: 100
+2026-09-26 23:29:57,039 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launches\page_2.json
+2026-09-26 23:29:57,069 | INFO | Records loaded from file: 100
+2026-09-26 23:29:57,069 | INFO | Total raw records for launches: 200
+2026-09-26 23:29:57,069 | INFO | ======================================================================
+2026-09-26 23:29:57,069 | INFO | TRANSFORMING: AGENCIES
+2026-09-26 23:29:57,069 | INFO | ======================================================================
+2026-09-26 23:29:57,069 | ERROR | Transformation pipeline failed: 'list' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\src\transform.py", line 819, in main
+    agencies_df = transform_agencies(
+                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\src\transform.py", line 106, in transform_agencies
+    ).get("name"),
+      ^^^
+AttributeError: 'list' object has no attribute 'get'
+2026-09-26 23:32:39,758 | INFO | ======================================================================
+2026-09-26 23:32:39,758 | INFO | SPACE DATA TRANSFORMATION PIPELINE STARTED
+2026-09-26 23:32:39,758 | INFO | ======================================================================
+2026-09-26 23:32:39,758 | INFO | Reading raw dataset: agencies
+2026-09-26 23:32:39,758 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_1.json
+2026-09-26 23:32:39,758 | INFO | Records loaded from file: 100
+2026-09-26 23:32:39,758 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_2.json
+2026-09-26 23:32:39,774 | INFO | Records loaded from file: 100
+2026-09-26 23:32:39,778 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_3.json
+2026-09-26 23:32:39,793 | INFO | Records loaded from file: 100
+2026-09-26 23:32:39,795 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_4.json
+2026-09-26 23:32:39,797 | INFO | Records loaded from file: 50
+2026-09-26 23:32:39,797 | INFO | Total raw records for agencies: 350
+2026-09-26 23:32:39,797 | INFO | Reading raw dataset: launcher_configurations
+2026-09-26 23:32:39,797 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_1.json
+2026-09-26 23:32:39,833 | INFO | Records loaded from file: 100
+2026-09-26 23:32:39,837 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_2.json
+2026-09-26 23:32:39,863 | INFO | Records loaded from file: 100
+2026-09-26 23:32:39,863 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_3.json
+2026-09-26 23:32:39,879 | INFO | Records loaded from file: 100
+2026-09-26 23:32:39,881 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_4.json
+2026-09-26 23:32:39,889 | INFO | Records loaded from file: 100
+2026-09-26 23:32:39,893 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_5.json
+2026-09-26 23:32:39,899 | INFO | Records loaded from file: 100
+2026-09-26 23:32:39,899 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_6.json
+2026-09-26 23:32:39,908 | INFO | Records loaded from file: 32
+2026-09-26 23:32:39,910 | INFO | Total raw records for launcher_configurations: 532
+2026-09-26 23:32:39,910 | INFO | Reading raw dataset: pads
+2026-09-26 23:32:39,910 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\pads\page_1.json
+2026-09-26 23:32:39,925 | INFO | Records loaded from file: 100
+2026-09-26 23:32:39,925 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\pads\page_2.json
+2026-09-26 23:32:39,999 | INFO | Records loaded from file: 100
+2026-09-26 23:32:40,001 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\pads\page_3.json
+2026-09-26 23:32:40,011 | INFO | Records loaded from file: 51
+2026-09-26 23:32:40,011 | INFO | Total raw records for pads: 251
+2026-09-26 23:32:40,013 | INFO | Reading raw dataset: launches
+2026-09-26 23:32:40,013 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launches\page_1.json
+2026-09-26 23:32:40,041 | INFO | Records loaded from file: 100
+2026-09-26 23:32:40,041 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launches\page_2.json
+2026-09-26 23:32:40,059 | INFO | Records loaded from file: 100
+2026-09-26 23:32:40,059 | INFO | Total raw records for launches: 200
+2026-09-26 23:32:40,061 | INFO | ======================================================================
+2026-09-26 23:32:40,061 | INFO | TRANSFORMING: AGENCIES
+2026-09-26 23:32:40,061 | INFO | ======================================================================
+2026-09-26 23:32:40,061 | WARNING | Agency 225 has unexpected country list format.
+2026-09-26 23:32:40,061 | WARNING | Agency 136 has unexpected country list format.
+2026-09-26 23:32:40,061 | WARNING | Agency 133 has unexpected country list format.
+2026-09-26 23:32:40,061 | WARNING | Agency 2 has unexpected country list format.
+2026-09-26 23:32:40,061 | WARNING | Agency 1003 has unexpected country list format.
+2026-09-26 23:32:40,063 | WARNING | Agency 282 has unexpected country list format.
+2026-09-26 23:32:40,063 | WARNING | Agency 1079 has unexpected country list format.
+2026-09-26 23:32:40,063 | WARNING | Agency 178 has unexpected country list format.
+2026-09-26 23:32:40,063 | WARNING | Agency 4 has unexpected country list format.
+2026-09-26 23:32:40,063 | WARNING | Agency 156 has unexpected country list format.
+2026-09-26 23:32:40,063 | WARNING | Agency 251 has unexpected country list format.
+2026-09-26 23:32:40,063 | WARNING | Agency 1058 has unexpected country list format.
+2026-09-26 23:32:40,063 | WARNING | Agency 134 has unexpected country list format.
+2026-09-26 23:32:40,063 | WARNING | Agency 125 has unexpected country list format.
+2026-09-26 23:32:40,063 | WARNING | Agency 84 has unexpected country list format.
+2026-09-26 23:32:40,063 | WARNING | Agency 131 has unexpected country list format.
+2026-09-26 23:32:40,063 | WARNING | Agency 190 has unexpected country list format.
+2026-09-26 23:32:40,063 | WARNING | Agency 207 has unexpected country list format.
+2026-09-26 23:32:40,067 | WARNING | Agency 1044 has unexpected country list format.
+2026-09-26 23:32:40,067 | WARNING | Agency 115 has unexpected country list format.
+2026-09-26 23:32:40,067 | WARNING | Agency 139 has unexpected country list format.
+2026-09-26 23:32:40,067 | WARNING | Agency 271 has unexpected country list format.
+2026-09-26 23:32:40,067 | WARNING | Agency 5 has unexpected country list format.
+2026-09-26 23:32:40,067 | WARNING | Agency 6 has unexpected country list format.
+2026-09-26 23:32:40,067 | WARNING | Agency 7 has unexpected country list format.
+2026-09-26 23:32:40,067 | WARNING | Agency 1063 has unexpected country list format.
+2026-09-26 23:32:40,069 | WARNING | Agency 285 has unexpected country list format.
+2026-09-26 23:32:40,069 | WARNING | Agency 81 has unexpected country list format.
+2026-09-26 23:32:40,069 | WARNING | Agency 1069 has unexpected country list format.
+2026-09-26 23:32:40,069 | WARNING | Agency 85 has unexpected country list format.
+2026-09-26 23:32:40,069 | WARNING | Agency 1077 has unexpected country list format.
+2026-09-26 23:32:40,069 | WARNING | Agency 1094 has unexpected country list format.
+2026-09-26 23:32:40,069 | WARNING | Agency 8 has unexpected country list format.
+2026-09-26 23:32:40,069 | WARNING | Agency 255 has unexpected country list format.
+2026-09-26 23:32:40,069 | WARNING | Agency 159 has unexpected country list format.
+2026-09-26 23:32:40,071 | WARNING | Agency 1022 has unexpected country list format.
+2026-09-26 23:32:40,071 | WARNING | Agency 9 has unexpected country list format.
+2026-09-26 23:32:40,071 | WARNING | Agency 86 has unexpected country list format.
+2026-09-26 23:32:40,072 | WARNING | Agency 1 has unexpected country list format.
+2026-09-26 23:32:40,072 | WARNING | Agency 10 has unexpected country list format.
+2026-09-26 23:32:40,072 | WARNING | Agency 140 has unexpected country list format.
+2026-09-26 23:32:40,072 | WARNING | Agency 1064 has unexpected country list format.
+2026-09-26 23:32:40,072 | WARNING | Agency 141 has unexpected country list format.
+2026-09-26 23:32:40,072 | WARNING | Agency 80 has unexpected country list format.
+2026-09-26 23:32:40,072 | WARNING | Agency 11 has unexpected country list format.
+2026-09-26 23:32:40,072 | WARNING | Agency 14 has unexpected country list format.
+2026-09-26 23:32:40,072 | WARNING | Agency 12 has unexpected country list format.
+2026-09-26 23:32:40,072 | WARNING | Agency 157 has unexpected country list format.
+2026-09-26 23:32:40,075 | WARNING | Agency 87 has unexpected country list format.
+2026-09-26 23:32:40,075 | WARNING | Agency 254 has unexpected country list format.
+2026-09-26 23:32:40,075 | WARNING | Agency 230 has unexpected country list format.
+2026-09-26 23:32:40,075 | WARNING | Agency 15 has unexpected country list format.
+2026-09-26 23:32:40,075 | WARNING | Agency 1055 has unexpected country list format.
+2026-09-26 23:32:40,075 | WARNING | Agency 1072 has unexpected country list format.
+2026-09-26 23:32:40,075 | WARNING | Agency 146 has unexpected country list format.
+2026-09-26 23:32:40,075 | WARNING | Agency 16 has unexpected country list format.
+2026-09-26 23:32:40,075 | WARNING | Agency 1059 has unexpected country list format.
+2026-09-26 23:32:40,075 | WARNING | Agency 1040 has unexpected country list format.
+2026-09-26 23:32:40,077 | WARNING | Agency 19 has unexpected country list format.
+2026-09-26 23:32:40,077 | WARNING | Agency 189 has unexpected country list format.
+2026-09-26 23:32:40,077 | WARNING | Agency 184 has unexpected country list format.
+2026-09-26 23:32:40,077 | WARNING | Agency 88 has unexpected country list format.
+2026-09-26 23:32:40,077 | WARNING | Agency 177 has unexpected country list format.
+2026-09-26 23:32:40,077 | WARNING | Agency 17 has unexpected country list format.
+2026-09-26 23:32:40,077 | WARNING | Agency 272 has unexpected country list format.
+2026-09-26 23:32:40,077 | WARNING | Agency 1106 has unexpected country list format.
+2026-09-26 23:32:40,077 | WARNING | Agency 158 has unexpected country list format.
+2026-09-26 23:32:40,077 | WARNING | Agency 18 has unexpected country list format.
+2026-09-26 23:32:40,077 | WARNING | Agency 1027 has unexpected country list format.
+2026-09-26 23:32:40,077 | WARNING | Agency 22 has unexpected country list format.
+2026-09-26 23:32:40,077 | WARNING | Agency 20 has unexpected country list format.
+2026-09-26 23:32:40,077 | WARNING | Agency 21 has unexpected country list format.
+2026-09-26 23:32:40,077 | WARNING | Agency 1004 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 142 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 23 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 25 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 1102 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 126 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 1054 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 1012 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 212 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 233 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 236 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 1073 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 116 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 249 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 1000 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 1038 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 117 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 1015 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 232 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 27 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 1019 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 1043 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 229 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 1081 has unexpected country list format.
+2026-09-26 23:32:40,080 | WARNING | Agency 1001 has unexpected country list format.
+2026-09-26 23:32:40,085 | WARNING | Agency 194 has unexpected country list format.
+2026-09-26 23:32:40,085 | WARNING | Agency 89 has unexpected country list format.
+2026-09-26 23:32:40,085 | WARNING | Agency 60 has unexpected country list format.
+2026-09-26 23:32:40,085 | WARNING | Agency 265 has unexpected country list format.
+2026-09-26 23:32:40,085 | WARNING | Agency 90 has unexpected country list format.
+2026-09-26 23:32:40,085 | WARNING | Agency 253 has unexpected country list format.
+2026-09-26 23:32:40,085 | WARNING | Agency 1021 has unexpected country list format.
+2026-09-26 23:32:40,085 | WARNING | Agency 106 has unexpected country list format.
+2026-09-26 23:32:40,085 | WARNING | Agency 91 has unexpected country list format.
+2026-09-26 23:32:40,087 | WARNING | Agency 28 has unexpected country list format.
+2026-09-26 23:32:40,087 | WARNING | Agency 224 has unexpected country list format.
+2026-09-26 23:32:40,087 | WARNING | Agency 29 has unexpected country list format.
+2026-09-26 23:32:40,087 | WARNING | Agency 188 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 187 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 204 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 92 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 1061 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 1031 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 238 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 250 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 243 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 93 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 1088 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 30 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 1066 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 1101 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 94 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 31 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 1096 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 205 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 1098 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 1092 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 32 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 1009 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 33 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 206 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 1078 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 118 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 149 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 1002 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 1067 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 113 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 34 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 202 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 1046 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 119 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 1095 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 1032 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 1091 has unexpected country list format.
+2026-09-26 23:32:40,088 | WARNING | Agency 274 has unexpected country list format.
+2026-09-26 23:32:40,095 | WARNING | Agency 95 has unexpected country list format.
+2026-09-26 23:32:40,095 | WARNING | Agency 35 has unexpected country list format.
+2026-09-26 23:32:40,095 | WARNING | Agency 1050 has unexpected country list format.
+2026-09-26 23:32:40,095 | WARNING | Agency 36 has unexpected country list format.
+2026-09-26 23:32:40,095 | WARNING | Agency 37 has unexpected country list format.
+2026-09-26 23:32:40,095 | WARNING | Agency 1090 has unexpected country list format.
+2026-09-26 23:32:40,095 | WARNING | Agency 79 has unexpected country list format.
+2026-09-26 23:32:40,095 | WARNING | Agency 1107 has unexpected country list format.
+2026-09-26 23:32:40,095 | WARNING | Agency 39 has unexpected country list format.
+2026-09-26 23:32:40,095 | WARNING | Agency 1010 has unexpected country list format.
+2026-09-26 23:32:40,097 | WARNING | Agency 96 has unexpected country list format.
+2026-09-26 23:32:40,097 | WARNING | Agency 1082 has unexpected country list format.
+2026-09-26 23:32:40,097 | WARNING | Agency 132 has unexpected country list format.
+2026-09-26 23:32:40,097 | WARNING | Agency 1087 has unexpected country list format.
+2026-09-26 23:32:40,097 | WARNING | Agency 1089 has unexpected country list format.
+2026-09-26 23:32:40,097 | WARNING | Agency 41 has unexpected country list format.
+2026-09-26 23:32:40,097 | WARNING | Agency 261 has unexpected country list format.
+2026-09-26 23:32:40,097 | WARNING | Agency 40 has unexpected country list format.
+2026-09-26 23:32:40,097 | WARNING | Agency 196 has unexpected country list format.
+2026-09-26 23:32:40,097 | WARNING | Agency 259 has unexpected country list format.
+2026-09-26 23:32:40,097 | WARNING | Agency 1100 has unexpected country list format.
+2026-09-26 23:32:40,097 | WARNING | Agency 1075 has unexpected country list format.
+2026-09-26 23:32:40,097 | WARNING | Agency 42 has unexpected country list format.
+2026-09-26 23:32:40,099 | WARNING | Agency 82 has unexpected country list format.
+2026-09-26 23:32:40,099 | WARNING | Agency 197 has unexpected country list format.
+2026-09-26 23:32:40,099 | WARNING | Agency 192 has unexpected country list format.
+2026-09-26 23:32:40,099 | WARNING | Agency 1030 has unexpected country list format.
+2026-09-26 23:32:40,099 | WARNING | Agency 1039 has unexpected country list format.
+2026-09-26 23:32:40,099 | WARNING | Agency 1103 has unexpected country list format.
+2026-09-26 23:32:40,099 | WARNING | Agency 1013 has unexpected country list format.
+2026-09-26 23:32:40,099 | WARNING | Agency 43 has unexpected country list format.
+2026-09-26 23:32:40,099 | WARNING | Agency 1014 has unexpected country list format.
+2026-09-26 23:32:40,099 | WARNING | Agency 150 has unexpected country list format.
+2026-09-26 23:32:40,099 | WARNING | Agency 1057 has unexpected country list format.
+2026-09-26 23:32:40,101 | WARNING | Agency 153 has unexpected country list format.
+2026-09-26 23:32:40,101 | WARNING | Agency 252 has unexpected country list format.
+2026-09-26 23:32:40,101 | WARNING | Agency 256 has unexpected country list format.
+2026-09-26 23:32:40,101 | WARNING | Agency 3 has unexpected country list format.
+2026-09-26 23:32:40,101 | WARNING | Agency 1037 has unexpected country list format.
+2026-09-26 23:32:40,101 | WARNING | Agency 175 has unexpected country list format.
+2026-09-26 23:32:40,101 | WARNING | Agency 1036 has unexpected country list format.
+2026-09-26 23:32:40,101 | WARNING | Agency 24 has unexpected country list format.
+2026-09-26 23:32:40,101 | WARNING | Agency 213 has unexpected country list format.
+2026-09-26 23:32:40,101 | WARNING | Agency 1085 has unexpected country list format.
+2026-09-26 23:32:40,103 | WARNING | Agency 98 has unexpected country list format.
+2026-09-26 23:32:40,103 | WARNING | Agency 198 has unexpected country list format.
+2026-09-26 23:32:40,103 | WARNING | Agency 1011 has unexpected country list format.
+2026-09-26 23:32:40,103 | WARNING | Agency 1086 has unexpected country list format.
+2026-09-26 23:32:40,103 | WARNING | Agency 44 has unexpected country list format.
+2026-09-26 23:32:40,103 | WARNING | Agency 1074 has unexpected country list format.
+2026-09-26 23:32:40,104 | WARNING | Agency 45 has unexpected country list format.
+2026-09-26 23:32:40,104 | WARNING | Agency 46 has unexpected country list format.
+2026-09-26 23:32:40,104 | WARNING | Agency 47 has unexpected country list format.
+2026-09-26 23:32:40,104 | WARNING | Agency 48 has unexpected country list format.
+2026-09-26 23:32:40,104 | WARNING | Agency 1105 has unexpected country list format.
+2026-09-26 23:32:40,104 | WARNING | Agency 50 has unexpected country list format.
+2026-09-26 23:32:40,104 | WARNING | Agency 210 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 181 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 51 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 52 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 1018 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 211 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 49 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 38 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 182 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 54 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 228 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 55 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 56 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 57 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 1034 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 1097 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 999 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 257 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 99 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 1060 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 58 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 97 has unexpected country list format.
+2026-09-26 23:32:40,105 | WARNING | Agency 77 has unexpected country list format.
+2026-09-26 23:32:40,110 | WARNING | Agency 263 has unexpected country list format.
+2026-09-26 23:32:40,110 | WARNING | Agency 240 has unexpected country list format.
+2026-09-26 23:32:40,110 | WARNING | Agency 1033 has unexpected country list format.
+2026-09-26 23:32:40,110 | WARNING | Agency 179 has unexpected country list format.
+2026-09-26 23:32:40,110 | WARNING | Agency 100 has unexpected country list format.
+2026-09-26 23:32:40,110 | WARNING | Agency 1080 has unexpected country list format.
+2026-09-26 23:32:40,110 | WARNING | Agency 1068 has unexpected country list format.
+2026-09-26 23:32:40,110 | WARNING | Agency 59 has unexpected country list format.
+2026-09-26 23:32:40,110 | WARNING | Agency 226 has unexpected country list format.
+2026-09-26 23:32:40,110 | WARNING | Agency 242 has unexpected country list format.
+2026-09-26 23:32:40,110 | WARNING | Agency 1051 has unexpected country list format.
+2026-09-26 23:32:40,110 | WARNING | Agency 162 has unexpected country list format.
+2026-09-26 23:32:40,112 | WARNING | Agency 101 has unexpected country list format.
+2026-09-26 23:32:40,112 | WARNING | Agency 128 has unexpected country list format.
+2026-09-26 23:32:40,112 | WARNING | Agency 260 has unexpected country list format.
+2026-09-26 23:32:40,112 | WARNING | Agency 143 has unexpected country list format.
+2026-09-26 23:32:40,112 | WARNING | Agency 186 has unexpected country list format.
+2026-09-26 23:32:40,112 | WARNING | Agency 154 has unexpected country list format.
+2026-09-26 23:32:40,112 | WARNING | Agency 111 has unexpected country list format.
+2026-09-26 23:32:40,113 | WARNING | Agency 248 has unexpected country list format.
+2026-09-26 23:32:40,113 | WARNING | Agency 1070 has unexpected country list format.
+2026-09-26 23:32:40,113 | WARNING | Agency 237 has unexpected country list format.
+2026-09-26 23:32:40,113 | WARNING | Agency 1084 has unexpected country list format.
+2026-09-26 23:32:40,113 | WARNING | Agency 1065 has unexpected country list format.
+2026-09-26 23:32:40,113 | WARNING | Agency 137 has unexpected country list format.
+2026-09-26 23:32:40,113 | WARNING | Agency 245 has unexpected country list format.
+2026-09-26 23:32:40,113 | WARNING | Agency 266 has unexpected country list format.
+2026-09-26 23:32:40,113 | WARNING | Agency 1076 has unexpected country list format.
+2026-09-26 23:32:40,113 | WARNING | Agency 103 has unexpected country list format.
+2026-09-26 23:32:40,113 | WARNING | Agency 127 has unexpected country list format.
+2026-09-26 23:32:40,113 | WARNING | Agency 135 has unexpected country list format.
+2026-09-26 23:32:40,113 | WARNING | Agency 1045 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 147 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 102 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 61 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 1005 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 160 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 62 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 130 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 163 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 63 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 193 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 195 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 239 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 1047 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 144 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 1017 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 148 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 122 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 203 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 1035 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 1020 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 231 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 1099 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 1042 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 138 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 1008 has unexpected country list format.
+2026-09-26 23:32:40,116 | WARNING | Agency 69 has unexpected country list format.
+2026-09-26 23:32:40,121 | WARNING | Agency 1028 has unexpected country list format.
+2026-09-26 23:32:40,121 | WARNING | Agency 66 has unexpected country list format.
+2026-09-26 23:32:40,121 | WARNING | Agency 1023 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 105 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 1056 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 1026 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 167 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 1083 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 1049 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 120 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 67 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 68 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 70 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 1007 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 83 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 121 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 104 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 214 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 64 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 244 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 123 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 1048 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 270 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 107 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 108 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 76 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 151 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 71 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 1071 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 1104 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 26 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 208 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 129 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 235 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 78 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 1029 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 110 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 65 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 109 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 1053 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 72 has unexpected country list format.
+2026-09-26 23:32:40,122 | WARNING | Agency 247 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 227 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 13 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 124 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 191 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 161 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 1025 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 1041 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 183 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 152 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 165 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 166 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 53 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 1093 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 201 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 1062 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 246 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 1024 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 199 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 1006 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 1016 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 241 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 145 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 234 has unexpected country list format.
+2026-09-26 23:32:40,130 | WARNING | Agency 112 has unexpected country list format.
+2026-09-26 23:32:40,157 | INFO | Duplicate agencies removed: 0
+2026-09-26 23:32:40,165 | INFO | Missing agency country values: 350
+2026-09-26 23:32:40,165 | INFO | Processed agency records: 350
+2026-09-26 23:32:40,165 | INFO | ======================================================================
+2026-09-26 23:32:40,165 | INFO | TRANSFORMING: LAUNCHER CONFIGURATIONS
+2026-09-26 23:32:40,167 | INFO | ======================================================================
+2026-09-26 23:32:40,168 | INFO | Duplicate launcher configurations removed: 0
+2026-09-26 23:32:40,172 | INFO | Launcher configuration transformation completed.
+2026-09-26 23:32:40,172 | INFO | Processed records: 532
+2026-09-26 23:32:40,172 | INFO | ======================================================================
+2026-09-26 23:32:40,172 | INFO | TRANSFORMING: PADS
+2026-09-26 23:32:40,172 | INFO | ======================================================================
+2026-09-26 23:32:40,179 | INFO | Duplicate pads removed: 39
+2026-09-26 23:32:40,183 | INFO | Processed pad records: 212
+2026-09-26 23:32:40,183 | INFO | ======================================================================
+2026-09-26 23:32:40,183 | INFO | TRANSFORMING: LAUNCHES
+2026-09-26 23:32:40,183 | INFO | ======================================================================
+2026-09-26 23:32:40,185 | INFO | Duplicate launches removed: 0
+2026-09-26 23:32:40,191 | INFO | Launches with unmatched agencies: 0
+2026-09-26 23:32:40,202 | INFO | Launches with unmatched launcher configurations: 0
+2026-09-26 23:32:40,202 | INFO | Launches with unmatched pads: 7
+2026-09-26 23:32:40,202 | INFO | Processed launch records: 200
+2026-09-26 23:32:40,207 | INFO | Processed data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\agencies.csv
+2026-09-26 23:32:40,216 | INFO | Processed data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\launcher_configurations.csv
+2026-09-26 23:32:40,216 | INFO | Processed data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\pads.csv
+2026-09-26 23:32:40,228 | INFO | Processed data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\launches.csv
+2026-09-26 23:32:40,228 | INFO | ======================================================================
+2026-09-26 23:32:40,228 | INFO | TRANSFORMATION SUMMARY
+2026-09-26 23:32:40,228 | INFO | ======================================================================
+2026-09-26 23:32:40,228 | INFO | Agencies: 350
+2026-09-26 23:32:40,228 | INFO | Launcher configurations: 532
+2026-09-26 23:32:40,228 | INFO | Pads: 212
+2026-09-26 23:32:40,228 | INFO | Launches: 200
+2026-09-26 23:32:40,228 | INFO | ======================================================================
+2026-09-26 23:32:40,228 | INFO | SPACE DATA TRANSFORMATION PIPELINE COMPLETED
+2026-09-26 23:32:40,228 | INFO | ======================================================================
+2026-09-26 23:43:45,374 | INFO | ======================================================================
+2026-09-26 23:43:45,386 | INFO | SPACE DATA TRANSFORMATION PIPELINE STARTED
+2026-09-26 23:43:45,388 | INFO | ======================================================================
+2026-09-26 23:43:45,389 | INFO | Reading raw dataset: agencies
+2026-09-26 23:43:45,415 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_1.json
+2026-09-26 23:43:45,423 | INFO | Records loaded from file: 100
+2026-09-26 23:43:45,423 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_2.json
+2026-09-26 23:43:45,427 | INFO | Records loaded from file: 100
+2026-09-26 23:43:45,429 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_3.json
+2026-09-26 23:43:45,439 | INFO | Records loaded from file: 100
+2026-09-26 23:43:45,439 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_4.json
+2026-09-26 23:43:45,440 | INFO | Records loaded from file: 50
+2026-09-26 23:43:45,517 | INFO | Total raw records for agencies: 350
+2026-09-26 23:43:45,517 | INFO | Reading raw dataset: launcher_configurations
+2026-09-26 23:43:45,517 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_1.json
+2026-09-26 23:43:45,546 | INFO | Records loaded from file: 100
+2026-09-26 23:43:45,546 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_2.json
+2026-09-26 23:43:45,561 | INFO | Records loaded from file: 100
+2026-09-26 23:43:45,561 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_3.json
+2026-09-26 23:43:45,582 | INFO | Records loaded from file: 100
+2026-09-26 23:43:45,582 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_4.json
+2026-09-26 23:43:45,593 | INFO | Records loaded from file: 100
+2026-09-26 23:43:45,593 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_5.json
+2026-09-26 23:43:45,601 | INFO | Records loaded from file: 100
+2026-09-26 23:43:45,601 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_6.json
+2026-09-26 23:43:45,610 | INFO | Records loaded from file: 32
+2026-09-26 23:43:45,610 | INFO | Total raw records for launcher_configurations: 532
+2026-09-26 23:43:45,612 | INFO | Reading raw dataset: pads
+2026-09-26 23:43:45,613 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\pads\page_1.json
+2026-09-26 23:43:45,617 | INFO | Records loaded from file: 100
+2026-09-26 23:43:45,617 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\pads\page_2.json
+2026-09-26 23:43:45,627 | INFO | Records loaded from file: 100
+2026-09-26 23:43:45,627 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\pads\page_3.json
+2026-09-26 23:43:45,633 | INFO | Records loaded from file: 51
+2026-09-26 23:43:45,633 | INFO | Total raw records for pads: 251
+2026-09-26 23:43:45,633 | INFO | Reading raw dataset: launches
+2026-09-26 23:43:45,633 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launches\page_1.json
+2026-09-26 23:43:45,646 | INFO | Records loaded from file: 100
+2026-09-26 23:43:45,646 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launches\page_2.json
+2026-09-26 23:43:45,650 | INFO | Records loaded from file: 100
+2026-09-26 23:43:45,650 | INFO | Total raw records for launches: 200
+2026-09-26 23:43:45,650 | INFO | ======================================================================
+2026-09-26 23:43:45,650 | INFO | TRANSFORMING: AGENCIES
+2026-09-26 23:43:45,658 | INFO | ======================================================================
+2026-09-26 23:43:45,661 | INFO | Duplicate agencies removed: 0
+2026-09-26 23:43:45,666 | INFO | Missing agency country values: 0
+2026-09-26 23:43:45,666 | INFO | Missing agency type values: 0
+2026-09-26 23:43:45,666 | INFO | Processed agency records: 350
+2026-09-26 23:43:45,666 | INFO | ======================================================================
+2026-09-26 23:43:45,666 | INFO | TRANSFORMING: LAUNCHER CONFIGURATIONS
+2026-09-26 23:43:45,666 | INFO | ======================================================================
+2026-09-26 23:43:45,666 | INFO | Duplicate launcher configurations removed: 0
+2026-09-26 23:43:45,674 | INFO | Launcher configuration transformation completed.
+2026-09-26 23:43:45,674 | INFO | Processed records: 532
+2026-09-26 23:43:45,677 | INFO | ======================================================================
+2026-09-26 23:43:45,677 | INFO | TRANSFORMING: PADS
+2026-09-26 23:43:45,677 | INFO | ======================================================================
+2026-09-26 23:43:45,677 | INFO | Duplicate pads removed: 39
+2026-09-26 23:43:45,682 | INFO | Processed pad records: 212
+2026-09-26 23:43:45,682 | INFO | ======================================================================
+2026-09-26 23:43:45,682 | INFO | TRANSFORMING: LAUNCHES
+2026-09-26 23:43:45,682 | INFO | ======================================================================
+2026-09-26 23:43:45,682 | INFO | Duplicate launches removed: 0
+2026-09-26 23:43:45,699 | INFO | Launches with unmatched agencies: 0
+2026-09-26 23:43:45,703 | INFO | Launches with unmatched launcher configurations: 0
+2026-09-26 23:43:45,703 | INFO | Launches with unmatched pads: 7
+2026-09-26 23:43:45,706 | INFO | Processed launch records: 200
+2026-09-26 23:43:45,730 | INFO | Processed data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\agencies.csv
+2026-09-26 23:43:45,730 | INFO | Processed data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\launcher_configurations.csv
+2026-09-26 23:43:45,730 | INFO | Processed data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\pads.csv
+2026-09-26 23:43:45,740 | INFO | Processed data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\launches.csv
+2026-09-26 23:43:45,740 | INFO | ======================================================================
+2026-09-26 23:43:45,740 | INFO | TRANSFORMATION SUMMARY
+2026-09-26 23:43:45,740 | INFO | ======================================================================
+2026-09-26 23:43:45,740 | INFO | Agencies: 350
+2026-09-26 23:43:45,740 | INFO | Launcher configurations: 532
+2026-09-26 23:43:45,740 | INFO | Pads: 212
+2026-09-26 23:43:45,740 | INFO | Launches: 200
+2026-09-26 23:43:45,740 | INFO | ======================================================================
+2026-09-26 23:43:45,740 | INFO | SPACE DATA TRANSFORMATION PIPELINE COMPLETED
+2026-09-26 23:43:45,740 | INFO | ======================================================================
+2026-09-26 23:50:04,413 | INFO | ======================================================================
+2026-09-26 23:50:04,414 | INFO | SPACE DATA TRANSFORMATION PIPELINE STARTED
+2026-09-26 23:50:04,414 | INFO | ======================================================================
+2026-09-26 23:50:04,416 | INFO | Reading raw dataset: agencies
+2026-09-26 23:50:04,416 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_1.json
+2026-09-26 23:50:04,419 | INFO | Records loaded from file: 100
+2026-09-26 23:50:04,419 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_2.json
+2026-09-26 23:50:04,422 | INFO | Records loaded from file: 100
+2026-09-26 23:50:04,422 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_3.json
+2026-09-26 23:50:04,424 | INFO | Records loaded from file: 100
+2026-09-26 23:50:04,424 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_4.json
+2026-09-26 23:50:04,426 | INFO | Records loaded from file: 50
+2026-09-26 23:50:04,426 | INFO | Total raw records for agencies: 350
+2026-09-26 23:50:04,426 | INFO | Reading raw dataset: launcher_configurations
+2026-09-26 23:50:04,428 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_1.json
+2026-09-26 23:50:04,446 | INFO | Records loaded from file: 100
+2026-09-26 23:50:04,446 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_2.json
+2026-09-26 23:50:04,469 | INFO | Records loaded from file: 100
+2026-09-26 23:50:04,471 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_3.json
+2026-09-26 23:50:04,485 | INFO | Records loaded from file: 100
+2026-09-26 23:50:04,485 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_4.json
+2026-09-26 23:50:04,497 | INFO | Records loaded from file: 100
+2026-09-26 23:50:04,497 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_5.json
+2026-09-26 23:50:04,505 | INFO | Records loaded from file: 100
+2026-09-26 23:50:04,505 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_6.json
+2026-09-26 23:50:04,515 | INFO | Records loaded from file: 32
+2026-09-26 23:50:04,515 | INFO | Total raw records for launcher_configurations: 532
+2026-09-26 23:50:04,515 | INFO | Reading raw dataset: pads
+2026-09-26 23:50:04,517 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\pads\page_1.json
+2026-09-26 23:50:04,529 | INFO | Records loaded from file: 100
+2026-09-26 23:50:04,529 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\pads\page_2.json
+2026-09-26 23:50:04,539 | INFO | Records loaded from file: 100
+2026-09-26 23:50:04,540 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\pads\page_3.json
+2026-09-26 23:50:04,548 | INFO | Records loaded from file: 51
+2026-09-26 23:50:04,548 | INFO | Total raw records for pads: 251
+2026-09-26 23:50:04,548 | INFO | Reading raw dataset: launches
+2026-09-26 23:50:04,551 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launches\page_1.json
+2026-09-26 23:50:04,565 | INFO | Records loaded from file: 100
+2026-09-26 23:50:04,565 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launches\page_2.json
+2026-09-26 23:50:04,575 | INFO | Records loaded from file: 100
+2026-09-26 23:50:04,577 | INFO | Total raw records for launches: 200
+2026-09-26 23:50:04,577 | INFO | ======================================================================
+2026-09-26 23:50:04,577 | INFO | TRANSFORMING: AGENCIES
+2026-09-26 23:50:04,577 | INFO | ======================================================================
+2026-09-26 23:50:04,582 | INFO | Duplicate agencies removed: 0
+2026-09-26 23:50:04,585 | INFO | Missing agency country values: 0
+2026-09-26 23:50:04,585 | INFO | Missing agency type values: 0
+2026-09-26 23:50:04,585 | INFO | Processed agency records: 350
+2026-09-26 23:50:04,589 | INFO | ======================================================================
+2026-09-26 23:50:04,589 | INFO | TRANSFORMING: LAUNCHER CONFIGURATIONS
+2026-09-26 23:50:04,589 | INFO | ======================================================================
+2026-09-26 23:50:04,594 | INFO | Duplicate launcher configurations removed: 0
+2026-09-26 23:50:04,660 | INFO | Launcher configuration transformation completed.
+2026-09-26 23:50:04,660 | INFO | Processed records: 532
+2026-09-26 23:50:04,660 | INFO | ======================================================================
+2026-09-26 23:50:04,660 | INFO | TRANSFORMING: PADS
+2026-09-26 23:50:04,660 | INFO | ======================================================================
+2026-09-26 23:50:04,660 | INFO | Duplicate pads removed: 39
+2026-09-26 23:50:04,668 | INFO | Processed pad records: 212
+2026-09-26 23:50:04,668 | INFO | ======================================================================
+2026-09-26 23:50:04,668 | INFO | TRANSFORMING: LAUNCHES
+2026-09-26 23:50:04,668 | INFO | ======================================================================
+2026-09-26 23:50:04,684 | INFO | Duplicate launches removed: 0
+2026-09-26 23:50:04,696 | INFO | Launches with unmatched agencies: 0
+2026-09-26 23:50:04,696 | INFO | Launches with unmatched launcher configurations: 0
+2026-09-26 23:50:04,698 | INFO | Launches with unmatched pads: 7
+2026-09-26 23:50:04,698 | INFO | Successful launches: 114
+2026-09-26 23:50:04,698 | INFO | Processed launch records: 200
+2026-09-26 23:50:04,705 | INFO | Processed data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\agencies.csv
+2026-09-26 23:50:04,711 | INFO | Processed data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\launcher_configurations.csv
+2026-09-26 23:50:04,716 | INFO | Processed data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\pads.csv
+2026-09-26 23:50:04,732 | INFO | Processed data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\launches.csv
+2026-09-26 23:50:04,734 | INFO | ======================================================================
+2026-09-26 23:50:04,734 | INFO | TRANSFORMATION SUMMARY
+2026-09-26 23:50:04,734 | INFO | ======================================================================
+2026-09-26 23:50:04,734 | INFO | Agencies: 350
+2026-09-26 23:50:04,734 | INFO | Launcher configurations: 532
+2026-09-26 23:50:04,734 | INFO | Pads: 212
+2026-09-26 23:50:04,734 | INFO | Launches: 200
+2026-09-26 23:50:04,734 | INFO | ======================================================================
+2026-09-26 23:50:04,734 | INFO | SPACE DATA TRANSFORMATION PIPELINE COMPLETED
+2026-09-26 23:50:04,734 | INFO | ======================================================================
+2026-09-27 10:49:21,649 | INFO | ======================================================================
+2026-09-27 10:49:21,650 | INFO | SPACE DATA VALIDATION PIPELINE STARTED
+2026-09-27 10:49:21,650 | INFO | ======================================================================
+2026-09-27 10:49:21,650 | INFO | Reading processed file: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\agencies.csv
+2026-09-27 10:49:21,693 | INFO | Reading processed file: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\launcher_configurations.csv
+2026-09-27 10:49:21,702 | INFO | Reading processed file: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\pads.csv
+2026-09-27 10:49:21,732 | INFO | Reading processed file: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\launches.csv
+2026-09-27 10:49:21,764 | INFO | ======================================================================
+2026-09-27 10:49:21,764 | INFO | VALIDATING: AGENCIES
+2026-09-27 10:49:21,764 | INFO | ======================================================================
+2026-09-27 10:49:21,766 | INFO | Validating columns: Agencies
+2026-09-27 10:49:21,768 | INFO | Agencies: Required columns passed
+2026-09-27 10:49:21,768 | INFO | Checking duplicate IDs: Agencies
+2026-09-27 10:49:21,770 | INFO | Agencies: Duplicate ID check passed
+2026-09-27 10:49:21,770 | INFO | Checking NULL values: Agencies
+2026-09-27 10:49:21,772 | INFO | Agencies: agency_id NULL check passed
+2026-09-27 10:49:21,772 | INFO | Agencies: agency_name NULL check passed
+2026-09-27 10:49:21,772 | INFO | ======================================================================
+2026-09-27 10:49:21,774 | INFO | VALIDATING: LAUNCHER CONFIGURATIONS
+2026-09-27 10:49:21,775 | INFO | ======================================================================
+2026-09-27 10:49:21,775 | INFO | Validating columns: Launcher configurations
+2026-09-27 10:49:21,775 | INFO | Launcher configurations: Required columns passed
+2026-09-27 10:49:21,775 | INFO | Checking duplicate IDs: Launcher configurations
+2026-09-27 10:49:21,775 | INFO | Launcher configurations: Duplicate ID check passed
+2026-09-27 10:49:21,777 | INFO | Checking NULL values: Launcher configurations
+2026-09-27 10:49:21,777 | INFO | Launcher configurations: launcher_configuration_id NULL check passed
+2026-09-27 10:49:21,777 | INFO | Launcher configurations: launcher_name NULL check passed
+2026-09-27 10:49:21,778 | INFO | ======================================================================
+2026-09-27 10:49:21,778 | INFO | VALIDATING: PADS
+2026-09-27 10:49:21,778 | INFO | ======================================================================
+2026-09-27 10:49:21,778 | INFO | Validating columns: Pads
+2026-09-27 10:49:21,778 | INFO | Pads: Required columns passed
+2026-09-27 10:49:21,778 | INFO | Checking duplicate IDs: Pads
+2026-09-27 10:49:21,778 | INFO | Pads: Duplicate ID check passed
+2026-09-27 10:49:21,778 | INFO | Checking NULL values: Pads
+2026-09-27 10:49:21,778 | INFO | Pads: pad_id NULL check passed
+2026-09-27 10:49:21,778 | INFO | Pads: pad_name NULL check passed
+2026-09-27 10:49:21,778 | INFO | Checking range: Pads.latitude
+2026-09-27 10:49:21,782 | INFO | Pads: latitude range check passed
+2026-09-27 10:49:21,782 | INFO | Checking range: Pads.longitude
+2026-09-27 10:49:21,786 | INFO | Pads: longitude range check passed
+2026-09-27 10:49:21,786 | INFO | ======================================================================
+2026-09-27 10:49:21,786 | INFO | VALIDATING: LAUNCHES
+2026-09-27 10:49:21,786 | INFO | ======================================================================
+2026-09-27 10:49:21,786 | INFO | Validating columns: Launches
+2026-09-27 10:49:21,786 | INFO | Launches: Required columns passed
+2026-09-27 10:49:21,786 | INFO | Checking duplicate IDs: Launches
+2026-09-27 10:49:21,792 | ERROR | Launches: 199 duplicate launch_id values found
+2026-09-27 10:49:21,794 | INFO | Checking NULL values: Launches
+2026-09-27 10:49:21,794 | ERROR | Launches: launch_id contains 200 NULL values
+2026-09-27 10:49:21,794 | INFO | Launches: launch_name NULL check passed
+2026-09-27 10:49:21,794 | INFO | Launches: launch_datetime NULL check passed
+2026-09-27 10:49:21,794 | INFO | Checking range: Launches.launch_probability
+2026-09-27 10:49:21,794 | INFO | Launches: launch_probability range check passed
+2026-09-27 10:49:21,794 | INFO | Checking relationship: Launches -> Agencies
+2026-09-27 10:49:21,794 | INFO | Launches -> Agencies: Foreign key check passed
+2026-09-27 10:49:21,794 | INFO | Checking relationship: Launches -> Launcher Configurations
+2026-09-27 10:49:21,799 | INFO | Launches -> Launcher Configurations: Foreign key check passed
+2026-09-27 10:49:21,800 | INFO | Checking relationship: Launches -> Pads
+2026-09-27 10:49:21,819 | INFO | Launches -> Pads: Foreign key check passed
+2026-09-27 10:49:21,819 | ERROR | ======================================================================
+2026-09-27 10:49:21,819 | ERROR | VALIDATION FAILED
+2026-09-27 10:49:21,819 | ERROR | ======================================================================
+2026-09-27 10:49:21,819 | ERROR | Validation pipeline failed: One or more validation checks failed.
+Traceback (most recent call last):
+  File "C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\src\validate.py", line 577, in main
+    raise ValueError(
+ValueError: One or more validation checks failed.
+2026-09-27 10:55:42,614 | INFO | ======================================================================
+2026-09-27 10:55:42,614 | INFO | SPACE DATA TRANSFORMATION PIPELINE STARTED
+2026-09-27 10:55:42,614 | INFO | ======================================================================
+2026-09-27 10:55:42,614 | INFO | Reading raw dataset: agencies
+2026-09-27 10:55:42,614 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_1.json
+2026-09-27 10:55:42,654 | INFO | Records loaded from file: 100
+2026-09-27 10:55:42,656 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_2.json
+2026-09-27 10:55:42,708 | INFO | Records loaded from file: 100
+2026-09-27 10:55:42,708 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_3.json
+2026-09-27 10:55:42,732 | INFO | Records loaded from file: 100
+2026-09-27 10:55:42,733 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\agencies\page_4.json
+2026-09-27 10:55:42,752 | INFO | Records loaded from file: 50
+2026-09-27 10:55:42,752 | INFO | Total raw records for agencies: 350
+2026-09-27 10:55:42,754 | INFO | Reading raw dataset: launcher_configurations
+2026-09-27 10:55:42,754 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_1.json
+2026-09-27 10:55:42,782 | INFO | Records loaded from file: 100
+2026-09-27 10:55:42,782 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_2.json
+2026-09-27 10:55:42,822 | INFO | Records loaded from file: 100
+2026-09-27 10:55:42,822 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_3.json
+2026-09-27 10:55:42,853 | INFO | Records loaded from file: 100
+2026-09-27 10:55:42,855 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_4.json
+2026-09-27 10:55:42,890 | INFO | Records loaded from file: 100
+2026-09-27 10:55:42,892 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_5.json
+2026-09-27 10:55:42,921 | INFO | Records loaded from file: 100
+2026-09-27 10:55:42,921 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_6.json
+2026-09-27 10:55:42,950 | INFO | Records loaded from file: 32
+2026-09-27 10:55:42,952 | INFO | Total raw records for launcher_configurations: 532
+2026-09-27 10:55:42,952 | INFO | Reading raw dataset: pads
+2026-09-27 10:55:42,952 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\pads\page_1.json
+2026-09-27 10:55:42,982 | INFO | Records loaded from file: 100
+2026-09-27 10:55:42,982 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\pads\page_2.json
+2026-09-27 10:55:43,033 | INFO | Records loaded from file: 100
+2026-09-27 10:55:43,033 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\pads\page_3.json
+2026-09-27 10:55:43,074 | INFO | Records loaded from file: 51
+2026-09-27 10:55:43,074 | INFO | Total raw records for pads: 251
+2026-09-27 10:55:43,074 | INFO | Reading raw dataset: launches
+2026-09-27 10:55:43,074 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launches\page_1.json
+2026-09-27 10:55:43,088 | INFO | Records loaded from file: 100
+2026-09-27 10:55:43,088 | INFO | Reading: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\raw\launches\page_2.json
+2026-09-27 10:55:43,135 | INFO | Records loaded from file: 100
+2026-09-27 10:55:43,135 | INFO | Total raw records for launches: 200
+2026-09-27 10:55:43,135 | INFO | ======================================================================
+2026-09-27 10:55:43,135 | INFO | TRANSFORMING: AGENCIES
+2026-09-27 10:55:43,135 | INFO | ======================================================================
+2026-09-27 10:55:43,138 | INFO | Duplicate agencies removed: 0
+2026-09-27 10:55:43,142 | INFO | Missing agency country values: 0
+2026-09-27 10:55:43,142 | INFO | Missing agency type values: 0
+2026-09-27 10:55:43,142 | INFO | Processed agency records: 350
+2026-09-27 10:55:43,142 | INFO | ======================================================================
+2026-09-27 10:55:43,142 | INFO | TRANSFORMING: LAUNCHER CONFIGURATIONS
+2026-09-27 10:55:43,142 | INFO | ======================================================================
+2026-09-27 10:55:43,146 | INFO | Duplicate launcher configurations removed: 0
+2026-09-27 10:55:43,151 | INFO | Launcher configuration transformation completed.
+2026-09-27 10:55:43,151 | INFO | Processed records: 532
+2026-09-27 10:55:43,151 | INFO | ======================================================================
+2026-09-27 10:55:43,151 | INFO | TRANSFORMING: PADS
+2026-09-27 10:55:43,151 | INFO | ======================================================================
+2026-09-27 10:55:43,151 | INFO | Duplicate pads removed: 39
+2026-09-27 10:55:43,158 | INFO | Processed pad records: 212
+2026-09-27 10:55:43,158 | INFO | ======================================================================
+2026-09-27 10:55:43,158 | INFO | TRANSFORMING: LAUNCHES
+2026-09-27 10:55:43,160 | INFO | ======================================================================
+2026-09-27 10:55:43,162 | INFO | Duplicate launches removed: 0
+2026-09-27 10:55:43,174 | INFO | Launches with unmatched agencies: 0
+2026-09-27 10:55:43,176 | INFO | Launches with unmatched launcher configurations: 0
+2026-09-27 10:55:43,176 | INFO | Launches with unmatched pads: 7
+2026-09-27 10:55:43,176 | INFO | Successful launches: 114
+2026-09-27 10:55:43,176 | INFO | Processed launch records: 200
+2026-09-27 10:55:43,189 | INFO | Processed data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\agencies.csv
+2026-09-27 10:55:43,191 | INFO | Processed data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\launcher_configurations.csv
+2026-09-27 10:55:43,197 | INFO | Processed data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\pads.csv
+2026-09-27 10:55:43,202 | INFO | Processed data saved to: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\launches.csv
+2026-09-27 10:55:43,202 | INFO | ======================================================================
+2026-09-27 10:55:43,202 | INFO | TRANSFORMATION SUMMARY
+2026-09-27 10:55:43,202 | INFO | ======================================================================
+2026-09-27 10:55:43,202 | INFO | Agencies: 350
+2026-09-27 10:55:43,202 | INFO | Launcher configurations: 532
+2026-09-27 10:55:43,202 | INFO | Pads: 212
+2026-09-27 10:55:43,206 | INFO | Launches: 200
+2026-09-27 10:55:43,206 | INFO | ======================================================================
+2026-09-27 10:55:43,206 | INFO | SPACE DATA TRANSFORMATION PIPELINE COMPLETED
+2026-09-27 10:55:43,206 | INFO | ======================================================================
+2026-09-27 10:55:53,927 | INFO | ======================================================================
+2026-09-27 10:55:53,927 | INFO | SPACE DATA VALIDATION PIPELINE STARTED
+2026-09-27 10:55:53,927 | INFO | ======================================================================
+2026-09-27 10:55:53,927 | INFO | Reading processed file: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\agencies.csv
+2026-09-27 10:55:53,962 | INFO | Reading processed file: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\launcher_configurations.csv
+2026-09-27 10:55:53,989 | INFO | Reading processed file: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\pads.csv
+2026-09-27 10:55:54,014 | INFO | Reading processed file: C:\Users\ipran\Documents\demo\Assignment2-space_data_pipeline-\data\processed\launches.csv
+2026-09-27 10:55:54,050 | INFO | ======================================================================
+2026-09-27 10:55:54,050 | INFO | VALIDATING: AGENCIES
+2026-09-27 10:55:54,050 | INFO | ======================================================================
+2026-09-27 10:55:54,050 | INFO | Validating columns: Agencies
+2026-09-27 10:55:54,050 | INFO | Agencies: Required columns passed
+2026-09-27 10:55:54,050 | INFO | Checking duplicate IDs: Agencies
+2026-09-27 10:55:54,050 | INFO | Agencies: Duplicate ID check passed
+2026-09-27 10:55:54,050 | INFO | Checking NULL values: Agencies
+2026-09-27 10:55:54,050 | INFO | Agencies: agency_id NULL check passed
+2026-09-27 10:55:54,050 | INFO | Agencies: agency_name NULL check passed
+2026-09-27 10:55:54,050 | INFO | ======================================================================
+2026-09-27 10:55:54,050 | INFO | VALIDATING: LAUNCHER CONFIGURATIONS
+2026-09-27 10:55:54,050 | INFO | ======================================================================
+2026-09-27 10:55:54,050 | INFO | Validating columns: Launcher configurations
+2026-09-27 10:55:54,050 | INFO | Launcher configurations: Required columns passed
+2026-09-27 10:55:54,050 | INFO | Checking duplicate IDs: Launcher configurations
+2026-09-27 10:55:54,050 | INFO | Launcher configurations: Duplicate ID check passed
+2026-09-27 10:55:54,056 | INFO | Checking NULL values: Launcher configurations
+2026-09-27 10:55:54,056 | INFO | Launcher configurations: launcher_configuration_id NULL check passed
+2026-09-27 10:55:54,056 | INFO | Launcher configurations: launcher_name NULL check passed
+2026-09-27 10:55:54,056 | INFO | ======================================================================
+2026-09-27 10:55:54,056 | INFO | VALIDATING: PADS
+2026-09-27 10:55:54,056 | INFO | ======================================================================
+2026-09-27 10:55:54,056 | INFO | Validating columns: Pads
+2026-09-27 10:55:54,056 | INFO | Pads: Required columns passed
+2026-09-27 10:55:54,056 | INFO | Checking duplicate IDs: Pads
+2026-09-27 10:55:54,056 | INFO | Pads: Duplicate ID check passed
+2026-09-27 10:55:54,058 | INFO | Checking NULL values: Pads
+2026-09-27 10:55:54,058 | INFO | Pads: pad_id NULL check passed
+2026-09-27 10:55:54,058 | INFO | Pads: pad_name NULL check passed
+2026-09-27 10:55:54,058 | INFO | Checking range: Pads.latitude
+2026-09-27 10:55:54,058 | INFO | Pads: latitude range check passed
+2026-09-27 10:55:54,058 | INFO | Checking range: Pads.longitude
+2026-09-27 10:55:54,063 | INFO | Pads: longitude range check passed
+2026-09-27 10:55:54,063 | INFO | ======================================================================
+2026-09-27 10:55:54,063 | INFO | VALIDATING: LAUNCHES
+2026-09-27 10:55:54,063 | INFO | ======================================================================
+2026-09-27 10:55:54,063 | INFO | Validating columns: Launches
+2026-09-27 10:55:54,063 | INFO | Launches: Required columns passed
+2026-09-27 10:55:54,065 | INFO | Checking duplicate IDs: Launches
+2026-09-27 10:55:54,066 | INFO | Launches: Duplicate ID check passed
+2026-09-27 10:55:54,066 | INFO | Checking NULL values: Launches
+2026-09-27 10:55:54,066 | INFO | Launches: launch_id NULL check passed
+2026-09-27 10:55:54,066 | INFO | Launches: launch_name NULL check passed
+2026-09-27 10:55:54,066 | INFO | Launches: launch_datetime NULL check passed
+2026-09-27 10:55:54,066 | INFO | Checking range: Launches.launch_probability
+2026-09-27 10:55:54,069 | INFO | Launches: launch_probability range check passed
+2026-09-27 10:55:54,069 | INFO | Checking relationship: Launches -> Agencies
+2026-09-27 10:55:54,070 | INFO | Launches -> Agencies: Foreign key check passed
+2026-09-27 10:55:54,070 | INFO | Checking relationship: Launches -> Launcher Configurations
+2026-09-27 10:55:54,070 | INFO | Launches -> Launcher Configurations: Foreign key check passed
+2026-09-27 10:55:54,070 | INFO | Checking relationship: Launches -> Pads
+2026-09-27 10:55:54,070 | INFO | Launches -> Pads: Foreign key check passed
+2026-09-27 10:55:54,070 | INFO | ======================================================================
+2026-09-27 10:55:54,070 | INFO | ALL VALIDATION CHECKS PASSED
+2026-09-27 10:55:54,070 | INFO | ======================================================================

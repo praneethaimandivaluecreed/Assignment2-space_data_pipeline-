@@ -1,0 +1,201 @@
+launch_id,launch_name,launch_datetime,status_id,status_name,launch_probability,weather_concerns,failure_reason,agency_id,launcher_configuration_id,pad_id,mission_name,mission_type,launch_year,launch_month,is_successful
+e3df2ecd-c239-472f-95e4-2b89b4f75800,Sputnik 8K74PS | Sputnik 1,1957-10-04 19:28:34+00:00,3,Launch Successful,,,,66,468,32,Sputnik 1,Test Flight,1957,10,True
+f8c9f344-a6df-4f30-873a-90fe3a7840b3,Sputnik 8K74PS | Sputnik 2,1957-11-03 02:30:00+00:00,3,Launch Successful,,,,66,468,32,Sputnik 2,Test Flight,1957,11,True
+535c1a09-97c8-4f96-bb64-6336d4bcb1fb,Vanguard | Vanguard,1957-12-06 16:44:35+00:00,4,Launch Failure,,,,166,449,118,Vanguard,Test Flight,1957,12,False
+1b9e28d0-c531-44b0-9b37-244e62a6d3f4,Juno-I | Explorer 1,1958-02-01 03:47:56+00:00,3,Launch Successful,,,,271,324,193,Explorer 1,Test Flight,1958,2,True
+48bc7deb-b2e1-46c2-ab63-0ce00fbd192b,Vanguard | Vanguard,1958-02-05 07:33:00+00:00,4,Launch Failure,,,,166,449,118,Vanguard,Test Flight,1958,2,False
+896e8af6-d256-4a5b-ab15-2f25c84e90e3,Juno-I | Explorer 2,1958-03-05 18:27:57+00:00,4,Launch Failure,,,,271,324,193,Explorer 2,Test Flight,1958,3,False
+74d39bb8-34a6-4a8b-8554-d2d3ec22aee6,Vanguard | Vanguard,1958-03-17 12:15:41+00:00,3,Launch Successful,,,,166,449,118,Vanguard,Test Flight,1958,3,True
+b4e501ff-083c-47d6-9ff0-63ec1bf035c3,Juno-I | Explorer 3,1958-03-26 17:38:01+00:00,3,Launch Successful,,,,271,324,193,Explorer 3,Earth Science,1958,3,True
+59d2de37-4c22-495f-8718-4b22f5f34ab7,Sputnik 8A91 | D-1 1,1958-04-27 07:00:35+00:00,4,Launch Failure,,,,66,469,32,D-1 1,Earth Science,1958,4,False
+de282e74-e03b-411e-9633-2d1497629893,Vanguard | Vanguard,1958-04-29 02:53:00+00:00,4,Launch Failure,,,,166,449,118,Vanguard,Test Flight,1958,4,False
+6a7f56f9-2565-4b6c-b0c5-23e9c74a2368,Sputnik 8A91 | D1- 2,1958-05-15 07:00:35+00:00,3,Launch Successful,,,,66,469,32,D1- 2,Earth Science,1958,5,True
+a861fb4d-8988-468b-abd1-a6e8abe5f2c7,Vanguard | Vanguard,1958-05-28 03:46:20+00:00,4,Launch Failure,,,,166,449,118,Vanguard,Test Flight,1958,5,False
+57e64adf-5c20-4c81-b17a-587b44d574b0,Vanguard | Vanguard,1958-06-26 05:00:52+00:00,4,Launch Failure,,,,166,449,118,Vanguard,Test Flight,1958,6,False
+64da1836-0c00-4074-ab0a-f9d0ee6b1221,Project Pilot | NOTS 1,1958-07-25 00:00:00+00:00,4,Launch Failure,,,,166,344,145,NOTS 1,Government/Top Secret,1958,7,False
+e0975cef-e8c6-4f35-bbf7-1b55963e06a5,Juno-I | Explorer 4,1958-07-26 15:00:57+00:00,3,Launch Successful,,,,271,324,123,Explorer 4,Earth Science,1958,7,True
+ac4c0c44-1925-4636-99b5-8c3b33d6c62a,Project Pilot | NOTS 2,1958-08-12 00:00:00+00:00,4,Launch Failure,,,,166,344,145,NOTS 2,Government/Top Secret,1958,8,False
+5408eda7-a3cc-48d2-9a62-e77a3cf86bc1,Thor Able I | Able I (Pioneer),1958-08-17 12:18:00+00:00,4,Launch Failure,,,,271,388,14,Able I (Pioneer),Lunar Exploration,1958,8,False
+ee6958bf-155d-4400-9d9a-9d3e27c56d6d,Project Pilot | NOTS 3,1958-08-22 00:00:00+00:00,4,Launch Failure,,,,166,344,145,NOTS 3,Government/Top Secret,1958,8,False
+a17719ee-5a39-452d-afc6-770d3c6deb1b,Juno-I | Explorer 5,1958-08-24 06:17:22+00:00,4,Launch Failure,,,,271,324,123,Explorer 5,Earth Science,1958,8,False
+31bcb852-0c9f-4f1f-a201-a108c88e77f8,Project Pilot | NOTS 4,1958-08-25 00:00:00+00:00,4,Launch Failure,,,,166,344,145,NOTS 4,Government/Top Secret,1958,8,False
+46580acb-1299-4a54-bdf0-884029a83a84,Project Pilot | NOTS 5,1958-08-26 00:00:00+00:00,4,Launch Failure,,,,166,344,145,NOTS 5,Government/Top Secret,1958,8,False
+ba8f759d-5c34-4e63-bd32-29cb8e9905e6,Project Pilot | NOTS 6,1958-08-28 00:00:00+00:00,4,Launch Failure,,,,166,344,145,NOTS 6,Government/Top Secret,1958,8,False
+b6141255-54e9-4edc-839d-1dc81b61f19f,Vostok-L 8K72 | Luna-1a,1958-09-23 07:40:23+00:00,4,Launch Failure,,,,66,454,32,Luna-1a,Lunar Exploration,1958,9,False
+3aec8a7e-0884-4709-bdf6-c5f6444314a4,Vanguard | Vanguard,1958-09-26 15:38:00+00:00,4,Launch Failure,,,,166,449,118,Vanguard,Earth Science,1958,9,False
+a58b6abf-6b0e-492c-8bf3-1fa586f8d4da,Thor Able I | Pioneer 1,1958-10-11 08:42:13+00:00,3,Launch Successful,,,,271,388,14,Pioneer 1,Lunar Exploration,1958,10,True
+b9dfc9fc-7c79-4c85-833e-037b3ee311aa,Vostok-L 8K72 | Luna-1b,1958-10-11 21:41:58+00:00,4,Launch Failure,,,,66,454,32,Luna-1b,Lunar Exploration,1958,10,False
+96c31f2e-670c-46d5-8c5c-bc0e47dce16e,Juno-I | Beacon,1958-10-23 03:21:04+00:00,4,Launch Failure,,,,271,324,123,Beacon,Test Target,1958,10,False
+64ecf17b-09e4-42ab-aa54-8d87b989e365,Thor Able I | Pioneer 2,1958-11-08 07:30:21+00:00,4,Launch Failure,,,,271,388,14,Pioneer 2,Lunar Exploration,1958,11,False
+3fabc98a-84bf-4b91-bec8-31f30eee9dc3,Vostok-L 8K72 | Luna-1c,1958-12-04 18:18:45+00:00,4,Launch Failure,,,,66,454,32,Luna-1c,Lunar Exploration,1958,12,False
+e83eac3f-29eb-4fac-b826-247261bd170d,Juno II | Pioneer 3,1958-12-06 05:44:52+00:00,3,Launch Successful,,,,44,188,123,Pioneer 3,Lunar Exploration,1958,12,True
+80c8e883-8456-45e7-9ed7-abb1a587c5d9,Atlas B | SCORE,1958-12-18 23:02:00+00:00,3,Launch Successful,,,,165,233,116,SCORE,Communications,1958,12,True
+574ba4a9-76fb-4207-a587-dbc39fc1a6e4,Vostok-L 8K72 | Luna-1,1959-01-02 16:41:21+00:00,3,Launch Successful,,,,66,454,32,Luna-1,Lunar Exploration,1959,1,True
+597540d3-b6b1-44d8-b6e6-3b799dc6b1e4,Vanguard | Vanguard II,1959-02-17 15:55:00+00:00,3,Launch Successful,,,,166,449,118,Vanguard II,Earth Science,1959,2,True
+2e03da7f-8604-416c-9313-8c456d893a6f,Thor Agena A | Discoverer 1,1959-02-28 21:49:16+00:00,4,Launch Failure,,,,161,392,95,Discoverer 1,Government/Top Secret,1959,2,False
+5de0c176-20e0-4bb6-a576-2e093b79fd51,Juno II | Pioneer 4,1959-03-03 05:10:56+00:00,3,Launch Successful,,,,44,188,123,Pioneer 4,Lunar Exploration,1959,3,True
+e10a11fb-e3b9-4def-b281-c5602653b2dc,Thor Agena A | Discoverer 2,1959-04-13 21:18:39+00:00,3,Launch Successful,,,,161,392,95,Discoverer 2,Government/Top Secret,1959,4,True
+c3d28943-4905-47b6-89c7-13b8dce45eef,Vanguard | Vanguard,1959-04-14 02:49:46+00:00,4,Launch Failure,,,,166,449,118,Vanguard,Earth Science,1959,4,False
+c4ef4614-99bb-4da4-ab0c-180ec2faf6cc,Thor Agena A | Discoverer 3,1959-06-03 20:09:20+00:00,4,Launch Failure,,,,161,392,95,Discoverer 3,Government/Top Secret,1959,6,False
+c5b416c9-5e12-42b1-85db-e3f807906166,Vostok-L 8K72 | Luna-2a,1959-06-18 08:08:00+00:00,4,Launch Failure,,,,66,454,32,Luna-2a,Lunar Exploration,1959,6,False
+d00485ff-f5c5-4e6b-9aa5-a2928c079f41,Vanguard | Vanguard,1959-06-22 20:16:09+00:00,4,Launch Failure,,,,166,449,118,Vanguard,Earth Science,1959,6,False
+dbe9a4b7-8cf0-4c7f-a42f-a5f70d2702a6,Thor Agena A | Discoverer 4,1959-06-25 22:47:45+00:00,4,Launch Failure,,,,161,392,96,Discoverer 4,Government/Top Secret,1959,6,False
+7e01bff4-1cb9-409e-838b-4433ded92b94,Juno II | NASA S-1,1959-07-16 17:37:03+00:00,4,Launch Failure,,,,44,188,123,NASA S-1,Earth Science,1959,7,False
+7ab310ea-28d5-4c58-9bfd-ae9aefc40c20,Thor Able III | Explorer 6,1959-08-07 14:24:20+00:00,3,Launch Successful,,,,161,390,14,Explorer 6,Earth Science,1959,8,True
+a87cf2ee-4169-4cdc-9fc4-8ff7ce8ebfea,Thor Agena A | Discoverer 5,1959-08-13 19:00:08+00:00,3,Launch Successful,,,,161,392,95,Discoverer 5,Government/Top Secret,1959,8,True
+13e39d5c-50db-4ebd-8aaa-30318fcb49fe,Juno II | Beacon,1959-08-15 00:31:00+00:00,4,Launch Failure,,,,44,188,97,Beacon,Test Target,1959,8,False
+1e564ecb-b4cf-40f3-905a-8555abc47810,Thor Agena A | Discoverer 6,1959-08-19 19:24:44+00:00,3,Launch Successful,,,,161,392,96,Discoverer 6,Government/Top Secret,1959,8,True
+fdb56feb-e46f-41ba-80c8-c84be17c1888,Little Joe | LJ-1,1959-08-21 12:00:00+00:00,4,Launch Failure,,,,44,473,195,LJ-1,Test Flight,1959,8,False
+0640dd85-11c7-4a10-9947-9467f33cbaf2,Atlas LV-3B | Big Joe 1,1959-09-09 08:19:00+00:00,7,Launch was a Partial Failure,,,,44,162,17,Big Joe 1,Test Flight,1959,9,False
+af1b241a-f46e-4d11-a504-e03965d94c01,Vostok-L 8K72 | Luna-2,1959-09-12 06:39:42+00:00,3,Launch Successful,,,,66,454,32,Luna-2,Lunar Exploration,1959,9,True
+3587bc21-73f7-4668-b388-5f0840c6064f,Thor Able II | Transit 1A,1959-09-17 14:34:00+00:00,4,Launch Failure,,,,161,389,14,Transit 1A,Navigation,1959,9,False
+614d577a-ac7c-4659-8fed-4b6a734469cd,Vanguard | Vanguard III,1959-09-18 05:20:07+00:00,3,Launch Successful,,,,166,449,118,Vanguard III,Earth Science,1959,9,True
+3016d082-58d4-436e-aa6a-379865565edf,Vostok-L 8K72 | Luna-3,1959-10-04 00:43:39+00:00,3,Launch Successful,,,,66,454,32,Luna-3,Lunar Exploration,1959,10,True
+17e710c6-da47-43fb-b994-b02521787fd8,Little Joe | LJ-6,1959-10-04 10:00:00+00:00,7,Launch was a Partial Failure,,,,44,473,195,LJ-6,Test Flight,1959,10,False
+e501cff3-10ec-485e-9d3c-a48315195bed,Juno II | Explorer 7,1959-10-13 15:30:04+00:00,3,Launch Successful,,,,44,188,123,Explorer 7,Astrophysics,1959,10,True
+3827a2c8-f89b-4e28-9671-ef5b39d9222a,Little Joe | LJ-1A,1959-11-04 14:30:00+00:00,7,Launch was a Partial Failure,,,,44,473,195,LJ-1A,Test Flight,1959,11,False
+4ffd5945-132b-4ec4-8a9f-f37bdc428f9b,Thor Agena A | Discoverer 7,1959-11-07 20:28:41+00:00,3,Launch Successful,,,,161,392,95,Discoverer 7,Government/Top Secret,1959,11,True
+ba311200-30df-44dd-879e-c4fecbc2dcb1,Thor Agena A | Discoverer 8,1959-11-20 19:25:24+00:00,3,Launch Successful,,,,161,392,96,Discoverer 8,Government/Top Secret,1959,11,True
+f889bd5e-6cf9-4189-9912-d978a6f7b0fe,Atlas-Able | P-3,1959-11-26 07:26:00+00:00,4,Launch Failure,,,,161,230,17,P-3,Lunar Exploration,1959,11,False
+89a42fc2-2d31-4c82-857a-c110a438d429,Little Joe | LJ-2,1959-12-04 16:20:00+00:00,3,Launch Successful,,,,44,473,195,LJ-2,Test Flight,1959,12,True
+215ecfa3-d465-4e3e-a0d2-3312ffd4e35b,Little Joe | LJ-1B,1960-01-21 14:23:00+00:00,3,Launch Successful,,,,44,473,195,LJ-1B,Test Flight,1960,1,True
+05c21203-d2e5-4932-8376-f996301d1510,Thor Agena A | Discoverer 9,1960-02-04 18:51:45+00:00,4,Launch Failure,,,,161,392,95,Discoverer 9,Government/Top Secret,1960,2,False
+7484048e-747d-4f6a-86be-45585a63804d,Thor Agena A | Discoverer 10,1960-02-19 20:15:14+00:00,4,Launch Failure,,,,161,392,96,Discoverer 10,Government/Top Secret,1960,2,False
+258a4774-b0f5-4775-9918-5a90ad60f008,Atlas Agena A | Midas 1,1960-02-26 17:25:30+00:00,4,Launch Failure,,,,161,231,17,Midas 1,Government/Top Secret,1960,2,False
+a80dd1f3-c3a2-40f6-a60a-97251eff576f,Thor Able IV | Pioneer V,1960-03-11 13:00:07+00:00,3,Launch Successful,,,,161,391,14,Pioneer V,Astrophysics,1960,3,True
+1bbd65cc-7c3d-495b-b5ae-b8a5827460ea,Juno II | NASA S-46,1960-03-23 13:35:11+00:00,4,Launch Failure,,,,44,188,97,NASA S-46,Earth Science,1960,3,False
+b5b8946b-8471-4fa2-b63f-d3aaf84607bb,Thor Able II | Tiros 1,1960-04-01 11:40:09+00:00,3,Launch Successful,,,,161,389,14,Tiros 1,Earth Science,1960,4,True
+aef4789b-12ab-4483-b90c-24b997196861,Thor DM-21 Ablestar | Transit 1B,1960-04-13 12:02:36+00:00,3,Launch Successful,,,,161,187,1,Transit 1B,Navigation,1960,4,True
+ab42847c-d783-4304-a773-b7e310b22d2b,Vostok-L 8K72 | Luna-4a,1960-04-15 15:06:45+00:00,4,Launch Failure,,,,66,454,32,Luna-4a,Lunar Exploration,1960,4,False
+b2b23558-cba6-4c9f-89ef-76e47a53b187,Thor Agena A | Discoverer 11,1960-04-15 20:30:37+00:00,3,Launch Successful,,,,161,392,96,Discoverer 11,Government/Top Secret,1960,4,True
+620237e7-82b2-44c9-affb-93744951d457,Vostok-L 8K72 | Luna-4b,1960-04-16 16:07:41+00:00,4,Launch Failure,,,,66,454,32,Luna-4b,Lunar Exploration,1960,4,False
+b4158c69-88e9-4bfa-927f-c3489cf48eda,Thor Delta | Echo,1960-05-13 09:16:05+00:00,4,Launch Failure,,,,161,398,14,Echo,Communications,1960,5,False
+02b8bb48-37a1-4f43-9112-33d8e8589a75,Vostok 8K72 | Korabl'-Sputnik-1,1960-05-15 00:00:05+00:00,3,Launch Successful,,,,66,453,32,Korabl'-Sputnik-1,Test Flight,1960,5,True
+eee9e288-e5c8-429d-9760-5c7bc14a5225,Atlas Agena A | Midas 2,1960-05-24 17:36:46+00:00,3,Launch Successful,,,,161,231,17,Midas 2,Government/Top Secret,1960,5,True
+bc9375ae-6a9e-4eba-8358-cbf5b008def9,Thor DM-21 Ablestar | Transit 2A,1960-06-22 05:54:00+00:00,3,Launch Successful,,,,161,187,1,Transit 2A,Navigation,1960,6,True
+7c364234-6871-4ea9-97c5-5dcd5bcec1dd,Thor Agena A | Discoverer 12,1960-06-29 22:00:44+00:00,4,Launch Failure,,,,161,392,95,Discoverer 12,Government/Top Secret,1960,6,False
+962f4ad2-81e0-43f9-8148-fb78f52cb0f5,Vostok 8K72 | Korabl-Sputnik (2),1960-07-28 09:31:00+00:00,4,Launch Failure,,,,66,453,32,Korabl-Sputnik (2),Test Flight,1960,7,False
+0b722410-e8ad-4dd7-803e-76c251c2b65a,Atlas LV-3B | Mercury-Atlas 1,1960-07-29 13:13:00+00:00,4,Launch Failure,,,,44,162,17,Mercury-Atlas 1,Test Flight,1960,7,False
+b485afd9-abd0-4da4-94a4-19adf515aab9,Thor Agena A | Discoverer 13,1960-08-10 20:37:54+00:00,3,Launch Successful,,,,161,392,96,Discoverer 13,Government/Top Secret,1960,8,True
+a622451e-1533-40ec-ae1f-6ac82a8e15eb,Thor Delta | Echo 1,1960-08-12 09:39:43+00:00,3,Launch Successful,,,,161,398,14,Echo 1,Communications,1960,8,True
+365e8e27-7db7-48f5-8d7d-33a3ec978e81,Thor Agena A | Discoverer 14,1960-08-18 19:57:08+00:00,3,Launch Successful,,,,161,392,95,Discoverer 14,Government/Top Secret,1960,8,True
+d203ad0f-2f6f-4533-9641-b211b5770421,Thor DM-21 Ablestar | Courier 1A,1960-08-18 19:58:00+00:00,4,Launch Failure,,,,161,187,1,Courier 1A,Communications,1960,8,False
+5d75ee96-a897-499f-8f48-7d98d78fc01c,Vostok 8K72 | Korabl'-Sputnik-2,1960-08-19 08:44:06+00:00,3,Launch Successful,,,,66,453,32,Korabl'-Sputnik-2,Test Flight,1960,8,True
+4a0e330d-c75a-433b-ad2e-f0be2ed9a018,Thor Agena A | Discoverer 15,1960-09-13 22:13:39+00:00,3,Launch Successful,,,,161,392,96,Discoverer 15,Government/Top Secret,1960,9,True
+ada5068a-c2e0-4c0e-9167-402536f4af37,Blue Scout Jr | Blue Scout D-1,1960-09-21 13:01:53+00:00,3,Launch Successful,,,,161,265,118,Blue Scout D-1,Earth Science,1960,9,True
+23538a9d-d745-4944-aec8-294c8f773cbf,Atlas-Able | P-30 (Able VA),1960-09-25 15:13:17+00:00,4,Launch Failure,,,,161,230,99,P-30 (Able VA),Lunar Exploration,1960,9,False
+b3d4d5e7-b317-446c-9d08-d4e5cfa95a63,Scout X-1 | ST-2,1960-10-04 15:23:00+00:00,3,Launch Successful,,,,44,185,,ST-2,Earth Science,1960,10,True
+dae8cfed-408d-4572-a461-d71e8d40e396,Thor DM-21 Ablestar | Courier 1B,1960-10-04 17:50:00+00:00,3,Launch Successful,,,,161,187,1,Courier 1B,Communications,1960,10,True
+2b8ca24a-995a-49bd-a686-f937647fd47e,Molniya 8K78 | Mars-1a,1960-10-10 14:27:49+00:00,4,Launch Failure,,,,66,184,32,Mars-1a,Planetary Science,1960,10,False
+d1d6a521-65f5-44df-93ba-5f79773186f4,Atlas Agena A | Samos 1,1960-10-11 20:33:28+00:00,4,Launch Failure,,,,161,231,93,Samos 1,Government/Top Secret,1960,10,False
+ba2e283c-6389-416a-9c88-541ded25c1dd,Molniya 8K78 | Mars-1b,1960-10-14 13:51:03+00:00,4,Launch Failure,,,,66,184,32,Mars-1b,Planetary Science,1960,10,False
+adca914e-1d47-47fd-a8d8-71b90dd9cbe1,Thor DM-21 Agena-B | Discoverer 16,1960-10-26 20:26:09+00:00,4,Launch Failure,,,,161,186,95,Discoverer 16,Government/Top Secret,1960,10,False
+68c95d0d-e00a-43d9-9761-dcecd4a83413,Juno II | Explorer 8,1960-11-03 05:23:10+00:00,3,Launch Successful,,,,44,188,97,Explorer 8,Earth Science,1960,11,True
+bc401ea5-29c7-448f-87d1-84ad56f806d6,Little Joe | LJ-5,1960-11-08 15:18:00+00:00,4,Launch Failure,,,,44,473,195,LJ-5,Test Flight,1960,11,False
+ab21d17c-aa7d-46f5-9d39-601a4793f279,Thor DM-21 Agena-B | Discoverer 17,1960-11-12 20:42:32+00:00,3,Launch Successful,,,,161,186,96,Discoverer 17,Government/Top Secret,1960,11,True
+0abcc2bf-6243-4f2c-8c14-cac541595992,Redstone MRLV | Mercury-Redstone 1,1960-11-21 14:00:00+00:00,4,Launch Failure,,,,44,107,123,Mercury-Redstone 1,Test Flight,1960,11,False
+7907f62e-09cd-476c-afb5-dfb22445caa9,Thor Delta | Tiros 2,1960-11-23 11:13:03+00:00,3,Launch Successful,,,,161,398,14,Tiros 2,Earth Science,1960,11,True
+b5f0d805-b7b3-469c-976c-164255551f91,Thor DM-21 Ablestar | Transit 3A,1960-11-30 19:50:00+00:00,4,Launch Failure,,,,161,187,1,Transit 3A,Navigation,1960,11,False
+787e5a38-9f51-4543-a218-5d1e5690bb34,Vostok 8K72 | Korabl'-Sputnik-3,1960-12-01 07:30:04+00:00,3,Launch Successful,,,,66,453,32,Korabl'-Sputnik-3,Test Flight,1960,12,True
+83208857-199a-421b-a706-c339709aa0ab,Scout X-1 | NASA S-56,1960-12-04 21:14:00+00:00,4,Launch Failure,,,,44,185,,NASA S-56,Astrophysics,1960,12,False
+ba9b77a7-5d1b-47e9-89fc-2fc0050186df,Thor DM-21 Agena-B | Discoverer 18,1960-12-07 20:20:58+00:00,3,Launch Successful,,,,161,186,95,Discoverer 18,Government/Top Secret,1960,12,True
+583b7dc8-2b7d-494a-a19a-4629c45f0b7d,Atlas-Able | P-31,1960-12-15 09:10:00+00:00,4,Launch Failure,,,,161,230,99,P-31,Planetary Science,1960,12,False
+8089e392-6d8e-415f-9492-e80432276d49,Redstone MRLV | Mercury-Redstone 1A,1960-12-19 16:15:00+00:00,3,Launch Successful,,,,44,107,123,Mercury-Redstone 1A,Test Flight,1960,12,True
+5930bee2-7e3b-4792-a04b-4b3da52821c1,Thor DM-21 Agena-B | Discoverer 19,1960-12-20 20:32:00+00:00,3,Launch Successful,,,,161,186,96,Discoverer 19,Government/Top Secret,1960,12,True
+8050ce4c-2d75-4c11-92e3-132f1db585c6,Vostok | Korabl-Sputnik (4),1960-12-22 07:45:19+00:00,4,Launch Failure,,,,66,103,32,Korabl-Sputnik (4),Test Flight,1960,12,False
+41223f5d-22f2-4800-9fb8-3be646dc374c,Redstone MRLV | Mercury-Redstone 2,1961-01-31 16:55:00+00:00,3,Launch Successful,,,,44,107,123,Mercury-Redstone 2,Test Flight,1961,1,True
+9279744e-46b2-4eca-adea-f1379672ec81,Atlas LV-3A | Samos 2,1961-01-31 20:21:19+00:00,3,Launch Successful,0.0,,,161,183,93,,,1961,1,True
+c167fb61-648b-4755-9e79-0f049fee985a,Molniya 8K78 | Venera-1VA 1,1961-02-04 01:18:03+00:00,4,Launch Failure,0.0,,Upper stage failed.,66,184,32,,,1961,2,False
+81b1848c-f813-4d2a-b318-38b94ac481a0,Molniya 8K78 | Venera-1VA 2,1961-02-12 00:34:36+00:00,3,Launch Successful,,,,66,184,32,,,1961,2,True
+fbecd232-0ae0-48ab-91ba-7048317ddd1d,Scout X-1 | Explorer 9,1961-02-16 13:05:00+00:00,3,Launch Successful,0.0,,,44,185,,,,1961,2,True
+a5cfc4dc-c31a-4676-8614-e8eb8b84010a,Thor DM-21 Agena-B | KH-5 1,1961-02-17 20:25:02+00:00,3,Launch Successful,0.0,,,161,186,95,KH-5 1,Government/Top Secret,1961,2,True
+bc175a72-2476-41b1-a998-694a3bb75ff8,Thor DM-21 Agena-B | Discoverer 21 (MIDAS RM-2),1961-02-18 22:57:58+00:00,3,Launch Successful,0.0,,,161,186,96,,,1961,2,True
+0d523e56-5cff-48a2-8ee6-79f103164c10,Atlas LV-3B | Mercury-Atlas 2,1961-02-21 14:10:00+00:00,3,Launch Successful,,,,44,162,17,Mercury-Atlas 2,Test Flight,1961,2,True
+c90b2db4-d194-4e68-9a5b-df53234e7a1b,Thor DM-21 Ablestar | Transit 3B & LOFTI-1,1961-02-22 03:45:00+00:00,7,Launch was a Partial Failure,0.0,,"Failed to seperate from upper stage, failed to place into correct orbit.",161,187,1,,,1961,2,False
+9108d8aa-7a81-4cc3-95fd-0ae43e8673cf,Juno II | S-45,1961-02-25 00:13:16+00:00,4,Launch Failure,0.0,,Third stage failed to ignite.,271,188,97,,,1961,2,False
+7e00f7c3-7648-450a-a69b-6bc94e317d04,Vostok-K | Sputnik 9,1961-03-09 06:29:00+00:00,3,Launch Successful,0.0,,,66,103,32,,,1961,3,True
+73c17f58-0aad-4a3a-9660-9253525860ec,Little Joe | LJ-5A,1961-03-18 16:49:00+00:00,7,Launch was a Partial Failure,,,,44,473,195,LJ-5A,Test Flight,1961,3,False
+a144cbcb-0622-420a-8c52-b0af849873c7,Redstone MRLV | Mercury-Redstone BD,1961-03-24 17:30:00+00:00,3,Launch Successful,,,,44,107,123,Mercury-Redstone BD,Test Flight,1961,3,True
+cf87eb87-1235-4c25-99d7-2896cc8e1dbf,Vostok-K | Sputnik 10,1961-03-25 05:54:00+00:00,3,Launch Successful,0.0,,,66,103,32,,,1961,3,True
+a2b07d66-8851-4880-8eee-95248c6e79f5,Delta DM-19 | Explorer 10,1961-03-25 15:17:04+00:00,3,Launch Successful,0.0,,,161,189,14,,,1961,3,True
+8f46f0c6-b0b8-4440-bd54-d2be03511c78,Thor DM-21 Agena-B | Discoverer 22,1961-03-30 20:34:43+00:00,4,Launch Failure,0.0,,Second stage failed to achieve orbit.,161,186,95,,,1961,3,False
+b1a75709-2ff8-497d-aa70-51b38d441cd6,Thor DM-21 Agena-B | KH-5 2,1961-04-08 19:21:08+00:00,3,Launch Successful,0.0,,,161,186,96,KH-5 2,Government/Top Secret,1961,4,True
+6abb4584-1ae8-4280-ab94-eec203164091,Vostok-K | Vostok 1,1961-04-12 06:07:00+00:00,3,Launch Successful,,,,66,103,32,Vostok 1,Human Exploration,1961,4,True
+f944bd44-59c9-4da1-8330-ee4541d7a5a3,Trailblazer 1 | Trailblazer 1g,1961-04-21 05:56:20+00:00,3,Launch Successful,,,,44,441,177,Trailblazer 1g,Test Flight,1961,4,True
+e1e4a144-47f8-489d-88ee-c41ae09cd0b7,Atlas LV-3B | Mercury-Atlas 3,1961-04-25 16:15:00+00:00,4,Launch Failure,0.0,,Pitch and roll sequence failed to initiate.,44,162,17,Mercury-Atlas 3,Test Flight,1961,4,False
+f5303aad-0672-4825-96d6-996d83d1e7f2,Juno II | Explorer 11,1961-04-27 14:16:38+00:00,3,Launch Successful,0.0,,,271,188,97,,,1961,4,True
+646b10d8-b33b-4241-8982-3ea60a4fd3a8,Little Joe | LJ-5B,1961-04-28 14:03:00+00:00,3,Launch Successful,,,,44,473,196,LJ-5B,Test Flight,1961,4,True
+9fe0c6ce-7858-4915-b4e3-7c93f8e56177,Redstone MRLV | Mercury-Redstone 3,1961-05-05 14:34:13+00:00,3,Launch Successful,,,,44,107,123,Mercury-Redstone 3,Human Exploration,1961,5,True
+baf048e4-c41b-4edc-aa61-70be2837acb4,Juno II | S-45A,1961-05-24 19:48:05+00:00,4,Launch Failure,0.0,,Second stage failed to achieve orbit.,271,188,97,,,1961,5,False
+d94bf87d-b0eb-4935-8143-e8749e424d5c,Thor DM-21 Agena-B | KH-5 3,1961-06-08 21:16:00+00:00,4,Launch Failure,0.0,,Power failure.,161,186,95,KH-5 3,Government/Top Secret,1961,6,False
+69c1757e-bb8f-4ce2-a29a-0a4aadb6a2c9,Thor DM-21 Agena-B | Discoverer 25,1961-06-16 23:02:52+00:00,3,Launch Successful,0.0,,,161,186,98,,,1961,6,True
+983ef2b2-df44-4af2-93f9-4263dd6b4571,Thor DM-21 Ablestar | Transit 4A & Injun-1 & Solrad 3,1961-06-29 04:23:00+00:00,3,Launch Successful,0.0,,,161,187,1,,,1961,6,True
+fb8235f4-31ed-4726-a03a-e5322ab9cd5a,Scout X-1 | S-55,1961-06-30 17:09:00+00:00,4,Launch Failure,0.0,,Third stage failed to ignite.,44,185,,,,1961,6,False
+8c4ef44b-a0ad-486f-b71a-f178017c6a2e,Thor DM-21 Agena-B | Discoverer 26,1961-07-07 23:29:48+00:00,3,Launch Successful,0.0,,,161,186,96,,,1961,7,True
+ca2c7e34-2d2b-471d-83e4-5371ab8dd11f,Delta DM-19 | Tiros-3,1961-07-12 10:25:06+00:00,3,Launch Successful,0.0,,,161,189,14,,,1961,7,True
+ab40c85f-c07c-4735-ae84-ba41dca2569e,Atlas LV-3A | MIDAS 3,1961-07-12 15:11:46+00:00,3,Launch Successful,0.0,,,161,183,24,,,1961,7,True
+4c732b42-e40e-4ee0-a917-bf427cea9f29,Redstone MRLV | Mercury-Redstone 4,1961-07-21 12:20:00+00:00,3,Launch Successful,,,,44,107,123,Mercury-Redstone 4,Human Exploration,1961,7,True
+5c685372-5050-401f-9d06-cf03a5ec4fa0,Thor DM-21 Agena-B | KH-5 4,1961-07-21 22:35:00+00:00,4,Launch Failure,0.0,,,161,186,95,KH-5 4,Government/Top Secret,1961,7,False
+b7e331d8-dece-4041-8261-979f542f38de,Thor DM-21 Agena-B | Discoverer 28,1961-08-04 00:01:00+00:00,4,Launch Failure,0.0,,Second stage control system malfunction.,161,186,95,,,1961,8,False
+1bf16c97-1401-4948-b805-3bab2c77fdbc,Vostok-K | Vostok 2,1961-08-06 06:00:00+00:00,3,Launch Successful,,,,66,103,32,Vostok 2,Human Exploration,1961,8,True
+d859322c-ed6f-4de8-ab7a-8b3a19f0db60,Delta DM-19 | Explorer 12,1961-08-16 03:21:05+00:00,3,Launch Successful,0.0,,,161,189,14,,,1961,8,True
+5ebb7b50-eda8-45f4-9d42-e6888d585b08,Blue Scout Jr | O-1,1961-08-17 14:29:00+00:00,3,Launch Successful,,,,161,265,118,O-1,Earth Science,1961,8,True
+0590523c-4b00-445a-bdb7-2970f04c24ce,Atlas LV-3A | Ranger 1,1961-08-23 10:04:10+00:00,7,Launch was a Partial Failure,0.0,,,161,183,99,,,1961,8,False
+eac7f345-ba58-4629-8757-aca1d081a6fb,Scout X-1 | Explorer 13,1961-08-25 18:29:44+00:00,4,Launch Failure,0.0,,,44,185,,,,1961,8,False
+46c862f7-5b92-48bc-94ce-54615630154b,Thor DM-21 Agena-B | Discoverer 29,1961-08-30 20:00:00+00:00,3,Launch Successful,0.0,,,161,186,95,,,1961,8,True
+f8025d66-a0eb-469d-936f-5d8b9d49baee,Atlas LV-3A | Samos 3,1961-09-09 19:28:27+00:00,4,Launch Failure,0.0,,,161,183,93,,,1961,9,False
+586f5567-b303-44a3-9ccf-bf9d582d91c3,Thor DM-21 Agena-B | Discoverer 30,1961-09-12 19:59:00+00:00,3,Launch Successful,0.0,,,161,186,96,,,1961,9,True
+c65cb588-b553-4cdd-a9ce-ba7878d45495,Atlas LV-3B | Mercury-Atlas 4,1961-09-13 14:04:16+00:00,3,Launch Successful,,,,44,162,17,Mercury-Atlas 4,Test Flight,1961,9,True
+2c9a3d0b-55b8-4900-9082-fe61b08034d1,Thor DM-21 Agena-B | Discoverer 31,1961-09-17 21:00:00+00:00,3,Launch Successful,0.0,,,161,186,98,,,1961,9,True
+b5d2389b-8dba-40be-b5ac-8acb316d5518,Thor DM-21 Agena-B | Discoverer 32,1961-10-13 19:22:00+00:00,3,Launch Successful,0.0,,,161,186,95,,,1961,10,True
+1e00999b-1a44-43c8-a636-2c98ff6b0d3d,Scout X-1 | P-21,1961-10-19 17:38:00+00:00,3,Launch Successful,,,,44,185,,P-21,Earth Science,1961,10,True
+ca8c7e27-d18a-4caf-ae73-6cf4bda73171,Atlas LV-3A | MIDAS 4 & Westford-1,1961-10-21 13:53:03+00:00,3,Launch Successful,0.0,,,161,183,24,,,1961,10,True
+da1cbbc4-dbda-40c7-8868-734ff8dcb157,Thor DM-21 Agena-B | Discoverer 33,1961-10-23 19:23:00+00:00,4,Launch Failure,0.0,,Failed to reach orbit,161,186,96,,,1961,10,False
+5aff8c15-abef-45a5-bab0-567e829cd97d,Saturn I | Saturn SA-1,1961-10-27 15:06:04+00:00,3,Launch Successful,,,,44,355,19,Saturn SA-1,Test Flight,1961,10,True
+7cea9893-9b33-4f69-872a-b4f83cd5284f,Kosmos-2I 63S1 | Kosmos-2I | DS-1-1,1961-10-27 16:30:00+00:00,4,Launch Failure,0.0,,Failed to reach orbit,270,190,100,,,1961,10,False
+5b288b8a-3861-4114-828f-8b1a363c6b73,Blue Scout II | Mercury-Scout 1,1961-11-01 15:32:00+00:00,4,Launch Failure,,,,44,264,119,Mercury-Scout 1,Communications,1961,11,False
+b4fd8512-5538-4b32-b151-e6fe024fcf60,Thor DM-21 Agena-B | Discoverer 34,1961-11-05 20:00:30+00:00,7,Launch was a Partial Failure,0.0,,,161,186,98,,,1961,11,False
+3303756b-7c89-4b0d-8a2a-56c6ac123cf9,Thor DM-21 Agena-B | Discoverer 35,1961-11-15 21:22:46+00:00,3,Launch Successful,,,,161,186,95,,,1961,11,True
+24c7c2a8-5066-4908-b147-74e5dd1d23e3,Thor DM-21 Ablestar | Transit 4B & TRAAC,1961-11-15 22:26:00+00:00,3,Launch Successful,0.0,,,161,187,1,,,1961,11,True
+aadc8a1d-6ea1-4faf-a854-c271566d098f,Atlas LV-3A | Ranger 2,1961-11-18 08:12:00+00:00,4,Launch Failure,0.0,,,161,183,99,,,1961,11,False
+602ee780-2016-45a3-9baa-802574b6548f,Atlas LV-3A | Samos 4,1961-11-22 20:45:47+00:00,4,Launch Failure,0.0,,Failed to reach orbit,161,183,93,,,1961,11,False
+c68999b7-a4bc-4510-ae6d-60fd1a9618c5,Atlas LV-3B | Mercury-Atlas 5,1961-11-29 15:07:57+00:00,3,Launch Successful,0.0,,,44,162,17,Mercury-Atlas 5,Test Flight,1961,11,True
+66201539-d2d1-402f-80fc-2314a936ad35,Blue Scout Jr | Blue Scout Jr. O-2,1961-12-04 04:00:16+00:00,3,Launch Successful,,,,161,265,169,Blue Scout Jr. O-2,Earth Science,1961,12,True
+812ba1f4-909f-48a5-b57f-93fda2f709e4,Vostok-K | Zenit-2 1,1961-12-11 09:39:02+00:00,4,Launch Failure,0.0,,Premature second stage cutoff,66,103,32,Zenit-2 1,Government/Top Secret,1961,12,False
+b72ea585-14dc-4aa7-b257-5b7f2dcb9bf0,Thor DM-21 Agena-B | Discoverer 36 & OSCAR 1,1961-12-12 20:40:00+00:00,3,Launch Successful,0.0,,,161,186,95,,,1961,12,True
+84a7f81c-2b95-4809-ba4b-dba4d178fd36,Kosmos-2I 63S1 | DS-1 2,1961-12-21 12:30:00+00:00,4,Launch Failure,0.0,,Failed to reach orbit,270,190,100,,,1961,12,False
+8dc32887-ae1c-4d82-acf3-78726d8946e9,Atlas LV-3A | Samos 5,1961-12-22 19:12:33+00:00,7,Launch was a Partial Failure,0.0,,,161,183,24,,,1961,12,False
+83f07d31-0783-4bbe-b84d-229836c4c07b,Thor DM-21 Agena-B | Discoverer 37,1962-01-13 21:41:02+00:00,4,Launch Failure,,,,161,186,95,Discoverer 37,Government/Top Secret,1962,1,False
+d5e7b928-9733-4887-86d0-fbc53331e322,Thor DM-21 Ablestar | 5 Payloads Rideshare,1962-01-24 09:30:00+00:00,4,Launch Failure,,,,161,187,1,5 Payloads Rideshare,Dedicated Rideshare,1962,1,False
+427b571c-e04b-4ad1-8ccd-3235674f1cc2,Atlas Agena B | Ranger 3,1962-01-26 20:30:11+00:00,3,Launch Successful,,,,161,183,99,Ranger 3,Lunar Exploration,1962,1,True
+84e3f7f7-33dc-4a22-9467-984ab44f42f6,Thor Delta | Tiros 4,1962-02-08 12:43:45+00:00,3,Launch Successful,,,,161,398,14,Tiros 4,Earth Science,1962,2,True
+ef68f324-c31b-471c-b401-2ce64aaa229c,Atlas LV-3B | Mercury-Atlas 6,1962-02-20 14:47:39+00:00,3,Launch Successful,,,,44,162,17,Mercury-Atlas 6,Human Exploration,1962,2,True
+118a5b69-3c6f-41f3-9b4c-9297b522d33d,Thor DM-21 Agena-B | P-102 Group 0-D,1962-02-21 18:44:00+00:00,3,Launch Successful,,,,161,186,96,P-102 Group 0-D,Government/Top Secret,1962,2,True
+d6772a56-b47e-425c-a445-206613749e26,Thor DM-21 Agena-B | KH-4 1,1962-02-27 19:39:20+00:00,3,Launch Successful,,,,161,186,95,KH-4 1,Government/Top Secret,1962,2,True
+953e56aa-e627-4151-b9b6-626044ced647,Thor Delta | OSO 1,1962-03-07 16:06:18+00:00,3,Launch Successful,,,,161,398,14,OSO 1,Astrophysics,1962,3,True
+a0a5ef8a-f0f1-490b-a444-a74040aed356,Atlas Agena B | Samos 6,1962-03-07 22:10:31+00:00,3,Launch Successful,,,,161,183,24,Samos 6,Government/Top Secret,1962,3,True
+851d10cc-e44c-48d2-83e3-5e9103d7d389,Kosmos-2I 63S1 | DS-2 1,1962-03-16 11:59:00+00:00,3,Launch Successful,,,,66,190,100,DS-2 1,Test Flight,1962,3,True
+102e2f02-0c9f-47f0-a4b2-1583b6982d3a,Scout X-2 | P-21A,1962-03-29 07:27:00+00:00,3,Launch Successful,,,,44,364,,P-21A,Earth Science,1962,3,True
+bb28d685-2d4d-45b4-b614-b23ee2a777b7,Kosmos-2I 63S1 | 1MS 1,1962-04-06 17:15:00+00:00,3,Launch Successful,,,,66,190,100,1MS 1,Astrophysics,1962,4,True
+f113636a-3c3e-4db0-b057-94449b9eb872,Atlas Agena B | Midas 5,1962-04-09 15:04:48+00:00,3,Launch Successful,,,,161,183,24,Midas 5,Government/Top Secret,1962,4,True
+6cafa345-f83b-4974-99ff-5fe7cb5d1797,Thor DM-21 Agena-B | KH-4 2,1962-04-18 00:53:47+00:00,3,Launch Successful,,,,161,186,96,KH-4 2,Government/Top Secret,1962,4,True
+7f935a77-99ad-40dc-9dcd-9f63f04c79fe,Atlas Agena B | Ranger 4,1962-04-23 20:50:00+00:00,3,Launch Successful,,,,161,183,99,Ranger 4,Lunar Exploration,1962,4,True
+1e0c9df8-297b-4d82-974a-ea47ded5f860,Kosmos-2I 63S1 | Sputnik 13,1962-04-24 04:00:00+00:00,3,Launch Successful,,,,66,190,100,Sputnik 13,Astrophysics,1962,4,True
+2d5166a1-579a-4a2e-b153-4caa3d4b8c42,Saturn I | Saturn SA-2,1962-04-25 14:00:34+00:00,3,Launch Successful,,,,44,355,19,Saturn SA-2,Test Flight,1962,4,True
+f6e14f90-a5dc-472e-acf6-4aac471ffb6b,Vostok | Zenit-2 2,1962-04-26 10:02:00+00:00,3,Launch Successful,,,,66,103,32,Zenit-2 2,Government/Top Secret,1962,4,True
+0e2da711-13e9-4730-b109-a0833296534b,Scout X-2 | SOLRAD 4B,1962-04-26 10:49:00+00:00,4,Launch Failure,,,,166,364,154,SOLRAD 4B,Astrophysics,1962,4,False
+d2983489-21bd-47b7-aa63-54b4aa90755f,Thor Delta | Ariel 1,1962-04-26 18:00:16+00:00,3,Launch Successful,,,,161,398,14,Ariel 1,Earth Science,1962,4,True
+457af90c-8ada-4db7-9be9-3bcca545a371,Atlas Agena B | Samos-E6 1,1962-04-26 18:56:08+00:00,3,Launch Successful,,,,161,183,93,Samos-E6 1,Government/Top Secret,1962,4,True
+510c717a-a8a3-4a65-a201-2f398eb70e7b,Thor DM-21 Agena-B | KH-4 3,1962-04-29 00:30:12+00:00,3,Launch Successful,,,,161,186,95,KH-4 3,Government/Top Secret,1962,4,True
+e08b33b0-8e29-4f03-8710-031223a550c8,Trailblazer 2 | Trailblazer IIb,1962-05-06 05:41:00+00:00,3,Launch Successful,,,,44,442,177,Trailblazer IIb,Earth Science,1962,5,True
+4d464e6a-b8b2-4f2c-9c17-9bb17d80a24e,Thor DM-21 Ablestar | ANNA 1A,1962-05-10 12:06:00+00:00,4,Launch Failure,,,,161,187,1,ANNA 1A,Earth Science,1962,5,False
+3219ff41-e36e-4a6a-b6f8-6b66902dfdac,Thor DM-21 Agena-B | KH-5 5,1962-05-15 19:36:00+00:00,3,Launch Successful,,,,161,186,96,KH-5 5,Government/Top Secret,1962,5,True
+c1037c28-c986-4049-81a5-d182b66f0e72,Scout X-2M | DSAP-1 F1,1962-05-24 00:00:00+00:00,4,Launch Failure,,,,161,366,154,DSAP-1 F1,Government/Top Secret,1962,5,False
+bb844564-1ae0-4af2-b2a1-f3a28195ea0f,Atlas LV-3B | Mercury-Atlas 7,1962-05-24 12:45:16+00:00,3,Launch Successful,,,,44,162,17,Mercury-Atlas 7,Human Exploration,1962,5,True
+6e56add2-2ca3-48f8-ae68-5066c937ab7f,Kosmos-2I 63S1 | Sputnik 15,1962-05-28 03:00:00+00:00,3,Launch Successful,,,,66,190,100,Sputnik 15,Astrophysics,1962,5,True
+4c897fd4-8338-4c24-ae82-7beba52a185f,Thor DM-21 Agena-B | KH-4 4,1962-05-30 01:00:04+00:00,3,Launch Successful,,,,161,186,98,KH-4 4,Government/Top Secret,1962,5,True
+d1542267-4c09-45d9-a829-685b9d019058,Vostok 8A92 | Zenit-2 3,1962-06-01 09:38:00+00:00,4,Launch Failure,,,,66,451,32,Zenit-2 3,Government/Top Secret,1962,6,False
+e7afcf1a-40bc-4711-b476-f487d360cb36,Thor DM-21 Agena-B | KH-4 5,1962-06-02 00:31:28+00:00,3,Launch Successful,,,,161,186,95,KH-4 5,Government/Top Secret,1962,6,True
+4c9ce3d9-3b36-4052-ae81-be24e44fa115,Atlas Agena B | Samos-E6 2,1962-06-17 18:14:18+00:00,3,Launch Successful,,,,161,183,93,Samos-E6 2,Government/Top Secret,1962,6,True
+fdd3f4c1-4332-4ed8-9198-d2b4819cb778,Thor DM-21 Agena-B | P-102 Group 2-D 1,1962-06-18 20:20:00+00:00,3,Launch Successful,,,,161,186,96,P-102 Group 2-D 1,Government/Top Secret,1962,6,True
+04604499-6230-4cb1-99a0-3e68c0f5edef,Thor Delta | Tiros 5,1962-06-19 12:19:01+00:00,3,Launch Successful,,,,161,398,14,Tiros 5,Earth Science,1962,6,True

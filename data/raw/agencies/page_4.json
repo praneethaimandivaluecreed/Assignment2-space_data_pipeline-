@@ -1,0 +1,2108 @@
+{
+    "count": 350,
+    "next": null,
+    "previous": "https://ll.thespacedevs.com/2.3.0/agencies/?limit=100&offset=200",
+    "results": [
+        {
+            "response_mode": "normal",
+            "id": 104,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/104/",
+            "name": "SPAR Aerospace",
+            "abbrev": "SPAR",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 26,
+                    "name": "Canada",
+                    "alpha_2_code": "CA",
+                    "alpha_3_code": "CAN",
+                    "nationality_name": "Canadian",
+                    "nationality_name_composed": "Canado"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 214,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/214/",
+            "name": "Spire Global",
+            "abbrev": "SPIRE",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 64,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/64/",
+            "name": "Sri Lanka Space Agency",
+            "abbrev": "SLSA",
+            "type": {
+                "id": 1,
+                "name": "Government"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 70,
+                    "name": "Sri Lanka",
+                    "alpha_2_code": "LK",
+                    "alpha_3_code": "LKA",
+                    "nationality_name": "Sri Lankan",
+                    "nationality_name_composed": "Sri Lankan"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 244,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/244/",
+            "name": "Star One",
+            "abbrev": "STA1",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 24,
+                    "name": "Brazil",
+                    "alpha_2_code": "BR",
+                    "alpha_3_code": "BRA",
+                    "nationality_name": "Brazilian",
+                    "nationality_name_composed": "Brazilian"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 123,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/123/",
+            "name": "Starsem SA",
+            "abbrev": "SSA",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 1,
+                    "name": "France",
+                    "alpha_2_code": "FR",
+                    "alpha_3_code": "FRA",
+                    "nationality_name": "French",
+                    "nationality_name_composed": "Franco"
+                },
+                {
+                    "id": 5,
+                    "name": "Russia",
+                    "alpha_2_code": "RU",
+                    "alpha_3_code": "RUS",
+                    "nationality_name": "Russian",
+                    "nationality_name_composed": "Russo"
+                }
+            ],
+            "description": "Starsem is a French-Russian company that was created in 1996 to commercialise the Soyuz launcher internationally.",
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 1048,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/1048/",
+            "name": "Stoke Space",
+            "abbrev": "Stoke",
+            "type": {
+                "id": 5,
+                "name": "Private"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": "Stoke Space Technologies is an American space launch company based in the Seattle suburb of Kent, Washington.",
+            "administrator": "CEO: Andy Lapsa",
+            "founding_year": 2020,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": {
+                "id": 187,
+                "name": "[AUTO] Stoke Space - logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/stoke2520space_logo_20230308081301.png",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185139.png",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "social_logo": {
+                "id": 2544,
+                "name": "Stoke Space Logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/stoke_space_log_image_20251115205144.png",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/stoke_space_log_image_thumbnail_20251115205144.png",
+                "credit": "Stoke Space",
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            }
+        },
+        {
+            "response_mode": "normal",
+            "id": 270,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/270/",
+            "name": "Strategic Rocket Forces",
+            "abbrev": "RVSN RF",
+            "type": {
+                "id": 1,
+                "name": "Government"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 5,
+                    "name": "Russia",
+                    "alpha_2_code": "RU",
+                    "alpha_3_code": "RUS",
+                    "nationality_name": "Russian",
+                    "nationality_name_composed": "Russo"
+                }
+            ],
+            "description": "The Strategic Rocket Forces of the Russian Federation are a separate-troops branch of the Russian Armed Forces that control Russia's land-based intercontinental ballistic missiles (ICBMs).",
+            "administrator": null,
+            "founding_year": 1959,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": {
+                "id": 188,
+                "name": "[AUTO] Strategic Rocket Forces - logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/strategic2520rocket2520forces_logo_20220309203231.png",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185142.png",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "social_logo": {
+                "id": 70,
+                "name": "[AUTO] Khrunichev State Research and Production Space Center - social_logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/khrunichev2520state2520research2520and2520production2520space2520center_nation_20190207032444.png",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184814.png",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": false,
+                "variants": []
+            }
+        },
+        {
+            "response_mode": "normal",
+            "id": 107,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/107/",
+            "name": "Surrey Satellite Technology Ltd",
+            "abbrev": "SSTL",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 10,
+                    "name": "United Kingdom",
+                    "alpha_2_code": "GB",
+                    "alpha_3_code": "GBR",
+                    "nationality_name": "British",
+                    "nationality_name_composed": "Brito"
+                }
+            ],
+            "description": "Surrey Satellite Technology Ltd, or SSTL, is a company involved in the manufacture and operation of small satellites. A spin-off company of the University of Surrey, it is presently wholly owned by Airbus Defence and Space.",
+            "administrator": null,
+            "founding_year": 1985,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": "Airbus Defence and Space",
+            "image": null,
+            "logo": {
+                "id": 2499,
+                "name": "Surrey Satellite Technology logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/surrey_satellit_image_20251030072841.png",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/surrey_satellit_image_thumbnail_20251030072841.png",
+                "credit": "Surrey Satellite Technology",
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "social_logo": {
+                "id": 2498,
+                "name": "Surrey Satellite Technology social logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/surrey_satellit_image_20251030072822.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/surrey_satellit_image_thumbnail_20251030072822.jpeg",
+                "credit": "Surrey Satellite Technology",
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            }
+        },
+        {
+            "response_mode": "normal",
+            "id": 108,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/108/",
+            "name": "Swales Aerospace",
+            "abbrev": "SA",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 76,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/76/",
+            "name": "Swedish National Space Board",
+            "abbrev": "SNSB",
+            "type": {
+                "id": 1,
+                "name": "Government"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 15,
+                    "name": "Sweden",
+                    "alpha_2_code": "SE",
+                    "alpha_3_code": "SWE",
+                    "nationality_name": "Swedish",
+                    "nationality_name_composed": "Swedo"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 151,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/151/",
+            "name": "Swedish Space Corp",
+            "abbrev": "SSC",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 15,
+                    "name": "Sweden",
+                    "alpha_2_code": "SE",
+                    "alpha_3_code": "SWE",
+                    "nationality_name": "Swedish",
+                    "nationality_name_composed": "Swedo"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 71,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/71/",
+            "name": "Swiss Space Office",
+            "abbrev": "SSO",
+            "type": {
+                "id": 1,
+                "name": "Government"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 8,
+                    "name": "Switzerland",
+                    "alpha_2_code": "CH",
+                    "alpha_3_code": "CHE",
+                    "nationality_name": "Swiss",
+                    "nationality_name_composed": "Swiss"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 1071,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/1071/",
+            "name": "Synspective",
+            "abbrev": "",
+            "type": {
+                "id": 5,
+                "name": "Private"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 28,
+                    "name": "Japan",
+                    "alpha_2_code": "JP",
+                    "alpha_3_code": "JPN",
+                    "nationality_name": "Japanese",
+                    "nationality_name_composed": "Nippo"
+                }
+            ],
+            "description": "Synspective was established with the aim to integrate SAR satellite technology in society through the agility of a start-up company. Synspective derives its name from the company concept of “Synthetic Data for Perspective on Sustainable Development.",
+            "administrator": "CEO: Dr. Motoyuki Arai",
+            "founding_year": 2018,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": {
+                "id": 2029,
+                "name": "Synspective logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/synspective_log_image_20240325082018.png",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/synspective_log_image_thumbnail_20240325082018.png",
+                "credit": "Synspective",
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": [
+                    {
+                        "id": 7,
+                        "type": {
+                            "id": 1,
+                            "name": "transparent for light background"
+                        },
+                        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/image_variants/lightbg.png_tra_image_20240325082021.png"
+                    },
+                    {
+                        "id": 8,
+                        "type": {
+                            "id": 2,
+                            "name": "transparent for dark background"
+                        },
+                        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/image_variants/darkbg.png_tran_image_20240325082023.png"
+                    }
+                ]
+            },
+            "social_logo": {
+                "id": 95,
+                "name": "Synspective social logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/synspective_nation_20240228091738.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184850.jpeg",
+                "credit": "Synspective",
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            }
+        },
+        {
+            "response_mode": "normal",
+            "id": 1104,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/1104/",
+            "name": "Taiwan Space Agency",
+            "abbrev": "TASA",
+            "type": {
+                "id": 1,
+                "name": "Government"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 76,
+                    "name": "Taiwan",
+                    "alpha_2_code": "TW",
+                    "alpha_3_code": "TWN",
+                    "nationality_name": "Taiwanese",
+                    "nationality_name_composed": "Taiwanese"
+                }
+            ],
+            "description": "The Taiwan Space Agency (abbreviated TASA), formerly the National Space Organization (NSPO) from 1991 to 2023, is the national civilian space agency of Taiwan, under the auspices of the National Science and Technology Council. TASA is involved in the development of space technologies and related research.",
+            "administrator": "Director General: Wu Jong-shinn",
+            "founding_year": 1991,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": {
+                "id": 2637,
+                "name": "TASA logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/tasa_logo_image_20251225090444.png",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/tasa_logo_image_thumbnail_20251225090444.png",
+                "credit": "TASA",
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "social_logo": {
+                "id": 2636,
+                "name": "TASA social logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/tasa_social_log_image_20251225090419.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/tasa_social_log_image_thumbnail_20251225090420.jpeg",
+                "credit": "TASA",
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            }
+        },
+        {
+            "response_mode": "normal",
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/26/",
+            "name": "Technical University of Denmark - National Space Institute",
+            "abbrev": "DTU",
+            "type": {
+                "id": 4,
+                "name": "Educational"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 45,
+                    "name": "Denmark",
+                    "alpha_2_code": "DK",
+                    "alpha_3_code": "DNK",
+                    "nationality_name": "Danish",
+                    "nationality_name_composed": "Dano"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 208,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/208/",
+            "name": "Telesat",
+            "abbrev": "TELE",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 26,
+                    "name": "Canada",
+                    "alpha_2_code": "CA",
+                    "alpha_3_code": "CAN",
+                    "nationality_name": "Canadian",
+                    "nationality_name_composed": "Canado"
+                }
+            ],
+            "description": "Telesat, formerly Telesat Canada, is a Canadian satellite communications company founded on May 2, 1969.",
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 129,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/129/",
+            "name": "Tethers Unlimited, Inc.",
+            "abbrev": "TUI",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 235,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/235/",
+            "name": "Thaicom",
+            "abbrev": "TICOM",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 55,
+                    "name": "Thailand",
+                    "alpha_2_code": "TH",
+                    "alpha_3_code": "THA",
+                    "nationality_name": "Thai",
+                    "nationality_name_composed": "Thai"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 78,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/78/",
+            "name": "Thales Alenia Space",
+            "abbrev": "THALES",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 1,
+                    "name": "France",
+                    "alpha_2_code": "FR",
+                    "alpha_3_code": "FRA",
+                    "nationality_name": "French",
+                    "nationality_name_composed": "Franco"
+                },
+                {
+                    "id": 3,
+                    "name": "Italy",
+                    "alpha_2_code": "IT",
+                    "alpha_3_code": "ITA",
+                    "nationality_name": "Italian",
+                    "nationality_name_composed": "Italo"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 1029,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/1029/",
+            "name": "TiSPACE",
+            "abbrev": "",
+            "type": {
+                "id": 5,
+                "name": "Private"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 76,
+                    "name": "Taiwan",
+                    "alpha_2_code": "TW",
+                    "alpha_3_code": "TWN",
+                    "nationality_name": "Taiwanese",
+                    "nationality_name_composed": "Taiwanese"
+                }
+            ],
+            "description": "Taiwan Innovative Space Inc.(TiSPACE), is a space launch company from Taiwan founded in 2016.",
+            "administrator": "Founder: Dr. Yen-Sen Chen",
+            "founding_year": 2016,
+            "launchers": "Hapith I, Hapith V",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": {
+                "id": 189,
+                "name": "[AUTO] TiSPACE - logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/tispace_logo_20210910043519.png",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185144.png",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "social_logo": {
+                "id": 96,
+                "name": "[AUTO] TiSPACE - social_logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/tispace_nation_20210910043519.png",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184851.png",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            }
+        },
+        {
+            "response_mode": "normal",
+            "id": 110,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/110/",
+            "name": "TRW",
+            "abbrev": "TRW",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 65,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/65/",
+            "name": "TUBITAK Space Technologies Research Institute",
+            "abbrev": "TUBITAK UZAY",
+            "type": {
+                "id": 1,
+                "name": "Government"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 18,
+                    "name": "Turkey",
+                    "alpha_2_code": "TR",
+                    "alpha_3_code": "TUR",
+                    "nationality_name": "Turkish",
+                    "nationality_name_composed": "Turco"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 109,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/109/",
+            "name": "Turkish Aerospace Industries",
+            "abbrev": "TAI",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 18,
+                    "name": "Turkey",
+                    "alpha_2_code": "TR",
+                    "alpha_3_code": "TUR",
+                    "nationality_name": "Turkish",
+                    "nationality_name_composed": "Turco"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 1053,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/1053/",
+            "name": "Turkish Air Force",
+            "abbrev": "TAF",
+            "type": {
+                "id": 1,
+                "name": "Government"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 18,
+                    "name": "Turkey",
+                    "alpha_2_code": "TR",
+                    "alpha_3_code": "TUR",
+                    "nationality_name": "Turkish",
+                    "nationality_name_composed": "Turco"
+                }
+            ],
+            "description": "The Turkish Air Force is the aerial warfare service branch of the Turkish Armed Forces. It traces its origins to June 1911 when it was founded as the Ottoman Aviation Squadrons by the Ottoman Empire.",
+            "administrator": null,
+            "founding_year": 1911,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": {
+                "id": 190,
+                "name": "[AUTO] Turkish Air Force - logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/turkish2520air2520force_logo_20230630072904.png",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185146.png",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 72,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/72/",
+            "name": "Turkmenistan National Space Agency",
+            "abbrev": "TNSA",
+            "type": {
+                "id": 1,
+                "name": "Government"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 93,
+                    "name": "Turkmenistan",
+                    "alpha_2_code": "TM",
+                    "alpha_3_code": "TKM",
+                    "nationality_name": "Turkmen",
+                    "nationality_name_composed": "Turkmenistani"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 247,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/247/",
+            "name": "Türksat",
+            "abbrev": "TRKST",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 18,
+                    "name": "Turkey",
+                    "alpha_2_code": "TR",
+                    "alpha_3_code": "TUR",
+                    "nationality_name": "Turkish",
+                    "nationality_name_composed": "Turco"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 227,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/227/",
+            "name": "UK Ministry Of Defence",
+            "abbrev": "UKMOD",
+            "type": {
+                "id": 1,
+                "name": "Government"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 10,
+                    "name": "United Kingdom",
+                    "alpha_2_code": "GB",
+                    "alpha_3_code": "GBR",
+                    "nationality_name": "British",
+                    "nationality_name_composed": "Brito"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/13/",
+            "name": "UK Space Agency",
+            "abbrev": "UKSA",
+            "type": {
+                "id": 1,
+                "name": "Government"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 10,
+                    "name": "United Kingdom",
+                    "alpha_2_code": "GB",
+                    "alpha_3_code": "GBR",
+                    "nationality_name": "British",
+                    "nationality_name_composed": "Brito"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 124,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/124/",
+            "name": "United Launch Alliance",
+            "abbrev": "ULA",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": true,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": "United Launch Alliance (ULA) is a joint venture of Lockheed Martin Space Systems and Boeing Defense, Space & Security. ULA was formed in December 2006 by combining the teams at these companies which provide spacecraft launch services to the government of the United States. ULA launches from both coasts of the US. They launch their Atlas V vehicle from LC-41 in Cape Canaveral and LC-3E at Vandeberg. Their Delta IV launches from LC-37 at Cape Canaveral and LC-6 at Vandenberg.",
+            "administrator": "CEO: Mark Peller",
+            "founding_year": 2006,
+            "launchers": "Atlas | Delta | Vulcan",
+            "spacecraft": "",
+            "parent": null,
+            "image": {
+                "id": 30,
+                "name": "[AUTO] United Launch Alliance - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_launch_a_image_20210412201210.png",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184706.png",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "logo": {
+                "id": 191,
+                "name": "[AUTO] United Launch Alliance - logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_logo_20210412195953.png",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185148.png",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "social_logo": {
+                "id": 97,
+                "name": "[AUTO] United Launch Alliance - social_logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_nation_20230531043703.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184852.jpeg",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            }
+        },
+        {
+            "response_mode": "normal",
+            "id": 191,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/191/",
+            "name": "United Space Alliance",
+            "abbrev": "USA",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": "United Space Alliance (USA) is a spaceflight operations company. USA is a joint venture which was established in August 1995 as a Limited Liability Company (LLC), equally owned by Boeing and Lockheed Martin.",
+            "administrator": null,
+            "founding_year": 1995,
+            "launchers": "Space Shuttle",
+            "spacecraft": "",
+            "parent": null,
+            "image": {
+                "id": 31,
+                "name": "[AUTO] United Space Alliance - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520space2520alliance_image_20190830220958.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184709.jpeg",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "logo": {
+                "id": 192,
+                "name": "[AUTO] United Space Alliance - logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520space2520alliance_logo_20190830220958.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185150.jpeg",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "social_logo": {
+                "id": 98,
+                "name": "United Space Alliance - social_logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_space_al_image_20251115101236.png",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_space_al_image_thumbnail_20251115101237.png",
+                "credit": "United Space Alliance",
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            }
+        },
+        {
+            "response_mode": "normal",
+            "id": 161,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/161/",
+            "name": "United States Air Force",
+            "abbrev": "USAF",
+            "type": {
+                "id": 1,
+                "name": "Government"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": "The United States Air Force (USAF) is the air service branch of the United States Armed Forces, and is one of the eight uniformed services of the United States. Originally created on 1 August 1907, as a part of the United States Army Signal Corps, the USAF was established as a separate branch of the United States Armed Forces in 1947 with the enactment of the National Security Act of 1947.",
+            "administrator": "Commander-in-Chief: President of the US",
+            "founding_year": 1947,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": {
+                "id": 193,
+                "name": "[AUTO] United States Air Force - logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520states2520air2520force_logo_20230804084626.png",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185152.png",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "social_logo": {
+                "id": 99,
+                "name": "[AUTO] United States Air Force - social_logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520states2520air2520force_nation_20230804085132.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184855.jpeg",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            }
+        },
+        {
+            "response_mode": "normal",
+            "id": 1025,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/1025/",
+            "name": "United States Departement of Defense",
+            "abbrev": "DoD",
+            "type": {
+                "id": 1,
+                "name": "Government"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": "The DoD is a government agency in the United States. It is in charge of coordinating and supervising all agencies and functions of the government directly related to national security and the United States Armed Forces.",
+            "administrator": null,
+            "founding_year": 1947,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 1041,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/1041/",
+            "name": "United States Space Force",
+            "abbrev": "USSF",
+            "type": {
+                "id": 1,
+                "name": "Government"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": "The United States Space Force (USSF) is the space service branch of the U.S. Armed Forces, one of the eight U.S. uniformed services.",
+            "administrator": "Chief of Space Operations: Gen. Douglas Schiess",
+            "founding_year": 2019,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": {
+                "id": 194,
+                "name": "United States Space Force logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520states2520space2520force_logo_20221102113048.png",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185155.png",
+                "credit": "USSF",
+                "license": {
+                    "id": 17,
+                    "name": "Department of Defense Image Use Policy",
+                    "priority": 6,
+                    "link": "https://www.dimoc.mil/resources/limitations/"
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "social_logo": {
+                "id": 2472,
+                "name": "United States Space Force social logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_states_s_image_20250916065613.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_states_s_image_thumbnail_20250916065613.jpeg",
+                "credit": "USSF",
+                "license": {
+                    "id": 17,
+                    "name": "Department of Defense Image Use Policy",
+                    "priority": 6,
+                    "link": "https://www.dimoc.mil/resources/limitations/"
+                },
+                "single_use": true,
+                "variants": []
+            }
+        },
+        {
+            "response_mode": "normal",
+            "id": 183,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/183/",
+            "name": "Unknown",
+            "abbrev": "UNK",
+            "type": {
+                "id": 6,
+                "name": "Unknown"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 17,
+                    "name": "Unknown",
+                    "alpha_2_code": "??",
+                    "alpha_3_code": "???",
+                    "nationality_name": "Earthling",
+                    "nationality_name_composed": "Earthling"
+                }
+            ],
+            "description": "The agency or launch service provider is not known yet.",
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": {
+                "id": 2048,
+                "name": "Unknown Agency Question Mark Social Logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/unknown_agency__image_20240409102110.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/unknown_agency__image_thumbnail_20240409102110.jpeg",
+                "credit": "TheSpaceDevs",
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            }
+        },
+        {
+            "response_mode": "normal",
+            "id": 152,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/152/",
+            "name": "UP Aerospace",
+            "abbrev": "UPA",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 165,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/165/",
+            "name": "US Army",
+            "abbrev": "USA",
+            "type": {
+                "id": 1,
+                "name": "Government"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 166,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/166/",
+            "name": "US Navy",
+            "abbrev": "USN",
+            "type": {
+                "id": 1,
+                "name": "Government"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": "The Navy was competed with the Army to put the first American satellite into orbit. Their first two Vanguard missions failed, with the second being a highly publicized failure, as it exploded on the launchpad. They went on to put 3 satellites into orbit but did not beat the Army to be the first. Their work in space continues today largely on military satellites.",
+            "administrator": null,
+            "founding_year": 1963,
+            "launchers": "",
+            "spacecraft": "Vanguard 1-3 | Parker Solar Probe",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 53,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/53/",
+            "name": "Uzbek State Space Research Agency (UzbekCosmos)",
+            "abbrev": "USSRA",
+            "type": {
+                "id": 1,
+                "name": "Government"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 98,
+                    "name": "Uzbekistan",
+                    "alpha_2_code": "UZ",
+                    "alpha_3_code": "UZB",
+                    "nationality_name": "Uzbekistani",
+                    "nationality_name_composed": "Uzbekistani"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 1093,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/1093/",
+            "name": "Varda Space Industries",
+            "abbrev": "Varda",
+            "type": {
+                "id": 5,
+                "name": "Private"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": "Varda Space Industries is a privately held American space research company headquartered in El Segundo, California. Founded in January 2021, the company designs, builds, and flies spacecraft that process pharmaceuticals in microgravity. The company targets small molecule crystallization, which is difficult to produce in Earth's gravity, and brings those crystals back to Earth with their atmospheric reentry vehicle.",
+            "administrator": "President: Delian Asparouhov",
+            "founding_year": 2021,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": {
+                "id": 2351,
+                "name": "Varda Space Logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/varda_space_log_image_20250315065155.png",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/varda_space_log_image_thumbnail_20250315065156.png",
+                "credit": "Varda Space Industries",
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "social_logo": {
+                "id": 2352,
+                "name": "Varda Space Social Logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/varda_space_soc_image_20250315065216.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/varda_space_soc_image_thumbnail_20250315065216.jpeg",
+                "credit": "Varda Space Industries",
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            }
+        },
+        {
+            "response_mode": "normal",
+            "id": 201,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/201/",
+            "name": "Vector",
+            "abbrev": "VEC",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 1062,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/1062/",
+            "name": "Viasat",
+            "abbrev": "VSAT",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": "Viasat is an American communications company based in Carlsbad, California, with additional operations across the United States and worldwide. Viasat is a provider of high-speed satellite broadband services and secure networking systems covering military and commercial markets.",
+            "administrator": "CEO: Mark D. Dankberg",
+            "founding_year": 1986,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": {
+                "id": 195,
+                "name": "[AUTO] Viasat - logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/viasat_logo_20230807092035.png",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185157.png",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "social_logo": {
+                "id": 100,
+                "name": "[AUTO] Viasat - social_logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/viasat_nation_20230807092035.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184857.jpeg",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            }
+        },
+        {
+            "response_mode": "normal",
+            "id": 246,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/246/",
+            "name": "Vietnam Posts and Telecommunications Group",
+            "abbrev": "VNPT",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 33,
+                    "name": "Vietnam",
+                    "alpha_2_code": "VN",
+                    "alpha_3_code": "VNM",
+                    "nationality_name": "Vietnamese",
+                    "nationality_name_composed": "Vietnamese"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 1024,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/1024/",
+            "name": "Virgin Galactic",
+            "abbrev": "VG",
+            "type": {
+                "id": 5,
+                "name": "Private"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": "Virgin Galactic is an American spaceflight company within the Virgin Group. It is developing commercial spacecraft and aims to provide suborbital spaceflights to space tourists. Virgin Galactic's suborbital spacecraft are air launched from beneath a carrier airplane known as White Knight Two.",
+            "administrator": "Founder: Richard Branson",
+            "founding_year": 2004,
+            "launchers": "VMS Eve",
+            "spacecraft": "VSS Enterprise | VSS Unity",
+            "parent": null,
+            "image": {
+                "id": 32,
+                "name": "[AUTO] Virgin Galactic - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/virgin_galactic_image_20210522131723.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184711.jpeg",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "logo": {
+                "id": 196,
+                "name": "[AUTO] Virgin Galactic - logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/virgin2520galactic_logo_20230509082346.png",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185159.png",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "social_logo": {
+                "id": 101,
+                "name": "[AUTO] Virgin Galactic - social_logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/virgin2520galactic_nation_20230617045127.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184858.jpeg",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            }
+        },
+        {
+            "response_mode": "normal",
+            "id": 199,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/199/",
+            "name": "Virgin Orbit",
+            "abbrev": "VO",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": "Virgin Orbit is a company within the Virgin Group which plans to provide launch services for small satellites. The company was formed in 2017 to develop the air-launched LauncherOne rocket, launched from Cosmic Girl, which had previously been a project of Virgin Galactic. Based in Long Beach, California, Virgin Orbit has more than 300 employees led by president Dan Hart, a former vice president of government satellite systems at Boeing.\r\n\r\nVirgin Orbit focuses on small satellite launch, which is one of three capabilities being focused on by Virgin Galactic. These capabilities are: human spaceflight operations, small satellite launch, and advanced aerospace design, manufacturing, and test",
+            "administrator": "President: Dan Hart",
+            "founding_year": 2017,
+            "launchers": "LauncherOne",
+            "spacecraft": "",
+            "parent": null,
+            "image": {
+                "id": 33,
+                "name": "Virgin Orbit LauncherOne",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/virgin2520orbit_image_20200101110056.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184714.jpeg",
+                "credit": "Virgin Orbit",
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "logo": {
+                "id": 197,
+                "name": "[AUTO] Virgin Orbit - logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/virgin2520orbit_logo_20200101102856.png",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185202.png",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "social_logo": {
+                "id": 102,
+                "name": "[AUTO] Virgin Orbit - social_logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/virgin2520orbit_nation_20200101103026.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184859.jpeg",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            }
+        },
+        {
+            "response_mode": "normal",
+            "id": 1006,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/1006/",
+            "name": "Vought",
+            "abbrev": "",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": "Vought was the name of several related American aerospace firms. These have included, in the past, Lewis and Vought Corporation, Chance Vought, Vought-Sikorsky, LTV Aerospace (part of Ling-Temco-Vought), Vought Aircraft Companies, and Vought Aircraft Industries. The first incarnation of Vought was established by Chance M. Vought and Birdseye Lewis in 1917. In 1928, it was acquired by United Aircraft and Transport Corporation, which a few years later became United Aircraft Corporation; this was the first of many reorganizations and buyouts. During the 1920s and 1930s, Vought Aircraft and Chance Vought specialized in carrier-based aircraft for the United States Navy, by far its biggest customer. Chance Vought produced thousands of planes during World War II, including the F4U Corsair. Vought became independent again in 1954, and was purchased by Ling-Temco-Vought in 1961. The company designed and produced a variety of planes and missiles throughout the Cold War. Vought was sold from LTV and owned in various degrees by the Carlyle Group and Northrop Grumman in the early 1990s. It was then fully bought by Carlyle, renamed Vought Aircraft Industries, with headquarters in Dallas, Texas. In June 2010, the Carlyle Group sold Vought to the Triumph Group.",
+            "administrator": null,
+            "founding_year": 1917,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 1016,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/1016/",
+            "name": "Weapons Research Establishment",
+            "abbrev": "WRE",
+            "type": {
+                "id": 1,
+                "name": "Government"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 34,
+                    "name": "Australia",
+                    "alpha_2_code": "AU",
+                    "alpha_3_code": "AUS",
+                    "nationality_name": "Australian",
+                    "nationality_name_composed": "Australo"
+                }
+            ],
+            "description": "The Weapons Research Establishment was an Australian government entity dedicated to providing science and technology support for Australia's defence and national security needs.",
+            "administrator": null,
+            "founding_year": 1955,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 241,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/241/",
+            "name": "WildBlue",
+            "abbrev": "WBLU",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 145,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/145/",
+            "name": "XCOR  Aerospace",
+            "abbrev": "XCOR",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 234,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/234/",
+            "name": "XTAR LLC",
+            "abbrev": "XTAR",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 2,
+                    "name": "United States of America",
+                    "alpha_2_code": "US",
+                    "alpha_3_code": "USA",
+                    "nationality_name": "American",
+                    "nationality_name_composed": "Americano"
+                }
+            ],
+            "description": null,
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "parent": null,
+            "image": null,
+            "logo": null,
+            "social_logo": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 112,
+            "url": "https://ll.thespacedevs.com/2.3.0/agencies/112/",
+            "name": "Yuzhnoye Design Bureau",
+            "abbrev": "OKB-586",
+            "type": {
+                "id": 3,
+                "name": "Commercial"
+            },
+            "featured": false,
+            "country": [
+                {
+                    "id": 12,
+                    "name": "Ukraine",
+                    "alpha_2_code": "UA",
+                    "alpha_3_code": "UKR",
+                    "nationality_name": "Ukrainian",
+                    "nationality_name_composed": "Ukro"
+                }
+            ],
+            "description": "Yuzhnoye Design Office, located in Dnipro, Ukraine, is a designer of satellites and rockets, and formerly of Soviet intercontinental ballistic missiles (ICBMs) established by Mikhail Yangel in 1951. The Zenit launch vehicle currently launches from Baikonur Cosmodrome but also used to launch from an ocean platform, Odyssey.",
+            "administrator": "Director: Alexander Degtyarev",
+            "founding_year": 1951,
+            "launchers": "Zenit",
+            "spacecraft": "",
+            "parent": null,
+            "image": {
+                "id": 34,
+                "name": "[AUTO] Yuzhnoye Design Bureau - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/yuzhnoye2520design2520bureau_image_20190207032505.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184717.jpeg",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "logo": {
+                "id": 198,
+                "name": "[AUTO] Yuzhnoye Design Bureau - logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/yuzhnoye2520design2520bureau_logo_20190207032505.png",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185204.png",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "social_logo": {
+                "id": 103,
+                "name": "[AUTO] Yuzhnoye Design Bureau - social_logo",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/yuzhnoye2520design2520bureau_nation_20190207032505.png",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184901.png",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            }
+        }
+    ]
+}

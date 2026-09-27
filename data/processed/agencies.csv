@@ -1,0 +1,351 @@
+agency_id,agency_name,abbreviation,agency_type,country,founding_year
+225,1worldspace,1WSP,Commercial,United States of America,1960
+136,Ad Astra Rocket Company,AARC,Commercial,United States of America,2005
+133,Aerojet,Aerojet,Commercial,United States of America,1942
+2,Aeronautics and Space Research and Diffusion Center,CIDA-E,Government,Uruguay,1975
+1003,Aérospatiale,,Government,France,1970
+282,Aevum,AEV,Commercial,United States of America,
+1079,Agency for Defense Development,ADD,Government,South Korea,1970
+178,Airbus Defence and Space,ADS,Multinational,"France, Italy, Germany, Spain, United Kingdom",2014
+4,Algerian Space Agency,ASAL,Government,Algeria,
+156,Alliant Techsystems,ATK,Commercial,United States of America,
+251,AlYahSat,ALYAH,Commercial,United Arab Emirates,
+1058,Amazon Leo,Amazon,Private,United States of America,2019
+134,American Rocket Company,AMROC,Commercial,United States of America,
+125,A.M. Makarov Yuzhny Machine-Building Plant,PA Yuzhmash,Commercial,Ukraine,
+84,Amsat,AMSAT,Commercial,"United States of America, Canada, Germany, Italy, Japan, India, United Kingdom",
+131,Andrews Space,Andrews Space,Commercial,United States of America,
+190,Antrix Corporation Limited,ACL,Commercial,India,
+207,Arab Satellite Communications Organization,ASCO,Commercial,Saudi Arabia,
+1044,ArianeGroup,AG,Commercial,France,2015
+115,Arianespace,ASA,Commercial,France,1980
+139,Armadillo Aerospace,Armadillo,Commercial,United States of America,
+271,Army Ballistic Missile Agency,ABMA,Government,United States of America,
+5,Asia Pacific Multilateral Cooperation in Space Technology and Applications,AP-MCSTA,Multinational,"China, Pakistan, Thailand",
+6,Asia-Pacific Regional Space Agency Forum,APRSAF,Multinational,"Australia, Bangladesh, Brunei, Bhutan, Canada, Cambodia, China, France, Germany, India, Indonesia, Japan, Laos, Malaysia, Mongolia, Myanmar, Nepal, New Zealand, Pakistan, Philippines, Russia, Singapore, South Korea, Sri Lanka, Thailand, United States of America, Vietnam",
+7,Asia-Pacific Space Cooperation Organization,APSCO,Multinational,"Indonesia, Iran, Italy, Germany, South Korea, China, Peru, Mongolia, United Kingdom, Pakistan, Turkey, Thailand, Bangladesh",
+1063,Astranis Space Technologies Corp.,Astranis,Private,United States of America,2015
+285,Astra Space,AS,Commercial,United States of America,2005
+81,Astrium Satellites,EADS,Commercial,"France, Germany, Spain, United Kingdom",
+1069,Astrobotic Technology,Astrobotic,Private,United States of America,2007
+85,Astronautic Technology Sdn Bhd,ATSB,Commercial,Malaysia,
+1077,Astroscale,ASC,Private,Japan,2013
+1094,ATMOS Space Cargo,ATMOS,Private,Germany,2022
+8,Austrian Space Agency,ALR,Government,Austria,1972
+255,Avanti Communications,AVN,Commercial,United Kingdom,
+159,Avio S.p.A,Avio,Commercial,Italy,1908
+1022,Axiom Space,AXS,Private,United States of America,2016
+9,Azerbaijan National Aerospace Agency,AMAKA,Government,Azerbaijan,
+86,Ball Aerospace & Technologies Corp.,BLL,Commercial,United States of America,
+1,Belarus Space Agency,BSA,Government,Belarus,
+10,Belgian Institute for Space Aeronomy,BIRA,Government,Belgium,
+140,Bigelow Aerospace,Bigelow,Commercial,United States of America,
+1064,BlackSky,BS,Private,United States of America,2013
+141,Blue Origin,BO,Commercial,United States of America,2000
+80,Boeing,BA,Commercial,United States of America,1916
+11,Bolivarian Agency for Space Activities,ABAE,Government,Venezuela,
+14,Bolivian Space Agency,ABAE,Government,Bolivia,
+12,Brazilian Space Agency,AEB,Government,Brazil,1961
+157,Bristol Aerospace Company,BAC,Commercial,Canada,
+87,British Aerospace,BAE,Commercial,United Kingdom,
+254,British Satellite Broadcasting,BSB,Commercial,United Kingdom,
+230,Broadcasting Satellite System Corporation,BSAT,Commercial,Japan,
+15,Bulgarian Space Agency,SRI-BAS,Government,Bulgaria,1993
+1055,Bundeswehr,,Government,Germany,1955
+1072,Cabinet Intelligence and Research Office,Naichō,Government,Japan,1986
+146,Canadian Arrow,Canadian Arrow,Commercial,Canada,
+16,Canadian Space Agency,CSA,Government,Canada,1990
+1059,Capella Space,,Private,United States of America,2016
+1040,CAS Space,CAS,Commercial,China,2018
+19,"Centre for Remote Imaging, Sensing and Processing",CRISP,Educational,Singapore,
+189,China Aerospace Corporation,CASC,Government,China,
+184,China Aerospace Science and Industry Corporation,CASIC,Government,China,
+88,China Aerospace Science and Technology Corporation,CASC,Government,China,1999
+177,China Great Wall Industry Corporation,CGWIC,Commercial,China,
+17,China National Space Administration,CNSA,Government,China,1993
+272,China Rocket Co. Ltd.,CHNR,Commercial,China,
+1106,Chinese Academy of Sciences,CAS,Government,China,1949
+158,Chrysler,CHR,Commercial,United States of America,1950
+18,Colombian Space Commission,CCE,Government,Colombia,
+1027,Comisión Nacional de Actividades Espaciales,CONAE,Government,Argentina,1960
+22,Committee on Space Research,COSPAR,Multinational,"Argentina, Armenia, Australia, Austria, Belgium, Bulgaria, Brazil, Canada, China, Taiwan, Czechia, Denmark, Egypt, Spain, Finland, France, Germany, Greece, Hungary, India, Indonesia, Iran, Israel, Italy, Japan, Mexico, Netherlands, Nigeria, Norway, Pakistan, Poland, Portugal, Romania, Russia, Slovakia, South Africa, Sweden, Switzerland, Thailand, Turkey, Ukraine, United Kingdom, United States of America",
+20,Commonwealth Scientific and Industrial Research Organisation,CSIRO,Government,Australia,
+21,Consultative Committee for Space Data Systems,CCSDS,Multinational,"Italy, United Kingdom, Canada, France, China, Germany, Brazil, Japan, United States of America, Russia",
+1004,Convair,,Commercial,United States of America,1943
+142,Copenhagen Suborbitals,CSU,Commercial,Denmark,2008
+23,Croatian Space Agency,HSA,Government,Croatia,
+25,Danish National Space Center,DRC,Government,Denmark,
+1102,Deep Blue Aerospace,DBA Space,Commercial,China,2016
+126,Deep Space Industries,DSI,Commercial,United States of America,
+1054,Defense Advanced Research Projects Agency,DARPA,Government,United States of America,1958
+1012,Department of Aerospace Science and Technology,,Government,Brazil,1953
+212,Digital Globe,DGI,Commercial,United States of America,
+233,Direction générale de l'armement,DGA,Government,France,
+236,DirecTV,DIREC,Commercial,United States of America,
+1073,DSN Corporation,,Commercial,Japan,2012
+116,EADS Astrium Space Transportation,EADS,Commercial,France,
+249,Echostar,ECHO,Commercial,United States of America,
+1000,Energia,OKB-1,Government,Russia,1946
+1038,Equatorial Launch Australia,ELA,Commercial,Australia,2015
+117,Eurockot Launch Services,ELS,Commercial,"France, Russia",
+1015,European Launcher Development Organisation,ELDO,Government,"France, Australia, Italy, Germany, United Kingdom, Belgium, Netherlands",1961
+232,European Organisation for the Exploitation of Meteorological Satellites,EUMETSAT,Multinational,"Austria, Belgium, Bulgaria, Croatia, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Iceland, Italy, Latvia, Lithuania, Luxembourg, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, Turkey, United Kingdom",1986
+27,European Space Agency,ESA,Multinational,"France, Italy, Germany, Spain, Switzerland, United Kingdom, Austria, Sweden, Portugal, Netherlands, Hungary, Poland, Denmark, Czechia, Romania, Norway, Finland, Greece, Estonia, Ireland, Luxembourg, Belgium, Slovenia",1975
+1019,European Space Research Organisation,ESRO,Multinational,"France, Italy, Germany, Spain, Switzerland, United Kingdom, Denmark, Sweden, Belgium, Netherlands",1964
+1043,European Union Agency for the Space Programme,EUSPA,Multinational,"Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden",2021
+229,Eutelsat,EUTEL,Commercial,France,1977
+1081,Eutelsat OneWeb,OneWeb,Commercial,United Kingdom,2012
+1001,EXOS Aerospace,EXOS,Commercial,United States of America,2014
+194,ExPace,EP,Commercial,China,2016
+89,Fairchild Space and Electronics Division,FSED,Commercial,United States of America,
+60,FCT Space Office,FTC SO,Government,Portugal,
+265,Firefly Aerospace,FA,Commercial,United States of America,2014
+90,Fokker Space & Systems,FSS,Commercial,Netherlands,
+253,French Armed Forces,FAF,Government,France,
+1021,Galactic Energy,GE,Commercial,China,2018
+106,General Dynamics,GD,Commercial,United States of America,
+91,General Electric,GE,Commercial,United States of America,
+28,Geo-Informatics and Space Technology Development Agency,GISTDA,Government,Thailand,
+224,GeoOptics,GO,Commercial,United States of America,
+29,German Aerospace Center,DLR,Government,Germany,1969
+188,Gilmour Space Technologies,GST,Private,"Australia, Singapore",2013
+187,GK Launch Services,GKLS,Commercial,Russia,2017
+204,Globalstar,GSAT,Commercial,United States of America,
+92,Hawker Siddeley Dynamics,HSD,Commercial,United Kingdom,
+1061,HawkEye 360,he360,Private,United States of America,2015
+1031,Hindustan Aeronautics Limited,HAL,Government,India,1940
+238,Hisdesat,HISDE,Commercial,Spain,
+250,HispaSat,HISPA,Commercial,Spain,
+243,Hughes,HUGH,Commercial,United States of America,
+93,Hughes Aircraft,HAC,Commercial,United States of America,
+1088,Hungarian Ministry of Foreign Affairs and Trade,,Government,Hungary,
+30,Hungarian Space Office,HSO,Government,Hungary,
+1066,HyImpulse,HYI,Private,Germany,2018
+1101,HyPrSpace,HyPrSpace,Commercial,France,2019
+94,IHI Corporation,IHI,Commercial,Japan,
+31,Indian Space Research Organization,ISRO,Government,India,1969
+1096,Infinite Orbits,,Commercial,France,2017
+205,Inmarsat,ISAT,Commercial,United Kingdom,1979
+1098,Innospace,IS,Private,South Korea,2017
+1092,Institute for Q-shu Pioneers of Space,iQPS,Private,Japan,2005
+32,Institute for Space Applications and Remote Sensing,ISARS,Government,Greece,
+1009,Institute of Space and Astronautical Science,ISAS,Government,Japan,
+33,Instituto Nacional de Técnica Aeroespacial,INTA,Government,Spain,
+206,Intelsat,I,Commercial,Luxembourg,
+1078,International Institute for Aeronautical Sciences,IIAS,Multinational,Unknown,
+118,International Launch Services,ILS,Commercial,United States of America,1995
+149,Interorbital Systems,IOS,Commercial,United States of America,
+1002,Interstellar Technologies,ISTECH,Commercial,Japan,2005
+1067,Intuitive Machines,IM,Commercial,United States of America,2013
+113,INVAP,INVAP,Commercial,Argentina,
+34,Iranian Space Agency,ISA,Government,Iran,2004
+202,Iridium Communications,IRDM,Commercial,United States of America,2001
+1046,Isar Aerospace,ISAR,Private,Germany,2018
+119,ISC Kosmotras,ISCK,Commercial,Russia,
+1095,ISISPACE,ISISPACE,Private,Netherlands,2006
+1032,Islamic Revolutionary Guard Corps Aerospace Force,IRGCAF,Government,Iran,1985
+1091,ispace,ispace,Commercial,Japan,2010
+274,i-Space,i-Space,Commercial,China,2016
+95,Israel Aerospace Industries,IAI,Commercial,Israel,
+35,Israeli Space Agency,ISA,Government,Israel,
+1050,Italian Air Force,IAF,Government,Italy,1923
+36,Italian Space Agency,ASI,Government,Italy,
+37,Japan Aerospace Exploration Agency,JAXA,Government,Japan,2003
+1090,Jet Propulsion Laboratory,JPL,Government,United States of America,1936
+79,JSC Information Satellite Systems,JSC-ISS,Commercial,Russia,
+1107,Katalyst Space,KTLST,Private,United States of America,2020
+39,Kazakh Space Research Institute,SRI,Educational,Kazakhstan,
+1010,KB Mashinostroyeniya,,Government,Russia,
+96,Khrunichev State Research and Production Space Center,KhSC,Government,Russia,1916
+1082,Kinéis,KIN,Commercial,France,2018
+132,Kongsberg Defence & Aerospace,KDA,Commercial,Norway,
+1087,Korea Advanced Institute of Science and Technology,KAIST,Educational,South Korea,1971
+1089,Korea AeroSpace Administration,KASA,Government,South Korea,2024
+41,Korea Aerospace Research Institute,KARI,Government,South Korea,1989
+261,Korean Astronaut Program,KAP,Government,South Korea,2006
+40,Korean Committee of Space Technology,KCST,Government,North Korea,
+196,Land Launch,LL,Commercial,Russia,
+259,LandSpace,LS,Commercial,China,2015
+1100,Latitude,LAT,Commercial,France,2019
+1075,Leidos,Leidos,Commercial,United States of America,2013
+42,Lithuanian Space Association,LSA,Government,Lithuania,
+82,Lockheed Martin,LMT,Commercial,United States of America,1953
+197,Lockheed Martin Space Operations,LMSO,Commercial,United States of America,
+192,Lockheed Space Operations Company,LSOC,Commercial,United States of America,
+1030,Long Wall,ABL,Commercial,United States of America,2017
+1039,Magellan Aerospace Corporation,MAC,Commercial,Canada,1996
+1103,MaiaSpace,MaiaSpace,Private,France,2022
+1013,Makeyev Rocket Design Bureau,,Commercial,Russia,1947
+43,Malaysian National Space Agency,ANGKASA,Government,Malaysia,
+1014,Martin Marietta,MM,Commercial,United States of America,1961
+150,Masten Space Systems,Masten,Commercial,United States of America,
+1057,Maxar Technologies,Maxar,Commercial,United States of America,2017
+153,McDonnell Douglas,MDC,Commercial,United States of America,
+252,MEASAT Satellite Systems,MEAST,Commercial,Malaysia,
+256,Mexican Satellite System,MEXSAT,Government,Mexico,
+3,Mexican Space Agency,AEM,Government,Mexico,
+1037,Ministry of Aerospace Industry,CASC,Government,China,1988
+175,Ministry of Defence of the Russian Federation,MOD_RUS,Government,Russia,1717
+1036,Ministry of Space Industry,CASC,Government,China,1982
+24,Ministry of Transport of the Czech Republic - Space Technologies and Satellite Systems Department,CSO,Government,Czechia,
+213,Missile Defense Agency,MDA,Government,United States of America,
+1085,Mitsubishi Electric Corporation,MELCO,Commercial,Japan,1921
+98,Mitsubishi Heavy Industries,MHI,Commercial,Japan,1884
+198,Mohammed bin Rashid Space Centre,MBRSC,Government,United Arab Emirates,2006
+1011,Moscow Institute of Thermal Technology,MITT,Commercial,Russia,
+1086,NASA Goddard Space Flight Center,GSFC,Government,United States of America,1959
+44,National Aeronautics and Space Administration,NASA,Government,United States of America,1958
+1074,National Aerospace Development Administration,NADA,Government,North Korea,2013
+45,National Authority for Remote Sensing and Space Sciences,NARSS,Government,Egypt,
+46,National Center of Space Research,CNES,Government,France,1961
+47,National Commission for Aerospace Research and Development,CONIDA,Government,Peru,
+48,National Commission for Space Research,CNIE,Government,Argentina,
+1105,National Institute for Space Research,INPE,Government,Brazil,1971
+50,National Institute of Aeronautics and Space,LAPAN,Government,Indonesia,
+210,National Oceanic and Atmospheric Administration,NOAA,Government,United States of America,
+181,National Reconnaissance Office,NRO,Government,United States of America,1961
+51,National Remote Sensing Center of Mongolia,NRSC,Government,Mongolia,
+52,National Remote Sensing Center of Tunisia,CNT,Government,Tunisia,
+1018,National Research Council,CNR,Government,Italy,1923
+211,National Security Agency,NSA,Government,United States of America,
+49,National Space Activities Commission,CONAE,Government,Argentina,
+38,National Space Agency (KazCosmos),NSA,Government,Kazakhstan,
+182,National Space Agency of the Republic of Kazakhstan,KazCosmos,Government,Kazakhstan,2007
+54,National Space Agency of Ukraine,HKAY,Government,Ukraine,
+228,National Space Development Agency of Japan,NASDA,Government,Japan,
+55,National Space Organization,NSPO,Government,Taiwan,
+56,National Space Research and Development Agency,NASRDA,Government,Nigeria,
+57,Netherlands Institute for Space Research,SRON,Government,Netherlands,
+1034,No. 5 Research Academy,CASC,Government,China,1956
+1097,NordSpace,,Private,Canada,2022
+999,North American Aviation,,Commercial,United States of America,1928
+257,Northrop Grumman Space Systems,NGSS,Commercial,United States of America,2015
+99,Northrop Grumman Space Technology,NOC,Commercial,United States of America,
+1060,Northstar Earth & Space,Northstar,Private,Canada,2015
+58,Norwegian Space Centre,NRS,Government,Norway,
+97,NPO Lavochkin,LA,Commercial,Russia,
+77,OHB System,OHB,Commercial,Germany,
+263,OneSpace,OS,Commercial,China,
+240,Optus,OPT,Commercial,Australia,
+1033,Orbex,Orbex,Commercial,United Kingdom,2015
+179,Orbital ATK,OA,Commercial,United States of America,2015
+100,Orbital Sciences Corporation,OSC,Commercial,United States of America,
+1080,Orienspace Technology,OrienSpace,Commercial,China,2020
+1068,Ovzon,,Commercial,"United States of America, Sweden",2006
+59,Pakistan Space and Upper Atmosphere Research Commission,SUPARCO,Government,Pakistan,
+226,PanAmSat,PANAM,Commercial,United States of America,
+242,Paradigm Secure Communications,PSCOM,Commercial,United Kingdom,
+1051,Payload Aerospace S.L.,PLD Space,Commercial,Spain,2011
+162,People's Liberation Army,PLA,Government,China,
+101,Philco Ford,PHILCO,Commercial,United States of America,
+128,Planetary Resources,PRI,Commercial,United States of America,
+260,Planet Labs,PL,Commercial,United States of America,2010
+143,PlanetSpace,PlanetSpace,Commercial,United States of America,
+186,Polish Space Agency,POLSA,Government,Poland,
+154,Production Corporation Polyot,NP,Commercial,Russia,
+111,Progress Rocket Space Center,PRSC,Commercial,Russia,1996
+248,ProtoStar,PROTO,Commercial,Bermuda,
+1070,PT Pasifik Satelit Nusantara,PSN,Private,Indonesia,1991
+237,PT Telkom Indonesia,TLKM,Commercial,Indonesia,1856
+1084,PT Telkom Satellite Indonesia,Telkomsat,Commercial,Indonesia,1995
+1065,QPS Research Institute,iQPS,Commercial,Japan,2005
+137,Reaction Engines Ltd.,REL,Commercial,United Kingdom,
+245,Regional African Satellite Communication Organization,RASCOM,Commercial,Mauritius,
+266,Relativity Space,RS,Commercial,United States of America,2015
+1076,Rivada Space Networks,RivadaSpace,Commercial,Germany,2022
+103,RKK Energiya,RSC,Commercial,Russia,
+127,Robotics Institute,RI,Commercial,United States of America,
+135,Rocketdyne,Rocketdyne,Commercial,United States of America,
+1045,Rocket Factory Augsburg,RFA,Private,Germany,2018
+147,Rocket Lab,RL,Commercial,United States of America,2006
+102,Rockwell International,ROI,Commercial,United States of America,
+61,Romanian Space Agency,ASR,Government,Romania,
+1005,Royal Aircraft Establishment,,Government,United Kingdom,1904
+160,Royal Australian Air Force,RAAF,Government,Australia,
+62,Royal Centre for Remote Sensing,CRTS,Government,Morocco,
+130,RUAG Space,RUAG,Commercial,Switzerland,
+163,Russian Aerospace Defence Forces,VKO,Government,Russia,
+63,Russian Federal Space Agency (ROSCOSMOS),RFSA,Government,Russia,1992
+193,Russian Space Forces,VKS,Government,Russia,1992
+195,Sandia National Laboratories,SNL,Government,United States of America,
+239,Satmex,SATMEX,Commercial,Mexico,
+1047,Saudi Space Agency,SSA,Government,Saudi Arabia,2018
+144,Scaled Composites,Scaled,Commercial,United States of America,
+1017,Science and Engineering Research Council,SERC,Government,United Kingdom,1965
+148,Scorpius Space Launch Company,SSLC,Commercial,United States of America,
+122,Sea Launch,SL,Commercial,Russia,
+203,SES,SES,Commercial,Luxembourg,
+1035,Seventh Ministry of Machine Building Industry,CASC,Government,China,1964
+1020,Sierra Nevada Corporation,SNC,Commercial,United States of America,1963
+231,SKY Perfect JSAT Group,JSAT,Commercial,Japan,
+1099,Skyroot Aerospace,Skyroot,Private,India,2018
+1042,Skyrora,SKR,Private,United Kingdom,2017
+138,Snecma,Snecma,Commercial,France,
+1008,Société d'étude et de réalisation d'engins balistiques,,Commercial,France,1959
+69,South African National Space Agency,SANSA,Government,South Africa,
+1028,Southern Launch,,Private,Australia,2017
+66,Soviet Space Program,CCCP,Government,Russia,1931
+1023,Space Adventures,SA,Private,United States of America,1998
+105,SpaceDev,SPDV,Commercial,United States of America,
+1056,Space Development Agency,SDA,Government,United States of America,2019
+1026,Spaceflight Launch Services,Spaceflight,Commercial,United States of America,2011
+167,Space Florida,SF,Government,United States of America,
+1083,Space One,Space One,Commercial,Japan,2018
+1049,Space Pioneer,SP,Commercial,China,2015
+120,"SpaceQuest, Ltd.",SQ,Commercial,United States of America,
+67,Space Research and Remote Sensing Organization,SPARRSP,Government,Bangladesh,
+68,Space Research Centre,CBK-PAN,Government,Poland,
+70,Space Research Institute of Saudi Arabia,KACST-SRI,Government,Saudi Arabia,2018
+1007,Space Services Inc.,,Commercial,United States of America,
+83,Space Systems/Loral,SSL,Commercial,United States of America,
+121,SpaceX,SpX,Commercial,United States of America,2002
+104,SPAR Aerospace,SPAR,Commercial,Canada,
+214,Spire Global,SPIRE,Commercial,United States of America,
+64,Sri Lanka Space Agency,SLSA,Government,Sri Lanka,
+244,Star One,STA1,Commercial,Brazil,
+123,Starsem SA,SSA,Commercial,"France, Russia",
+1048,Stoke Space,Stoke,Private,United States of America,2020
+270,Strategic Rocket Forces,RVSN RF,Government,Russia,1959
+107,Surrey Satellite Technology Ltd,SSTL,Commercial,United Kingdom,1985
+108,Swales Aerospace,SA,Commercial,United States of America,
+76,Swedish National Space Board,SNSB,Government,Sweden,
+151,Swedish Space Corp,SSC,Commercial,Sweden,
+71,Swiss Space Office,SSO,Government,Switzerland,
+1071,Synspective,,Private,Japan,2018
+1104,Taiwan Space Agency,TASA,Government,Taiwan,1991
+26,Technical University of Denmark - National Space Institute,DTU,Educational,Denmark,
+208,Telesat,TELE,Commercial,Canada,
+129,"Tethers Unlimited, Inc.",TUI,Commercial,United States of America,
+235,Thaicom,TICOM,Commercial,Thailand,
+78,Thales Alenia Space,THALES,Commercial,"France, Italy",
+1029,TiSPACE,,Private,Taiwan,2016
+110,TRW,TRW,Commercial,United States of America,
+65,TUBITAK Space Technologies Research Institute,TUBITAK UZAY,Government,Turkey,
+109,Turkish Aerospace Industries,TAI,Commercial,Turkey,
+1053,Turkish Air Force,TAF,Government,Turkey,1911
+72,Turkmenistan National Space Agency,TNSA,Government,Turkmenistan,
+247,Türksat,TRKST,Commercial,Turkey,
+227,UK Ministry Of Defence,UKMOD,Government,United Kingdom,
+13,UK Space Agency,UKSA,Government,United Kingdom,
+124,United Launch Alliance,ULA,Commercial,United States of America,2006
+191,United Space Alliance,USA,Commercial,United States of America,1995
+161,United States Air Force,USAF,Government,United States of America,1947
+1025,United States Departement of Defense,DoD,Government,United States of America,1947
+1041,United States Space Force,USSF,Government,United States of America,2019
+183,Unknown,UNK,Unknown,Unknown,
+152,UP Aerospace,UPA,Commercial,United States of America,
+165,US Army,USA,Government,United States of America,
+166,US Navy,USN,Government,United States of America,1963
+53,Uzbek State Space Research Agency (UzbekCosmos),USSRA,Government,Uzbekistan,
+1093,Varda Space Industries,Varda,Private,United States of America,2021
+201,Vector,VEC,Commercial,United States of America,
+1062,Viasat,VSAT,Commercial,United States of America,1986
+246,Vietnam Posts and Telecommunications Group,VNPT,Commercial,Vietnam,
+1024,Virgin Galactic,VG,Private,United States of America,2004
+199,Virgin Orbit,VO,Commercial,United States of America,2017
+1006,Vought,,Commercial,United States of America,1917
+1016,Weapons Research Establishment,WRE,Government,Australia,1955
+241,WildBlue,WBLU,Commercial,United States of America,
+145,XCOR  Aerospace,XCOR,Commercial,United States of America,
+234,XTAR LLC,XTAR,Commercial,United States of America,
+112,Yuzhnoye Design Bureau,OKB-586,Commercial,Ukraine,1951
