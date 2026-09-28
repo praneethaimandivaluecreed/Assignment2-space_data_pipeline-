@@ -1,9 +1,10 @@
+## Project Structure
+
+```text
 Assignment2-space_data_pipeline/
 │
 ├── data/
-│   │
 │   ├── raw/
-│   │   │
 │   │   ├── agencies/
 │   │   │   ├── page_1.json
 │   │   │   ├── page_2.json
@@ -54,7 +55,7 @@ Assignment2-space_data_pipeline/
 ├── .env
 ├── .gitignore
 └── README.md
-
+```
 
 ## Project Structure
 
