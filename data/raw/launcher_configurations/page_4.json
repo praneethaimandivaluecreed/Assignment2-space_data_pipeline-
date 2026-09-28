@@ -10852,6 +10852,81 @@
         },
         {
             "response_mode": "normal",
+            "id": 34,
+            "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/34/",
+            "name": "Soyuz",
+            "families": [],
+            "full_name": "Soyuz FG",
+            "variant": "FG",
+            "active": false,
+            "is_placeholder": false,
+            "manufacturer": {
+                "response_mode": "normal",
+                "id": 111,
+                "url": "https://ll.thespacedevs.com/2.3.0/agencies/111/",
+                "name": "Progress Rocket Space Center",
+                "abbrev": "PRSC",
+                "type": {
+                    "id": 3,
+                    "name": "Commercial"
+                },
+                "featured": false,
+                "country": [
+                    {
+                        "id": 5,
+                        "name": "Russia",
+                        "alpha_2_code": "RU",
+                        "alpha_3_code": "RUS",
+                        "nationality_name": "Russian",
+                        "nationality_name_composed": "Russo"
+                    }
+                ],
+                "description": "Progress Rocket Space Centre, formerly known as TsSKB-Progress, is a space science and aerospace research company which is known for manufacturing launch vehicles and satellites. Most notably, Progress Rocket Space Centre is the manufacturer of Soyuz launch vehicles.",
+                "administrator": "CEO: Dmitry Baranov",
+                "founding_year": 1996,
+                "launchers": "",
+                "spacecraft": "",
+                "parent": null,
+                "image": null,
+                "logo": {
+                    "id": 171,
+                    "name": "[AUTO] Progress Rocket Space Center - logo",
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/progress2520rocket2520space2520center_logo_20210313175054.png",
+                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185104.png",
+                    "credit": null,
+                    "license": {
+                        "id": 1,
+                        "name": "Unknown",
+                        "priority": 9,
+                        "link": null
+                    },
+                    "single_use": true,
+                    "variants": []
+                },
+                "social_logo": null
+            },
+            "program": [],
+            "reusable": false,
+            "image": {
+                "id": 1827,
+                "name": "[AUTO] Soyuz - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_image_20190717035537.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193856.jpeg",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Soyuz-FG"
+        },
+        {
+            "response_mode": "normal",
             "id": 153,
             "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/153/",
             "name": "Soyuz",
@@ -11035,81 +11110,6 @@
             },
             "info_url": null,
             "wiki_url": "https://en.wikipedia.org/wiki/Soyuz_2.1v"
-        },
-        {
-            "response_mode": "normal",
-            "id": 34,
-            "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/34/",
-            "name": "Soyuz",
-            "families": [],
-            "full_name": "Soyuz FG",
-            "variant": "FG",
-            "active": false,
-            "is_placeholder": false,
-            "manufacturer": {
-                "response_mode": "normal",
-                "id": 111,
-                "url": "https://ll.thespacedevs.com/2.3.0/agencies/111/",
-                "name": "Progress Rocket Space Center",
-                "abbrev": "PRSC",
-                "type": {
-                    "id": 3,
-                    "name": "Commercial"
-                },
-                "featured": false,
-                "country": [
-                    {
-                        "id": 5,
-                        "name": "Russia",
-                        "alpha_2_code": "RU",
-                        "alpha_3_code": "RUS",
-                        "nationality_name": "Russian",
-                        "nationality_name_composed": "Russo"
-                    }
-                ],
-                "description": "Progress Rocket Space Centre, formerly known as TsSKB-Progress, is a space science and aerospace research company which is known for manufacturing launch vehicles and satellites. Most notably, Progress Rocket Space Centre is the manufacturer of Soyuz launch vehicles.",
-                "administrator": "CEO: Dmitry Baranov",
-                "founding_year": 1996,
-                "launchers": "",
-                "spacecraft": "",
-                "parent": null,
-                "image": null,
-                "logo": {
-                    "id": 171,
-                    "name": "[AUTO] Progress Rocket Space Center - logo",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/progress2520rocket2520space2520center_logo_20210313175054.png",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185104.png",
-                    "credit": null,
-                    "license": {
-                        "id": 1,
-                        "name": "Unknown",
-                        "priority": 9,
-                        "link": null
-                    },
-                    "single_use": true,
-                    "variants": []
-                },
-                "social_logo": null
-            },
-            "program": [],
-            "reusable": false,
-            "image": {
-                "id": 1827,
-                "name": "[AUTO] Soyuz - image",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_image_20190717035537.jpg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193856.jpeg",
-                "credit": null,
-                "license": {
-                    "id": 1,
-                    "name": "Unknown",
-                    "priority": 9,
-                    "link": null
-                },
-                "single_use": true,
-                "variants": []
-            },
-            "info_url": null,
-            "wiki_url": "https://en.wikipedia.org/wiki/Soyuz-FG"
         },
         {
             "response_mode": "normal",
@@ -13909,192 +13909,6 @@
         },
         {
             "response_mode": "normal",
-            "id": 72,
-            "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/72/",
-            "name": "Soyuz STB",
-            "families": [
-                {
-                    "response_mode": "normal",
-                    "id": 147,
-                    "name": "Soyuz",
-                    "manufacturer": [
-                        {
-                            "response_mode": "normal",
-                            "id": 111,
-                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/111/",
-                            "name": "Progress Rocket Space Center",
-                            "abbrev": "PRSC",
-                            "type": {
-                                "id": 3,
-                                "name": "Commercial"
-                            },
-                            "featured": false,
-                            "country": [
-                                {
-                                    "id": 5,
-                                    "name": "Russia",
-                                    "alpha_2_code": "RU",
-                                    "alpha_3_code": "RUS",
-                                    "nationality_name": "Russian",
-                                    "nationality_name_composed": "Russo"
-                                }
-                            ],
-                            "description": "Progress Rocket Space Centre, formerly known as TsSKB-Progress, is a space science and aerospace research company which is known for manufacturing launch vehicles and satellites. Most notably, Progress Rocket Space Centre is the manufacturer of Soyuz launch vehicles.",
-                            "administrator": "CEO: Dmitry Baranov",
-                            "founding_year": 1996,
-                            "launchers": "",
-                            "spacecraft": "",
-                            "parent": null,
-                            "image": null,
-                            "logo": {
-                                "id": 171,
-                                "name": "[AUTO] Progress Rocket Space Center - logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/progress2520rocket2520space2520center_logo_20210313175054.png",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185104.png",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            },
-                            "social_logo": null
-                        }
-                    ],
-                    "parent": null
-                },
-                {
-                    "response_mode": "normal",
-                    "id": 190,
-                    "name": "Soyuz 2",
-                    "manufacturer": [
-                        {
-                            "response_mode": "normal",
-                            "id": 111,
-                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/111/",
-                            "name": "Progress Rocket Space Center",
-                            "abbrev": "PRSC",
-                            "type": {
-                                "id": 3,
-                                "name": "Commercial"
-                            },
-                            "featured": false,
-                            "country": [
-                                {
-                                    "id": 5,
-                                    "name": "Russia",
-                                    "alpha_2_code": "RU",
-                                    "alpha_3_code": "RUS",
-                                    "nationality_name": "Russian",
-                                    "nationality_name_composed": "Russo"
-                                }
-                            ],
-                            "description": "Progress Rocket Space Centre, formerly known as TsSKB-Progress, is a space science and aerospace research company which is known for manufacturing launch vehicles and satellites. Most notably, Progress Rocket Space Centre is the manufacturer of Soyuz launch vehicles.",
-                            "administrator": "CEO: Dmitry Baranov",
-                            "founding_year": 1996,
-                            "launchers": "",
-                            "spacecraft": "",
-                            "parent": null,
-                            "image": null,
-                            "logo": {
-                                "id": 171,
-                                "name": "[AUTO] Progress Rocket Space Center - logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/progress2520rocket2520space2520center_logo_20210313175054.png",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185104.png",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            },
-                            "social_logo": null
-                        }
-                    ],
-                    "parent": {
-                        "response_mode": "list",
-                        "id": 147,
-                        "name": "Soyuz"
-                    }
-                }
-            ],
-            "full_name": "Soyuz STB Fregat-MT",
-            "variant": "Fregat-MT",
-            "active": false,
-            "is_placeholder": false,
-            "manufacturer": {
-                "response_mode": "normal",
-                "id": 111,
-                "url": "https://ll.thespacedevs.com/2.3.0/agencies/111/",
-                "name": "Progress Rocket Space Center",
-                "abbrev": "PRSC",
-                "type": {
-                    "id": 3,
-                    "name": "Commercial"
-                },
-                "featured": false,
-                "country": [
-                    {
-                        "id": 5,
-                        "name": "Russia",
-                        "alpha_2_code": "RU",
-                        "alpha_3_code": "RUS",
-                        "nationality_name": "Russian",
-                        "nationality_name_composed": "Russo"
-                    }
-                ],
-                "description": "Progress Rocket Space Centre, formerly known as TsSKB-Progress, is a space science and aerospace research company which is known for manufacturing launch vehicles and satellites. Most notably, Progress Rocket Space Centre is the manufacturer of Soyuz launch vehicles.",
-                "administrator": "CEO: Dmitry Baranov",
-                "founding_year": 1996,
-                "launchers": "",
-                "spacecraft": "",
-                "parent": null,
-                "image": null,
-                "logo": {
-                    "id": 171,
-                    "name": "[AUTO] Progress Rocket Space Center - logo",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/progress2520rocket2520space2520center_logo_20210313175054.png",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185104.png",
-                    "credit": null,
-                    "license": {
-                        "id": 1,
-                        "name": "Unknown",
-                        "priority": 9,
-                        "link": null
-                    },
-                    "single_use": true,
-                    "variants": []
-                },
-                "social_logo": null
-            },
-            "program": [],
-            "reusable": false,
-            "image": {
-                "id": 1833,
-                "name": "[AUTO] Soyuz STB - image",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz2520stb_image_20191201201634.jpg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193905.jpeg",
-                "credit": null,
-                "license": {
-                    "id": 1,
-                    "name": "Unknown",
-                    "priority": 9,
-                    "link": null
-                },
-                "single_use": true,
-                "variants": []
-            },
-            "info_url": null,
-            "wiki_url": "https://en.wikipedia.org/wiki/Soyuz-2#Soyuz-2.1b"
-        },
-        {
-            "response_mode": "normal",
             "id": 171,
             "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/171/",
             "name": "Soyuz STB",
@@ -14278,6 +14092,192 @@
             },
             "info_url": null,
             "wiki_url": "https://en.wikipedia.org/wiki/Soyuz-2_(rocket)"
+        },
+        {
+            "response_mode": "normal",
+            "id": 72,
+            "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/72/",
+            "name": "Soyuz STB",
+            "families": [
+                {
+                    "response_mode": "normal",
+                    "id": 147,
+                    "name": "Soyuz",
+                    "manufacturer": [
+                        {
+                            "response_mode": "normal",
+                            "id": 111,
+                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/111/",
+                            "name": "Progress Rocket Space Center",
+                            "abbrev": "PRSC",
+                            "type": {
+                                "id": 3,
+                                "name": "Commercial"
+                            },
+                            "featured": false,
+                            "country": [
+                                {
+                                    "id": 5,
+                                    "name": "Russia",
+                                    "alpha_2_code": "RU",
+                                    "alpha_3_code": "RUS",
+                                    "nationality_name": "Russian",
+                                    "nationality_name_composed": "Russo"
+                                }
+                            ],
+                            "description": "Progress Rocket Space Centre, formerly known as TsSKB-Progress, is a space science and aerospace research company which is known for manufacturing launch vehicles and satellites. Most notably, Progress Rocket Space Centre is the manufacturer of Soyuz launch vehicles.",
+                            "administrator": "CEO: Dmitry Baranov",
+                            "founding_year": 1996,
+                            "launchers": "",
+                            "spacecraft": "",
+                            "parent": null,
+                            "image": null,
+                            "logo": {
+                                "id": 171,
+                                "name": "[AUTO] Progress Rocket Space Center - logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/progress2520rocket2520space2520center_logo_20210313175054.png",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185104.png",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            },
+                            "social_logo": null
+                        }
+                    ],
+                    "parent": null
+                },
+                {
+                    "response_mode": "normal",
+                    "id": 190,
+                    "name": "Soyuz 2",
+                    "manufacturer": [
+                        {
+                            "response_mode": "normal",
+                            "id": 111,
+                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/111/",
+                            "name": "Progress Rocket Space Center",
+                            "abbrev": "PRSC",
+                            "type": {
+                                "id": 3,
+                                "name": "Commercial"
+                            },
+                            "featured": false,
+                            "country": [
+                                {
+                                    "id": 5,
+                                    "name": "Russia",
+                                    "alpha_2_code": "RU",
+                                    "alpha_3_code": "RUS",
+                                    "nationality_name": "Russian",
+                                    "nationality_name_composed": "Russo"
+                                }
+                            ],
+                            "description": "Progress Rocket Space Centre, formerly known as TsSKB-Progress, is a space science and aerospace research company which is known for manufacturing launch vehicles and satellites. Most notably, Progress Rocket Space Centre is the manufacturer of Soyuz launch vehicles.",
+                            "administrator": "CEO: Dmitry Baranov",
+                            "founding_year": 1996,
+                            "launchers": "",
+                            "spacecraft": "",
+                            "parent": null,
+                            "image": null,
+                            "logo": {
+                                "id": 171,
+                                "name": "[AUTO] Progress Rocket Space Center - logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/progress2520rocket2520space2520center_logo_20210313175054.png",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185104.png",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            },
+                            "social_logo": null
+                        }
+                    ],
+                    "parent": {
+                        "response_mode": "list",
+                        "id": 147,
+                        "name": "Soyuz"
+                    }
+                }
+            ],
+            "full_name": "Soyuz STB Fregat-MT",
+            "variant": "Fregat-MT",
+            "active": false,
+            "is_placeholder": false,
+            "manufacturer": {
+                "response_mode": "normal",
+                "id": 111,
+                "url": "https://ll.thespacedevs.com/2.3.0/agencies/111/",
+                "name": "Progress Rocket Space Center",
+                "abbrev": "PRSC",
+                "type": {
+                    "id": 3,
+                    "name": "Commercial"
+                },
+                "featured": false,
+                "country": [
+                    {
+                        "id": 5,
+                        "name": "Russia",
+                        "alpha_2_code": "RU",
+                        "alpha_3_code": "RUS",
+                        "nationality_name": "Russian",
+                        "nationality_name_composed": "Russo"
+                    }
+                ],
+                "description": "Progress Rocket Space Centre, formerly known as TsSKB-Progress, is a space science and aerospace research company which is known for manufacturing launch vehicles and satellites. Most notably, Progress Rocket Space Centre is the manufacturer of Soyuz launch vehicles.",
+                "administrator": "CEO: Dmitry Baranov",
+                "founding_year": 1996,
+                "launchers": "",
+                "spacecraft": "",
+                "parent": null,
+                "image": null,
+                "logo": {
+                    "id": 171,
+                    "name": "[AUTO] Progress Rocket Space Center - logo",
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/progress2520rocket2520space2520center_logo_20210313175054.png",
+                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185104.png",
+                    "credit": null,
+                    "license": {
+                        "id": 1,
+                        "name": "Unknown",
+                        "priority": 9,
+                        "link": null
+                    },
+                    "single_use": true,
+                    "variants": []
+                },
+                "social_logo": null
+            },
+            "program": [],
+            "reusable": false,
+            "image": {
+                "id": 1833,
+                "name": "[AUTO] Soyuz STB - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz2520stb_image_20191201201634.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193905.jpeg",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Soyuz-2#Soyuz-2.1b"
         },
         {
             "response_mode": "normal",

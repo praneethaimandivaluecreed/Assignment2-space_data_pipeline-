@@ -2855,135 +2855,6 @@
         },
         {
             "response_mode": "normal",
-            "id": 11,
-            "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/11/",
-            "name": "Zenit",
-            "families": [
-                {
-                    "response_mode": "normal",
-                    "id": 171,
-                    "name": "Zenith",
-                    "manufacturer": [
-                        {
-                            "response_mode": "normal",
-                            "id": 112,
-                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/112/",
-                            "name": "Yuzhnoye Design Bureau",
-                            "abbrev": "OKB-586",
-                            "type": {
-                                "id": 3,
-                                "name": "Commercial"
-                            },
-                            "featured": false,
-                            "country": [
-                                {
-                                    "id": 12,
-                                    "name": "Ukraine",
-                                    "alpha_2_code": "UA",
-                                    "alpha_3_code": "UKR",
-                                    "nationality_name": "Ukrainian",
-                                    "nationality_name_composed": "Ukro"
-                                }
-                            ],
-                            "description": "Yuzhnoye Design Office, located in Dnipro, Ukraine, is a designer of satellites and rockets, and formerly of Soviet intercontinental ballistic missiles (ICBMs) established by Mikhail Yangel in 1951. The Zenit launch vehicle currently launches from Baikonur Cosmodrome but also used to launch from an ocean platform, Odyssey.",
-                            "administrator": "Director: Alexander Degtyarev",
-                            "founding_year": 1951,
-                            "launchers": "Zenit",
-                            "spacecraft": "",
-                            "parent": null,
-                            "image": {
-                                "id": 34,
-                                "name": "[AUTO] Yuzhnoye Design Bureau - image",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/yuzhnoye2520design2520bureau_image_20190207032505.jpeg",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184717.jpeg",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            },
-                            "logo": {
-                                "id": 198,
-                                "name": "[AUTO] Yuzhnoye Design Bureau - logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/yuzhnoye2520design2520bureau_logo_20190207032505.png",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185204.png",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            },
-                            "social_logo": {
-                                "id": 103,
-                                "name": "[AUTO] Yuzhnoye Design Bureau - social_logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/yuzhnoye2520design2520bureau_nation_20190207032505.png",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184901.png",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            }
-                        }
-                    ],
-                    "parent": null
-                }
-            ],
-            "full_name": "Zenit 3SL",
-            "variant": "3SL",
-            "active": false,
-            "is_placeholder": false,
-            "manufacturer": {
-                "response_mode": "normal",
-                "id": 122,
-                "url": "https://ll.thespacedevs.com/2.3.0/agencies/122/",
-                "name": "Sea Launch",
-                "abbrev": "SL",
-                "type": {
-                    "id": 3,
-                    "name": "Commercial"
-                },
-                "featured": false,
-                "country": [
-                    {
-                        "id": 5,
-                        "name": "Russia",
-                        "alpha_2_code": "RU",
-                        "alpha_3_code": "RUS",
-                        "nationality_name": "Russian",
-                        "nationality_name_composed": "Russo"
-                    }
-                ],
-                "description": null,
-                "administrator": null,
-                "founding_year": null,
-                "launchers": "",
-                "spacecraft": "",
-                "parent": null,
-                "image": null,
-                "logo": null,
-                "social_logo": null
-            },
-            "program": [],
-            "reusable": false,
-            "image": null,
-            "info_url": null,
-            "wiki_url": null
-        },
-        {
-            "response_mode": "normal",
             "id": 91,
             "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/91/",
             "name": "Zenit",
@@ -3080,6 +2951,135 @@
                 "url": "https://ll.thespacedevs.com/2.3.0/agencies/196/",
                 "name": "Land Launch",
                 "abbrev": "LL",
+                "type": {
+                    "id": 3,
+                    "name": "Commercial"
+                },
+                "featured": false,
+                "country": [
+                    {
+                        "id": 5,
+                        "name": "Russia",
+                        "alpha_2_code": "RU",
+                        "alpha_3_code": "RUS",
+                        "nationality_name": "Russian",
+                        "nationality_name_composed": "Russo"
+                    }
+                ],
+                "description": null,
+                "administrator": null,
+                "founding_year": null,
+                "launchers": "",
+                "spacecraft": "",
+                "parent": null,
+                "image": null,
+                "logo": null,
+                "social_logo": null
+            },
+            "program": [],
+            "reusable": false,
+            "image": null,
+            "info_url": null,
+            "wiki_url": null
+        },
+        {
+            "response_mode": "normal",
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/11/",
+            "name": "Zenit",
+            "families": [
+                {
+                    "response_mode": "normal",
+                    "id": 171,
+                    "name": "Zenith",
+                    "manufacturer": [
+                        {
+                            "response_mode": "normal",
+                            "id": 112,
+                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/112/",
+                            "name": "Yuzhnoye Design Bureau",
+                            "abbrev": "OKB-586",
+                            "type": {
+                                "id": 3,
+                                "name": "Commercial"
+                            },
+                            "featured": false,
+                            "country": [
+                                {
+                                    "id": 12,
+                                    "name": "Ukraine",
+                                    "alpha_2_code": "UA",
+                                    "alpha_3_code": "UKR",
+                                    "nationality_name": "Ukrainian",
+                                    "nationality_name_composed": "Ukro"
+                                }
+                            ],
+                            "description": "Yuzhnoye Design Office, located in Dnipro, Ukraine, is a designer of satellites and rockets, and formerly of Soviet intercontinental ballistic missiles (ICBMs) established by Mikhail Yangel in 1951. The Zenit launch vehicle currently launches from Baikonur Cosmodrome but also used to launch from an ocean platform, Odyssey.",
+                            "administrator": "Director: Alexander Degtyarev",
+                            "founding_year": 1951,
+                            "launchers": "Zenit",
+                            "spacecraft": "",
+                            "parent": null,
+                            "image": {
+                                "id": 34,
+                                "name": "[AUTO] Yuzhnoye Design Bureau - image",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/yuzhnoye2520design2520bureau_image_20190207032505.jpeg",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184717.jpeg",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            },
+                            "logo": {
+                                "id": 198,
+                                "name": "[AUTO] Yuzhnoye Design Bureau - logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/yuzhnoye2520design2520bureau_logo_20190207032505.png",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185204.png",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            },
+                            "social_logo": {
+                                "id": 103,
+                                "name": "[AUTO] Yuzhnoye Design Bureau - social_logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/yuzhnoye2520design2520bureau_nation_20190207032505.png",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184901.png",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            }
+                        }
+                    ],
+                    "parent": null
+                }
+            ],
+            "full_name": "Zenit 3SL",
+            "variant": "3SL",
+            "active": false,
+            "is_placeholder": false,
+            "manufacturer": {
+                "response_mode": "normal",
+                "id": 122,
+                "url": "https://ll.thespacedevs.com/2.3.0/agencies/122/",
+                "name": "Sea Launch",
+                "abbrev": "SL",
                 "type": {
                     "id": 3,
                     "name": "Commercial"

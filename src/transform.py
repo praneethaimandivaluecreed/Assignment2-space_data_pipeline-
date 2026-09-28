@@ -6,31 +6,31 @@ import pandas as pd
 from logger import logger
 
 
-# ============================================================
-# CONFIGURATION
-# ============================================================
+# Configuration
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 RAW_DATA_DIR = PROJECT_ROOT / "data" / "raw"
 PROCESSED_DATA_DIR = PROJECT_ROOT / "data" / "processed"
 
+# Create processed folder if it does not already exist
 PROCESSED_DATA_DIR.mkdir(
     parents=True,
     exist_ok=True
 )
 
 
-# ============================================================
-# READ RAW JSON FILES
-# ============================================================
+# Read raw JSON files
 
 def read_raw_dataset(dataset_name):
 
+    # Get the folder for the selected dataset
     dataset_dir = RAW_DATA_DIR / dataset_name
 
+    # Store records from all JSON files here
     all_records = []
 
+    # Get all page JSON files in sorted order
     json_files = sorted(
         dataset_dir.glob("page_*.json")
     )
@@ -39,6 +39,7 @@ def read_raw_dataset(dataset_name):
         f"Reading raw dataset: {dataset_name}"
     )
 
+    # Stop the pipeline if no raw files are found
     if not json_files:
 
         raise FileNotFoundError(
@@ -46,12 +47,14 @@ def read_raw_dataset(dataset_name):
             f"{dataset_name}"
         )
 
+    # Read each page JSON file
     for file_path in json_files:
 
         logger.info(
             f"Reading: {file_path}"
         )
 
+        # Open the JSON file and load its content
         with open(
             file_path,
             "r",
@@ -60,11 +63,13 @@ def read_raw_dataset(dataset_name):
 
             data = json.load(file)
 
+        # Get only the records from the API response
         records = data.get(
             "results",
             []
         )
 
+        # Add records from this page to the main list
         all_records.extend(records)
 
         logger.info(
@@ -80,9 +85,7 @@ def read_raw_dataset(dataset_name):
     return all_records
 
 
-# ============================================================
-# TRANSFORM AGENCIES
-# ============================================================
+# Transform agency data
 
 def transform_agencies(records):
 
@@ -90,22 +93,25 @@ def transform_agencies(records):
     logger.info("TRANSFORMING: AGENCIES")
     logger.info("=" * 70)
 
+    # Store cleaned agency records
     transformed = []
 
+    # Process each agency record
     for record in records:
 
+        # Get country information from the API response
         country = record.get("country")
 
-        # ----------------------------------------------------
-        # HANDLE COUNTRY DATA
-        # ----------------------------------------------------
+        # Handle country data
 
         country_name = None
 
+        # Sometimes country can come as a list
         if isinstance(country, list):
 
             country_names = []
 
+            # Read the name from each country object
             for country_item in country:
 
                 if isinstance(country_item, dict):
@@ -115,18 +121,21 @@ def transform_agencies(records):
                     if name:
                         country_names.append(name)
 
+            # Join multiple country names into one value
             if country_names:
 
                 country_name = ", ".join(
                     country_names
                 )
 
+        # Sometimes country can be a single dictionary
         elif isinstance(country, dict):
 
             country_name = country.get(
                 "name"
             )
 
+        # Log unexpected country formats
         elif country is not None:
 
             logger.warning(
@@ -135,20 +144,20 @@ def transform_agencies(records):
                 f"{type(country).__name__}"
             )
 
-        # ----------------------------------------------------
-        # HANDLE AGENCY TYPE
-        # ----------------------------------------------------
+        # Handle agency type
 
         agency_type = record.get("type")
 
         agency_type_name = None
 
+        # Extract the agency type name from the dictionary
         if isinstance(agency_type, dict):
 
             agency_type_name = (
                 agency_type.get("name")
             )
 
+        # Log unexpected agency type formats
         elif agency_type is not None:
 
             logger.warning(
@@ -156,10 +165,7 @@ def transform_agencies(records):
                 f"unexpected type data."
             )
 
-        # ----------------------------------------------------
-        # CREATE TRANSFORMED RECORD
-        # ----------------------------------------------------
-
+        # Create a cleaned agency record
         agency = {
 
             "agency_id":
@@ -183,12 +189,10 @@ def transform_agencies(records):
 
         transformed.append(agency)
 
+    # Convert the cleaned records into a DataFrame
     df = pd.DataFrame(transformed)
 
-    # --------------------------------------------------------
-    # REMOVE DUPLICATES
-    # --------------------------------------------------------
-
+    # Remove duplicate agencies using agency_id
     before = len(df)
 
     df = df.drop_duplicates(
@@ -204,9 +208,7 @@ def transform_agencies(records):
         f"{duplicates_removed}"
     )
 
-    # --------------------------------------------------------
-    # STANDARDIZE TEXT
-    # --------------------------------------------------------
+    # Clean text columns
 
     text_columns = [
         "agency_name",
@@ -217,15 +219,14 @@ def transform_agencies(records):
 
     for column in text_columns:
 
+        # Convert values to string and remove extra spaces
         df[column] = (
             df[column]
             .astype("string")
             .str.strip()
         )
 
-    # --------------------------------------------------------
-    # DATA TYPES
-    # --------------------------------------------------------
+    # Convert numeric columns to proper data types
 
     df["agency_id"] = pd.to_numeric(
         df["agency_id"],
@@ -237,9 +238,7 @@ def transform_agencies(records):
         errors="coerce"
     ).astype("Int64")
 
-    # --------------------------------------------------------
-    # DATA QUALITY SUMMARY
-    # --------------------------------------------------------
+    # Log basic data quality information
 
     logger.info(
         f"Missing agency country values: "
@@ -259,9 +258,7 @@ def transform_agencies(records):
     return df
 
 
-# ============================================================
-# TRANSFORM LAUNCHER CONFIGURATIONS
-# ============================================================
+# Transform launcher configuration data
 
 def transform_launcher_configurations(records):
 
@@ -271,18 +268,18 @@ def transform_launcher_configurations(records):
     )
     logger.info("=" * 70)
 
+    # Store cleaned launcher configuration records
     transformed = []
 
+    # Process each launcher configuration
     for record in records:
 
+        # Get manufacturer information
         manufacturer = (
             record.get("manufacturer") or {}
         )
 
-        # ----------------------------------------------------
-        # HANDLE MANUFACTURER
-        # ----------------------------------------------------
-
+        # Make sure manufacturer data is a dictionary
         if not isinstance(
             manufacturer,
             dict
@@ -294,8 +291,10 @@ def transform_launcher_configurations(records):
                 f"unexpected manufacturer format."
             )
 
+            # Use an empty dictionary if the format is incorrect
             manufacturer = {}
 
+        # Create a cleaned launcher configuration record
         transformed.append({
 
             "launcher_configuration_id":
@@ -323,12 +322,10 @@ def transform_launcher_configurations(records):
                 record.get("reusable")
         })
 
+    # Convert records into a DataFrame
     df = pd.DataFrame(transformed)
 
-    # --------------------------------------------------------
-    # REMOVE DUPLICATES
-    # --------------------------------------------------------
-
+    # Remove duplicate launcher configurations
     before = len(df)
 
     df = df.drop_duplicates(
@@ -346,9 +343,7 @@ def transform_launcher_configurations(records):
         f"removed: {duplicates_removed}"
     )
 
-    # --------------------------------------------------------
-    # STANDARDIZE TEXT
-    # --------------------------------------------------------
+    # Clean text columns
 
     text_columns = [
         "launcher_name",
@@ -365,9 +360,7 @@ def transform_launcher_configurations(records):
             .str.strip()
         )
 
-    # --------------------------------------------------------
-    # DATA TYPES
-    # --------------------------------------------------------
+    # Convert ID columns to numeric values
 
     df["launcher_configuration_id"] = (
         pd.to_numeric(
@@ -395,9 +388,7 @@ def transform_launcher_configurations(records):
     return df
 
 
-# ============================================================
-# TRANSFORM PADS
-# ============================================================
+# Transform launch pad data
 
 def transform_pads(records):
 
@@ -405,37 +396,39 @@ def transform_pads(records):
     logger.info("TRANSFORMING: PADS")
     logger.info("=" * 70)
 
+    # Store cleaned pad records
     transformed = []
 
+    # Process each pad record
     for record in records:
 
+        # Get country information
         country = (
             record.get("country") or {}
         )
 
+        # Get location information
         location = (
             record.get("location") or {}
         )
 
-        # ----------------------------------------------------
-        # HANDLE COUNTRY
-        # ----------------------------------------------------
+        # Handle country
 
         country_name = None
 
+        # Extract country name from the dictionary
         if isinstance(country, dict):
 
             country_name = country.get(
                 "name"
             )
 
-        # ----------------------------------------------------
-        # HANDLE LOCATION
-        # ----------------------------------------------------
+        # Handle location
 
         location_id = None
         location_name = None
 
+        # Extract location ID and name
         if isinstance(location, dict):
 
             location_id = location.get(
@@ -446,6 +439,7 @@ def transform_pads(records):
                 "name"
             )
 
+        # Create a cleaned pad record
         transformed.append({
 
             "pad_id":
@@ -488,12 +482,10 @@ def transform_pads(records):
                 )
         })
 
+    # Convert records into a DataFrame
     df = pd.DataFrame(transformed)
 
-    # --------------------------------------------------------
-    # REMOVE DUPLICATES
-    # --------------------------------------------------------
-
+    # Remove duplicate pads using pad_id
     before = len(df)
 
     df = df.drop_duplicates(
@@ -509,9 +501,7 @@ def transform_pads(records):
         f"{duplicates_removed}"
     )
 
-    # --------------------------------------------------------
-    # STANDARDIZE TEXT
-    # --------------------------------------------------------
+    # Clean text columns
 
     text_columns = [
         "pad_name",
@@ -527,9 +517,7 @@ def transform_pads(records):
             .str.strip()
         )
 
-    # --------------------------------------------------------
-    # DATA TYPES
-    # --------------------------------------------------------
+    # Convert ID columns to numeric values
 
     df["pad_id"] = pd.to_numeric(
         df["pad_id"],
@@ -541,6 +529,8 @@ def transform_pads(records):
         errors="coerce"
     ).astype("Int64")
 
+    # Convert latitude and longitude to numeric values
+
     df["latitude"] = pd.to_numeric(
         df["latitude"],
         errors="coerce"
@@ -550,6 +540,8 @@ def transform_pads(records):
         df["longitude"],
         errors="coerce"
     )
+
+    # Convert launch count columns to integer values
 
     df["total_launch_count"] = pd.to_numeric(
         df["total_launch_count"],
@@ -571,9 +563,7 @@ def transform_pads(records):
     return df
 
 
-# ============================================================
-# TRANSFORM LAUNCHES
-# ============================================================
+# Transform launch data
 
 def transform_launches(
     records,
@@ -586,36 +576,45 @@ def transform_launches(
     logger.info("TRANSFORMING: LAUNCHES")
     logger.info("=" * 70)
 
+    # Store cleaned launch records
     transformed = []
 
+    # Process each launch record
     for record in records:
 
+        # Get nested status information
         status = (
             record.get("status") or {}
         )
 
+        # Get launch service provider information
         provider = (
             record.get(
                 "launch_service_provider"
             ) or {}
         )
 
+        # Get rocket information
         rocket = (
             record.get("rocket") or {}
         )
 
+        # Get rocket configuration information
         configuration = (
             rocket.get("configuration") or {}
         )
 
+        # Get mission information
         mission = (
             record.get("mission") or {}
         )
 
+        # Get launch pad information
         pad = (
             record.get("pad") or {}
         )
 
+        # Create a cleaned launch record
         transformed.append({
 
             "launch_id":
@@ -662,12 +661,10 @@ def transform_launches(
                 mission.get("type")
         })
 
+    # Convert records into a DataFrame
     df = pd.DataFrame(transformed)
 
-    # --------------------------------------------------------
-    # REMOVE DUPLICATE LAUNCHES
-    # --------------------------------------------------------
-
+    # Remove duplicate launches using launch_id
     before = len(df)
 
     df = df.drop_duplicates(
@@ -683,9 +680,7 @@ def transform_launches(
         f"{duplicates_removed}"
     )
 
-    # --------------------------------------------------------
-    # STANDARDIZE TEXT
-    # --------------------------------------------------------
+    # Clean text columns
 
     text_columns = [
         "launch_name",
@@ -704,12 +699,10 @@ def transform_launches(
             .str.strip()
         )
 
-    # --------------------------------------------------------
-    # DATA TYPES
-    # --------------------------------------------------------
+    # Convert columns to correct data types
 
-    # Launch ID is a UUID/string.
-    # Do NOT convert it to numeric.
+    # Launch ID is a UUID/string,
+    # so we should not convert it to numeric
     df["launch_id"] = (
         df["launch_id"]
         .astype("string")
@@ -743,15 +736,15 @@ def transform_launches(
         errors="coerce"
     )
 
+    # Convert launch date/time into a proper datetime
+    # UTC is used so all launch times follow one standard
     df["launch_datetime"] = pd.to_datetime(
         df["launch_datetime"],
         errors="coerce",
         utc=True
     )
 
-    # --------------------------------------------------------
-    # DERIVED FIELDS
-    # --------------------------------------------------------
+    # Create year and month from launch date
 
     df["launch_year"] = (
         df["launch_datetime"]
@@ -765,10 +758,8 @@ def transform_launches(
         .astype("Int64")
     )
 
-    # --------------------------------------------------------
-    # DERIVED SUCCESS FLAG
-    # --------------------------------------------------------
-
+    # Create a True/False flag for successful launches
+    # If status contains "success", mark it as True
     df["is_successful"] = (
         df["status_name"]
         .fillna("")
@@ -779,20 +770,19 @@ def transform_launches(
         )
     )
 
-    # --------------------------------------------------------
-    # FOREIGN KEY VALIDATION
-    # --------------------------------------------------------
+    # Validate foreign key relationships
 
-    # --------------------------------------------------------
-    # AGENCY VALIDATION
-    # --------------------------------------------------------
+    # Check agency IDs
 
+    # Create a set containing all valid agency IDs
     valid_agency_ids = set(
         agencies_df["agency_id"]
         .dropna()
         .astype(int)
     )
 
+    # Find launches whose agency ID does not exist
+    # in the agency table
     missing_agencies = (
         df["agency_id"].notna()
         & ~df["agency_id"]
@@ -804,15 +794,15 @@ def transform_launches(
         f"{missing_agencies.sum()}"
     )
 
+    # Remove invalid agency IDs by setting them to null
     df.loc[
         missing_agencies,
         "agency_id"
     ] = pd.NA
 
-    # --------------------------------------------------------
-    # LAUNCHER CONFIGURATION VALIDATION
-    # --------------------------------------------------------
+    # Check launcher configuration IDs
 
+    # Create a set containing all valid launcher IDs
     valid_launcher_ids = set(
         launcher_configs_df[
             "launcher_configuration_id"
@@ -821,6 +811,7 @@ def transform_launches(
         .astype(int)
     )
 
+    # Find launches with invalid launcher configuration IDs
     missing_launchers = (
         df["launcher_configuration_id"].notna()
         & ~df["launcher_configuration_id"]
@@ -833,21 +824,22 @@ def transform_launches(
         f"{missing_launchers.sum()}"
     )
 
+    # Remove invalid launcher configuration IDs
     df.loc[
         missing_launchers,
         "launcher_configuration_id"
     ] = pd.NA
 
-    # --------------------------------------------------------
-    # PAD VALIDATION
-    # --------------------------------------------------------
+    # Check pad IDs
 
+    # Create a set containing all valid pad IDs
     valid_pad_ids = set(
         pads_df["pad_id"]
         .dropna()
         .astype(int)
     )
 
+    # Find launches with invalid pad IDs
     missing_pads = (
         df["pad_id"].notna()
         & ~df["pad_id"]
@@ -859,14 +851,13 @@ def transform_launches(
         f"{missing_pads.sum()}"
     )
 
+    # Remove invalid pad IDs
     df.loc[
         missing_pads,
         "pad_id"
     ] = pd.NA
 
-    # --------------------------------------------------------
-    # FINAL COLUMN ORDER
-    # --------------------------------------------------------
+    # Keep the final columns in a fixed order
 
     df = df[
         [
@@ -902,19 +893,20 @@ def transform_launches(
     return df
 
 
-# ============================================================
-# SAVE PROCESSED DATA
-# ============================================================
+# Save processed data
 
 def save_processed_data(
     df,
     filename
 ):
 
+    # Create the complete output file path
     output_file = (
         PROCESSED_DATA_DIR / filename
     )
 
+    # Save the DataFrame as a CSV file
+    # index=False avoids writing the DataFrame index
     df.to_csv(
         output_file,
         index=False
@@ -926,9 +918,7 @@ def save_processed_data(
     )
 
 
-# ============================================================
-# MAIN TRANSFORMATION PIPELINE
-# ============================================================
+# Main transformation pipeline
 
 def main():
 
@@ -940,9 +930,7 @@ def main():
 
     try:
 
-        # ----------------------------------------------------
-        # READ RAW DATA
-        # ----------------------------------------------------
+        # Read all raw datasets
 
         agencies_raw = read_raw_dataset(
             "agencies"
@@ -962,9 +950,8 @@ def main():
             "launches"
         )
 
-        # ----------------------------------------------------
-        # TRANSFORM DIMENSION TABLES
-        # ----------------------------------------------------
+        # Transform dimension datasets first
+        # These are needed later for foreign key validation
 
         agencies_df = transform_agencies(
             agencies_raw
@@ -980,9 +967,8 @@ def main():
             pads_raw
         )
 
-        # ----------------------------------------------------
-        # TRANSFORM LAUNCHES
-        # ----------------------------------------------------
+        # Transform launch data
+        # Launches contain IDs that refer to the above datasets
 
         launches_df = transform_launches(
             launches_raw,
@@ -991,9 +977,7 @@ def main():
             pads_df
         )
 
-        # ----------------------------------------------------
-        # SAVE PROCESSED DATA
-        # ----------------------------------------------------
+        # Save all processed datasets
 
         save_processed_data(
             agencies_df,
@@ -1015,9 +999,7 @@ def main():
             "launches.csv"
         )
 
-        # ----------------------------------------------------
-        # FINAL SUMMARY
-        # ----------------------------------------------------
+        # Print final record counts
 
         logger.info("=" * 70)
         logger.info("TRANSFORMATION SUMMARY")
@@ -1052,6 +1034,7 @@ def main():
 
     except Exception as e:
 
+        # Log the complete error and stop the pipeline
         logger.exception(
             f"Transformation pipeline failed: {e}"
         )
@@ -1059,9 +1042,7 @@ def main():
         raise
 
 
-# ============================================================
-# PROGRAM ENTRY POINT
-# ============================================================
+# Run main() only when this file is executed directly
 
 if __name__ == "__main__":
     main()

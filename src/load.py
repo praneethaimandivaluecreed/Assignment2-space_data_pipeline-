@@ -8,9 +8,7 @@ from dotenv import load_dotenv
 from logger import logger
 
 
-# ============================================================
-# CONFIGURATION
-# ============================================================
+# Configuration
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
@@ -18,37 +16,35 @@ PROCESSED_DATA_DIR = (
     PROJECT_ROOT / "data" / "processed"
 )
 
-# Number of records processed in one transaction
+# Number of records processed
+# in one transaction
+
 BATCH_SIZE = 500
 
 
-# ============================================================
-# LOAD ENVIRONMENT VARIABLES
-# ============================================================
+# Load environment variables
 
 load_dotenv(
     PROJECT_ROOT / ".env"
 )
 
 
-# ============================================================
-# DATABASE CONFIGURATION
-# ============================================================
+# Database configuration
 
 DB_DRIVER = os.getenv("DB_DRIVER")
 DB_SERVER = os.getenv("DB_SERVER")
 DB_DATABASE = os.getenv("DB_DATABASE")
+
 DB_TRUSTED_CONNECTION = os.getenv(
     "DB_TRUSTED_CONNECTION"
 )
+
 DB_TRUST_SERVER_CERTIFICATE = os.getenv(
     "DB_TRUST_SERVER_CERTIFICATE"
 )
 
 
-# ============================================================
-# READ PROCESSED DATA
-# ============================================================
+# Read processed data
 
 def read_processed_data(filename):
 
@@ -60,6 +56,9 @@ def read_processed_data(filename):
         f"Reading processed file: {file_path}"
     )
 
+    # Check whether the processed file
+    # exists before reading it
+
     if not file_path.exists():
 
         raise FileNotFoundError(
@@ -67,20 +66,19 @@ def read_processed_data(filename):
             f"{file_path}"
         )
 
-    return pd.read_csv(
-        file_path
-    )
+    return pd.read_csv(file_path)
 
 
-# ============================================================
-# VALIDATE DATABASE CONFIGURATION
-# ============================================================
+# Validate database configuration
 
 def validate_database_configuration():
 
     logger.info(
         "Validating database configuration"
     )
+
+    # Store all required database
+    # configuration values
 
     required_variables = {
         "DB_DRIVER": DB_DRIVER,
@@ -91,6 +89,9 @@ def validate_database_configuration():
         "DB_TRUST_SERVER_CERTIFICATE":
             DB_TRUST_SERVER_CERTIFICATE
     }
+
+    # Find configuration values
+    # which are missing or empty
 
     missing_variables = [
         name
@@ -111,13 +112,14 @@ def validate_database_configuration():
     )
 
 
-# ============================================================
-# CREATE DATABASE CONNECTION
-# ============================================================
+# Create database connection
 
 def create_connection():
 
     validate_database_configuration()
+
+    # Build the SQL Server connection string
+    # using values from the environment file
 
     connection_string = (
         f"DRIVER={{{DB_DRIVER}}};"
@@ -153,196 +155,12 @@ def create_connection():
         raise
 
 
-# ============================================================
-# CREATE TARGET TABLES
-# ============================================================
-
-def create_tables(connection):
-
-    logger.info(
-        "Checking/creating target tables"
-    )
-
-    cursor = connection.cursor()
-
-    try:
-
-        # ----------------------------------------------------
-        # AGENCIES
-        # ----------------------------------------------------
-
-        cursor.execute("""
-            IF OBJECT_ID('dbo.agencies', 'U') IS NULL
-            BEGIN
-                CREATE TABLE dbo.agencies
-                (
-                    agency_id INT NOT NULL PRIMARY KEY,
-                    agency_name NVARCHAR(255) NOT NULL,
-                    abbreviation NVARCHAR(100),
-                    agency_type NVARCHAR(255),
-                    country NVARCHAR(255),
-                    founding_year INT
-                )
-            END
-        """)
-
-        # ----------------------------------------------------
-        # LAUNCHER CONFIGURATIONS
-        # ----------------------------------------------------
-
-        cursor.execute("""
-            IF OBJECT_ID(
-                'dbo.launcher_configurations',
-                'U'
-            ) IS NULL
-            BEGIN
-                CREATE TABLE dbo.launcher_configurations
-                (
-                    launcher_configuration_id INT
-                        NOT NULL PRIMARY KEY,
-
-                    launcher_name NVARCHAR(255)
-                        NOT NULL,
-
-                    full_name NVARCHAR(500),
-
-                    variant NVARCHAR(255),
-
-                    manufacturer_id INT,
-
-                    manufacturer_name NVARCHAR(255),
-
-                    active BIT,
-
-                    reusable BIT
-                )
-            END
-        """)
-
-        # ----------------------------------------------------
-        # PADS
-        # ----------------------------------------------------
-
-        cursor.execute("""
-            IF OBJECT_ID('dbo.pads', 'U') IS NULL
-            BEGIN
-                CREATE TABLE dbo.pads
-                (
-                    pad_id INT NOT NULL PRIMARY KEY,
-
-                    pad_name NVARCHAR(500)
-                        NOT NULL,
-
-                    active BIT,
-
-                    latitude FLOAT,
-
-                    longitude FLOAT,
-
-                    country NVARCHAR(255),
-
-                    location_id INT,
-
-                    location_name NVARCHAR(500),
-
-                    total_launch_count INT,
-
-                    orbital_launch_attempt_count INT,
-
-                    fastest_turnaround NVARCHAR(255)
-                )
-            END
-        """)
-
-        # ----------------------------------------------------
-        # LAUNCHES
-        # ----------------------------------------------------
-
-        cursor.execute("""
-            IF OBJECT_ID('dbo.launches', 'U') IS NULL
-            BEGIN
-                CREATE TABLE dbo.launches
-                (
-                    launch_id NVARCHAR(100)
-                        NOT NULL PRIMARY KEY,
-
-                    launch_name NVARCHAR(500)
-                        NOT NULL,
-
-                    launch_datetime DATETIMEOFFSET
-                        NOT NULL,
-
-                    status_id INT,
-
-                    status_name NVARCHAR(255),
-
-                    launch_probability FLOAT,
-
-                    weather_concerns NVARCHAR(MAX),
-
-                    failure_reason NVARCHAR(MAX),
-
-                    agency_id INT,
-
-                    launcher_configuration_id INT,
-
-                    pad_id INT,
-
-                    mission_name NVARCHAR(500),
-
-                    mission_type NVARCHAR(255),
-
-                    launch_year INT,
-
-                    launch_month INT,
-
-                    is_successful BIT,
-
-                    CONSTRAINT FK_launches_agencies
-                        FOREIGN KEY (agency_id)
-                        REFERENCES dbo.agencies(agency_id),
-
-                    CONSTRAINT FK_launches_launcher_configurations
-                        FOREIGN KEY (
-                            launcher_configuration_id
-                        )
-                        REFERENCES dbo.launcher_configurations(
-                            launcher_configuration_id
-                        ),
-
-                    CONSTRAINT FK_launches_pads
-                        FOREIGN KEY (pad_id)
-                        REFERENCES dbo.pads(pad_id)
-                )
-            END
-        """)
-
-        connection.commit()
-
-        logger.info(
-            "Target tables are ready"
-        )
-
-    except pyodbc.Error as e:
-
-        connection.rollback()
-
-        logger.exception(
-            f"Table creation failed: {e}"
-        )
-
-        raise
-
-    finally:
-
-        cursor.close()
-
-
-# ============================================================
-# CONVERT VALUE FOR SQL SERVER
-# ============================================================
+# Convert value for SQL Server
 
 def clean_value(value):
+
+    # Convert Pandas NULL values into
+    # Python None values for SQL Server
 
     if pd.isna(value):
 
@@ -351,18 +169,14 @@ def clean_value(value):
     return value
 
 
-# ============================================================
-# LOAD AGENCIES
-# ============================================================
+# Load agencies
 
 def load_agencies(
     connection,
     df
 ):
 
-    logger.info("=" * 70)
-    logger.info("LOADING: AGENCIES")
-    logger.info("=" * 70)
+    logger.info("Loading agencies")
 
     cursor = connection.cursor()
 
@@ -370,6 +184,9 @@ def load_agencies(
     update_count = 0
 
     try:
+
+        # Process the dataframe in batches
+        # to avoid loading everything at once
 
         for start in range(
             0,
@@ -386,11 +203,17 @@ def load_agencies(
 
             try:
 
+                # Process each record
+                # in the current batch
+
                 for _, row in batch.iterrows():
 
                     agency_id = clean_value(
                         row["agency_id"]
                     )
+
+                    # Check whether the agency
+                    # already exists in the database
 
                     cursor.execute("""
                         SELECT 1
@@ -401,6 +224,9 @@ def load_agencies(
                     exists = cursor.fetchone()
 
                     if exists:
+
+                        # Existing agency record
+                        # should be updated
 
                         cursor.execute("""
                             UPDATE dbo.agencies
@@ -434,6 +260,9 @@ def load_agencies(
 
                     else:
 
+                        # New agency record
+                        # should be inserted
+
                         cursor.execute("""
                             INSERT INTO dbo.agencies
                             (
@@ -466,6 +295,9 @@ def load_agencies(
 
                         batch_inserted += 1
 
+                # Commit the current batch
+                # after all records are processed
+
                 connection.commit()
 
                 insert_count += batch_inserted
@@ -479,6 +311,9 @@ def load_agencies(
                 )
 
             except pyodbc.Error as e:
+
+                # Roll back the current batch
+                # if a database error occurs
 
                 connection.rollback()
 
@@ -498,23 +333,21 @@ def load_agencies(
 
     finally:
 
+        # Close the cursor after loading
+
         cursor.close()
 
 
-# ============================================================
-# LOAD LAUNCHER CONFIGURATIONS
-# ============================================================
+# Load launcher configurations
 
 def load_launcher_configurations(
     connection,
     df
 ):
 
-    logger.info("=" * 70)
     logger.info(
-        "LOADING: LAUNCHER CONFIGURATIONS"
+        "Loading launcher configurations"
     )
-    logger.info("=" * 70)
 
     cursor = connection.cursor()
 
@@ -522,6 +355,8 @@ def load_launcher_configurations(
     update_count = 0
 
     try:
+
+        # Process the dataframe in batches
 
         for start in range(
             0,
@@ -538,6 +373,9 @@ def load_launcher_configurations(
 
             try:
 
+                # Process each launcher
+                # configuration in the batch
+
                 for _, row in batch.iterrows():
 
                     record_id = clean_value(
@@ -545,6 +383,9 @@ def load_launcher_configurations(
                             "launcher_configuration_id"
                         ]
                     )
+
+                    # Check whether the launcher
+                    # configuration already exists
 
                     cursor.execute("""
                         SELECT 1
@@ -555,6 +396,9 @@ def load_launcher_configurations(
                     exists = cursor.fetchone()
 
                     if exists:
+
+                        # Existing record
+                        # should be updated
 
                         cursor.execute("""
                             UPDATE dbo.launcher_configurations
@@ -596,6 +440,9 @@ def load_launcher_configurations(
 
                     else:
 
+                        # New record
+                        # should be inserted
+
                         cursor.execute("""
                             INSERT INTO dbo.launcher_configurations
                             (
@@ -636,6 +483,8 @@ def load_launcher_configurations(
 
                         batch_inserted += 1
 
+                # Commit the current batch
+
                 connection.commit()
 
                 insert_count += batch_inserted
@@ -649,6 +498,9 @@ def load_launcher_configurations(
                 )
 
             except pyodbc.Error as e:
+
+                # Roll back the current batch
+                # if loading fails
 
                 connection.rollback()
 
@@ -672,18 +524,14 @@ def load_launcher_configurations(
         cursor.close()
 
 
-# ============================================================
-# LOAD PADS
-# ============================================================
+# Load pads
 
 def load_pads(
     connection,
     df
 ):
 
-    logger.info("=" * 70)
-    logger.info("LOADING: PADS")
-    logger.info("=" * 70)
+    logger.info("Loading pads")
 
     cursor = connection.cursor()
 
@@ -691,6 +539,8 @@ def load_pads(
     update_count = 0
 
     try:
+
+        # Process the dataframe in batches
 
         for start in range(
             0,
@@ -713,6 +563,9 @@ def load_pads(
                         row["pad_id"]
                     )
 
+                    # Check whether the pad
+                    # already exists
+
                     cursor.execute("""
                         SELECT 1
                         FROM dbo.pads
@@ -722,6 +575,9 @@ def load_pads(
                     exists = cursor.fetchone()
 
                     if exists:
+
+                        # Existing pad
+                        # should be updated
 
                         cursor.execute("""
                             UPDATE dbo.pads
@@ -781,6 +637,9 @@ def load_pads(
 
                     else:
 
+                        # New pad
+                        # should be inserted
+
                         cursor.execute("""
                             INSERT INTO dbo.pads
                             (
@@ -839,6 +698,8 @@ def load_pads(
 
                         batch_inserted += 1
 
+                # Commit the current batch
+
                 connection.commit()
 
                 insert_count += batch_inserted
@@ -852,6 +713,9 @@ def load_pads(
                 )
 
             except pyodbc.Error as e:
+
+                # Roll back the current batch
+                # if a database error occurs
 
                 connection.rollback()
 
@@ -874,18 +738,14 @@ def load_pads(
         cursor.close()
 
 
-# ============================================================
-# LOAD LAUNCHES
-# ============================================================
+# Load launches
 
 def load_launches(
     connection,
     df
 ):
 
-    logger.info("=" * 70)
-    logger.info("LOADING: LAUNCHES")
-    logger.info("=" * 70)
+    logger.info("Loading launches")
 
     cursor = connection.cursor()
 
@@ -893,6 +753,8 @@ def load_launches(
     update_count = 0
 
     try:
+
+        # Process the dataframe in batches
 
         for start in range(
             0,
@@ -915,6 +777,9 @@ def load_launches(
                         row["launch_id"]
                     )
 
+                    # Check whether the launch
+                    # already exists
+
                     cursor.execute("""
                         SELECT 1
                         FROM dbo.launches
@@ -925,9 +790,8 @@ def load_launches(
 
                     if exists:
 
-                        # ------------------------------------
-                        # EXISTING RECORD → UPDATE
-                        # ------------------------------------
+                        # Existing launch record
+                        # should be updated
 
                         cursor.execute("""
                             UPDATE dbo.launches
@@ -1005,9 +869,8 @@ def load_launches(
 
                     else:
 
-                        # ------------------------------------
-                        # NEW RECORD → INSERT
-                        # ------------------------------------
+                        # New launch record
+                        # should be inserted
 
                         cursor.execute("""
                             INSERT INTO dbo.launches
@@ -1089,9 +952,8 @@ def load_launches(
 
                         batch_inserted += 1
 
-                # --------------------------------------------
-                # COMMIT CURRENT BATCH
-                # --------------------------------------------
+                # Commit the current batch
+                # after all records are processed
 
                 connection.commit()
 
@@ -1107,9 +969,8 @@ def load_launches(
 
             except pyodbc.Error as e:
 
-                # --------------------------------------------
-                # ROLLBACK CURRENT BATCH ONLY
-                # --------------------------------------------
+                # Roll back the current batch
+                # if a database error occurs
 
                 connection.rollback()
 
@@ -1132,25 +993,19 @@ def load_launches(
         cursor.close()
 
 
-# ============================================================
-# MAIN LOADING PIPELINE
-# ============================================================
+# Main loading pipeline
 
 def main():
 
-    logger.info("=" * 70)
     logger.info(
         "SPACE DATA LOADING PIPELINE STARTED"
     )
-    logger.info("=" * 70)
 
     connection = None
 
     try:
 
-        # ----------------------------------------------------
-        # READ PROCESSED DATA
-        # ----------------------------------------------------
+        # Read all processed datasets
 
         agencies_df = read_processed_data(
             "agencies.csv"
@@ -1174,23 +1029,13 @@ def main():
             "All processed datasets loaded successfully"
         )
 
-        # ----------------------------------------------------
-        # CREATE DATABASE CONNECTION
-        # ----------------------------------------------------
+        # Create SQL Server connection
 
         connection = create_connection()
 
-        # ----------------------------------------------------
-        # CREATE TARGET TABLES
-        # ----------------------------------------------------
-
-        create_tables(
-            connection
-        )
-
-        # ----------------------------------------------------
-        # LOAD DIMENSION TABLES FIRST
-        # ----------------------------------------------------
+        # Load dimension tables first
+        # because launches contain foreign keys
+        # referring to these tables
 
         load_agencies(
             connection,
@@ -1207,24 +1052,18 @@ def main():
             pads_df
         )
 
-        # ----------------------------------------------------
-        # LOAD LAUNCHES
-        # ----------------------------------------------------
+        # Load the main launches table
 
         load_launches(
             connection,
             launches_df
         )
 
-        # ----------------------------------------------------
-        # FINAL SUMMARY
-        # ----------------------------------------------------
+        # Display final processing summary
 
-        logger.info("=" * 70)
         logger.info(
             "SPACE DATA LOADING PIPELINE COMPLETED"
         )
-        logger.info("=" * 70)
 
         logger.info(
             f"Agencies processed: "
@@ -1247,8 +1086,6 @@ def main():
             f"{len(launches_df)}"
         )
 
-        logger.info("=" * 70)
-
     except Exception as e:
 
         logger.exception(
@@ -1259,6 +1096,9 @@ def main():
 
     finally:
 
+        # Close the database connection
+        # after the pipeline finishes
+
         if connection is not None:
 
             connection.close()
@@ -1268,9 +1108,7 @@ def main():
             )
 
 
-# ============================================================
-# PROGRAM ENTRY POINT
-# ============================================================
+# Program entry point
 
 if __name__ == "__main__":
     main()

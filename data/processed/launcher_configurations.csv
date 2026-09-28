@@ -123,23 +123,23 @@ launcher_configuration_id,launcher_name,full_name,variant,manufacturer_id,manufa
 297,Delta 5920-8,Delta 5920-8,5920-8,153,McDonnell Douglas,False,False
 189,Delta DM-19,Thor-Delta,DM-19,161,United States Air Force,False,False
 151,Delta II,Delta II 7925-10L,7925-10L,124,United Launch Alliance,False,False
-155,Delta II,Delta II 7925H-9.5,7925H-9.5,124,United Launch Alliance,False,False
 159,Delta II,Delta II 7925,7925,124,United Launch Alliance,False,False
+155,Delta II,Delta II 7925H-9.5,7925H-9.5,124,United Launch Alliance,False,False
+307,Delta II,Delta II 7920-8,7920-8,153,McDonnell Douglas,False,False
 301,Delta II,Delta II 6925-8,6925-8,153,McDonnell Douglas,False,False
 304,Delta II,Delta II 7425-9.5,7425-9.5,153,McDonnell Douglas,False,False
 306,Delta II,Delta II 7920-10L,7920-10L,153,McDonnell Douglas,False,False
-307,Delta II,Delta II 7920-8,7920-8,153,McDonnell Douglas,False,False
-305,Delta II,Delta II 7426-9.5,7426-9.5,153,McDonnell Douglas,False,False
 309,Delta II,Delta II 7925-8,7925-8,153,McDonnell Douglas,False,False
+305,Delta II,Delta II 7426-9.5,7426-9.5,153,McDonnell Douglas,False,False
 81,Delta II,Delta II 7920H,7920H,124,United Launch Alliance,False,False
 154,Delta II,Delta II 7920H-10C,7920H-10C,124,United Launch Alliance,False,False
 302,Delta II,Delta II 7326-9.5,7326-9.5,153,McDonnell Douglas,False,False
 308,Delta II,Delta II 7925-10,7925-10,153,McDonnell Douglas,False,False
 157,Delta II,Delta II 7925-10C,7925-10C,124,United Launch Alliance,False,False
+88,Delta II,Delta II 7320,7320,124,United Launch Alliance,False,False
 298,Delta II,Delta II 6920-10,6920-10,153,McDonnell Douglas,False,False
 99,Delta II,Delta II 7920-10C,7920-10C,124,United Launch Alliance,False,False
 467,Delta II,Delta II 7420-10C,7420-10C,153,McDonnell Douglas,False,False
-88,Delta II,Delta II 7320,7320,124,United Launch Alliance,False,False
 140,Delta II,Delta II 7925-9.5,7925-9.5,124,United Launch Alliance,False,False
 300,Delta II,Delta II 6925,6925,153,McDonnell Douglas,False,False
 303,Delta II,Delta II 7425-10,7425-10,153,McDonnell Douglas,False,False
@@ -376,8 +376,8 @@ launcher_configuration_id,launcher_name,full_name,variant,manufacturer_id,manufa
 353,SLV-3,SLV-3,3,31,Indian Space Research Organization,False,False
 192,Smart Dragon 1,Smart Dragon 1,,272,China Rocket Co. Ltd.,True,False
 484,Smart Dragon 3,Smart Dragon 3,,272,China Rocket Co. Ltd.,True,False
-153,Soyuz,Soyuz 2.1v,2.1v,175,Ministry of Defence of the Russian Federation,False,False
 34,Soyuz,Soyuz FG,FG,111,Progress Rocket Space Center,False,False
+153,Soyuz,Soyuz 2.1v,2.1v,175,Ministry of Defence of the Russian Federation,False,False
 113,Soyuz,Soyuz Fregat,Fregat,63,Russian Federal Space Agency (ROSCOSMOS),False,False
 96,Soyuz,Soyuz,,63,Russian Federal Space Agency (ROSCOSMOS),True,False
 373,Soyuz 11A510,Soyuz 11A510,11A510,1000,Energia,False,False
@@ -396,13 +396,13 @@ launcher_configuration_id,launcher_name,full_name,variant,manufacturer_id,manufa
 521,Soyuz-5,Soyuz-5,,103,RKK Energiya,True,False
 70,Soyuz-FG,Soyuz-FG Fregat,Fregat,111,Progress Rocket Space Center,False,False
 49,Soyuz STA,Soyuz STA Fregat,Fregat,111,Progress Rocket Space Center,False,False
-72,Soyuz STB,Soyuz STB Fregat-MT,Fregat-MT,111,Progress Rocket Space Center,False,False
 171,Soyuz STB,Soyuz STB Fregat,STB/Fregat,111,Progress Rocket Space Center,False,False
+72,Soyuz STB,Soyuz STB Fregat-MT,Fregat-MT,111,Progress Rocket Space Center,False,False
 37,Soyuz U,Soyuz U,,63,Russian Federal Space Agency (ROSCOSMOS),False,False
 101,Soyuz-U,Soyuz-U2,2,66,Soviet Space Program,False,False
 378,Soyuz-U-PVB,Soyuz-U-PVB,U-PVB,111,Progress Rocket Space Center,False,False
-143,Space Launch System (SLS),Space Launch System Block 1,Block 1,44,National Aeronautics and Space Administration,True,False
 205,Space Launch System (SLS),Space Launch System Block 1B,Block 1B,44,National Aeronautics and Space Administration,False,False
+143,Space Launch System (SLS),Space Launch System Block 1,Block 1,44,National Aeronautics and Space Administration,True,False
 465,SpaceShipTwo,SpaceShipTwo,,1024,Virgin Galactic,True,True
 493,Space Shuttle,Space Shuttle,,44,National Aeronautics and Space Administration,False,True
 62,SPARK,SPARK,,195,Sandia National Laboratories,False,False
@@ -412,12 +412,12 @@ launcher_configuration_id,launcher_name,full_name,variant,manufacturer_id,manufa
 469,Sputnik 8A91,Sputnik 8A91,8A91,1000,Energia,False,False
 468,Sputnik 8K74PS,Sputnik 8K74PS,8K74PS,1000,Energia,False,False
 499,SR75,SR75,,1066,HyImpulse,True,False
-122,SS-520,SS-520-4,4,37,Japan Aerospace Exploration Agency,False,False
 144,SS-520,SS-520-5,5,37,Japan Aerospace Exploration Agency,False,False
+122,SS-520,SS-520-4,4,37,Japan Aerospace Exploration Agency,False,False
 150,SSLV,SSLV,,31,Indian Space Research Organization,True,False
+522,Starship,Starship V3,V3,121,SpaceX,True,True
 527,Starship,Starship V2,V2,121,SpaceX,False,True
 464,Starship,Starship V1,V1,121,SpaceX,False,True
-522,Starship,Starship V3,V3,121,SpaceX,True,True
 528,Starship,Starship,N/A,121,SpaceX,True,False
 207,Starship Prototype,Starship Prototype,Prototype,121,SpaceX,False,True
 380,Start,Start,,1011,Moscow Institute of Thermal Technology,False,False
@@ -517,8 +517,8 @@ launcher_configuration_id,launcher_name,full_name,variant,manufacturer_id,manufa
 202,Vulcan VC4L,Vulcan VC4L,VC4L,124,United Launch Alliance,True,False
 516,Vulcan VC4S,Vulcan VC4S,VC4S,124,United Launch Alliance,True,False
 479,Vulcan VC6L,Vulcan VC6L,VC6L,124,United Launch Alliance,True,False
-11,Zenit,Zenit 3SL,3SL,122,Sea Launch,False,False
 91,Zenit,Zenit 3SLB,3SLB,196,Land Launch,False,False
+11,Zenit,Zenit 3SL,3SL,122,Sea Launch,False,False
 455,Zenit-2,Zenit-2,2,112,Yuzhnoye Design Bureau,False,False
 456,Zenit-2 11K77.05,Zenit-2 11K77.05,2 11K77.05,112,Yuzhnoye Design Bureau,False,False
 89,Zenit 2M,Zenit 2M,,63,Russian Federal Space Agency (ROSCOSMOS),False,False

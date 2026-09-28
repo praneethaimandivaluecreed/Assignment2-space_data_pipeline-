@@ -2,17 +2,11 @@ import logging
 import os
 
 
-# ============================================================
-# CREATE LOG DIRECTORY
-# ============================================================
 
 os.makedirs("logs", exist_ok=True)
 
 
-# ============================================================
-# LOGGER CONFIGURATION
-# ============================================================
-
+# LOGGER CONFIGURATIONS
 LOG_FILE = "logs/pipeline.log"
 
 logging.basicConfig(

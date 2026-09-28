@@ -6,9 +6,7 @@ from pathlib import Path
 from logger import logger
 
 
-# ============================================================
 # CONFIGURATION
-# ============================================================
 
 BASE_URL = "https://ll.thespacedevs.com/2.3.0"
 
@@ -27,12 +25,10 @@ RAW_DATA_DIR = (
 )
 
 # Maximum records requested in one API call
-# API allows maximum 100 records per request
 PAGE_LIMIT = 100
 
-# Extraction strategy
+# Number of pages to extract
 # None = retrieve all available pages
-# Number = retrieve only that many pages
 MAX_PAGES = {
     "launches": 2,
     "launcher_configurations": None,
@@ -46,19 +42,18 @@ TIMEOUT = 30
 # Maximum retry attempts
 MAX_RETRIES = 3
 
-# HTTP status codes that may represent temporary failures
+# HTTP status codes for retry
 RETRY_STATUS_CODES = {
-    429,  # Too Many Requests
-    500,  # Internal Server Error
-    502,  # Bad Gateway
-    503,  # Service Unavailable
-    504   # Gateway Timeout
+    429,
+    500,
+    502,
+    503,
+    504
 }
 
 
-# ============================================================
-# CREATE HTTP SESSION
-# ============================================================
+
+# CREATING HTTP SESSION
 
 session = requests.Session()
 
@@ -67,9 +62,7 @@ session.headers.update({
 })
 
 
-# ============================================================
 # EXTRACT ONE ENDPOINT
-# ============================================================
 
 def extract_endpoint(name, endpoint):
 
@@ -79,6 +72,7 @@ def extract_endpoint(name, endpoint):
 
     # Create folder for this endpoint
     output_dir = RAW_DATA_DIR / name
+
     output_dir.mkdir(
         parents=True,
         exist_ok=True
@@ -88,18 +82,17 @@ def extract_endpoint(name, endpoint):
         f"Raw data directory: {output_dir}"
     )
 
-    # Maximum pages for this endpoint
+    # Get maximum pages
     max_pages = MAX_PAGES[name]
 
-    # First API URL
+    # Create first API URL
     url = f"{BASE_URL}/{endpoint}"
 
     page_number = 1
     total_records = 0
 
-    # --------------------------------------------------------
-    # PAGINATION LOOP
-    # --------------------------------------------------------
+    
+    # LOOP OF PAGINATION 
 
     while url and (
         max_pages is None
@@ -116,9 +109,8 @@ def extract_endpoint(name, endpoint):
 
         response = None
 
-        # ----------------------------------------------------
-        # RETRY LOOP
-        # ----------------------------------------------------
+       
+        # RETRYING LOGIC
 
         for attempt in range(
             1,
@@ -127,8 +119,7 @@ def extract_endpoint(name, endpoint):
 
             try:
 
-                # First request uses the limit parameter.
-                # Subsequent requests use the API's "next" URL.
+                # First page uses limit parameter
                 if page_number == 1:
 
                     response = session.get(
@@ -139,6 +130,7 @@ def extract_endpoint(name, endpoint):
                         timeout=TIMEOUT
                     )
 
+                # Next pages use API next URL
                 else:
 
                     response = session.get(
@@ -147,25 +139,23 @@ def extract_endpoint(name, endpoint):
                     )
 
                 logger.info(
-                    f"HTTP Status: {response.status_code}"
+                    f"HTTP Status: "
+                    f"{response.status_code}"
                 )
 
-                # ------------------------------------------------
-                # SUCCESS
-                # ------------------------------------------------
+               #success
 
                 if response.status_code == 200:
 
                     break
 
-                # ------------------------------------------------
-                # RETRYABLE HTTP ERROR
-                # ------------------------------------------------
+                # retryable errors
 
                 if response.status_code in RETRY_STATUS_CODES:
 
                     if attempt < MAX_RETRIES:
 
+                        # EXPONENTIAL BACKOFF
                         wait_time = 2 ** (
                             attempt - 1
                         )
@@ -195,9 +185,7 @@ def extract_endpoint(name, endpoint):
                         f"{response.status_code}"
                     )
 
-                # ------------------------------------------------
-                # NON-RETRYABLE HTTP ERROR
-                # ------------------------------------------------
+                # non-retryable errors
 
                 response.raise_for_status()
 
@@ -239,9 +227,7 @@ def extract_endpoint(name, endpoint):
                     f"API request failed: {e}"
                 )
 
-        # --------------------------------------------------------
-        # VALIDATE RESPONSE
-        # --------------------------------------------------------
+       
 
         if response is None:
 
@@ -249,9 +235,7 @@ def extract_endpoint(name, endpoint):
                 "No response received from API."
             )
 
-        # --------------------------------------------------------
-        # CONVERT RESPONSE TO JSON
-        # --------------------------------------------------------
+       # converting response to json
 
         try:
 
@@ -264,9 +248,7 @@ def extract_endpoint(name, endpoint):
                 "that is not valid JSON."
             )
 
-        # --------------------------------------------------------
-        # VALIDATE EXPECTED API STRUCTURE
-        # --------------------------------------------------------
+        # validating API response
 
         if not isinstance(data, dict):
 
@@ -281,9 +263,7 @@ def extract_endpoint(name, endpoint):
                 "'results'."
             )
 
-        # --------------------------------------------------------
-        # SAVE RAW RESPONSE
-        # --------------------------------------------------------
+        # saving raw response
 
         output_file = (
             output_dir
@@ -307,9 +287,8 @@ def extract_endpoint(name, endpoint):
             f"Raw data saved to: {output_file}"
         )
 
-        # --------------------------------------------------------
-        # RECORD INFORMATION
-        # --------------------------------------------------------
+
+       # recording info
 
         records = data.get(
             "results",
@@ -330,9 +309,7 @@ def extract_endpoint(name, endpoint):
             f"{total_records}"
         )
 
-        # --------------------------------------------------------
-        # PAGINATION
-        # --------------------------------------------------------
+        # pagination
 
         url = data.get("next")
 
@@ -350,9 +327,8 @@ def extract_endpoint(name, endpoint):
 
         page_number += 1
 
-    # ------------------------------------------------------------
-    # EXTRACTION SUMMARY
-    # ------------------------------------------------------------
+
+   # summary of the extraction
 
     logger.info(
         f"Extraction completed for {name}."
@@ -366,9 +342,8 @@ def extract_endpoint(name, endpoint):
     return total_records
 
 
-# ============================================================
-# MAIN PIPELINE
-# ============================================================
+
+# complete extraction pipeline 
 
 def main():
 
@@ -384,9 +359,7 @@ def main():
 
     extraction_summary = {}
 
-    # --------------------------------------------------------
-    # EXTRACT ALL DATASETS
-    # --------------------------------------------------------
+    # extracting all datasets
 
     for name, endpoint in ENDPOINTS.items():
 
@@ -418,9 +391,7 @@ def main():
 
             continue
 
-    # --------------------------------------------------------
-    # EXTRACTION SUMMARY
-    # --------------------------------------------------------
+    # extraction summary
 
     logger.info("=" * 70)
     logger.info("EXTRACTION SUMMARY")
@@ -442,9 +413,7 @@ def main():
     logger.info("=" * 70)
 
 
-# ============================================================
-# PROGRAM ENTRY POINT
-# ============================================================
+# entry point
 
 if __name__ == "__main__":
     main()

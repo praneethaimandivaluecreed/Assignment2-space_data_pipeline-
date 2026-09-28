@@ -4,9 +4,7 @@ from pathlib import Path
 from logger import logger
 
 
-# ============================================================
-# CONFIGURATION
-# ============================================================
+# Configuration
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
@@ -15,9 +13,7 @@ PROCESSED_DATA_DIR = (
 )
 
 
-# ============================================================
-# READ PROCESSED DATA
-# ============================================================
+# Read processed data
 
 def read_processed_data(filename):
 
@@ -39,9 +35,7 @@ def read_processed_data(filename):
     return pd.read_csv(file_path)
 
 
-# ============================================================
-# VALIDATE REQUIRED COLUMNS
-# ============================================================
+# Validate required columns
 
 def validate_required_columns(
     df,
@@ -52,6 +46,9 @@ def validate_required_columns(
     logger.info(
         f"Validating columns: {dataset_name}"
     )
+
+    # Check whether all required columns
+    # are available in the dataframe
 
     missing_columns = [
         column
@@ -75,9 +72,7 @@ def validate_required_columns(
     return True
 
 
-# ============================================================
-# VALIDATE DUPLICATE IDs
-# ============================================================
+# Validate duplicate IDs
 
 def validate_unique_id(
     df,
@@ -88,6 +83,9 @@ def validate_unique_id(
     logger.info(
         f"Checking duplicate IDs: {dataset_name}"
     )
+
+    # IDs should be unique because they
+    # identify each record separately
 
     duplicate_count = (
         df[id_column]
@@ -112,9 +110,7 @@ def validate_unique_id(
     return True
 
 
-# ============================================================
-# VALIDATE REQUIRED VALUES
-# ============================================================
+# Validate required values
 
 def validate_not_null(
     df,
@@ -127,6 +123,9 @@ def validate_not_null(
     )
 
     validation_passed = True
+
+    # Check important columns one by one
+    # because these columns should not be empty
 
     for column in columns:
 
@@ -152,9 +151,7 @@ def validate_not_null(
     return validation_passed
 
 
-# ============================================================
-# VALIDATE NUMERIC RANGE
-# ============================================================
+# Validate numeric range
 
 def validate_range(
     df,
@@ -168,6 +165,9 @@ def validate_range(
         f"Checking range: "
         f"{dataset_name}.{column}"
     )
+
+    # Find values which are outside
+    # the allowed minimum and maximum range
 
     invalid_count = (
         (df[column] < minimum)
@@ -192,9 +192,7 @@ def validate_range(
     return True
 
 
-# ============================================================
-# VALIDATE FOREIGN KEY
-# ============================================================
+# Validate foreign key relationship
 
 def validate_foreign_key(
     child_df,
@@ -209,10 +207,15 @@ def validate_foreign_key(
         f"{relationship_name}"
     )
 
+    # Get all valid IDs from the parent table
+
     valid_ids = set(
         parent_df[parent_column]
         .dropna()
     )
+
+    # Check whether child IDs are available
+    # in the parent table
 
     invalid_ids = (
         child_df[child_column]
@@ -240,17 +243,16 @@ def validate_foreign_key(
     return True
 
 
-# ============================================================
-# VALIDATE AGENCIES
-# ============================================================
+# Validate agencies
 
 def validate_agencies(df):
 
-    logger.info("=" * 70)
-    logger.info("VALIDATING: AGENCIES")
-    logger.info("=" * 70)
+    logger.info("Validating agencies")
 
     passed = True
+
+    # These columns are required
+    # for the agencies dataset
 
     required_columns = [
         "agency_id",
@@ -266,12 +268,16 @@ def validate_agencies(df):
     ):
         passed = False
 
+    # Agency ID should be unique
+
     if not validate_unique_id(
         df,
         "agency_id",
         "Agencies"
     ):
         passed = False
+
+    # These values should not be NULL
 
     if not validate_not_null(
         df,
@@ -283,19 +289,18 @@ def validate_agencies(df):
     return passed
 
 
-# ============================================================
-# VALIDATE LAUNCHER CONFIGURATIONS
-# ============================================================
+# Validate launcher configurations
 
 def validate_launcher_configurations(df):
 
-    logger.info("=" * 70)
     logger.info(
-        "VALIDATING: LAUNCHER CONFIGURATIONS"
+        "Validating launcher configurations"
     )
-    logger.info("=" * 70)
 
     passed = True
+
+    # Check whether important columns
+    # are available in the dataset
 
     required_columns = [
         "launcher_configuration_id",
@@ -310,12 +315,17 @@ def validate_launcher_configurations(df):
     ):
         passed = False
 
+    # Launcher configuration ID
+    # should be unique
+
     if not validate_unique_id(
         df,
         "launcher_configuration_id",
         "Launcher configurations"
     ):
         passed = False
+
+    # These values should not be NULL
 
     if not validate_not_null(
         df,
@@ -330,17 +340,16 @@ def validate_launcher_configurations(df):
     return passed
 
 
-# ============================================================
-# VALIDATE PADS
-# ============================================================
+# Validate pads
 
 def validate_pads(df):
 
-    logger.info("=" * 70)
-    logger.info("VALIDATING: PADS")
-    logger.info("=" * 70)
+    logger.info("Validating pads")
 
     passed = True
+
+    # These columns are required
+    # for the pads dataset
 
     required_columns = [
         "pad_id",
@@ -356,6 +365,8 @@ def validate_pads(df):
     ):
         passed = False
 
+    # Pad ID should be unique
+
     if not validate_unique_id(
         df,
         "pad_id",
@@ -363,12 +374,17 @@ def validate_pads(df):
     ):
         passed = False
 
+    # These values should not be NULL
+
     if not validate_not_null(
         df,
         ["pad_id", "pad_name"],
         "Pads"
     ):
         passed = False
+
+    # Latitude should always be
+    # between -90 and 90
 
     if not validate_range(
         df,
@@ -378,6 +394,9 @@ def validate_pads(df):
         "Pads"
     ):
         passed = False
+
+    # Longitude should always be
+    # between -180 and 180
 
     if not validate_range(
         df,
@@ -391,9 +410,7 @@ def validate_pads(df):
     return passed
 
 
-# ============================================================
-# VALIDATE LAUNCHES
-# ============================================================
+# Validate launches
 
 def validate_launches(
     df,
@@ -402,11 +419,12 @@ def validate_launches(
     pads_df
 ):
 
-    logger.info("=" * 70)
-    logger.info("VALIDATING: LAUNCHES")
-    logger.info("=" * 70)
+    logger.info("Validating launches")
 
     passed = True
+
+    # These columns are required
+    # for the launches dataset
 
     required_columns = [
         "launch_id",
@@ -424,12 +442,17 @@ def validate_launches(
     ):
         passed = False
 
+    # Launch ID should be unique
+
     if not validate_unique_id(
         df,
         "launch_id",
         "Launches"
     ):
         passed = False
+
+    # Important launch details
+    # should not be NULL
 
     if not validate_not_null(
         df,
@@ -442,6 +465,9 @@ def validate_launches(
     ):
         passed = False
 
+    # Launch probability should be
+    # between 0 and 100
+
     if not validate_range(
         df,
         "launch_probability",
@@ -451,9 +477,10 @@ def validate_launches(
     ):
         passed = False
 
-    # --------------------------------------------------------
-    # FOREIGN KEY VALIDATION
-    # --------------------------------------------------------
+    # Check foreign key relationships
+
+    # Launch agency ID should exist
+    # in the agencies dataset
 
     if not validate_foreign_key(
         df,
@@ -464,6 +491,9 @@ def validate_launches(
     ):
         passed = False
 
+    # Launcher configuration ID should exist
+    # in the launcher configurations dataset
+
     if not validate_foreign_key(
         df,
         "launcher_configuration_id",
@@ -472,6 +502,9 @@ def validate_launches(
         "Launches -> Launcher Configurations"
     ):
         passed = False
+
+    # Pad ID should exist
+    # in the pads dataset
 
     if not validate_foreign_key(
         df,
@@ -485,23 +518,17 @@ def validate_launches(
     return passed
 
 
-# ============================================================
-# MAIN VALIDATION PIPELINE
-# ============================================================
+# Main validation pipeline
 
 def main():
 
-    logger.info("=" * 70)
     logger.info(
         "SPACE DATA VALIDATION PIPELINE STARTED"
     )
-    logger.info("=" * 70)
 
     try:
 
-        # ----------------------------------------------------
-        # READ PROCESSED DATA
-        # ----------------------------------------------------
+        # Read all processed datasets
 
         agencies_df = read_processed_data(
             "agencies.csv"
@@ -521,9 +548,7 @@ def main():
             "launches.csv"
         )
 
-        # ----------------------------------------------------
-        # VALIDATE DATASETS
-        # ----------------------------------------------------
+        # Run validation for each dataset
 
         validation_results = []
 
@@ -554,25 +579,19 @@ def main():
             )
         )
 
-        # ----------------------------------------------------
-        # FINAL VALIDATION RESULT
-        # ----------------------------------------------------
+        # Check whether all validations passed
 
         if all(validation_results):
 
-            logger.info("=" * 70)
             logger.info(
                 "ALL VALIDATION CHECKS PASSED"
             )
-            logger.info("=" * 70)
 
         else:
 
-            logger.error("=" * 70)
             logger.error(
                 "VALIDATION FAILED"
             )
-            logger.error("=" * 70)
 
             raise ValueError(
                 "One or more validation checks failed."
@@ -587,9 +606,7 @@ def main():
         raise
 
 
-# ============================================================
-# PROGRAM ENTRY POINT
-# ============================================================
+# Program entry point
 
 if __name__ == "__main__":
     main()

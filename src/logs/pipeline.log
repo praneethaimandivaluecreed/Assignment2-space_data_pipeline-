@@ -1000,3 +1000,1168 @@ ValueError: One or more validation checks failed.
 2026-09-27 10:55:54,070 | INFO | ======================================================================
 2026-09-27 10:55:54,070 | INFO | ALL VALIDATION CHECKS PASSED
 2026-09-27 10:55:54,070 | INFO | ======================================================================
+2026-09-28 10:14:00,901 | INFO | ======================================================================
+2026-09-28 10:14:00,904 | INFO | SPACE DATA EXTRACTION PIPELINE STARTED
+2026-09-28 10:14:00,904 | INFO | ======================================================================
+2026-09-28 10:14:00,904 | INFO | Raw data directory: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw
+2026-09-28 10:14:00,904 | INFO | ======================================================================
+2026-09-28 10:14:00,904 | INFO | EXTRACTING: LAUNCHES
+2026-09-28 10:14:00,904 | INFO | ======================================================================
+2026-09-28 10:14:00,906 | INFO | Raw data directory: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launches
+2026-09-28 10:14:00,906 | INFO | Requesting page 1
+2026-09-28 10:14:00,906 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launches/
+2026-09-28 10:14:05,489 | INFO | HTTP Status: 200
+2026-09-28 10:14:05,540 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launches\page_1.json
+2026-09-28 10:14:05,540 | INFO | Records in page: 100
+2026-09-28 10:14:05,541 | INFO | Total records retrieved: 100
+2026-09-28 10:14:05,541 | INFO | Next page available.
+2026-09-28 10:14:05,541 | INFO | Requesting page 2
+2026-09-28 10:14:05,541 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launches/?limit=100&offset=100
+2026-09-28 10:14:07,458 | INFO | HTTP Status: 200
+2026-09-28 10:14:07,590 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launches\page_2.json
+2026-09-28 10:14:07,590 | INFO | Records in page: 100
+2026-09-28 10:14:07,590 | INFO | Total records retrieved: 200
+2026-09-28 10:14:07,590 | INFO | Next page available.
+2026-09-28 10:14:07,590 | INFO | Extraction completed for launches.
+2026-09-28 10:14:07,590 | INFO | Total launches records retrieved: 200
+2026-09-28 10:14:07,590 | INFO | ======================================================================
+2026-09-28 10:14:07,590 | INFO | EXTRACTING: LAUNCHER_CONFIGURATIONS
+2026-09-28 10:14:07,590 | INFO | ======================================================================
+2026-09-28 10:14:07,590 | INFO | Raw data directory: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations
+2026-09-28 10:14:07,590 | INFO | Requesting page 1
+2026-09-28 10:14:07,590 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/
+2026-09-28 10:14:08,308 | INFO | HTTP Status: 200
+2026-09-28 10:14:08,364 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_1.json
+2026-09-28 10:14:08,364 | INFO | Records in page: 100
+2026-09-28 10:14:08,364 | INFO | Total records retrieved: 100
+2026-09-28 10:14:08,364 | INFO | Next page available.
+2026-09-28 10:14:08,364 | INFO | Requesting page 2
+2026-09-28 10:14:08,364 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/?limit=100&offset=100
+2026-09-28 10:14:09,996 | INFO | HTTP Status: 200
+2026-09-28 10:14:10,071 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_2.json
+2026-09-28 10:14:10,072 | INFO | Records in page: 100
+2026-09-28 10:14:10,072 | INFO | Total records retrieved: 200
+2026-09-28 10:14:10,072 | INFO | Next page available.
+2026-09-28 10:14:10,072 | INFO | Requesting page 3
+2026-09-28 10:14:10,072 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/?limit=100&offset=200
+2026-09-28 10:14:10,952 | INFO | HTTP Status: 200
+2026-09-28 10:14:11,004 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_3.json
+2026-09-28 10:14:11,004 | INFO | Records in page: 100
+2026-09-28 10:14:11,004 | INFO | Total records retrieved: 300
+2026-09-28 10:14:11,010 | INFO | Next page available.
+2026-09-28 10:14:11,010 | INFO | Requesting page 4
+2026-09-28 10:14:11,010 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/?limit=100&offset=300
+2026-09-28 10:14:11,785 | INFO | HTTP Status: 200
+2026-09-28 10:14:11,807 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_4.json
+2026-09-28 10:14:11,807 | INFO | Records in page: 100
+2026-09-28 10:14:11,807 | INFO | Total records retrieved: 400
+2026-09-28 10:14:11,807 | INFO | Next page available.
+2026-09-28 10:14:11,807 | INFO | Requesting page 5
+2026-09-28 10:14:11,807 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/?limit=100&offset=400
+2026-09-28 10:14:12,568 | INFO | HTTP Status: 200
+2026-09-28 10:14:12,608 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_5.json
+2026-09-28 10:14:12,609 | INFO | Records in page: 100
+2026-09-28 10:14:12,609 | INFO | Total records retrieved: 500
+2026-09-28 10:14:12,609 | INFO | Next page available.
+2026-09-28 10:14:12,609 | INFO | Requesting page 6
+2026-09-28 10:14:12,609 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/?limit=100&offset=500
+2026-09-28 10:14:13,364 | INFO | HTTP Status: 200
+2026-09-28 10:14:13,377 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_6.json
+2026-09-28 10:14:13,378 | INFO | Records in page: 32
+2026-09-28 10:14:13,379 | INFO | Total records retrieved: 532
+2026-09-28 10:14:13,379 | INFO | No more pages available.
+2026-09-28 10:14:13,379 | INFO | Extraction completed for launcher_configurations.
+2026-09-28 10:14:13,379 | INFO | Total launcher_configurations records retrieved: 532
+2026-09-28 10:14:13,380 | INFO | ======================================================================
+2026-09-28 10:14:13,380 | INFO | EXTRACTING: AGENCIES
+2026-09-28 10:14:13,380 | INFO | ======================================================================
+2026-09-28 10:14:13,380 | INFO | Raw data directory: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies
+2026-09-28 10:14:13,380 | INFO | Requesting page 1
+2026-09-28 10:14:13,380 | INFO | URL: https://ll.thespacedevs.com/2.3.0/agencies/
+2026-09-28 10:14:13,861 | INFO | HTTP Status: 200
+2026-09-28 10:14:13,877 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_1.json
+2026-09-28 10:14:13,877 | INFO | Records in page: 100
+2026-09-28 10:14:13,877 | INFO | Total records retrieved: 100
+2026-09-28 10:14:13,877 | INFO | Next page available.
+2026-09-28 10:14:13,877 | INFO | Requesting page 2
+2026-09-28 10:14:13,877 | INFO | URL: https://ll.thespacedevs.com/2.3.0/agencies/?limit=100&offset=100
+2026-09-28 10:14:14,553 | INFO | HTTP Status: 200
+2026-09-28 10:14:14,553 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_2.json
+2026-09-28 10:14:14,553 | INFO | Records in page: 100
+2026-09-28 10:14:14,553 | INFO | Total records retrieved: 200
+2026-09-28 10:14:14,553 | INFO | Next page available.
+2026-09-28 10:14:14,553 | INFO | Requesting page 3
+2026-09-28 10:14:14,553 | INFO | URL: https://ll.thespacedevs.com/2.3.0/agencies/?limit=100&offset=200
+2026-09-28 10:14:15,073 | INFO | HTTP Status: 200
+2026-09-28 10:14:15,088 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_3.json
+2026-09-28 10:14:15,088 | INFO | Records in page: 100
+2026-09-28 10:14:15,088 | INFO | Total records retrieved: 300
+2026-09-28 10:14:15,088 | INFO | Next page available.
+2026-09-28 10:14:15,088 | INFO | Requesting page 4
+2026-09-28 10:14:15,088 | INFO | URL: https://ll.thespacedevs.com/2.3.0/agencies/?limit=100&offset=300
+2026-09-28 10:14:15,554 | INFO | HTTP Status: 200
+2026-09-28 10:14:15,589 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_4.json
+2026-09-28 10:14:15,589 | INFO | Records in page: 50
+2026-09-28 10:14:15,589 | INFO | Total records retrieved: 350
+2026-09-28 10:14:15,589 | INFO | No more pages available.
+2026-09-28 10:14:15,589 | INFO | Extraction completed for agencies.
+2026-09-28 10:14:15,589 | INFO | Total agencies records retrieved: 350
+2026-09-28 10:14:15,589 | INFO | ======================================================================
+2026-09-28 10:14:15,589 | INFO | EXTRACTING: PADS
+2026-09-28 10:14:15,589 | INFO | ======================================================================
+2026-09-28 10:14:15,603 | INFO | Raw data directory: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads
+2026-09-28 10:14:15,603 | INFO | Requesting page 1
+2026-09-28 10:14:15,603 | INFO | URL: https://ll.thespacedevs.com/2.3.0/pads/
+2026-09-28 10:14:18,187 | INFO | HTTP Status: 200
+2026-09-28 10:14:18,213 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads\page_1.json
+2026-09-28 10:14:18,213 | INFO | Records in page: 100
+2026-09-28 10:14:18,213 | INFO | Total records retrieved: 100
+2026-09-28 10:14:18,213 | INFO | Next page available.
+2026-09-28 10:14:18,213 | INFO | Requesting page 2
+2026-09-28 10:14:18,213 | INFO | URL: https://ll.thespacedevs.com/2.3.0/pads/?limit=100&offset=100
+2026-09-28 10:14:19,611 | INFO | HTTP Status: 200
+2026-09-28 10:14:19,688 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads\page_2.json
+2026-09-28 10:14:19,689 | INFO | Records in page: 100
+2026-09-28 10:14:19,689 | INFO | Total records retrieved: 200
+2026-09-28 10:14:19,689 | INFO | Next page available.
+2026-09-28 10:14:19,689 | INFO | Requesting page 3
+2026-09-28 10:14:19,689 | INFO | URL: https://ll.thespacedevs.com/2.3.0/pads/?limit=100&offset=200
+2026-09-28 10:14:20,297 | INFO | HTTP Status: 200
+2026-09-28 10:14:20,370 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads\page_3.json
+2026-09-28 10:14:20,371 | INFO | Records in page: 51
+2026-09-28 10:14:20,371 | INFO | Total records retrieved: 251
+2026-09-28 10:14:20,371 | INFO | No more pages available.
+2026-09-28 10:14:20,371 | INFO | Extraction completed for pads.
+2026-09-28 10:14:20,372 | INFO | Total pads records retrieved: 251
+2026-09-28 10:14:20,372 | INFO | ======================================================================
+2026-09-28 10:14:20,372 | INFO | EXTRACTION SUMMARY
+2026-09-28 10:14:20,372 | INFO | ======================================================================
+2026-09-28 10:14:20,372 | INFO | launches: 200 records
+2026-09-28 10:14:20,373 | INFO | launcher_configurations: 532 records
+2026-09-28 10:14:20,373 | INFO | agencies: 350 records
+2026-09-28 10:14:20,373 | INFO | pads: 251 records
+2026-09-28 10:14:20,373 | INFO | ======================================================================
+2026-09-28 10:14:20,373 | INFO | SPACE DATA EXTRACTION PIPELINE FINISHED
+2026-09-28 10:14:20,373 | INFO | ======================================================================
+2026-09-28 10:14:39,260 | INFO | ======================================================================
+2026-09-28 10:14:39,260 | INFO | SPACE DATA TRANSFORMATION PIPELINE STARTED
+2026-09-28 10:14:39,260 | INFO | ======================================================================
+2026-09-28 10:14:39,260 | INFO | Reading raw dataset: agencies
+2026-09-28 10:14:39,260 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_1.json
+2026-09-28 10:14:39,264 | INFO | Records loaded from file: 100
+2026-09-28 10:14:39,264 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_2.json
+2026-09-28 10:14:39,269 | INFO | Records loaded from file: 100
+2026-09-28 10:14:39,269 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_3.json
+2026-09-28 10:14:39,271 | INFO | Records loaded from file: 100
+2026-09-28 10:14:39,271 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_4.json
+2026-09-28 10:14:39,272 | INFO | Records loaded from file: 50
+2026-09-28 10:14:39,272 | INFO | Total raw records for agencies: 350
+2026-09-28 10:14:39,272 | INFO | Reading raw dataset: launcher_configurations
+2026-09-28 10:14:39,272 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_1.json
+2026-09-28 10:14:39,286 | INFO | Records loaded from file: 100
+2026-09-28 10:14:39,286 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_2.json
+2026-09-28 10:14:39,296 | INFO | Records loaded from file: 100
+2026-09-28 10:14:39,296 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_3.json
+2026-09-28 10:14:39,306 | INFO | Records loaded from file: 100
+2026-09-28 10:14:39,306 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_4.json
+2026-09-28 10:14:39,320 | INFO | Records loaded from file: 100
+2026-09-28 10:14:39,320 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_5.json
+2026-09-28 10:14:39,328 | INFO | Records loaded from file: 100
+2026-09-28 10:14:39,328 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_6.json
+2026-09-28 10:14:39,331 | INFO | Records loaded from file: 32
+2026-09-28 10:14:39,331 | INFO | Total raw records for launcher_configurations: 532
+2026-09-28 10:14:39,331 | INFO | Reading raw dataset: pads
+2026-09-28 10:14:39,331 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads\page_1.json
+2026-09-28 10:14:39,343 | INFO | Records loaded from file: 100
+2026-09-28 10:14:39,343 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads\page_2.json
+2026-09-28 10:14:39,360 | INFO | Records loaded from file: 100
+2026-09-28 10:14:39,360 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads\page_3.json
+2026-09-28 10:14:39,387 | INFO | Records loaded from file: 51
+2026-09-28 10:14:39,387 | INFO | Total raw records for pads: 251
+2026-09-28 10:14:39,387 | INFO | Reading raw dataset: launches
+2026-09-28 10:14:39,387 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launches\page_1.json
+2026-09-28 10:14:39,421 | INFO | Records loaded from file: 100
+2026-09-28 10:14:39,421 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launches\page_2.json
+2026-09-28 10:14:39,434 | INFO | Records loaded from file: 100
+2026-09-28 10:14:39,435 | INFO | Total raw records for launches: 200
+2026-09-28 10:14:39,435 | INFO | ======================================================================
+2026-09-28 10:14:39,435 | INFO | TRANSFORMING: AGENCIES
+2026-09-28 10:14:39,435 | INFO | ======================================================================
+2026-09-28 10:14:39,437 | INFO | Duplicate agencies removed: 0
+2026-09-28 10:14:39,437 | INFO | Missing agency country values: 0
+2026-09-28 10:14:39,437 | INFO | Missing agency type values: 0
+2026-09-28 10:14:39,437 | INFO | Processed agency records: 350
+2026-09-28 10:14:39,437 | INFO | ======================================================================
+2026-09-28 10:14:39,437 | INFO | TRANSFORMING: LAUNCHER CONFIGURATIONS
+2026-09-28 10:14:39,437 | INFO | ======================================================================
+2026-09-28 10:14:39,444 | INFO | Duplicate launcher configurations removed: 0
+2026-09-28 10:14:39,446 | INFO | Launcher configuration transformation completed.
+2026-09-28 10:14:39,446 | INFO | Processed records: 532
+2026-09-28 10:14:39,446 | INFO | ======================================================================
+2026-09-28 10:14:39,446 | INFO | TRANSFORMING: PADS
+2026-09-28 10:14:39,446 | INFO | ======================================================================
+2026-09-28 10:14:39,449 | INFO | Duplicate pads removed: 39
+2026-09-28 10:14:39,449 | INFO | Processed pad records: 212
+2026-09-28 10:14:39,449 | INFO | ======================================================================
+2026-09-28 10:14:39,449 | INFO | TRANSFORMING: LAUNCHES
+2026-09-28 10:14:39,449 | INFO | ======================================================================
+2026-09-28 10:14:39,449 | INFO | Duplicate launches removed: 0
+2026-09-28 10:14:39,486 | INFO | Launches with unmatched agencies: 0
+2026-09-28 10:14:39,487 | INFO | Launches with unmatched launcher configurations: 0
+2026-09-28 10:14:39,487 | INFO | Launches with unmatched pads: 36
+2026-09-28 10:14:39,487 | INFO | Successful launches: 114
+2026-09-28 10:14:39,487 | INFO | Processed launch records: 200
+2026-09-28 10:14:39,487 | INFO | Processed data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\agencies.csv
+2026-09-28 10:14:39,496 | INFO | Processed data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launcher_configurations.csv
+2026-09-28 10:14:39,499 | INFO | Processed data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\pads.csv
+2026-09-28 10:14:39,501 | INFO | Processed data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launches.csv
+2026-09-28 10:14:39,501 | INFO | ======================================================================
+2026-09-28 10:14:39,504 | INFO | TRANSFORMATION SUMMARY
+2026-09-28 10:14:39,504 | INFO | ======================================================================
+2026-09-28 10:14:39,504 | INFO | Agencies: 350
+2026-09-28 10:14:39,504 | INFO | Launcher configurations: 532
+2026-09-28 10:14:39,504 | INFO | Pads: 212
+2026-09-28 10:14:39,504 | INFO | Launches: 200
+2026-09-28 10:14:39,504 | INFO | ======================================================================
+2026-09-28 10:14:39,504 | INFO | SPACE DATA TRANSFORMATION PIPELINE COMPLETED
+2026-09-28 10:14:39,504 | INFO | ======================================================================
+2026-09-28 10:14:49,330 | INFO | ======================================================================
+2026-09-28 10:14:49,330 | INFO | SPACE DATA LOADING PIPELINE STARTED
+2026-09-28 10:14:49,330 | INFO | ======================================================================
+2026-09-28 10:14:49,330 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\agencies.csv
+2026-09-28 10:14:49,344 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launcher_configurations.csv
+2026-09-28 10:14:49,344 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\pads.csv
+2026-09-28 10:14:49,357 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launches.csv
+2026-09-28 10:14:49,357 | INFO | All processed datasets loaded successfully
+2026-09-28 10:14:49,357 | INFO | Validating database configuration
+2026-09-28 10:14:49,357 | INFO | Database configuration validation passed
+2026-09-28 10:14:49,357 | INFO | Connecting to SQL Server
+2026-09-28 10:14:49,894 | INFO | SQL Server connection successful
+2026-09-28 10:14:49,894 | INFO | ======================================================================
+2026-09-28 10:14:49,894 | INFO | LOADING: AGENCIES
+2026-09-28 10:14:49,894 | INFO | ======================================================================
+2026-09-28 10:14:50,119 | ERROR | Agency batch failed. Batch starting at 0. Rolled back batch: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'student4.dbo.agencies', column 'country'. Truncated value: 'Australia, Bangladesh, Brunei, Bhutan, Canada, Cambodia, China, France, Germany, India, Indonesia, J'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+Traceback (most recent call last):
+  File "C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\src\load.py", line 253, in load_agencies
+    cursor.execute("""
+pyodbc.ProgrammingError: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'student4.dbo.agencies', column 'country'. Truncated value: 'Australia, Bangladesh, Brunei, Bhutan, Canada, Cambodia, China, France, Germany, India, Indonesia, J'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-09-28 10:14:50,119 | ERROR | Loading pipeline failed: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'student4.dbo.agencies', column 'country'. Truncated value: 'Australia, Bangladesh, Brunei, Bhutan, Canada, Cambodia, China, France, Germany, India, Indonesia, J'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+Traceback (most recent call last):
+  File "C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\src\load.py", line 1004, in main
+    load_agencies(
+  File "C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\src\load.py", line 253, in load_agencies
+    cursor.execute("""
+pyodbc.ProgrammingError: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'student4.dbo.agencies', column 'country'. Truncated value: 'Australia, Bangladesh, Brunei, Bhutan, Canada, Cambodia, China, France, Germany, India, Indonesia, J'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-09-28 10:14:50,135 | INFO | Database connection closed
+2026-09-28 10:17:07,240 | INFO | ======================================================================
+2026-09-28 10:17:07,240 | INFO | SPACE DATA LOADING PIPELINE STARTED
+2026-09-28 10:17:07,240 | INFO | ======================================================================
+2026-09-28 10:17:07,240 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\agencies.csv
+2026-09-28 10:17:07,256 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launcher_configurations.csv
+2026-09-28 10:17:07,258 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\pads.csv
+2026-09-28 10:17:07,260 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launches.csv
+2026-09-28 10:17:07,263 | INFO | All processed datasets loaded successfully
+2026-09-28 10:17:07,263 | INFO | Validating database configuration
+2026-09-28 10:17:07,263 | INFO | Database configuration validation passed
+2026-09-28 10:17:07,264 | INFO | Connecting to SQL Server
+2026-09-28 10:17:07,309 | INFO | SQL Server connection successful
+2026-09-28 10:17:07,309 | INFO | ======================================================================
+2026-09-28 10:17:07,309 | INFO | LOADING: AGENCIES
+2026-09-28 10:17:07,309 | INFO | ======================================================================
+2026-09-28 10:17:07,603 | INFO | Agencies batch committed: 350 records | Inserted: 350 | Updated: 0
+2026-09-28 10:17:07,603 | INFO | Agencies loading completed | Inserted: 350 | Updated: 0
+2026-09-28 10:17:07,603 | INFO | ======================================================================
+2026-09-28 10:17:07,603 | INFO | LOADING: LAUNCHER CONFIGURATIONS
+2026-09-28 10:17:07,603 | INFO | ======================================================================
+2026-09-28 10:17:07,897 | INFO | Launcher configuration batch committed: 500 records | Inserted: 500 | Updated: 0
+2026-09-28 10:17:07,914 | INFO | Launcher configuration batch committed: 32 records | Inserted: 32 | Updated: 0
+2026-09-28 10:17:07,914 | INFO | Launcher configuration loading completed | Inserted: 532 | Updated: 0
+2026-09-28 10:17:07,914 | INFO | ======================================================================
+2026-09-28 10:17:07,914 | INFO | LOADING: PADS
+2026-09-28 10:17:07,914 | INFO | ======================================================================
+2026-09-28 10:17:08,120 | INFO | Pads batch committed: 212 records | Inserted: 212 | Updated: 0
+2026-09-28 10:17:08,120 | INFO | Pad loading completed | Inserted: 212 | Updated: 0
+2026-09-28 10:17:08,120 | INFO | ======================================================================
+2026-09-28 10:17:08,120 | INFO | LOADING: LAUNCHES
+2026-09-28 10:17:08,120 | INFO | ======================================================================
+2026-09-28 10:17:08,489 | INFO | Launch batch committed: 200 records | Inserted: 200 | Updated: 0
+2026-09-28 10:17:08,489 | INFO | Launch loading completed | Inserted: 200 | Updated: 0
+2026-09-28 10:17:08,489 | INFO | ======================================================================
+2026-09-28 10:17:08,489 | INFO | SPACE DATA LOADING PIPELINE COMPLETED
+2026-09-28 10:17:08,489 | INFO | ======================================================================
+2026-09-28 10:17:08,489 | INFO | Agencies processed: 350
+2026-09-28 10:17:08,489 | INFO | Launcher configurations processed: 532
+2026-09-28 10:17:08,489 | INFO | Pads processed: 212
+2026-09-28 10:17:08,489 | INFO | Launches processed: 200
+2026-09-28 10:17:08,489 | INFO | ======================================================================
+2026-09-28 10:17:08,489 | INFO | Database connection closed
+2026-09-28 10:29:16,805 | INFO | ======================================================================
+2026-09-28 10:29:16,805 | INFO | SPACE DATA LOADING PIPELINE STARTED
+2026-09-28 10:29:16,805 | INFO | ======================================================================
+2026-09-28 10:29:16,805 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\agencies.csv
+2026-09-28 10:29:16,821 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launcher_configurations.csv
+2026-09-28 10:29:16,821 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\pads.csv
+2026-09-28 10:29:16,826 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launches.csv
+2026-09-28 10:29:16,829 | INFO | All processed datasets loaded successfully
+2026-09-28 10:29:16,830 | INFO | Validating database configuration
+2026-09-28 10:29:16,830 | INFO | Database configuration validation passed
+2026-09-28 10:29:16,830 | INFO | Connecting to SQL Server
+2026-09-28 10:29:16,868 | INFO | SQL Server connection successful
+2026-09-28 10:29:16,868 | INFO | ======================================================================
+2026-09-28 10:29:16,868 | INFO | LOADING: AGENCIES
+2026-09-28 10:29:16,868 | INFO | ======================================================================
+2026-09-28 10:29:17,261 | INFO | Agencies batch committed: 350 records | Inserted: 0 | Updated: 350
+2026-09-28 10:29:17,261 | INFO | Agencies loading completed | Inserted: 0 | Updated: 350
+2026-09-28 10:29:17,261 | INFO | ======================================================================
+2026-09-28 10:29:17,261 | INFO | LOADING: LAUNCHER CONFIGURATIONS
+2026-09-28 10:29:17,261 | INFO | ======================================================================
+2026-09-28 10:29:17,652 | INFO | Launcher configuration batch committed: 500 records | Inserted: 0 | Updated: 500
+2026-09-28 10:29:17,671 | INFO | Launcher configuration batch committed: 32 records | Inserted: 0 | Updated: 32
+2026-09-28 10:29:17,671 | INFO | Launcher configuration loading completed | Inserted: 0 | Updated: 532
+2026-09-28 10:29:17,671 | INFO | ======================================================================
+2026-09-28 10:29:17,671 | INFO | LOADING: PADS
+2026-09-28 10:29:17,671 | INFO | ======================================================================
+2026-09-28 10:29:17,931 | INFO | Pads batch committed: 212 records | Inserted: 0 | Updated: 212
+2026-09-28 10:29:17,931 | INFO | Pad loading completed | Inserted: 0 | Updated: 212
+2026-09-28 10:29:17,931 | INFO | ======================================================================
+2026-09-28 10:29:17,931 | INFO | LOADING: LAUNCHES
+2026-09-28 10:29:17,931 | INFO | ======================================================================
+2026-09-28 10:29:18,282 | INFO | Launch batch committed: 200 records | Inserted: 0 | Updated: 200
+2026-09-28 10:29:18,282 | INFO | Launch loading completed | Inserted: 0 | Updated: 200
+2026-09-28 10:29:18,282 | INFO | ======================================================================
+2026-09-28 10:29:18,282 | INFO | SPACE DATA LOADING PIPELINE COMPLETED
+2026-09-28 10:29:18,282 | INFO | ======================================================================
+2026-09-28 10:29:18,282 | INFO | Agencies processed: 350
+2026-09-28 10:29:18,282 | INFO | Launcher configurations processed: 532
+2026-09-28 10:29:18,282 | INFO | Pads processed: 212
+2026-09-28 10:29:18,282 | INFO | Launches processed: 200
+2026-09-28 10:29:18,282 | INFO | ======================================================================
+2026-09-28 10:29:18,282 | INFO | Database connection closed
+2026-09-28 11:40:00,224 | INFO | ======================================================================
+2026-09-28 11:40:00,227 | INFO | SPACE DATA EXTRACTION PIPELINE STARTED
+2026-09-28 11:40:00,227 | INFO | ======================================================================
+2026-09-28 11:40:00,227 | INFO | Raw data directory: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw
+2026-09-28 11:40:00,227 | INFO | ======================================================================
+2026-09-28 11:40:00,227 | INFO | EXTRACTING: LAUNCHES
+2026-09-28 11:40:00,227 | INFO | ======================================================================
+2026-09-28 11:40:00,227 | INFO | Raw data directory: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launches
+2026-09-28 11:40:00,227 | INFO | Requesting page 1
+2026-09-28 11:40:00,227 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launches/
+2026-09-28 11:40:41,904 | WARNING | Request timed out. Attempt 1/3
+2026-09-28 11:40:41,904 | INFO | Retrying in 1 seconds...
+2026-09-28 11:40:50,111 | INFO | HTTP Status: 200
+2026-09-28 11:40:50,170 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launches\page_1.json
+2026-09-28 11:40:50,170 | INFO | Records in page: 100
+2026-09-28 11:40:50,171 | INFO | Total records retrieved: 100
+2026-09-28 11:40:50,171 | INFO | Next page available.
+2026-09-28 11:40:50,171 | INFO | Requesting page 2
+2026-09-28 11:40:50,171 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launches/?limit=100&offset=100
+2026-09-28 11:41:01,865 | INFO | HTTP Status: 200
+2026-09-28 11:41:01,920 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launches\page_2.json
+2026-09-28 11:41:01,920 | INFO | Records in page: 100
+2026-09-28 11:41:01,920 | INFO | Total records retrieved: 200
+2026-09-28 11:41:01,921 | INFO | Next page available.
+2026-09-28 11:41:01,921 | INFO | Extraction completed for launches.
+2026-09-28 11:41:01,921 | INFO | Total launches records retrieved: 200
+2026-09-28 11:41:01,921 | INFO | ======================================================================
+2026-09-28 11:41:01,922 | INFO | EXTRACTING: LAUNCHER_CONFIGURATIONS
+2026-09-28 11:41:01,922 | INFO | ======================================================================
+2026-09-28 11:41:01,922 | INFO | Raw data directory: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations
+2026-09-28 11:41:01,922 | INFO | Requesting page 1
+2026-09-28 11:41:01,922 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/
+2026-09-28 11:41:03,870 | INFO | HTTP Status: 200
+2026-09-28 11:41:03,943 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_1.json
+2026-09-28 11:41:03,943 | INFO | Records in page: 100
+2026-09-28 11:41:03,943 | INFO | Total records retrieved: 100
+2026-09-28 11:41:03,943 | INFO | Next page available.
+2026-09-28 11:41:03,943 | INFO | Requesting page 2
+2026-09-28 11:41:03,943 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/?limit=100&offset=100
+2026-09-28 11:41:04,739 | INFO | HTTP Status: 200
+2026-09-28 11:41:04,811 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_2.json
+2026-09-28 11:41:04,811 | INFO | Records in page: 100
+2026-09-28 11:41:04,811 | INFO | Total records retrieved: 200
+2026-09-28 11:41:04,811 | INFO | Next page available.
+2026-09-28 11:41:04,811 | INFO | Requesting page 3
+2026-09-28 11:41:04,811 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/?limit=100&offset=200
+2026-09-28 11:41:09,361 | INFO | HTTP Status: 200
+2026-09-28 11:41:09,426 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_3.json
+2026-09-28 11:41:09,426 | INFO | Records in page: 100
+2026-09-28 11:41:09,426 | INFO | Total records retrieved: 300
+2026-09-28 11:41:09,426 | INFO | Next page available.
+2026-09-28 11:41:09,426 | INFO | Requesting page 4
+2026-09-28 11:41:09,426 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/?limit=100&offset=300
+2026-09-28 11:41:10,706 | INFO | HTTP Status: 200
+2026-09-28 11:41:10,761 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_4.json
+2026-09-28 11:41:10,761 | INFO | Records in page: 100
+2026-09-28 11:41:10,761 | INFO | Total records retrieved: 400
+2026-09-28 11:41:10,761 | INFO | Next page available.
+2026-09-28 11:41:10,761 | INFO | Requesting page 5
+2026-09-28 11:41:10,761 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/?limit=100&offset=400
+2026-09-28 11:41:11,717 | INFO | HTTP Status: 200
+2026-09-28 11:41:11,838 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_5.json
+2026-09-28 11:41:11,838 | INFO | Records in page: 100
+2026-09-28 11:41:11,838 | INFO | Total records retrieved: 500
+2026-09-28 11:41:11,838 | INFO | Next page available.
+2026-09-28 11:41:11,839 | INFO | Requesting page 6
+2026-09-28 11:41:11,839 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/?limit=100&offset=500
+2026-09-28 11:41:12,434 | INFO | HTTP Status: 200
+2026-09-28 11:41:12,474 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_6.json
+2026-09-28 11:41:12,474 | INFO | Records in page: 32
+2026-09-28 11:41:12,474 | INFO | Total records retrieved: 532
+2026-09-28 11:41:12,474 | INFO | No more pages available.
+2026-09-28 11:41:12,474 | INFO | Extraction completed for launcher_configurations.
+2026-09-28 11:41:12,474 | INFO | Total launcher_configurations records retrieved: 532
+2026-09-28 11:41:12,474 | INFO | ======================================================================
+2026-09-28 11:41:12,474 | INFO | EXTRACTING: AGENCIES
+2026-09-28 11:41:12,474 | INFO | ======================================================================
+2026-09-28 11:41:12,474 | INFO | Raw data directory: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies
+2026-09-28 11:41:12,474 | INFO | Requesting page 1
+2026-09-28 11:41:12,474 | INFO | URL: https://ll.thespacedevs.com/2.3.0/agencies/
+2026-09-28 11:41:13,036 | INFO | HTTP Status: 200
+2026-09-28 11:41:13,076 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_1.json
+2026-09-28 11:41:13,076 | INFO | Records in page: 100
+2026-09-28 11:41:13,076 | INFO | Total records retrieved: 100
+2026-09-28 11:41:13,076 | INFO | Next page available.
+2026-09-28 11:41:13,076 | INFO | Requesting page 2
+2026-09-28 11:41:13,076 | INFO | URL: https://ll.thespacedevs.com/2.3.0/agencies/?limit=100&offset=100
+2026-09-28 11:41:13,951 | INFO | HTTP Status: 200
+2026-09-28 11:41:13,991 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_2.json
+2026-09-28 11:41:13,991 | INFO | Records in page: 100
+2026-09-28 11:41:13,991 | INFO | Total records retrieved: 200
+2026-09-28 11:41:13,991 | INFO | Next page available.
+2026-09-28 11:41:13,991 | INFO | Requesting page 3
+2026-09-28 11:41:13,991 | INFO | URL: https://ll.thespacedevs.com/2.3.0/agencies/?limit=100&offset=200
+2026-09-28 11:41:14,925 | INFO | HTTP Status: 200
+2026-09-28 11:41:14,942 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_3.json
+2026-09-28 11:41:14,942 | INFO | Records in page: 100
+2026-09-28 11:41:14,942 | INFO | Total records retrieved: 300
+2026-09-28 11:41:14,942 | INFO | Next page available.
+2026-09-28 11:41:14,942 | INFO | Requesting page 4
+2026-09-28 11:41:14,942 | INFO | URL: https://ll.thespacedevs.com/2.3.0/agencies/?limit=100&offset=300
+2026-09-28 11:41:15,511 | INFO | HTTP Status: 200
+2026-09-28 11:41:15,534 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_4.json
+2026-09-28 11:41:15,535 | INFO | Records in page: 50
+2026-09-28 11:41:15,535 | INFO | Total records retrieved: 350
+2026-09-28 11:41:15,535 | INFO | No more pages available.
+2026-09-28 11:41:15,535 | INFO | Extraction completed for agencies.
+2026-09-28 11:41:15,535 | INFO | Total agencies records retrieved: 350
+2026-09-28 11:41:15,538 | INFO | ======================================================================
+2026-09-28 11:41:15,538 | INFO | EXTRACTING: PADS
+2026-09-28 11:41:15,538 | INFO | ======================================================================
+2026-09-28 11:41:15,538 | INFO | Raw data directory: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads
+2026-09-28 11:41:15,538 | INFO | Requesting page 1
+2026-09-28 11:41:15,538 | INFO | URL: https://ll.thespacedevs.com/2.3.0/pads/
+2026-09-28 11:41:16,781 | INFO | HTTP Status: 200
+2026-09-28 11:41:16,804 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads\page_1.json
+2026-09-28 11:41:16,804 | INFO | Records in page: 100
+2026-09-28 11:41:16,804 | INFO | Total records retrieved: 100
+2026-09-28 11:41:16,804 | INFO | Next page available.
+2026-09-28 11:41:16,804 | INFO | Requesting page 2
+2026-09-28 11:41:16,804 | INFO | URL: https://ll.thespacedevs.com/2.3.0/pads/?limit=100&offset=100
+2026-09-28 11:41:20,116 | INFO | HTTP Status: 200
+2026-09-28 11:41:20,193 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads\page_2.json
+2026-09-28 11:41:20,193 | INFO | Records in page: 100
+2026-09-28 11:41:20,193 | INFO | Total records retrieved: 200
+2026-09-28 11:41:20,193 | INFO | Next page available.
+2026-09-28 11:41:20,193 | INFO | Requesting page 3
+2026-09-28 11:41:20,193 | INFO | URL: https://ll.thespacedevs.com/2.3.0/pads/?limit=100&offset=200
+2026-09-28 11:41:20,555 | INFO | HTTP Status: 429
+2026-09-28 11:41:20,562 | WARNING | Temporary API error (429). Attempt 1/3.
+2026-09-28 11:41:20,562 | INFO | Retrying in 1 seconds...
+2026-09-28 11:41:21,903 | INFO | HTTP Status: 429
+2026-09-28 11:41:21,903 | WARNING | Temporary API error (429). Attempt 2/3.
+2026-09-28 11:41:21,904 | INFO | Retrying in 2 seconds...
+2026-09-28 11:41:24,259 | INFO | HTTP Status: 429
+2026-09-28 11:41:24,259 | ERROR | ERROR while extracting pads: API request failed after 3 attempts. Status: 429
+Traceback (most recent call last):
+  File "C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\src\extract.py", line 395, in main
+    total_records = extract_endpoint(
+                    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\src\extract.py", line 191, in extract_endpoint
+    raise Exception(
+Exception: API request failed after 3 attempts. Status: 429
+2026-09-28 11:41:24,259 | WARNING | Continuing extraction with remaining datasets...
+2026-09-28 11:41:24,259 | INFO | ======================================================================
+2026-09-28 11:41:24,259 | INFO | EXTRACTION SUMMARY
+2026-09-28 11:41:24,259 | INFO | ======================================================================
+2026-09-28 11:41:24,259 | INFO | launches: 200 records
+2026-09-28 11:41:24,259 | INFO | launcher_configurations: 532 records
+2026-09-28 11:41:24,259 | INFO | agencies: 350 records
+2026-09-28 11:41:24,259 | INFO | pads: 0 records
+2026-09-28 11:41:24,274 | INFO | ======================================================================
+2026-09-28 11:41:24,274 | INFO | SPACE DATA EXTRACTION PIPELINE FINISHED
+2026-09-28 11:41:24,276 | INFO | ======================================================================
+2026-09-28 11:45:47,011 | INFO | ======================================================================
+2026-09-28 11:45:47,024 | INFO | SPACE DATA TRANSFORMATION PIPELINE STARTED
+2026-09-28 11:45:47,024 | INFO | ======================================================================
+2026-09-28 11:45:47,029 | INFO | Reading raw dataset: agencies
+2026-09-28 11:45:47,029 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_1.json
+2026-09-28 11:45:47,029 | INFO | Records loaded from file: 100
+2026-09-28 11:45:47,029 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_2.json
+2026-09-28 11:45:47,046 | INFO | Records loaded from file: 100
+2026-09-28 11:45:47,047 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_3.json
+2026-09-28 11:45:47,053 | INFO | Records loaded from file: 100
+2026-09-28 11:45:47,054 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_4.json
+2026-09-28 11:45:47,057 | INFO | Records loaded from file: 50
+2026-09-28 11:45:47,057 | INFO | Total raw records for agencies: 350
+2026-09-28 11:45:47,057 | INFO | Reading raw dataset: launcher_configurations
+2026-09-28 11:45:47,061 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_1.json
+2026-09-28 11:45:47,088 | INFO | Records loaded from file: 100
+2026-09-28 11:45:47,088 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_2.json
+2026-09-28 11:45:47,097 | INFO | Records loaded from file: 100
+2026-09-28 11:45:47,097 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_3.json
+2026-09-28 11:45:47,131 | INFO | Records loaded from file: 100
+2026-09-28 11:45:47,131 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_4.json
+2026-09-28 11:45:47,148 | INFO | Records loaded from file: 100
+2026-09-28 11:45:47,148 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_5.json
+2026-09-28 11:45:47,161 | INFO | Records loaded from file: 100
+2026-09-28 11:45:47,161 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_6.json
+2026-09-28 11:45:47,164 | INFO | Records loaded from file: 32
+2026-09-28 11:45:47,164 | INFO | Total raw records for launcher_configurations: 532
+2026-09-28 11:45:47,164 | INFO | Reading raw dataset: pads
+2026-09-28 11:45:47,164 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads\page_1.json
+2026-09-28 11:45:47,214 | INFO | Records loaded from file: 100
+2026-09-28 11:45:47,214 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads\page_2.json
+2026-09-28 11:45:47,264 | INFO | Records loaded from file: 100
+2026-09-28 11:45:47,264 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads\page_3.json
+2026-09-28 11:45:47,314 | INFO | Records loaded from file: 51
+2026-09-28 11:45:47,314 | INFO | Total raw records for pads: 251
+2026-09-28 11:45:47,314 | INFO | Reading raw dataset: launches
+2026-09-28 11:45:47,314 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launches\page_1.json
+2026-09-28 11:45:47,314 | INFO | Records loaded from file: 100
+2026-09-28 11:45:47,314 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launches\page_2.json
+2026-09-28 11:45:47,385 | INFO | Records loaded from file: 100
+2026-09-28 11:45:47,385 | INFO | Total raw records for launches: 200
+2026-09-28 11:45:47,385 | INFO | ======================================================================
+2026-09-28 11:45:47,385 | INFO | TRANSFORMING: AGENCIES
+2026-09-28 11:45:47,386 | INFO | ======================================================================
+2026-09-28 11:45:47,389 | INFO | Duplicate agencies removed: 0
+2026-09-28 11:45:47,393 | INFO | Missing agency country values: 0
+2026-09-28 11:45:47,393 | INFO | Missing agency type values: 0
+2026-09-28 11:45:47,393 | INFO | Processed agency records: 350
+2026-09-28 11:45:47,393 | INFO | ======================================================================
+2026-09-28 11:45:47,394 | INFO | TRANSFORMING: LAUNCHER CONFIGURATIONS
+2026-09-28 11:45:47,394 | INFO | ======================================================================
+2026-09-28 11:45:47,396 | INFO | Duplicate launcher configurations removed: 0
+2026-09-28 11:45:47,399 | INFO | Launcher configuration transformation completed.
+2026-09-28 11:45:47,399 | INFO | Processed records: 532
+2026-09-28 11:45:47,399 | INFO | ======================================================================
+2026-09-28 11:45:47,399 | INFO | TRANSFORMING: PADS
+2026-09-28 11:45:47,399 | INFO | ======================================================================
+2026-09-28 11:45:47,404 | INFO | Duplicate pads removed: 39
+2026-09-28 11:45:47,406 | INFO | Processed pad records: 212
+2026-09-28 11:45:47,406 | INFO | ======================================================================
+2026-09-28 11:45:47,406 | INFO | TRANSFORMING: LAUNCHES
+2026-09-28 11:45:47,406 | INFO | ======================================================================
+2026-09-28 11:45:47,408 | INFO | Duplicate launches removed: 0
+2026-09-28 11:45:47,415 | INFO | Launches with unmatched agencies: 0
+2026-09-28 11:45:47,415 | INFO | Launches with unmatched launcher configurations: 0
+2026-09-28 11:45:47,415 | INFO | Launches with unmatched pads: 36
+2026-09-28 11:45:47,421 | INFO | Successful launches: 114
+2026-09-28 11:45:47,421 | INFO | Processed launch records: 200
+2026-09-28 11:45:47,432 | INFO | Processed data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\agencies.csv
+2026-09-28 11:45:47,439 | INFO | Processed data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launcher_configurations.csv
+2026-09-28 11:45:47,442 | INFO | Processed data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\pads.csv
+2026-09-28 11:45:47,447 | INFO | Processed data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launches.csv
+2026-09-28 11:45:47,447 | INFO | ======================================================================
+2026-09-28 11:45:47,447 | INFO | TRANSFORMATION SUMMARY
+2026-09-28 11:45:47,447 | INFO | ======================================================================
+2026-09-28 11:45:47,447 | INFO | Agencies: 350
+2026-09-28 11:45:47,448 | INFO | Launcher configurations: 532
+2026-09-28 11:45:47,448 | INFO | Pads: 212
+2026-09-28 11:45:47,448 | INFO | Launches: 200
+2026-09-28 11:45:47,448 | INFO | ======================================================================
+2026-09-28 11:45:47,448 | INFO | SPACE DATA TRANSFORMATION PIPELINE COMPLETED
+2026-09-28 11:45:47,448 | INFO | ======================================================================
+2026-09-28 11:45:54,562 | INFO | ======================================================================
+2026-09-28 11:45:54,562 | INFO | SPACE DATA LOADING PIPELINE STARTED
+2026-09-28 11:45:54,562 | INFO | ======================================================================
+2026-09-28 11:45:54,562 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\agencies.csv
+2026-09-28 11:45:54,562 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launcher_configurations.csv
+2026-09-28 11:45:54,562 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\pads.csv
+2026-09-28 11:45:54,577 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launches.csv
+2026-09-28 11:45:54,577 | INFO | All processed datasets loaded successfully
+2026-09-28 11:45:54,577 | INFO | Validating database configuration
+2026-09-28 11:45:54,577 | INFO | Database configuration validation passed
+2026-09-28 11:45:54,577 | INFO | Connecting to SQL Server
+2026-09-28 11:45:54,641 | INFO | SQL Server connection successful
+2026-09-28 11:45:54,641 | INFO | ======================================================================
+2026-09-28 11:45:54,641 | INFO | LOADING: AGENCIES
+2026-09-28 11:45:54,641 | INFO | ======================================================================
+2026-09-28 11:45:55,083 | INFO | Agencies batch committed: 350 records | Inserted: 0 | Updated: 350
+2026-09-28 11:45:55,083 | INFO | Agencies loading completed | Inserted: 0 | Updated: 350
+2026-09-28 11:45:55,083 | INFO | ======================================================================
+2026-09-28 11:45:55,083 | INFO | LOADING: LAUNCHER CONFIGURATIONS
+2026-09-28 11:45:55,083 | INFO | ======================================================================
+2026-09-28 11:45:55,490 | INFO | Launcher configuration batch committed: 500 records | Inserted: 0 | Updated: 500
+2026-09-28 11:45:55,528 | INFO | Launcher configuration batch committed: 32 records | Inserted: 0 | Updated: 32
+2026-09-28 11:45:55,528 | INFO | Launcher configuration loading completed | Inserted: 0 | Updated: 532
+2026-09-28 11:45:55,528 | INFO | ======================================================================
+2026-09-28 11:45:55,528 | INFO | LOADING: PADS
+2026-09-28 11:45:55,528 | INFO | ======================================================================
+2026-09-28 11:45:55,835 | INFO | Pads batch committed: 212 records | Inserted: 0 | Updated: 212
+2026-09-28 11:45:55,835 | INFO | Pad loading completed | Inserted: 0 | Updated: 212
+2026-09-28 11:45:55,835 | INFO | ======================================================================
+2026-09-28 11:45:55,835 | INFO | LOADING: LAUNCHES
+2026-09-28 11:45:55,835 | INFO | ======================================================================
+2026-09-28 11:45:56,189 | INFO | Launch batch committed: 200 records | Inserted: 0 | Updated: 200
+2026-09-28 11:45:56,189 | INFO | Launch loading completed | Inserted: 0 | Updated: 200
+2026-09-28 11:45:56,189 | INFO | ======================================================================
+2026-09-28 11:45:56,189 | INFO | SPACE DATA LOADING PIPELINE COMPLETED
+2026-09-28 11:45:56,189 | INFO | ======================================================================
+2026-09-28 11:45:56,189 | INFO | Agencies processed: 350
+2026-09-28 11:45:56,189 | INFO | Launcher configurations processed: 532
+2026-09-28 11:45:56,189 | INFO | Pads processed: 212
+2026-09-28 11:45:56,189 | INFO | Launches processed: 200
+2026-09-28 11:45:56,189 | INFO | ======================================================================
+2026-09-28 11:45:56,189 | INFO | Database connection closed
+2026-09-28 12:13:43,545 | INFO | ======================================================================
+2026-09-28 12:13:43,545 | INFO | FAILURE SCENARIO TEST STARTED
+2026-09-28 12:13:43,545 | INFO | ======================================================================
+2026-09-28 12:13:43,546 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launches.csv
+2026-09-28 12:13:43,569 | INFO | Total launch records: 200
+2026-09-28 12:13:43,569 | INFO | Connecting to SQL Server
+2026-09-28 12:13:43,714 | INFO | SQL Server connection successful
+2026-09-28 12:13:43,714 | INFO | Failure test batch size: 50
+2026-09-28 12:13:43,714 | INFO | Loading first batch
+2026-09-28 12:13:43,767 | ERROR | Failure scenario test failed: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 9 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+Traceback (most recent call last):
+  File "C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\src\failure_scenario.py", line 145, in run_failure_scenario
+    cursor.execute("""
+pyodbc.ProgrammingError: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 9 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2026-09-28 12:13:43,768 | INFO | Database connection closed
+2026-09-28 12:18:56,332 | INFO | ======================================================================
+2026-09-28 12:18:56,332 | INFO | FAILURE SCENARIO TEST STARTED
+2026-09-28 12:18:56,332 | INFO | ======================================================================
+2026-09-28 12:18:56,332 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launches.csv
+2026-09-28 12:18:56,334 | INFO | Total launch records: 200
+2026-09-28 12:18:56,336 | INFO | Connecting to SQL Server
+2026-09-28 12:18:56,376 | INFO | SQL Server connection successful
+2026-09-28 12:18:56,376 | INFO | Failure test batch size: 50
+2026-09-28 12:18:56,376 | INFO | ======================================================================
+2026-09-28 12:18:56,376 | INFO | PROCESSING FIRST BATCH
+2026-09-28 12:18:56,376 | INFO | ======================================================================
+2026-09-28 12:18:56,376 | INFO | First batch records: 50
+2026-09-28 12:18:56,437 | INFO | First batch committed successfully: 50 records
+2026-09-28 12:18:56,437 | INFO | ======================================================================
+2026-09-28 12:18:56,438 | INFO | PREPARING SECOND BATCH
+2026-09-28 12:18:56,438 | INFO | ======================================================================
+2026-09-28 12:18:56,438 | INFO | Second batch records: 50
+2026-09-28 12:18:56,438 | INFO | Introducing invalid agency_id to trigger foreign key failure
+2026-09-28 12:18:56,438 | INFO | Invalid agency_id assigned: 999999999
+2026-09-28 12:18:56,439 | INFO | ======================================================================
+2026-09-28 12:18:56,439 | INFO | PROCESSING SECOND BATCH
+2026-09-28 12:18:56,439 | INFO | ======================================================================
+2026-09-28 12:18:56,556 | ERROR | Second batch failed because of the intentionally invalid foreign key.
+Traceback (most recent call last):
+  File "C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\src\failure_scenario.py", line 391, in run_failure_scenario
+    insert_launch(
+  File "C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\src\failure_scenario.py", line 143, in insert_launch
+    cursor.execute("""
+pyodbc.IntegrityError: ('23000', '[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The INSERT statement conflicted with the FOREIGN KEY constraint "FK_failure_test_agencies". The conflict occurred in database "student4", table "dbo.agencies", column \'agency_id\'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)')
+2026-09-28 12:18:56,564 | INFO | Current second batch rolled back.
+2026-09-28 12:18:56,564 | INFO | First batch remains committed.
+2026-09-28 12:18:56,564 | INFO | Failure scenario behaved as expected.
+2026-09-28 12:18:56,564 | INFO | ======================================================================
+2026-09-28 12:18:56,565 | INFO | VERIFYING FAILURE SCENARIO RESULT
+2026-09-28 12:18:56,565 | INFO | ======================================================================
+2026-09-28 12:18:56,578 | INFO | Records remaining after rollback: 50
+2026-09-28 12:18:56,579 | INFO | ROLLBACK VERIFICATION PASSED
+2026-09-28 12:18:56,579 | INFO | Expected records: 50
+2026-09-28 12:18:56,580 | INFO | Actual records: 50
+2026-09-28 12:18:56,580 | INFO | Database cursor closed
+2026-09-28 12:18:56,581 | INFO | Database connection closed
+2026-09-28 12:18:56,581 | INFO | ======================================================================
+2026-09-28 12:18:56,581 | INFO | FAILURE SCENARIO TEST COMPLETED
+2026-09-28 12:18:56,582 | INFO | ======================================================================
+2026-09-28 13:48:46,491 | INFO | ======================================================================
+2026-09-28 13:48:46,512 | INFO | SPACE DATA EXTRACTION PIPELINE STARTED
+2026-09-28 13:48:46,512 | INFO | ======================================================================
+2026-09-28 13:48:46,512 | INFO | Raw data directory: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw
+2026-09-28 13:48:46,512 | INFO | ======================================================================
+2026-09-28 13:48:46,512 | INFO | EXTRACTING: LAUNCHES
+2026-09-28 13:48:46,512 | INFO | ======================================================================
+2026-09-28 13:48:46,512 | INFO | Raw data directory: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launches
+2026-09-28 13:48:46,512 | INFO | Requesting page 1
+2026-09-28 13:48:46,512 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launches/
+2026-09-28 13:48:51,579 | INFO | HTTP Status: 200
+2026-09-28 13:48:51,677 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launches\page_1.json
+2026-09-28 13:48:51,677 | INFO | Records in page: 100
+2026-09-28 13:48:51,677 | INFO | Total records retrieved: 100
+2026-09-28 13:48:51,677 | INFO | Next page available.
+2026-09-28 13:48:51,678 | INFO | Requesting page 2
+2026-09-28 13:48:51,678 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launches/?limit=100&offset=100
+2026-09-28 13:48:53,612 | INFO | HTTP Status: 200
+2026-09-28 13:48:53,710 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launches\page_2.json
+2026-09-28 13:48:53,710 | INFO | Records in page: 100
+2026-09-28 13:48:53,710 | INFO | Total records retrieved: 200
+2026-09-28 13:48:53,710 | INFO | Next page available.
+2026-09-28 13:48:53,710 | INFO | Extraction completed for launches.
+2026-09-28 13:48:53,710 | INFO | Total launches records retrieved: 200
+2026-09-28 13:48:53,710 | INFO | ======================================================================
+2026-09-28 13:48:53,710 | INFO | EXTRACTING: LAUNCHER_CONFIGURATIONS
+2026-09-28 13:48:53,710 | INFO | ======================================================================
+2026-09-28 13:48:53,710 | INFO | Raw data directory: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations
+2026-09-28 13:48:53,710 | INFO | Requesting page 1
+2026-09-28 13:48:53,710 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/
+2026-09-28 13:48:54,570 | INFO | HTTP Status: 200
+2026-09-28 13:48:54,638 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_1.json
+2026-09-28 13:48:54,638 | INFO | Records in page: 100
+2026-09-28 13:48:54,639 | INFO | Total records retrieved: 100
+2026-09-28 13:48:54,639 | INFO | Next page available.
+2026-09-28 13:48:54,639 | INFO | Requesting page 2
+2026-09-28 13:48:54,639 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/?limit=100&offset=100
+2026-09-28 13:48:55,508 | INFO | HTTP Status: 200
+2026-09-28 13:48:55,584 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_2.json
+2026-09-28 13:48:55,584 | INFO | Records in page: 100
+2026-09-28 13:48:55,584 | INFO | Total records retrieved: 200
+2026-09-28 13:48:55,584 | INFO | Next page available.
+2026-09-28 13:48:55,584 | INFO | Requesting page 3
+2026-09-28 13:48:55,584 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/?limit=100&offset=200
+2026-09-28 13:48:56,353 | INFO | HTTP Status: 200
+2026-09-28 13:48:56,436 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_3.json
+2026-09-28 13:48:56,436 | INFO | Records in page: 100
+2026-09-28 13:48:56,436 | INFO | Total records retrieved: 300
+2026-09-28 13:48:56,436 | INFO | Next page available.
+2026-09-28 13:48:56,436 | INFO | Requesting page 4
+2026-09-28 13:48:56,436 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/?limit=100&offset=300
+2026-09-28 13:48:57,423 | INFO | HTTP Status: 200
+2026-09-28 13:48:57,524 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_4.json
+2026-09-28 13:48:57,524 | INFO | Records in page: 100
+2026-09-28 13:48:57,524 | INFO | Total records retrieved: 400
+2026-09-28 13:48:57,524 | INFO | Next page available.
+2026-09-28 13:48:57,524 | INFO | Requesting page 5
+2026-09-28 13:48:57,524 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/?limit=100&offset=400
+2026-09-28 13:48:58,181 | INFO | HTTP Status: 200
+2026-09-28 13:48:58,272 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_5.json
+2026-09-28 13:48:58,272 | INFO | Records in page: 100
+2026-09-28 13:48:58,272 | INFO | Total records retrieved: 500
+2026-09-28 13:48:58,272 | INFO | Next page available.
+2026-09-28 13:48:58,273 | INFO | Requesting page 6
+2026-09-28 13:48:58,273 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/?limit=100&offset=500
+2026-09-28 13:48:58,793 | INFO | HTTP Status: 200
+2026-09-28 13:48:58,830 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_6.json
+2026-09-28 13:48:58,830 | INFO | Records in page: 32
+2026-09-28 13:48:58,830 | INFO | Total records retrieved: 532
+2026-09-28 13:48:58,830 | INFO | No more pages available.
+2026-09-28 13:48:58,830 | INFO | Extraction completed for launcher_configurations.
+2026-09-28 13:48:58,830 | INFO | Total launcher_configurations records retrieved: 532
+2026-09-28 13:48:58,830 | INFO | ======================================================================
+2026-09-28 13:48:58,830 | INFO | EXTRACTING: AGENCIES
+2026-09-28 13:48:58,830 | INFO | ======================================================================
+2026-09-28 13:48:58,830 | INFO | Raw data directory: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies
+2026-09-28 13:48:58,830 | INFO | Requesting page 1
+2026-09-28 13:48:58,830 | INFO | URL: https://ll.thespacedevs.com/2.3.0/agencies/
+2026-09-28 13:48:59,612 | INFO | HTTP Status: 200
+2026-09-28 13:48:59,650 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_1.json
+2026-09-28 13:48:59,650 | INFO | Records in page: 100
+2026-09-28 13:48:59,650 | INFO | Total records retrieved: 100
+2026-09-28 13:48:59,651 | INFO | Next page available.
+2026-09-28 13:48:59,651 | INFO | Requesting page 2
+2026-09-28 13:48:59,651 | INFO | URL: https://ll.thespacedevs.com/2.3.0/agencies/?limit=100&offset=100
+2026-09-28 13:49:00,122 | INFO | HTTP Status: 200
+2026-09-28 13:49:00,132 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_2.json
+2026-09-28 13:49:00,134 | INFO | Records in page: 100
+2026-09-28 13:49:00,134 | INFO | Total records retrieved: 200
+2026-09-28 13:49:00,134 | INFO | Next page available.
+2026-09-28 13:49:00,134 | INFO | Requesting page 3
+2026-09-28 13:49:00,135 | INFO | URL: https://ll.thespacedevs.com/2.3.0/agencies/?limit=100&offset=200
+2026-09-28 13:49:00,600 | INFO | HTTP Status: 200
+2026-09-28 13:49:00,601 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_3.json
+2026-09-28 13:49:00,601 | INFO | Records in page: 100
+2026-09-28 13:49:00,617 | INFO | Total records retrieved: 300
+2026-09-28 13:49:00,617 | INFO | Next page available.
+2026-09-28 13:49:00,617 | INFO | Requesting page 4
+2026-09-28 13:49:00,618 | INFO | URL: https://ll.thespacedevs.com/2.3.0/agencies/?limit=100&offset=300
+2026-09-28 13:49:01,076 | INFO | HTTP Status: 200
+2026-09-28 13:49:01,094 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_4.json
+2026-09-28 13:49:01,094 | INFO | Records in page: 50
+2026-09-28 13:49:01,094 | INFO | Total records retrieved: 350
+2026-09-28 13:49:01,094 | INFO | No more pages available.
+2026-09-28 13:49:01,094 | INFO | Extraction completed for agencies.
+2026-09-28 13:49:01,103 | INFO | Total agencies records retrieved: 350
+2026-09-28 13:49:01,103 | INFO | ======================================================================
+2026-09-28 13:49:01,103 | INFO | EXTRACTING: PADS
+2026-09-28 13:49:01,104 | INFO | ======================================================================
+2026-09-28 13:49:01,104 | INFO | Raw data directory: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads
+2026-09-28 13:49:01,104 | INFO | Requesting page 1
+2026-09-28 13:49:01,104 | INFO | URL: https://ll.thespacedevs.com/2.3.0/pads/
+2026-09-28 13:49:02,088 | INFO | HTTP Status: 200
+2026-09-28 13:49:02,156 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads\page_1.json
+2026-09-28 13:49:02,156 | INFO | Records in page: 100
+2026-09-28 13:49:02,156 | INFO | Total records retrieved: 100
+2026-09-28 13:49:02,156 | INFO | Next page available.
+2026-09-28 13:49:02,156 | INFO | Requesting page 2
+2026-09-28 13:49:02,156 | INFO | URL: https://ll.thespacedevs.com/2.3.0/pads/?limit=100&offset=100
+2026-09-28 13:49:02,967 | INFO | HTTP Status: 200
+2026-09-28 13:49:03,040 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads\page_2.json
+2026-09-28 13:49:03,041 | INFO | Records in page: 100
+2026-09-28 13:49:03,041 | INFO | Total records retrieved: 200
+2026-09-28 13:49:03,041 | INFO | Next page available.
+2026-09-28 13:49:03,041 | INFO | Requesting page 3
+2026-09-28 13:49:03,041 | INFO | URL: https://ll.thespacedevs.com/2.3.0/pads/?limit=100&offset=200
+2026-09-28 13:49:03,664 | INFO | HTTP Status: 200
+2026-09-28 13:49:03,713 | INFO | Raw data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads\page_3.json
+2026-09-28 13:49:03,714 | INFO | Records in page: 51
+2026-09-28 13:49:03,714 | INFO | Total records retrieved: 251
+2026-09-28 13:49:03,714 | INFO | No more pages available.
+2026-09-28 13:49:03,715 | INFO | Extraction completed for pads.
+2026-09-28 13:49:03,715 | INFO | Total pads records retrieved: 251
+2026-09-28 13:49:03,715 | INFO | ======================================================================
+2026-09-28 13:49:03,715 | INFO | EXTRACTION SUMMARY
+2026-09-28 13:49:03,716 | INFO | ======================================================================
+2026-09-28 13:49:03,716 | INFO | launches: 200 records
+2026-09-28 13:49:03,716 | INFO | launcher_configurations: 532 records
+2026-09-28 13:49:03,716 | INFO | agencies: 350 records
+2026-09-28 13:49:03,716 | INFO | pads: 251 records
+2026-09-28 13:49:03,716 | INFO | ======================================================================
+2026-09-28 13:49:03,717 | INFO | SPACE DATA EXTRACTION PIPELINE FINISHED
+2026-09-28 13:49:03,717 | INFO | ======================================================================
+2026-09-28 13:49:04,572 | INFO | ======================================================================
+2026-09-28 13:49:04,572 | INFO | SPACE DATA TRANSFORMATION PIPELINE STARTED
+2026-09-28 13:49:04,572 | INFO | ======================================================================
+2026-09-28 13:49:04,572 | INFO | Reading raw dataset: agencies
+2026-09-28 13:49:04,572 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_1.json
+2026-09-28 13:49:04,585 | INFO | Records loaded from file: 100
+2026-09-28 13:49:04,586 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_2.json
+2026-09-28 13:49:04,603 | INFO | Records loaded from file: 100
+2026-09-28 13:49:04,603 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_3.json
+2026-09-28 13:49:04,622 | INFO | Records loaded from file: 100
+2026-09-28 13:49:04,622 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_4.json
+2026-09-28 13:49:04,632 | INFO | Records loaded from file: 50
+2026-09-28 13:49:04,632 | INFO | Total raw records for agencies: 350
+2026-09-28 13:49:04,632 | INFO | Reading raw dataset: launcher_configurations
+2026-09-28 13:49:04,632 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_1.json
+2026-09-28 13:49:04,649 | INFO | Records loaded from file: 100
+2026-09-28 13:49:04,649 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_2.json
+2026-09-28 13:49:04,671 | INFO | Records loaded from file: 100
+2026-09-28 13:49:04,671 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_3.json
+2026-09-28 13:49:04,689 | INFO | Records loaded from file: 100
+2026-09-28 13:49:04,689 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_4.json
+2026-09-28 13:49:04,713 | INFO | Records loaded from file: 100
+2026-09-28 13:49:04,713 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_5.json
+2026-09-28 13:49:04,731 | INFO | Records loaded from file: 100
+2026-09-28 13:49:04,731 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_6.json
+2026-09-28 13:49:04,742 | INFO | Records loaded from file: 32
+2026-09-28 13:49:04,742 | INFO | Total raw records for launcher_configurations: 532
+2026-09-28 13:49:04,742 | INFO | Reading raw dataset: pads
+2026-09-28 13:49:04,742 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads\page_1.json
+2026-09-28 13:49:04,759 | INFO | Records loaded from file: 100
+2026-09-28 13:49:04,759 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads\page_2.json
+2026-09-28 13:49:04,772 | INFO | Records loaded from file: 100
+2026-09-28 13:49:04,772 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads\page_3.json
+2026-09-28 13:49:04,788 | INFO | Records loaded from file: 51
+2026-09-28 13:49:04,788 | INFO | Total raw records for pads: 251
+2026-09-28 13:49:04,788 | INFO | Reading raw dataset: launches
+2026-09-28 13:49:04,788 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launches\page_1.json
+2026-09-28 13:49:04,799 | INFO | Records loaded from file: 100
+2026-09-28 13:49:04,799 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launches\page_2.json
+2026-09-28 13:49:04,816 | INFO | Records loaded from file: 100
+2026-09-28 13:49:04,816 | INFO | Total raw records for launches: 200
+2026-09-28 13:49:04,816 | INFO | ======================================================================
+2026-09-28 13:49:04,816 | INFO | TRANSFORMING: AGENCIES
+2026-09-28 13:49:04,816 | INFO | ======================================================================
+2026-09-28 13:49:04,821 | INFO | Duplicate agencies removed: 0
+2026-09-28 13:49:04,824 | INFO | Missing agency country values: 0
+2026-09-28 13:49:04,824 | INFO | Missing agency type values: 0
+2026-09-28 13:49:04,824 | INFO | Processed agency records: 350
+2026-09-28 13:49:04,824 | INFO | ======================================================================
+2026-09-28 13:49:04,824 | INFO | TRANSFORMING: LAUNCHER CONFIGURATIONS
+2026-09-28 13:49:04,824 | INFO | ======================================================================
+2026-09-28 13:49:04,826 | INFO | Duplicate launcher configurations removed: 0
+2026-09-28 13:49:04,829 | INFO | Launcher configuration transformation completed.
+2026-09-28 13:49:04,829 | INFO | Processed records: 532
+2026-09-28 13:49:04,829 | INFO | ======================================================================
+2026-09-28 13:49:04,830 | INFO | TRANSFORMING: PADS
+2026-09-28 13:49:04,830 | INFO | ======================================================================
+2026-09-28 13:49:04,830 | INFO | Duplicate pads removed: 39
+2026-09-28 13:49:04,833 | INFO | Processed pad records: 212
+2026-09-28 13:49:04,833 | INFO | ======================================================================
+2026-09-28 13:49:04,833 | INFO | TRANSFORMING: LAUNCHES
+2026-09-28 13:49:04,833 | INFO | ======================================================================
+2026-09-28 13:49:04,837 | INFO | Duplicate launches removed: 0
+2026-09-28 13:49:04,842 | INFO | Launches with unmatched agencies: 0
+2026-09-28 13:49:04,845 | INFO | Launches with unmatched launcher configurations: 0
+2026-09-28 13:49:04,846 | INFO | Launches with unmatched pads: 36
+2026-09-28 13:49:04,846 | INFO | Successful launches: 114
+2026-09-28 13:49:04,846 | INFO | Processed launch records: 200
+2026-09-28 13:49:04,866 | INFO | Processed data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\agencies.csv
+2026-09-28 13:49:04,871 | INFO | Processed data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launcher_configurations.csv
+2026-09-28 13:49:04,876 | INFO | Processed data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\pads.csv
+2026-09-28 13:49:04,879 | INFO | Processed data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launches.csv
+2026-09-28 13:49:04,879 | INFO | ======================================================================
+2026-09-28 13:49:04,882 | INFO | TRANSFORMATION SUMMARY
+2026-09-28 13:49:04,882 | INFO | ======================================================================
+2026-09-28 13:49:04,882 | INFO | Agencies: 350
+2026-09-28 13:49:04,883 | INFO | Launcher configurations: 532
+2026-09-28 13:49:04,883 | INFO | Pads: 212
+2026-09-28 13:49:04,883 | INFO | Launches: 200
+2026-09-28 13:49:04,883 | INFO | ======================================================================
+2026-09-28 13:49:04,883 | INFO | SPACE DATA TRANSFORMATION PIPELINE COMPLETED
+2026-09-28 13:49:04,883 | INFO | ======================================================================
+2026-09-28 13:49:05,415 | INFO | SPACE DATA LOADING PIPELINE STARTED
+2026-09-28 13:49:05,415 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\agencies.csv
+2026-09-28 13:49:05,433 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launcher_configurations.csv
+2026-09-28 13:49:05,436 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\pads.csv
+2026-09-28 13:49:05,438 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launches.csv
+2026-09-28 13:49:05,453 | INFO | All processed datasets loaded successfully
+2026-09-28 13:49:05,453 | INFO | Validating database configuration
+2026-09-28 13:49:05,453 | INFO | Database configuration validation passed
+2026-09-28 13:49:05,453 | INFO | Connecting to SQL Server
+2026-09-28 13:49:05,503 | INFO | SQL Server connection successful
+2026-09-28 13:49:05,503 | INFO | Loading agencies
+2026-09-28 13:49:05,915 | INFO | Agencies batch committed: 350 records | Inserted: 0 | Updated: 350
+2026-09-28 13:49:05,915 | INFO | Agencies loading completed | Inserted: 0 | Updated: 350
+2026-09-28 13:49:05,915 | INFO | Loading launcher configurations
+2026-09-28 13:49:06,340 | INFO | Launcher configuration batch committed: 500 records | Inserted: 0 | Updated: 500
+2026-09-28 13:49:06,372 | INFO | Launcher configuration batch committed: 32 records | Inserted: 0 | Updated: 32
+2026-09-28 13:49:06,372 | INFO | Launcher configuration loading completed | Inserted: 0 | Updated: 532
+2026-09-28 13:49:06,372 | INFO | Loading pads
+2026-09-28 13:49:06,640 | INFO | Pads batch committed: 212 records | Inserted: 0 | Updated: 212
+2026-09-28 13:49:06,640 | INFO | Pad loading completed | Inserted: 0 | Updated: 212
+2026-09-28 13:49:06,640 | INFO | Loading launches
+2026-09-28 13:49:07,004 | INFO | Launch batch committed: 200 records | Inserted: 0 | Updated: 200
+2026-09-28 13:49:07,004 | INFO | Launch loading completed | Inserted: 0 | Updated: 200
+2026-09-28 13:49:07,004 | INFO | SPACE DATA LOADING PIPELINE COMPLETED
+2026-09-28 13:49:07,004 | INFO | Agencies processed: 350
+2026-09-28 13:49:07,004 | INFO | Launcher configurations processed: 532
+2026-09-28 13:49:07,004 | INFO | Pads processed: 212
+2026-09-28 13:49:07,004 | INFO | Launches processed: 200
+2026-09-28 13:49:07,004 | INFO | Database connection closed
+2026-09-28 13:52:25,872 | INFO | ======================================================================
+2026-09-28 13:52:25,872 | INFO | SPACE DATA ETL PIPELINE STARTED
+2026-09-28 13:52:25,872 | INFO | ======================================================================
+2026-09-28 13:52:25,872 | INFO | ======================================================================
+2026-09-28 13:52:25,872 | INFO | STARTING: extract.py
+2026-09-28 13:52:25,872 | INFO | ======================================================================
+2026-09-28 13:52:26,081 | INFO | ======================================================================
+2026-09-28 13:52:26,081 | INFO | SPACE DATA EXTRACTION PIPELINE STARTED
+2026-09-28 13:52:26,081 | INFO | ======================================================================
+2026-09-28 13:52:26,082 | INFO | Raw data directory: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw
+2026-09-28 13:52:26,082 | INFO | ======================================================================
+2026-09-28 13:52:26,082 | INFO | EXTRACTING: LAUNCHES
+2026-09-28 13:52:26,082 | INFO | ======================================================================
+2026-09-28 13:52:26,082 | INFO | Raw data directory: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launches
+2026-09-28 13:52:26,082 | INFO | Requesting page 1
+2026-09-28 13:52:26,083 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launches/
+2026-09-28 13:52:27,447 | INFO | HTTP Status: 429
+2026-09-28 13:52:27,447 | WARNING | Temporary API error (429). Attempt 1/3.
+2026-09-28 13:52:27,447 | INFO | Retrying in 1 seconds...
+2026-09-28 13:52:28,765 | INFO | HTTP Status: 429
+2026-09-28 13:52:28,765 | WARNING | Temporary API error (429). Attempt 2/3.
+2026-09-28 13:52:28,766 | INFO | Retrying in 2 seconds...
+2026-09-28 13:52:31,084 | INFO | HTTP Status: 429
+2026-09-28 13:52:31,084 | ERROR | ERROR while extracting launches: API request failed after 3 attempts. Status: 429
+Traceback (most recent call last):
+  File "C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\src\extract.py", line 368, in main
+    total_records = extract_endpoint(
+                    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\src\extract.py", line 181, in extract_endpoint
+    raise Exception(
+Exception: API request failed after 3 attempts. Status: 429
+2026-09-28 13:52:31,084 | WARNING | Continuing extraction with remaining datasets...
+2026-09-28 13:52:31,084 | INFO | ======================================================================
+2026-09-28 13:52:31,084 | INFO | EXTRACTING: LAUNCHER_CONFIGURATIONS
+2026-09-28 13:52:31,084 | INFO | ======================================================================
+2026-09-28 13:52:31,084 | INFO | Raw data directory: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations
+2026-09-28 13:52:31,084 | INFO | Requesting page 1
+2026-09-28 13:52:31,084 | INFO | URL: https://ll.thespacedevs.com/2.3.0/launcher_configurations/
+2026-09-28 13:52:31,423 | INFO | HTTP Status: 429
+2026-09-28 13:52:31,423 | WARNING | Temporary API error (429). Attempt 1/3.
+2026-09-28 13:52:31,423 | INFO | Retrying in 1 seconds...
+2026-09-28 13:52:32,747 | INFO | HTTP Status: 429
+2026-09-28 13:52:32,748 | WARNING | Temporary API error (429). Attempt 2/3.
+2026-09-28 13:52:32,749 | INFO | Retrying in 2 seconds...
+2026-09-28 13:52:35,070 | INFO | HTTP Status: 429
+2026-09-28 13:52:35,070 | ERROR | ERROR while extracting launcher_configurations: API request failed after 3 attempts. Status: 429
+Traceback (most recent call last):
+  File "C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\src\extract.py", line 368, in main
+    total_records = extract_endpoint(
+                    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\src\extract.py", line 181, in extract_endpoint
+    raise Exception(
+Exception: API request failed after 3 attempts. Status: 429
+2026-09-28 13:52:35,070 | WARNING | Continuing extraction with remaining datasets...
+2026-09-28 13:52:35,070 | INFO | ======================================================================
+2026-09-28 13:52:35,070 | INFO | EXTRACTING: AGENCIES
+2026-09-28 13:52:35,070 | INFO | ======================================================================
+2026-09-28 13:52:35,070 | INFO | Raw data directory: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies
+2026-09-28 13:52:35,070 | INFO | Requesting page 1
+2026-09-28 13:52:35,070 | INFO | URL: https://ll.thespacedevs.com/2.3.0/agencies/
+2026-09-28 13:52:35,483 | INFO | HTTP Status: 429
+2026-09-28 13:52:35,483 | WARNING | Temporary API error (429). Attempt 1/3.
+2026-09-28 13:52:35,483 | INFO | Retrying in 1 seconds...
+2026-09-28 13:52:36,795 | INFO | HTTP Status: 429
+2026-09-28 13:52:36,795 | WARNING | Temporary API error (429). Attempt 2/3.
+2026-09-28 13:52:36,795 | INFO | Retrying in 2 seconds...
+2026-09-28 13:52:39,121 | INFO | HTTP Status: 429
+2026-09-28 13:52:39,123 | ERROR | ERROR while extracting agencies: API request failed after 3 attempts. Status: 429
+Traceback (most recent call last):
+  File "C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\src\extract.py", line 368, in main
+    total_records = extract_endpoint(
+                    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\src\extract.py", line 181, in extract_endpoint
+    raise Exception(
+Exception: API request failed after 3 attempts. Status: 429
+2026-09-28 13:52:39,123 | WARNING | Continuing extraction with remaining datasets...
+2026-09-28 13:52:39,123 | INFO | ======================================================================
+2026-09-28 13:52:39,123 | INFO | EXTRACTING: PADS
+2026-09-28 13:52:39,123 | INFO | ======================================================================
+2026-09-28 13:52:39,123 | INFO | Raw data directory: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads
+2026-09-28 13:52:39,123 | INFO | Requesting page 1
+2026-09-28 13:52:39,123 | INFO | URL: https://ll.thespacedevs.com/2.3.0/pads/
+2026-09-28 13:52:39,462 | INFO | HTTP Status: 429
+2026-09-28 13:52:39,462 | WARNING | Temporary API error (429). Attempt 1/3.
+2026-09-28 13:52:39,462 | INFO | Retrying in 1 seconds...
+2026-09-28 13:52:40,776 | INFO | HTTP Status: 429
+2026-09-28 13:52:40,776 | WARNING | Temporary API error (429). Attempt 2/3.
+2026-09-28 13:52:40,776 | INFO | Retrying in 2 seconds...
+2026-09-28 13:52:43,096 | INFO | HTTP Status: 429
+2026-09-28 13:52:43,096 | ERROR | ERROR while extracting pads: API request failed after 3 attempts. Status: 429
+Traceback (most recent call last):
+  File "C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\src\extract.py", line 368, in main
+    total_records = extract_endpoint(
+                    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\src\extract.py", line 181, in extract_endpoint
+    raise Exception(
+Exception: API request failed after 3 attempts. Status: 429
+2026-09-28 13:52:43,096 | WARNING | Continuing extraction with remaining datasets...
+2026-09-28 13:52:43,096 | INFO | ======================================================================
+2026-09-28 13:52:43,096 | INFO | EXTRACTION SUMMARY
+2026-09-28 13:52:43,096 | INFO | ======================================================================
+2026-09-28 13:52:43,096 | INFO | launches: 0 records
+2026-09-28 13:52:43,096 | INFO | launcher_configurations: 0 records
+2026-09-28 13:52:43,096 | INFO | agencies: 0 records
+2026-09-28 13:52:43,096 | INFO | pads: 0 records
+2026-09-28 13:52:43,096 | INFO | ======================================================================
+2026-09-28 13:52:43,096 | INFO | SPACE DATA EXTRACTION PIPELINE FINISHED
+2026-09-28 13:52:43,096 | INFO | ======================================================================
+2026-09-28 13:52:43,149 | INFO | ======================================================================
+2026-09-28 13:52:43,149 | INFO | COMPLETED: extract.py
+2026-09-28 13:52:43,149 | INFO | ======================================================================
+2026-09-28 13:52:43,149 | INFO | ======================================================================
+2026-09-28 13:52:43,149 | INFO | STARTING: transform.py
+2026-09-28 13:52:43,149 | INFO | ======================================================================
+2026-09-28 13:52:43,617 | INFO | ======================================================================
+2026-09-28 13:52:43,617 | INFO | SPACE DATA TRANSFORMATION PIPELINE STARTED
+2026-09-28 13:52:43,617 | INFO | ======================================================================
+2026-09-28 13:52:43,617 | INFO | Reading raw dataset: agencies
+2026-09-28 13:52:43,617 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_1.json
+2026-09-28 13:52:43,627 | INFO | Records loaded from file: 100
+2026-09-28 13:52:43,627 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_2.json
+2026-09-28 13:52:43,629 | INFO | Records loaded from file: 100
+2026-09-28 13:52:43,629 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_3.json
+2026-09-28 13:52:43,631 | INFO | Records loaded from file: 100
+2026-09-28 13:52:43,631 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\agencies\page_4.json
+2026-09-28 13:52:43,632 | INFO | Records loaded from file: 50
+2026-09-28 13:52:43,632 | INFO | Total raw records for agencies: 350
+2026-09-28 13:52:43,632 | INFO | Reading raw dataset: launcher_configurations
+2026-09-28 13:52:43,632 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_1.json
+2026-09-28 13:52:43,643 | INFO | Records loaded from file: 100
+2026-09-28 13:52:43,643 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_2.json
+2026-09-28 13:52:43,654 | INFO | Records loaded from file: 100
+2026-09-28 13:52:43,654 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_3.json
+2026-09-28 13:52:43,660 | INFO | Records loaded from file: 100
+2026-09-28 13:52:43,660 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_4.json
+2026-09-28 13:52:43,671 | INFO | Records loaded from file: 100
+2026-09-28 13:52:43,671 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_5.json
+2026-09-28 13:52:43,671 | INFO | Records loaded from file: 100
+2026-09-28 13:52:43,671 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launcher_configurations\page_6.json
+2026-09-28 13:52:43,683 | INFO | Records loaded from file: 32
+2026-09-28 13:52:43,683 | INFO | Total raw records for launcher_configurations: 532
+2026-09-28 13:52:43,684 | INFO | Reading raw dataset: pads
+2026-09-28 13:52:43,684 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads\page_1.json
+2026-09-28 13:52:43,695 | INFO | Records loaded from file: 100
+2026-09-28 13:52:43,695 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads\page_2.json
+2026-09-28 13:52:43,711 | INFO | Records loaded from file: 100
+2026-09-28 13:52:43,711 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\pads\page_3.json
+2026-09-28 13:52:43,719 | INFO | Records loaded from file: 51
+2026-09-28 13:52:43,720 | INFO | Total raw records for pads: 251
+2026-09-28 13:52:43,720 | INFO | Reading raw dataset: launches
+2026-09-28 13:52:43,720 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launches\page_1.json
+2026-09-28 13:52:43,736 | INFO | Records loaded from file: 100
+2026-09-28 13:52:43,736 | INFO | Reading: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\raw\launches\page_2.json
+2026-09-28 13:52:43,744 | INFO | Records loaded from file: 100
+2026-09-28 13:52:43,744 | INFO | Total raw records for launches: 200
+2026-09-28 13:52:43,744 | INFO | ======================================================================
+2026-09-28 13:52:43,744 | INFO | TRANSFORMING: AGENCIES
+2026-09-28 13:52:43,744 | INFO | ======================================================================
+2026-09-28 13:52:43,751 | INFO | Duplicate agencies removed: 0
+2026-09-28 13:52:43,756 | INFO | Missing agency country values: 0
+2026-09-28 13:52:43,757 | INFO | Missing agency type values: 0
+2026-09-28 13:52:43,757 | INFO | Processed agency records: 350
+2026-09-28 13:52:43,757 | INFO | ======================================================================
+2026-09-28 13:52:43,757 | INFO | TRANSFORMING: LAUNCHER CONFIGURATIONS
+2026-09-28 13:52:43,757 | INFO | ======================================================================
+2026-09-28 13:52:43,759 | INFO | Duplicate launcher configurations removed: 0
+2026-09-28 13:52:43,761 | INFO | Launcher configuration transformation completed.
+2026-09-28 13:52:43,761 | INFO | Processed records: 532
+2026-09-28 13:52:43,761 | INFO | ======================================================================
+2026-09-28 13:52:43,761 | INFO | TRANSFORMING: PADS
+2026-09-28 13:52:43,761 | INFO | ======================================================================
+2026-09-28 13:52:43,765 | INFO | Duplicate pads removed: 39
+2026-09-28 13:52:43,768 | INFO | Processed pad records: 212
+2026-09-28 13:52:43,769 | INFO | ======================================================================
+2026-09-28 13:52:43,769 | INFO | TRANSFORMING: LAUNCHES
+2026-09-28 13:52:43,769 | INFO | ======================================================================
+2026-09-28 13:52:43,772 | INFO | Duplicate launches removed: 0
+2026-09-28 13:52:43,777 | INFO | Launches with unmatched agencies: 0
+2026-09-28 13:52:43,784 | INFO | Launches with unmatched launcher configurations: 0
+2026-09-28 13:52:43,785 | INFO | Launches with unmatched pads: 36
+2026-09-28 13:52:43,787 | INFO | Successful launches: 114
+2026-09-28 13:52:43,787 | INFO | Processed launch records: 200
+2026-09-28 13:52:43,789 | INFO | Processed data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\agencies.csv
+2026-09-28 13:52:43,794 | INFO | Processed data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launcher_configurations.csv
+2026-09-28 13:52:43,796 | INFO | Processed data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\pads.csv
+2026-09-28 13:52:43,798 | INFO | Processed data saved to: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launches.csv
+2026-09-28 13:52:43,798 | INFO | ======================================================================
+2026-09-28 13:52:43,798 | INFO | TRANSFORMATION SUMMARY
+2026-09-28 13:52:43,798 | INFO | ======================================================================
+2026-09-28 13:52:43,798 | INFO | Agencies: 350
+2026-09-28 13:52:43,798 | INFO | Launcher configurations: 532
+2026-09-28 13:52:43,798 | INFO | Pads: 212
+2026-09-28 13:52:43,801 | INFO | Launches: 200
+2026-09-28 13:52:43,801 | INFO | ======================================================================
+2026-09-28 13:52:43,801 | INFO | SPACE DATA TRANSFORMATION PIPELINE COMPLETED
+2026-09-28 13:52:43,801 | INFO | ======================================================================
+2026-09-28 13:52:43,852 | INFO | ======================================================================
+2026-09-28 13:52:43,852 | INFO | COMPLETED: transform.py
+2026-09-28 13:52:43,852 | INFO | ======================================================================
+2026-09-28 13:52:43,852 | INFO | ======================================================================
+2026-09-28 13:52:43,852 | INFO | STARTING: load.py
+2026-09-28 13:52:43,852 | INFO | ======================================================================
+2026-09-28 13:52:44,311 | INFO | SPACE DATA LOADING PIPELINE STARTED
+2026-09-28 13:52:44,311 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\agencies.csv
+2026-09-28 13:52:44,319 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launcher_configurations.csv
+2026-09-28 13:52:44,327 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\pads.csv
+2026-09-28 13:52:44,339 | INFO | Reading processed file: C:\Users\VC_User6.DESKTOP-22FFUC4\Desktop\DATA ANALYTICS\ASSESMENT\ASSIGNMENT2\Assignment2-space_data_pipeline-\data\processed\launches.csv
+2026-09-28 13:52:44,346 | INFO | All processed datasets loaded successfully
+2026-09-28 13:52:44,346 | INFO | Validating database configuration
+2026-09-28 13:52:44,346 | INFO | Database configuration validation passed
+2026-09-28 13:52:44,346 | INFO | Connecting to SQL Server
+2026-09-28 13:52:44,386 | INFO | SQL Server connection successful
+2026-09-28 13:52:44,386 | INFO | Loading agencies
+2026-09-28 13:52:44,810 | INFO | Agencies batch committed: 350 records | Inserted: 0 | Updated: 350
+2026-09-28 13:52:44,810 | INFO | Agencies loading completed | Inserted: 0 | Updated: 350
+2026-09-28 13:52:44,810 | INFO | Loading launcher configurations
+2026-09-28 13:52:45,204 | INFO | Launcher configuration batch committed: 500 records | Inserted: 0 | Updated: 500
+2026-09-28 13:52:45,226 | INFO | Launcher configuration batch committed: 32 records | Inserted: 0 | Updated: 32
+2026-09-28 13:52:45,226 | INFO | Launcher configuration loading completed | Inserted: 0 | Updated: 532
+2026-09-28 13:52:45,226 | INFO | Loading pads
+2026-09-28 13:52:45,466 | INFO | Pads batch committed: 212 records | Inserted: 0 | Updated: 212
+2026-09-28 13:52:45,466 | INFO | Pad loading completed | Inserted: 0 | Updated: 212
+2026-09-28 13:52:45,466 | INFO | Loading launches
+2026-09-28 13:52:45,817 | INFO | Launch batch committed: 200 records | Inserted: 0 | Updated: 200
+2026-09-28 13:52:45,817 | INFO | Launch loading completed | Inserted: 0 | Updated: 200
+2026-09-28 13:52:45,817 | INFO | SPACE DATA LOADING PIPELINE COMPLETED
+2026-09-28 13:52:45,817 | INFO | Agencies processed: 350
+2026-09-28 13:52:45,817 | INFO | Launcher configurations processed: 532
+2026-09-28 13:52:45,817 | INFO | Pads processed: 212
+2026-09-28 13:52:45,817 | INFO | Launches processed: 200
+2026-09-28 13:52:45,817 | INFO | Database connection closed
+2026-09-28 13:52:45,876 | INFO | ======================================================================
+2026-09-28 13:52:45,878 | INFO | COMPLETED: load.py
+2026-09-28 13:52:45,878 | INFO | ======================================================================
+2026-09-28 13:52:45,878 | INFO | ======================================================================
+2026-09-28 13:52:45,878 | INFO | SPACE DATA ETL PIPELINE COMPLETED SUCCESSFULLY
+2026-09-28 13:52:45,878 | INFO | ======================================================================

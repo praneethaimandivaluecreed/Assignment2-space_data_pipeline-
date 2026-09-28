@@ -237,236 +237,6 @@
         },
         {
             "response_mode": "normal",
-            "id": 143,
-            "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/143/",
-            "name": "Space Launch System (SLS)",
-            "families": [
-                {
-                    "response_mode": "normal",
-                    "id": 149,
-                    "name": "Space Launch System",
-                    "manufacturer": [
-                        {
-                            "response_mode": "normal",
-                            "id": 44,
-                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/44/",
-                            "name": "National Aeronautics and Space Administration",
-                            "abbrev": "NASA",
-                            "type": {
-                                "id": 1,
-                                "name": "Government"
-                            },
-                            "featured": true,
-                            "country": [
-                                {
-                                    "id": 2,
-                                    "name": "United States of America",
-                                    "alpha_2_code": "US",
-                                    "alpha_3_code": "USA",
-                                    "nationality_name": "American",
-                                    "nationality_name_composed": "Americano"
-                                }
-                            ],
-                            "description": "The National Aeronautics and Space Administration is an independent agency of the executive branch of the United States federal government responsible for the civilian space program, as well as aeronautics and aerospace research. NASA have many launch facilities but most are inactive. The most commonly used pad will be LC-39B at Kennedy Space Center in Florida.",
-                            "administrator": "Administrator: Jared Isaacman",
-                            "founding_year": 1958,
-                            "launchers": "Space Shuttle | SLS",
-                            "spacecraft": "Orion",
-                            "parent": null,
-                            "image": {
-                                "id": 19,
-                                "name": "[AUTO] National Aeronautics and Space Administration - image",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_image_20190207032448.jpeg",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184631.jpeg",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            },
-                            "logo": {
-                                "id": 161,
-                                "name": "[AUTO] National Aeronautics and Space Administration - logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_logo_20190207032448.png",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185043.png",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            },
-                            "social_logo": {
-                                "id": 76,
-                                "name": "[AUTO] National Aeronautics and Space Administration - social_logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_nation_20230803040809.jpg",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184823.jpeg",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            }
-                        }
-                    ],
-                    "parent": null
-                }
-            ],
-            "full_name": "Space Launch System Block 1",
-            "variant": "Block 1",
-            "active": true,
-            "is_placeholder": false,
-            "manufacturer": {
-                "response_mode": "normal",
-                "id": 44,
-                "url": "https://ll.thespacedevs.com/2.3.0/agencies/44/",
-                "name": "National Aeronautics and Space Administration",
-                "abbrev": "NASA",
-                "type": {
-                    "id": 1,
-                    "name": "Government"
-                },
-                "featured": true,
-                "country": [
-                    {
-                        "id": 2,
-                        "name": "United States of America",
-                        "alpha_2_code": "US",
-                        "alpha_3_code": "USA",
-                        "nationality_name": "American",
-                        "nationality_name_composed": "Americano"
-                    }
-                ],
-                "description": "The National Aeronautics and Space Administration is an independent agency of the executive branch of the United States federal government responsible for the civilian space program, as well as aeronautics and aerospace research. NASA have many launch facilities but most are inactive. The most commonly used pad will be LC-39B at Kennedy Space Center in Florida.",
-                "administrator": "Administrator: Jared Isaacman",
-                "founding_year": 1958,
-                "launchers": "Space Shuttle | SLS",
-                "spacecraft": "Orion",
-                "parent": null,
-                "image": {
-                    "id": 19,
-                    "name": "[AUTO] National Aeronautics and Space Administration - image",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_image_20190207032448.jpeg",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184631.jpeg",
-                    "credit": null,
-                    "license": {
-                        "id": 1,
-                        "name": "Unknown",
-                        "priority": 9,
-                        "link": null
-                    },
-                    "single_use": true,
-                    "variants": []
-                },
-                "logo": {
-                    "id": 161,
-                    "name": "[AUTO] National Aeronautics and Space Administration - logo",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_logo_20190207032448.png",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185043.png",
-                    "credit": null,
-                    "license": {
-                        "id": 1,
-                        "name": "Unknown",
-                        "priority": 9,
-                        "link": null
-                    },
-                    "single_use": true,
-                    "variants": []
-                },
-                "social_logo": {
-                    "id": 76,
-                    "name": "[AUTO] National Aeronautics and Space Administration - social_logo",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_nation_20230803040809.jpg",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184823.jpeg",
-                    "credit": null,
-                    "license": {
-                        "id": 1,
-                        "name": "Unknown",
-                        "priority": 9,
-                        "link": null
-                    },
-                    "single_use": true,
-                    "variants": []
-                }
-            },
-            "program": [
-                {
-                    "response_mode": "normal",
-                    "id": 15,
-                    "url": "https://ll.thespacedevs.com/2.3.0/programs/15/",
-                    "name": "Artemis",
-                    "image": {
-                        "id": 1884,
-                        "name": "[AUTO] Artemis - image",
-                        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/artemis_program_20220827100930.png",
-                        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305194033.png",
-                        "credit": null,
-                        "license": {
-                            "id": 1,
-                            "name": "Unknown",
-                            "priority": 9,
-                            "link": null
-                        },
-                        "single_use": true,
-                        "variants": []
-                    },
-                    "info_url": "https://www.nasa.gov/specials/artemis/",
-                    "wiki_url": "https://en.wikipedia.org/wiki/Artemis_program",
-                    "description": "The Artemis program is a US government-funded crewed spaceflight program that has the goal of landing \"the first woman and the next man\" on the Moon, specifically at the lunar south pole region.",
-                    "agencies": [
-                        {
-                            "response_mode": "list",
-                            "id": 44,
-                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/44/",
-                            "name": "National Aeronautics and Space Administration",
-                            "abbrev": "NASA",
-                            "type": {
-                                "id": 1,
-                                "name": "Government"
-                            }
-                        }
-                    ],
-                    "start_date": "2017-12-11T00:00:00Z",
-                    "end_date": null,
-                    "mission_patches": [],
-                    "type": {
-                        "id": 2,
-                        "name": "Human Spaceflight"
-                    }
-                }
-            ],
-            "reusable": false,
-            "image": {
-                "id": 2746,
-                "name": "Space Launch System Artemis II launch (NHQ202604010215)_cropped",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space_launch_sy_image_20260405204639.jpg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space_launch_sy_image_thumbnail_20260405204642.jpeg",
-                "credit": "NASA/Joel Kowsky",
-                "license": {
-                    "id": 4,
-                    "name": "NASA Image and Media Guidelines",
-                    "priority": 0,
-                    "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
-                },
-                "single_use": false,
-                "variants": []
-            },
-            "info_url": "https://www.nasa.gov/exploration/systems/sls/fs/sls.html",
-            "wiki_url": "https://en.wikipedia.org/wiki/Space_Launch_System"
-        },
-        {
-            "response_mode": "normal",
             "id": 205,
             "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/205/",
             "name": "Space Launch System (SLS)",
@@ -690,6 +460,236 @@
                     "link": null
                 },
                 "single_use": true,
+                "variants": []
+            },
+            "info_url": "https://www.nasa.gov/exploration/systems/sls/fs/sls.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/Space_Launch_System"
+        },
+        {
+            "response_mode": "normal",
+            "id": 143,
+            "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/143/",
+            "name": "Space Launch System (SLS)",
+            "families": [
+                {
+                    "response_mode": "normal",
+                    "id": 149,
+                    "name": "Space Launch System",
+                    "manufacturer": [
+                        {
+                            "response_mode": "normal",
+                            "id": 44,
+                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/44/",
+                            "name": "National Aeronautics and Space Administration",
+                            "abbrev": "NASA",
+                            "type": {
+                                "id": 1,
+                                "name": "Government"
+                            },
+                            "featured": true,
+                            "country": [
+                                {
+                                    "id": 2,
+                                    "name": "United States of America",
+                                    "alpha_2_code": "US",
+                                    "alpha_3_code": "USA",
+                                    "nationality_name": "American",
+                                    "nationality_name_composed": "Americano"
+                                }
+                            ],
+                            "description": "The National Aeronautics and Space Administration is an independent agency of the executive branch of the United States federal government responsible for the civilian space program, as well as aeronautics and aerospace research. NASA have many launch facilities but most are inactive. The most commonly used pad will be LC-39B at Kennedy Space Center in Florida.",
+                            "administrator": "Administrator: Jared Isaacman",
+                            "founding_year": 1958,
+                            "launchers": "Space Shuttle | SLS",
+                            "spacecraft": "Orion",
+                            "parent": null,
+                            "image": {
+                                "id": 19,
+                                "name": "[AUTO] National Aeronautics and Space Administration - image",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_image_20190207032448.jpeg",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184631.jpeg",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            },
+                            "logo": {
+                                "id": 161,
+                                "name": "[AUTO] National Aeronautics and Space Administration - logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_logo_20190207032448.png",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185043.png",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            },
+                            "social_logo": {
+                                "id": 76,
+                                "name": "[AUTO] National Aeronautics and Space Administration - social_logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_nation_20230803040809.jpg",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184823.jpeg",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            }
+                        }
+                    ],
+                    "parent": null
+                }
+            ],
+            "full_name": "Space Launch System Block 1",
+            "variant": "Block 1",
+            "active": true,
+            "is_placeholder": false,
+            "manufacturer": {
+                "response_mode": "normal",
+                "id": 44,
+                "url": "https://ll.thespacedevs.com/2.3.0/agencies/44/",
+                "name": "National Aeronautics and Space Administration",
+                "abbrev": "NASA",
+                "type": {
+                    "id": 1,
+                    "name": "Government"
+                },
+                "featured": true,
+                "country": [
+                    {
+                        "id": 2,
+                        "name": "United States of America",
+                        "alpha_2_code": "US",
+                        "alpha_3_code": "USA",
+                        "nationality_name": "American",
+                        "nationality_name_composed": "Americano"
+                    }
+                ],
+                "description": "The National Aeronautics and Space Administration is an independent agency of the executive branch of the United States federal government responsible for the civilian space program, as well as aeronautics and aerospace research. NASA have many launch facilities but most are inactive. The most commonly used pad will be LC-39B at Kennedy Space Center in Florida.",
+                "administrator": "Administrator: Jared Isaacman",
+                "founding_year": 1958,
+                "launchers": "Space Shuttle | SLS",
+                "spacecraft": "Orion",
+                "parent": null,
+                "image": {
+                    "id": 19,
+                    "name": "[AUTO] National Aeronautics and Space Administration - image",
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_image_20190207032448.jpeg",
+                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184631.jpeg",
+                    "credit": null,
+                    "license": {
+                        "id": 1,
+                        "name": "Unknown",
+                        "priority": 9,
+                        "link": null
+                    },
+                    "single_use": true,
+                    "variants": []
+                },
+                "logo": {
+                    "id": 161,
+                    "name": "[AUTO] National Aeronautics and Space Administration - logo",
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_logo_20190207032448.png",
+                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185043.png",
+                    "credit": null,
+                    "license": {
+                        "id": 1,
+                        "name": "Unknown",
+                        "priority": 9,
+                        "link": null
+                    },
+                    "single_use": true,
+                    "variants": []
+                },
+                "social_logo": {
+                    "id": 76,
+                    "name": "[AUTO] National Aeronautics and Space Administration - social_logo",
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_nation_20230803040809.jpg",
+                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184823.jpeg",
+                    "credit": null,
+                    "license": {
+                        "id": 1,
+                        "name": "Unknown",
+                        "priority": 9,
+                        "link": null
+                    },
+                    "single_use": true,
+                    "variants": []
+                }
+            },
+            "program": [
+                {
+                    "response_mode": "normal",
+                    "id": 15,
+                    "url": "https://ll.thespacedevs.com/2.3.0/programs/15/",
+                    "name": "Artemis",
+                    "image": {
+                        "id": 1884,
+                        "name": "[AUTO] Artemis - image",
+                        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/artemis_program_20220827100930.png",
+                        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305194033.png",
+                        "credit": null,
+                        "license": {
+                            "id": 1,
+                            "name": "Unknown",
+                            "priority": 9,
+                            "link": null
+                        },
+                        "single_use": true,
+                        "variants": []
+                    },
+                    "info_url": "https://www.nasa.gov/specials/artemis/",
+                    "wiki_url": "https://en.wikipedia.org/wiki/Artemis_program",
+                    "description": "The Artemis program is a US government-funded crewed spaceflight program that has the goal of landing \"the first woman and the next man\" on the Moon, specifically at the lunar south pole region.",
+                    "agencies": [
+                        {
+                            "response_mode": "list",
+                            "id": 44,
+                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/44/",
+                            "name": "National Aeronautics and Space Administration",
+                            "abbrev": "NASA",
+                            "type": {
+                                "id": 1,
+                                "name": "Government"
+                            }
+                        }
+                    ],
+                    "start_date": "2017-12-11T00:00:00Z",
+                    "end_date": null,
+                    "mission_patches": [],
+                    "type": {
+                        "id": 2,
+                        "name": "Human Spaceflight"
+                    }
+                }
+            ],
+            "reusable": false,
+            "image": {
+                "id": 2746,
+                "name": "Space Launch System Artemis II launch (NHQ202604010215)_cropped",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space_launch_sy_image_20260405204639.jpg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space_launch_sy_image_thumbnail_20260405204642.jpeg",
+                "credit": "NASA/Joel Kowsky",
+                "license": {
+                    "id": 4,
+                    "name": "NASA Image and Media Guidelines",
+                    "priority": 0,
+                    "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+                },
+                "single_use": false,
                 "variants": []
             },
             "info_url": "https://www.nasa.gov/exploration/systems/sls/fs/sls.html",
@@ -1565,177 +1565,6 @@
         },
         {
             "response_mode": "normal",
-            "id": 122,
-            "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/122/",
-            "name": "SS-520",
-            "families": [
-                {
-                    "response_mode": "normal",
-                    "id": 155,
-                    "name": "S-Series",
-                    "manufacturer": [
-                        {
-                            "response_mode": "normal",
-                            "id": 37,
-                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/37/",
-                            "name": "Japan Aerospace Exploration Agency",
-                            "abbrev": "JAXA",
-                            "type": {
-                                "id": 1,
-                                "name": "Government"
-                            },
-                            "featured": true,
-                            "country": [
-                                {
-                                    "id": 28,
-                                    "name": "Japan",
-                                    "alpha_2_code": "JP",
-                                    "alpha_3_code": "JPN",
-                                    "nationality_name": "Japanese",
-                                    "nationality_name_composed": "Nippo"
-                                }
-                            ],
-                            "description": "The Japan Aerospace Exploration Agency (JAXA) is Japan's national aero-space agency. Through the merger of three previously independent organizations, JAXA was formed on 1 October 2003. JAXA is responsible for research, technology development and the launch of satellites into orbit, and is involved in many more advanced missions, such as asteroid exploration and possible manned exploration of the Moon. JAXA launch their Epsilon vehicle from the Uchinoura Space Center and their H-II vehicles from the Tanegashima Space Center.",
-                            "administrator": "Administrator: Hiroshi Yamakawa",
-                            "founding_year": 2003,
-                            "launchers": "H-II",
-                            "spacecraft": "",
-                            "parent": null,
-                            "image": {
-                                "id": 16,
-                                "name": "[AUTO] Japan Aerospace Exploration Agency - image",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/japan2520aerospace2520exploration2520agency_image_20190207032440.jpeg",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184621.jpeg",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            },
-                            "logo": {
-                                "id": 151,
-                                "name": "[AUTO] Japan Aerospace Exploration Agency - logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/japan2520aerospace2520exploration2520agency_logo_20190207032440.png",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185023.png",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            },
-                            "social_logo": {
-                                "id": 69,
-                                "name": "[AUTO] Japan Aerospace Exploration Agency - social_logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/japan2520aerospace2520exploration2520agency_nation_20230531052930.png",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184813.png",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            }
-                        }
-                    ],
-                    "parent": null
-                }
-            ],
-            "full_name": "SS-520-4",
-            "variant": "4",
-            "active": false,
-            "is_placeholder": false,
-            "manufacturer": {
-                "response_mode": "normal",
-                "id": 37,
-                "url": "https://ll.thespacedevs.com/2.3.0/agencies/37/",
-                "name": "Japan Aerospace Exploration Agency",
-                "abbrev": "JAXA",
-                "type": {
-                    "id": 1,
-                    "name": "Government"
-                },
-                "featured": true,
-                "country": [
-                    {
-                        "id": 28,
-                        "name": "Japan",
-                        "alpha_2_code": "JP",
-                        "alpha_3_code": "JPN",
-                        "nationality_name": "Japanese",
-                        "nationality_name_composed": "Nippo"
-                    }
-                ],
-                "description": "The Japan Aerospace Exploration Agency (JAXA) is Japan's national aero-space agency. Through the merger of three previously independent organizations, JAXA was formed on 1 October 2003. JAXA is responsible for research, technology development and the launch of satellites into orbit, and is involved in many more advanced missions, such as asteroid exploration and possible manned exploration of the Moon. JAXA launch their Epsilon vehicle from the Uchinoura Space Center and their H-II vehicles from the Tanegashima Space Center.",
-                "administrator": "Administrator: Hiroshi Yamakawa",
-                "founding_year": 2003,
-                "launchers": "H-II",
-                "spacecraft": "",
-                "parent": null,
-                "image": {
-                    "id": 16,
-                    "name": "[AUTO] Japan Aerospace Exploration Agency - image",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/japan2520aerospace2520exploration2520agency_image_20190207032440.jpeg",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184621.jpeg",
-                    "credit": null,
-                    "license": {
-                        "id": 1,
-                        "name": "Unknown",
-                        "priority": 9,
-                        "link": null
-                    },
-                    "single_use": true,
-                    "variants": []
-                },
-                "logo": {
-                    "id": 151,
-                    "name": "[AUTO] Japan Aerospace Exploration Agency - logo",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/japan2520aerospace2520exploration2520agency_logo_20190207032440.png",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185023.png",
-                    "credit": null,
-                    "license": {
-                        "id": 1,
-                        "name": "Unknown",
-                        "priority": 9,
-                        "link": null
-                    },
-                    "single_use": true,
-                    "variants": []
-                },
-                "social_logo": {
-                    "id": 69,
-                    "name": "[AUTO] Japan Aerospace Exploration Agency - social_logo",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/japan2520aerospace2520exploration2520agency_nation_20230531052930.png",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184813.png",
-                    "credit": null,
-                    "license": {
-                        "id": 1,
-                        "name": "Unknown",
-                        "priority": 9,
-                        "link": null
-                    },
-                    "single_use": true,
-                    "variants": []
-                }
-            },
-            "program": [],
-            "reusable": false,
-            "image": null,
-            "info_url": null,
-            "wiki_url": "https://ja.wikipedia.org/wiki/SS-520%E3%83%AD%E3%82%B1%E3%83%83%E3%83%88"
-        },
-        {
-            "response_mode": "normal",
             "id": 144,
             "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/144/",
             "name": "SS-520",
@@ -1824,6 +1653,177 @@
             ],
             "full_name": "SS-520-5",
             "variant": "5",
+            "active": false,
+            "is_placeholder": false,
+            "manufacturer": {
+                "response_mode": "normal",
+                "id": 37,
+                "url": "https://ll.thespacedevs.com/2.3.0/agencies/37/",
+                "name": "Japan Aerospace Exploration Agency",
+                "abbrev": "JAXA",
+                "type": {
+                    "id": 1,
+                    "name": "Government"
+                },
+                "featured": true,
+                "country": [
+                    {
+                        "id": 28,
+                        "name": "Japan",
+                        "alpha_2_code": "JP",
+                        "alpha_3_code": "JPN",
+                        "nationality_name": "Japanese",
+                        "nationality_name_composed": "Nippo"
+                    }
+                ],
+                "description": "The Japan Aerospace Exploration Agency (JAXA) is Japan's national aero-space agency. Through the merger of three previously independent organizations, JAXA was formed on 1 October 2003. JAXA is responsible for research, technology development and the launch of satellites into orbit, and is involved in many more advanced missions, such as asteroid exploration and possible manned exploration of the Moon. JAXA launch their Epsilon vehicle from the Uchinoura Space Center and their H-II vehicles from the Tanegashima Space Center.",
+                "administrator": "Administrator: Hiroshi Yamakawa",
+                "founding_year": 2003,
+                "launchers": "H-II",
+                "spacecraft": "",
+                "parent": null,
+                "image": {
+                    "id": 16,
+                    "name": "[AUTO] Japan Aerospace Exploration Agency - image",
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/japan2520aerospace2520exploration2520agency_image_20190207032440.jpeg",
+                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184621.jpeg",
+                    "credit": null,
+                    "license": {
+                        "id": 1,
+                        "name": "Unknown",
+                        "priority": 9,
+                        "link": null
+                    },
+                    "single_use": true,
+                    "variants": []
+                },
+                "logo": {
+                    "id": 151,
+                    "name": "[AUTO] Japan Aerospace Exploration Agency - logo",
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/japan2520aerospace2520exploration2520agency_logo_20190207032440.png",
+                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185023.png",
+                    "credit": null,
+                    "license": {
+                        "id": 1,
+                        "name": "Unknown",
+                        "priority": 9,
+                        "link": null
+                    },
+                    "single_use": true,
+                    "variants": []
+                },
+                "social_logo": {
+                    "id": 69,
+                    "name": "[AUTO] Japan Aerospace Exploration Agency - social_logo",
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/japan2520aerospace2520exploration2520agency_nation_20230531052930.png",
+                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184813.png",
+                    "credit": null,
+                    "license": {
+                        "id": 1,
+                        "name": "Unknown",
+                        "priority": 9,
+                        "link": null
+                    },
+                    "single_use": true,
+                    "variants": []
+                }
+            },
+            "program": [],
+            "reusable": false,
+            "image": null,
+            "info_url": null,
+            "wiki_url": "https://ja.wikipedia.org/wiki/SS-520%E3%83%AD%E3%82%B1%E3%83%83%E3%83%88"
+        },
+        {
+            "response_mode": "normal",
+            "id": 122,
+            "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/122/",
+            "name": "SS-520",
+            "families": [
+                {
+                    "response_mode": "normal",
+                    "id": 155,
+                    "name": "S-Series",
+                    "manufacturer": [
+                        {
+                            "response_mode": "normal",
+                            "id": 37,
+                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/37/",
+                            "name": "Japan Aerospace Exploration Agency",
+                            "abbrev": "JAXA",
+                            "type": {
+                                "id": 1,
+                                "name": "Government"
+                            },
+                            "featured": true,
+                            "country": [
+                                {
+                                    "id": 28,
+                                    "name": "Japan",
+                                    "alpha_2_code": "JP",
+                                    "alpha_3_code": "JPN",
+                                    "nationality_name": "Japanese",
+                                    "nationality_name_composed": "Nippo"
+                                }
+                            ],
+                            "description": "The Japan Aerospace Exploration Agency (JAXA) is Japan's national aero-space agency. Through the merger of three previously independent organizations, JAXA was formed on 1 October 2003. JAXA is responsible for research, technology development and the launch of satellites into orbit, and is involved in many more advanced missions, such as asteroid exploration and possible manned exploration of the Moon. JAXA launch their Epsilon vehicle from the Uchinoura Space Center and their H-II vehicles from the Tanegashima Space Center.",
+                            "administrator": "Administrator: Hiroshi Yamakawa",
+                            "founding_year": 2003,
+                            "launchers": "H-II",
+                            "spacecraft": "",
+                            "parent": null,
+                            "image": {
+                                "id": 16,
+                                "name": "[AUTO] Japan Aerospace Exploration Agency - image",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/japan2520aerospace2520exploration2520agency_image_20190207032440.jpeg",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184621.jpeg",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            },
+                            "logo": {
+                                "id": 151,
+                                "name": "[AUTO] Japan Aerospace Exploration Agency - logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/japan2520aerospace2520exploration2520agency_logo_20190207032440.png",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185023.png",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            },
+                            "social_logo": {
+                                "id": 69,
+                                "name": "[AUTO] Japan Aerospace Exploration Agency - social_logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/japan2520aerospace2520exploration2520agency_nation_20230531052930.png",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184813.png",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            }
+                        }
+                    ],
+                    "parent": null
+                }
+            ],
+            "full_name": "SS-520-4",
+            "variant": "4",
             "active": false,
             "is_placeholder": false,
             "manufacturer": {
@@ -2007,6 +2007,222 @@
             },
             "info_url": null,
             "wiki_url": "https://en.wikipedia.org/wiki/Small_Satellite_Launch_Vehicle"
+        },
+        {
+            "response_mode": "normal",
+            "id": 522,
+            "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/522/",
+            "name": "Starship",
+            "families": [
+                {
+                    "response_mode": "normal",
+                    "id": 156,
+                    "name": "Starship",
+                    "manufacturer": [
+                        {
+                            "response_mode": "normal",
+                            "id": 121,
+                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
+                            "name": "SpaceX",
+                            "abbrev": "SpX",
+                            "type": {
+                                "id": 3,
+                                "name": "Commercial"
+                            },
+                            "featured": true,
+                            "country": [
+                                {
+                                    "id": 2,
+                                    "name": "United States of America",
+                                    "alpha_2_code": "US",
+                                    "alpha_3_code": "USA",
+                                    "nationality_name": "American",
+                                    "nationality_name_composed": "Americano"
+                                }
+                            ],
+                            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                            "administrator": "CEO: Elon Musk",
+                            "founding_year": 2002,
+                            "launchers": "Falcon | Starship",
+                            "spacecraft": "Dragon",
+                            "parent": null,
+                            "image": {
+                                "id": 1736,
+                                "name": "Falcon 9 liftoff from LC-39A",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+                                "credit": "SpaceX",
+                                "license": {
+                                    "id": 5,
+                                    "name": "CC BY-NC 2.0",
+                                    "priority": 1,
+                                    "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+                                },
+                                "single_use": false,
+                                "variants": []
+                            },
+                            "logo": {
+                                "id": 186,
+                                "name": "SpaceX logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185138.png",
+                                "credit": "SpaceX",
+                                "license": {
+                                    "id": 5,
+                                    "name": "CC BY-NC 2.0",
+                                    "priority": 1,
+                                    "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+                                },
+                                "single_use": true,
+                                "variants": []
+                            },
+                            "social_logo": {
+                                "id": 94,
+                                "name": "SpaceX social logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_thumbnail_20260407054626.jpeg",
+                                "credit": "SpaceX",
+                                "license": {
+                                    "id": 5,
+                                    "name": "CC BY-NC 2.0",
+                                    "priority": 1,
+                                    "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+                                },
+                                "single_use": true,
+                                "variants": []
+                            }
+                        }
+                    ],
+                    "parent": null
+                }
+            ],
+            "full_name": "Starship V3",
+            "variant": "V3",
+            "active": true,
+            "is_placeholder": false,
+            "manufacturer": {
+                "response_mode": "normal",
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
+                "name": "SpaceX",
+                "abbrev": "SpX",
+                "type": {
+                    "id": 3,
+                    "name": "Commercial"
+                },
+                "featured": true,
+                "country": [
+                    {
+                        "id": 2,
+                        "name": "United States of America",
+                        "alpha_2_code": "US",
+                        "alpha_3_code": "USA",
+                        "nationality_name": "American",
+                        "nationality_name_composed": "Americano"
+                    }
+                ],
+                "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                "administrator": "CEO: Elon Musk",
+                "founding_year": 2002,
+                "launchers": "Falcon | Starship",
+                "spacecraft": "Dragon",
+                "parent": null,
+                "image": {
+                    "id": 1736,
+                    "name": "Falcon 9 liftoff from LC-39A",
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+                    "credit": "SpaceX",
+                    "license": {
+                        "id": 5,
+                        "name": "CC BY-NC 2.0",
+                        "priority": 1,
+                        "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+                    },
+                    "single_use": false,
+                    "variants": []
+                },
+                "logo": {
+                    "id": 186,
+                    "name": "SpaceX logo",
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185138.png",
+                    "credit": "SpaceX",
+                    "license": {
+                        "id": 5,
+                        "name": "CC BY-NC 2.0",
+                        "priority": 1,
+                        "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+                    },
+                    "single_use": true,
+                    "variants": []
+                },
+                "social_logo": {
+                    "id": 94,
+                    "name": "SpaceX social logo",
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg",
+                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_thumbnail_20260407054626.jpeg",
+                    "credit": "SpaceX",
+                    "license": {
+                        "id": 5,
+                        "name": "CC BY-NC 2.0",
+                        "priority": 1,
+                        "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+                    },
+                    "single_use": true,
+                    "variants": []
+                }
+            },
+            "program": [
+                {
+                    "response_mode": "normal",
+                    "id": 1,
+                    "url": "https://ll.thespacedevs.com/2.3.0/programs/1/",
+                    "name": "SpaceX Starship",
+                    "image": {
+                        "id": 2301,
+                        "name": "Starship on the launch pad during WDR (Flight 7)",
+                        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20250111100520.jpg",
+                        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20250111100521.jpeg",
+                        "credit": "SpaceX",
+                        "license": {
+                            "id": 1,
+                            "name": "Unknown",
+                            "priority": 9,
+                            "link": null
+                        },
+                        "single_use": false,
+                        "variants": []
+                    },
+                    "info_url": "https://www.spacex.com/vehicles/starship/",
+                    "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship",
+                    "description": "The SpaceX Starship is a fully reusable super heavy-lift launch vehicle under development by SpaceX since 2012, as a self-funded private spaceflight project.  The second stage of the Starship — is designed as a long-duration cargo and passenger-carrying spacecraft. It is expected to be initially used without any booster stage at all, as part of an extensive development program to prove out launch-and-landing and iterate on a variety of design details, particularly with respect to the vehicle's atmospheric reentry.",
+                    "agencies": [
+                        {
+                            "response_mode": "list",
+                            "id": 121,
+                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
+                            "name": "SpaceX",
+                            "abbrev": "SpX",
+                            "type": {
+                                "id": 3,
+                                "name": "Commercial"
+                            }
+                        }
+                    ],
+                    "start_date": "2019-03-01T05:00:00Z",
+                    "end_date": null,
+                    "mission_patches": [],
+                    "type": {
+                        "id": 7,
+                        "name": "Technology"
+                    }
+                }
+            ],
+            "reusable": true,
+            "image": null,
+            "info_url": "https://www.spacex.com/vehicles/starship",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship#Block_3"
         },
         {
             "response_mode": "normal",
@@ -2467,222 +2683,6 @@
             },
             "info_url": "https://www.spacex.com/vehicles/starship",
             "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship"
-        },
-        {
-            "response_mode": "normal",
-            "id": 522,
-            "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/522/",
-            "name": "Starship",
-            "families": [
-                {
-                    "response_mode": "normal",
-                    "id": 156,
-                    "name": "Starship",
-                    "manufacturer": [
-                        {
-                            "response_mode": "normal",
-                            "id": 121,
-                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
-                            "name": "SpaceX",
-                            "abbrev": "SpX",
-                            "type": {
-                                "id": 3,
-                                "name": "Commercial"
-                            },
-                            "featured": true,
-                            "country": [
-                                {
-                                    "id": 2,
-                                    "name": "United States of America",
-                                    "alpha_2_code": "US",
-                                    "alpha_3_code": "USA",
-                                    "nationality_name": "American",
-                                    "nationality_name_composed": "Americano"
-                                }
-                            ],
-                            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
-                            "administrator": "CEO: Elon Musk",
-                            "founding_year": 2002,
-                            "launchers": "Falcon | Starship",
-                            "spacecraft": "Dragon",
-                            "parent": null,
-                            "image": {
-                                "id": 1736,
-                                "name": "Falcon 9 liftoff from LC-39A",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-                                "credit": "SpaceX",
-                                "license": {
-                                    "id": 5,
-                                    "name": "CC BY-NC 2.0",
-                                    "priority": 1,
-                                    "link": "https://creativecommons.org/licenses/by-nc/2.0/"
-                                },
-                                "single_use": false,
-                                "variants": []
-                            },
-                            "logo": {
-                                "id": 186,
-                                "name": "SpaceX logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185138.png",
-                                "credit": "SpaceX",
-                                "license": {
-                                    "id": 5,
-                                    "name": "CC BY-NC 2.0",
-                                    "priority": 1,
-                                    "link": "https://creativecommons.org/licenses/by-nc/2.0/"
-                                },
-                                "single_use": true,
-                                "variants": []
-                            },
-                            "social_logo": {
-                                "id": 94,
-                                "name": "SpaceX social logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_thumbnail_20260407054626.jpeg",
-                                "credit": "SpaceX",
-                                "license": {
-                                    "id": 5,
-                                    "name": "CC BY-NC 2.0",
-                                    "priority": 1,
-                                    "link": "https://creativecommons.org/licenses/by-nc/2.0/"
-                                },
-                                "single_use": true,
-                                "variants": []
-                            }
-                        }
-                    ],
-                    "parent": null
-                }
-            ],
-            "full_name": "Starship V3",
-            "variant": "V3",
-            "active": true,
-            "is_placeholder": false,
-            "manufacturer": {
-                "response_mode": "normal",
-                "id": 121,
-                "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
-                "name": "SpaceX",
-                "abbrev": "SpX",
-                "type": {
-                    "id": 3,
-                    "name": "Commercial"
-                },
-                "featured": true,
-                "country": [
-                    {
-                        "id": 2,
-                        "name": "United States of America",
-                        "alpha_2_code": "US",
-                        "alpha_3_code": "USA",
-                        "nationality_name": "American",
-                        "nationality_name_composed": "Americano"
-                    }
-                ],
-                "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
-                "administrator": "CEO: Elon Musk",
-                "founding_year": 2002,
-                "launchers": "Falcon | Starship",
-                "spacecraft": "Dragon",
-                "parent": null,
-                "image": {
-                    "id": 1736,
-                    "name": "Falcon 9 liftoff from LC-39A",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-                    "credit": "SpaceX",
-                    "license": {
-                        "id": 5,
-                        "name": "CC BY-NC 2.0",
-                        "priority": 1,
-                        "link": "https://creativecommons.org/licenses/by-nc/2.0/"
-                    },
-                    "single_use": false,
-                    "variants": []
-                },
-                "logo": {
-                    "id": 186,
-                    "name": "SpaceX logo",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185138.png",
-                    "credit": "SpaceX",
-                    "license": {
-                        "id": 5,
-                        "name": "CC BY-NC 2.0",
-                        "priority": 1,
-                        "link": "https://creativecommons.org/licenses/by-nc/2.0/"
-                    },
-                    "single_use": true,
-                    "variants": []
-                },
-                "social_logo": {
-                    "id": 94,
-                    "name": "SpaceX social logo",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_thumbnail_20260407054626.jpeg",
-                    "credit": "SpaceX",
-                    "license": {
-                        "id": 5,
-                        "name": "CC BY-NC 2.0",
-                        "priority": 1,
-                        "link": "https://creativecommons.org/licenses/by-nc/2.0/"
-                    },
-                    "single_use": true,
-                    "variants": []
-                }
-            },
-            "program": [
-                {
-                    "response_mode": "normal",
-                    "id": 1,
-                    "url": "https://ll.thespacedevs.com/2.3.0/programs/1/",
-                    "name": "SpaceX Starship",
-                    "image": {
-                        "id": 2301,
-                        "name": "Starship on the launch pad during WDR (Flight 7)",
-                        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20250111100520.jpg",
-                        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20250111100521.jpeg",
-                        "credit": "SpaceX",
-                        "license": {
-                            "id": 1,
-                            "name": "Unknown",
-                            "priority": 9,
-                            "link": null
-                        },
-                        "single_use": false,
-                        "variants": []
-                    },
-                    "info_url": "https://www.spacex.com/vehicles/starship/",
-                    "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship",
-                    "description": "The SpaceX Starship is a fully reusable super heavy-lift launch vehicle under development by SpaceX since 2012, as a self-funded private spaceflight project.  The second stage of the Starship — is designed as a long-duration cargo and passenger-carrying spacecraft. It is expected to be initially used without any booster stage at all, as part of an extensive development program to prove out launch-and-landing and iterate on a variety of design details, particularly with respect to the vehicle's atmospheric reentry.",
-                    "agencies": [
-                        {
-                            "response_mode": "list",
-                            "id": 121,
-                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
-                            "name": "SpaceX",
-                            "abbrev": "SpX",
-                            "type": {
-                                "id": 3,
-                                "name": "Commercial"
-                            }
-                        }
-                    ],
-                    "start_date": "2019-03-01T05:00:00Z",
-                    "end_date": null,
-                    "mission_patches": [],
-                    "type": {
-                        "id": 7,
-                        "name": "Technology"
-                    }
-                }
-            ],
-            "reusable": true,
-            "image": null,
-            "info_url": "https://www.spacex.com/vehicles/starship",
-            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship#Block_3"
         },
         {
             "response_mode": "normal",

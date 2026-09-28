@@ -14,8 +14,8 @@ pad_id,pad_name,active,latitude,longitude,country,location_id,location_name,tota
 44,Unknown Pad,True,51.036,59.958,Russia,5,"Dombarovskiy, Russian Federation",0,0,
 168,41/1,True,62.941,40.526806,Russia,6,"Plesetsk Cosmodrome, Russian Federation",310,310,P1DT20H45M10S
 85,43/4 (43R),True,62.92883,40.457098,Russia,6,"Plesetsk Cosmodrome, Russian Federation",329,329,P1DT13H53M
-36,43/3 (43L),True,62.9273,40.45,Russia,6,"Plesetsk Cosmodrome, Russian Federation",234,234,P2DT17H44M
 135,158,True,62.9255556,40.5755838,Russia,6,"Plesetsk Cosmodrome, Russian Federation",2,2,P732DT20H44M33S
+36,43/3 (43L),True,62.9273,40.45,Russia,6,"Plesetsk Cosmodrome, Russian Federation",234,234,P2DT17H44M
 167,132/2,True,62.883,40.869806,Russia,6,"Plesetsk Cosmodrome, Russian Federation",172,172,P2DT5H49M1S
 127,32/2,True,62.9063889,40.7844727,Russia,6,"Plesetsk Cosmodrome, Russian Federation",65,65,P3DT7H31M59S
 126,32/1,True,62.9063889,40.7844727,Russia,6,"Plesetsk Cosmodrome, Russian Federation",57,57,P8DT18H50M
@@ -39,35 +39,35 @@ pad_id,pad_name,active,latitude,longitude,country,location_id,location_name,tota
 185,Rocket Lab Launch Complex 1B,True,-39.262833,177.864469,New Zealand,10,"Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",41,41,P6DT21H17M
 210,Unknown Pad,True,-39.260881,177.865826,New Zealand,10,"Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",0,0,
 65,Rocket Lab Launch Complex 1A,True,-39.262833,177.864469,New Zealand,10,"Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",43,43,P7DT14H29M39S
-11,Space Launch Complex 6,True,34.5815,-120.6262,United States of America,11,"Vandenberg SFB, CA, USA",14,14,P129DT10H20M
+93,Space Launch Complex 3W,False,34.644,-120.593,United States of America,11,"Vandenberg SFB, CA, USA",81,81,P17DT21H7M39S
+154,Space Launch Complex 5,False,34.608,-120.6247,United States of America,11,"Vandenberg SFB, CA, USA",69,69,P11DT17H59S
 171,Space Launch Complex 10W,False,34.7652778,-120.6244162,United States of America,11,"Vandenberg SFB, CA, USA",31,31,P49DT3H16M52S
 174,Space Launch Complex 11,False,34.572855,-120.632976,United States of America,11,"Vandenberg SFB, CA, USA",0,0,
 8,Space Launch Complex 8,True,34.57635,-120.63245,United States of America,11,"Vandenberg SFB, CA, USA",10,10,P25DT21H43M43S
-93,Space Launch Complex 3W,False,34.644,-120.593,United States of America,11,"Vandenberg SFB, CA, USA",81,81,P17DT21H7M39S
-154,Space Launch Complex 5,False,34.608,-120.6247,United States of America,11,"Vandenberg SFB, CA, USA",69,69,P11DT17H59S
-95,Space Launch Complex 1W,False,34.7572,-120.6303,United States of America,11,"Vandenberg SFB, CA, USA",56,56,P13DT1H26M
-172,576A2,False,34.7394444,-120.6213607,United States of America,11,"Vandenberg SFB, CA, USA",4,4,P96DT9H30M18S
+11,Space Launch Complex 6,True,34.5815,-120.6262,United States of America,11,"Vandenberg SFB, CA, USA",14,14,P129DT10H20M
 253,Space Launch Complex 14,True,34.560999,-120.570646,United States of America,11,"Vandenberg SFB, CA, USA",0,0,
 156,Space Launch Complex 4W,False,34.63312,-120.61584,United States of America,11,"Vandenberg SFB, CA, USA",93,93,P15DT1H14M37S
-16,Space Launch Complex 4E,True,34.632,-120.611,United States of America,11,"Vandenberg SFB, CA, USA",299,299,P2DT7H48M21S
-96,Space Launch Complex 1E,False,34.756,-120.6263,United States of America,11,"Vandenberg SFB, CA, USA",45,45,P27DT18H42M13S
 170,576B3,False,34.7897222,-120.5980273,United States of America,11,"Vandenberg SFB, CA, USA",7,7,P105DT16H49M50S
-173,576A1,False,34.7394444,-120.6213607,United States of America,11,"Vandenberg SFB, CA, USA",1,1,
-61,Space Launch Complex 10E,False,34.7626,-120.6213,United States of America,11,"Vandenberg SFB, CA, USA",1,1,
+95,Space Launch Complex 1W,False,34.7572,-120.6303,United States of America,11,"Vandenberg SFB, CA, USA",56,56,P13DT1H26M
+172,576A2,False,34.7394444,-120.6213607,United States of America,11,"Vandenberg SFB, CA, USA",4,4,P96DT9H30M18S
 24,Space Launch Complex 3E,True,34.64,-120.5895,United States of America,11,"Vandenberg SFB, CA, USA",48,45,P32DT16H54M17S
+96,Space Launch Complex 1E,False,34.756,-120.6263,United States of America,11,"Vandenberg SFB, CA, USA",45,45,P27DT18H42M13S
+16,Space Launch Complex 4E,True,34.632,-120.611,United States of America,11,"Vandenberg SFB, CA, USA",299,299,P2DT7H48M21S
+173,576A1,False,34.7394444,-120.6213607,United States of America,11,"Vandenberg SFB, CA, USA",1,1,
 55,Space Launch Complex 576E,False,34.739444,-120.619167,United States of America,11,"Vandenberg SFB, CA, USA",9,9,P82DT2H16M
+61,Space Launch Complex 10E,False,34.7626,-120.6213,United States of America,11,"Vandenberg SFB, CA, USA",1,1,
 98,Space Launch Complex 2E,False,34.7516,-120.6192,United States of America,11,"Vandenberg SFB, CA, USA",47,47,P25DT17H2M49S
 169,Launch Complex A,False,34.6638,-120.6022,United States of America,11,"Vandenberg SFB, CA, USA",1,0,
 39,Space Launch Complex 2W,True,34.7556,-120.6224,United States of America,11,"Vandenberg SFB, CA, USA",99,99,P26DT16H39M49S
 14,Space Launch Complex 17A,True,28.4472,-80.565,United States of America,12,"Cape Canaveral SFS, FL, USA",145,145,P14DT5H46M
+193,Launch Complex 26A,True,28.4433,-80.5712,United States of America,12,"Cape Canaveral SFS, FL, USA",3,3,P20DT23H10M4S
 117,Space Launch Complex 13,True,28.4859,-80.546594,United States of America,12,"Cape Canaveral SFS, FL, USA",21,21,P73DT13H23M
+120,Space Launch Complex 20,True,28.5122222,-80.5588607,United States of America,12,"Cape Canaveral SFS, FL, USA",4,4,P62DT22H25M32S
+116,Launch Complex 11,True,28.4755556,-80.5427496,United States of America,12,"Cape Canaveral SFS, FL, USA",1,1,
+38,Space Launch Complex 37B,True,28.5317,-80.56495,United States of America,12,"Cape Canaveral SFS, FL, USA",40,40,P66DT5H24M59S
 206,Space Launch Complex 15,True,28.4963,-80.5493,United States of America,12,"Cape Canaveral SFS, FL, USA",0,0,
 121,Launch Complex 36A,True,28.4705556,-80.542194,United States of America,12,"Cape Canaveral SFS, FL, USA",71,71,P46DT2H55M
-193,Launch Complex 26A,True,28.4433,-80.5712,United States of America,12,"Cape Canaveral SFS, FL, USA",3,3,P20DT23H10M4S
-120,Space Launch Complex 20,True,28.5122222,-80.5588607,United States of America,12,"Cape Canaveral SFS, FL, USA",4,4,P62DT22H25M32S
 123,Launch Complex 5,True,28.43942,-80.573301,United States of America,12,"Cape Canaveral SFS, FL, USA",13,7,P28DT2H15M
-38,Space Launch Complex 37B,True,28.5317,-80.56495,United States of America,12,"Cape Canaveral SFS, FL, USA",40,40,P66DT5H24M59S
-116,Launch Complex 11,True,28.4755556,-80.5427496,United States of America,12,"Cape Canaveral SFS, FL, USA",1,1,
 118,Launch Complex 18A,True,28.4493,-80.564494,United States of America,12,"Cape Canaveral SFS, FL, USA",18,11,P10DT2H1M6S
 122,Launch Complex 36B,True,28.4705556,-80.542194,United States of America,12,"Cape Canaveral SFS, FL, USA",76,76,P50DT6H10M56S
 97,Launch Complex 26B,True,28.4433,-80.5712,United States of America,12,"Cape Canaveral SFS, FL, USA",6,6,P27DT5H31M27S
@@ -83,27 +83,27 @@ pad_id,pad_name,active,latitude,longitude,country,location_id,location_name,tota
 92,Launch Complex 16,True,28.501626,-80.5518,United States of America,12,"Cape Canaveral SFS, FL, USA",1,1,
 80,Space Launch Complex 40,True,28.56194122,-80.57735736,United States of America,12,"Cape Canaveral SFS, FL, USA",401,401,P1DT21H
 99,Launch Complex 12,True,28.480607,-80.541938,United States of America,12,"Cape Canaveral SFS, FL, USA",23,21,P32DT4H32M2S
+34,Ariane Launch Area 1 (ELV),True,5.236,-52.775,French Guiana,13,"Guiana Space Centre, French Guiana",56,56,P55DT10H7M35S
+81,Soyuz Launch Complex,False,5.3019,-52.8346,French Guiana,13,"Guiana Space Centre, French Guiana",26,26,P27DT15H8M39S
 125,Diamant Launch Area,False,5.2222222,-52.7758051,French Guiana,13,"Guiana Space Centre, French Guiana",8,8,P99DT17H57M
 77,Ariane Launch Area 3,False,5.239,-52.768,French Guiana,13,"Guiana Space Centre, French Guiana",118,118,P17DT20H35M26S
 124,Ariane Launch Area 2,False,5.232,-52.778194,French Guiana,13,"Guiana Space Centre, French Guiana",119,119,P16DT25M
-81,Soyuz Launch Complex,False,5.3019,-52.8346,French Guiana,13,"Guiana Space Centre, French Guiana",26,26,P27DT15H8M39S
-34,Ariane Launch Area 1 (ELV),True,5.236,-52.775,French Guiana,13,"Guiana Space Centre, French Guiana",56,56,P55DT10H7M35S
 67,Ariane Launch Area 4,True,5.256319,-52.786838,French Guiana,13,"Guiana Space Centre, French Guiana",9,9,P42DT7H59M41S
 73,Unknown Pad,True,13.733,80.235,India,14,"Satish Dhawan Space Centre, India",0,0,
 40,SLV-3 Launch Pad,False,13.666193,80.227231,India,14,"Satish Dhawan Space Centre, India",8,8,P317DT1H1S
 50,Satish Dhawan Space Centre First Launch Pad,True,13.733,80.235,India,14,"Satish Dhawan Space Centre, India",64,63,P25DT5H56M15S
 82,Satish Dhawan Space Centre Second Launch Pad,True,13.7199,80.2304,India,14,"Satish Dhawan Space Centre, India",33,32,P31DT31M
-129,175/58,True,46.051,62.984806,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",1,1,
-160,161/35,True,46.034,63.060806,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",7,7,P28DT22H44M58S
-130,200/40,True,46.0336111,63.0266949,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",64,64,P26DT14H45M
-5,175/59,True,46.052,62.986,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",3,3,P539DT11H50M33S
 103,110/37 (110L),True,45.964747,63.304744,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",3,3,P515DT6H56M47S
-32,1/5,True,45.92,63.342,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",487,487,PT23H32M33S
+5,175/59,True,46.052,62.986,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",3,3,P539DT11H50M33S
+20,31/6,True,45.996034,63.564003,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",430,430,P1DT23H9M9S
+160,161/35,True,46.034,63.060806,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",7,7,P28DT22H44M58S
+129,175/58,True,46.051,62.984806,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",1,1,
+130,200/40,True,46.0336111,63.0266949,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",64,64,P26DT14H45M
 243,Launch Area 96B,True,40.92017,100.25129,China,17,"Jiuquan Satellite Launch Center, People's Republic of China",2,2,P258DT19H35M20S
-158,Mobile Launcher Pad,True,38.890002,111.608129,China,19,"Taiyuan Satellite Launch Center, People's Republic of China",2,2,P1022DT19H59M14S
-164,41/15,True,45.976,63.666806,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",12,12,P14DT17H59M
 108,Cosmodrome Site 1A,True,51.884395,128.333932,Russia,18,"Vostochny Cosmodrome, Siberia, Russian Federation",1,1,
 131,45/2,True,45.943,63.650806,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",2,2,P134DT23H13M58S
+158,Mobile Launcher Pad,True,38.890002,111.608129,China,19,"Taiyuan Satellite Launch Center, People's Republic of China",2,2,P1022DT19H59M14S
+164,41/15,True,45.976,63.666806,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",12,12,P14DT17H59M
 200,Launch Complex 9A,True,38.8583,111.5802,China,19,"Taiyuan Satellite Launch Center, People's Republic of China",29,29,P19DT18H28M
 159,131,True,46.072,62.953806,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",1,1,
 245,Tianlong-3 Launch Pad,True,40.8072,100.13644,China,17,"Jiuquan Satellite Launch Center, People's Republic of China",1,1,
@@ -115,64 +115,64 @@ pad_id,pad_name,active,latitude,longitude,country,location_id,location_name,tota
 195,Launch Area 1,True,37.938611,-75.457222,United States of America,21,"Wallops Flight Facility, Virginia, USA",7,0,P30DT1H50M
 196,Launch Area 4,True,37.938611,-75.457222,United States of America,21,"Wallops Flight Facility, Virginia, USA",1,0,
 234,Rocket Lab Launch Complex 3 (Launch Area 0 D),True,37.8321693,-75.4899046,United States of America,21,"Wallops Flight Facility, Virginia, USA",0,0,
+257,Rocket Lab Launch Complex 4B (Launch Pad 3A),True,57.432163,-152.34997,United States of America,25,"Pacific Spaceport Complex, Alaska, USA",0,0,
+133,90/19,True,46.081,62.929806,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",16,16,P1DT23H23M15S
+6,Launch Area 2A,True,41.308833,100.316512,China,17,"Jiuquan Satellite Launch Center, People's Republic of China",2,2,P312DT22H26M15S
+9,Launch Area 96A,True,40.91491,100.245488,China,17,"Jiuquan Satellite Launch Center, People's Republic of China",9,9,P26DT5H23M
+134,90/20,True,46.081,62.929806,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",23,23,P5D
 143,Launch Area 2B,True,41.306143,100.313229,China,17,"Jiuquan Satellite Launch Center, People's Republic of China",26,26,P20DT5H53M8S
 150,Launch Area 120,True,40.855242,100.199634,China,17,"Jiuquan Satellite Launch Center, People's Republic of China",1,1,
-6,Launch Area 2A,True,41.308833,100.316512,China,17,"Jiuquan Satellite Launch Center, People's Republic of China",2,2,P312DT22H26M15S
 161,162/36,True,46.032,63.064806,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",9,9,P21DT23H19M58S
 256,Rocket Lab Launch Complex 4A (Launch Pad 3D),True,57.430024,-152.358268,United States of America,25,"Pacific Spaceport Complex, Alaska, USA",0,0,
-9,Launch Area 96A,True,40.91491,100.245488,China,17,"Jiuquan Satellite Launch Center, People's Republic of China",9,9,P26DT5H23M
-133,90/19,True,46.081,62.929806,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",16,16,P1DT23H23M15S
-257,Rocket Lab Launch Complex 4B (Launch Pad 3A),True,57.432163,-152.34997,United States of America,25,"Pacific Spaceport Complex, Alaska, USA",0,0,
-134,90/20,True,46.081,62.929806,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",23,23,P5D
+112,Edwards Air Force Base,True,34.905556,-117.883611,United States of America,144,Air launch to Suborbital flight,13,0,P16DT2H39M
+188,Orbital Launch Pad 1,True,25.9962,-97.154423,United States of America,143,"SpaceX Starbase, TX, USA",11,0,P37DT9H35M
+113,Launch Complex 16,True,38.868222,111.58024,China,19,"Taiyuan Satellite Launch Center, People's Republic of China",16,16,P24DT2H17M
 145,Naval Air Weapons Station China Lake,True,35.6855556,-117.6941384,United States of America,144,Air launch to Suborbital flight,6,6,P1D
 157,Mobile Launcher Pad,True,28.242774,102.032944,China,16,"Xichang Satellite Launch Center, People's Republic of China",8,8,P74DT19H3M
 180,Launch Area 6A,True,-30.9552778,136.5300282,Australia,152,RAAF Woomera Range Complex,3,3,P214DT23H42M58S
-188,Orbital Launch Pad 1,True,25.9962,-97.154423,United States of America,143,"SpaceX Starbase, TX, USA",11,0,P37DT9H35M
-112,Edwards Air Force Base,True,34.905556,-117.883611,United States of America,144,Air launch to Suborbital flight,13,0,P16DT2H39M
-113,Launch Complex 16,True,38.868222,111.58024,China,19,"Taiyuan Satellite Launch Center, People's Republic of China",16,16,P24DT2H17M
 228,Apollo 17 landing site,False,20.1908,30.7717,,172,"Taurus–Littrow, Moon",1,1,
 240,HANBIT Pad,True,-2.31698,-44.36873,Brazil,150,"Alcântara Space Center, Federative Republic of Brazil",2,1,P1009DT7H21M
 111,Suborbital Pad A,False,25.997116,-97.15503099856647,United States of America,143,"SpaceX Starbase, TX, USA",7,0,P29DT17H51M
+15,200/39 (200L),True,46.039984,63.032093,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",167,167,P9DT23H31M50S
+22,Launch Area 94 (SLS-2 / 603),True,40.960482,100.298059,China,17,"Jiuquan Satellite Launch Center, People's Republic of China",138,138,P10DT18H22M
 179,Launch Area 5B,True,-30.9552778,136.5300282,Australia,152,RAAF Woomera Range Complex,2,2,P421DT3H35M24S
 189,Spaceport Cornwall,True,50.4408333,-4.9974718,United Kingdom,20,Air launch to orbit,1,1,
 226,Apollo 15 landing site,False,26.1322,3.6339,,170,"Hadley–Apennine, Moon",1,1,
-15,200/39 (200L),True,46.039984,63.032093,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",167,167,P9DT23H31M50S
-22,Launch Area 94 (SLS-2 / 603),True,40.960482,100.298059,China,17,"Jiuquan Satellite Launch Center, People's Republic of China",138,138,P10DT18H22M
+12,109/95,True,45.95112,63.497095,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",12,12,P58DT19H27M21S
 254,Launch Complex 3,True,18.7862,56.822,Oman,186,Etlaq Spaceport,0,0,
 255,Yellow Sea (launch location 5),True,31.2,123.7,China,185,Haiyang Oriental Spaceport,2,2,P55DT19H6M
 2,45/1,True,45.943492,63.653014,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",47,46,P18DT2H45M
 10,Osaki Launch Complex,True,30.3993934,130.9702486,Japan,26,"Tanegashima Space Center, Japan",24,24,P154DT3H37M
-12,109/95,True,45.95112,63.497095,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",12,12,P58DT19H27M21S
+52,Wallops Flight Facility,True,37.938611,-75.457222,United States of America,20,Air launch to orbit,6,6,P51DT12H42M
 70,Edwards Air Force Base,True,34.905556,-117.883611,United States of America,20,Air launch to orbit,5,5,P75DT21H35M
 128,5,True,51.7,127.997806,Russia,146,"Svobodny Cosmodrome, Russian Federation",5,5,P76DT20H16M27S
 155,San Marco platform,True,-2.9383333,40.210306,Italy,151,"Broglio Space Center, Kenya",9,9,P132DT20H38M39S
-52,Wallops Flight Facility,True,37.938611,-75.457222,United States of America,20,Air launch to orbit,6,6,P51DT12H42M
+21,Launch Area 95A,True,40.969117,100.343333,China,17,"Jiuquan Satellite Launch Center, People's Republic of China",68,68,P2DT1H47M
 199,Launch Pad 3C,True,57.431239,-152.350749,United States of America,25,"Pacific Spaceport Complex, Alaska, USA",1,1,
 209,Yoshinobu Launch Complex LP-2,True,30.400938,130.97564,Japan,26,"Tanegashima Space Center, Japan",18,18,P57DT1H51M15S
-21,Launch Area 95A,True,40.969117,100.343333,China,17,"Jiuquan Satellite Launch Center, People's Republic of China",68,68,P2DT1H47M
-140,86/4,True,48.56935,46.293219,Russia,30,"Kapustin Yar, Russian Federation",24,24,P7DT6H13M3S
 136,107,True,48.540716,46.296826,Russia,30,"Kapustin Yar, Russian Federation",3,3,P3339DT10H6M46S
 138,107/2,True,48.540716,46.296826,Russia,30,"Kapustin Yar, Russian Federation",4,4,P45DT1H1M5S
 139,86/1,True,48.56935,46.293219,Russia,30,"Kapustin Yar, Russian Federation",26,26,P7DT1H56M
+140,86/4,True,48.56935,46.293219,Russia,30,"Kapustin Yar, Russian Federation",24,24,P7DT6H13M3S
+137,107/1,True,48.540716,46.296826,Russia,30,"Kapustin Yar, Russian Federation",20,20,P28DT21H50M
 190,Mojave Air and Space Port,True,35.0594444,-118.1538607,United States of America,144,Air launch to Suborbital flight,53,0,P1D
 191,Spaceport America,True,32.9902778,-106.9719162,United States of America,144,Air launch to Suborbital flight,14,0,P26DT23H33M30S
-137,107/1,True,48.540716,46.296826,Russia,30,"Kapustin Yar, Russian Federation",20,20,P28DT21H50M
+213,Launch Pad Callum,True,,,United Kingdom,157,SaxaVord Spaceport,0,0,
+26,Launch Area 95B,True,40.972407,100.363691,China,17,"Jiuquan Satellite Launch Center, People's Republic of China",2,2,P422DT2H8S
+220,Space One Launch Pad,True,33.544224,135.889502,Japan,166,"Spaceport Kii, Japan",3,3,P279DT23H58M48S
 141,Brigitte,True,30.7787318,-3.0669721,France,147,"Interarmy Special Vehicles Test Centre, French Algeria",4,4,P7DT27M18S
 181,Launch Area 8,True,-30.9552778,136.5300282,Australia,152,RAAF Woomera Range Complex,1,1,
 197,Pad 1,True,-34.937822,135.630035,Australia,156,"Whalers Way Orbital Launch Complex, South Australia",1,0,
 202,Suborbital Launch Ramp,True,-12.3892948,136.7903215,Australia,160,Arnhem Space Centre,3,0,P4DT21H7M
 207,Médano del Loro,True,37.09687,-6.73863,Spain,163,El Arenosillo Test Centre,1,0,
-213,Launch Pad Callum,True,,,United Kingdom,157,SaxaVord Spaceport,0,0,
-220,Space One Launch Pad,True,33.544224,135.889502,Japan,166,"Spaceport Kii, Japan",3,3,P279DT23H58M48S
-26,Launch Area 95B,True,40.972407,100.363691,China,17,"Jiuquan Satellite Launch Center, People's Republic of China",2,2,P422DT2H8S
-146,VLS Pad,True,-2.3177,-44.369984,Brazil,150,"Alcântara Space Center, Federative Republic of Brazil",2,2,P769DT6H
 33,Launch Complex 7,True,38.8489311,111.6079339,China,19,"Taiyuan Satellite Launch Center, People's Republic of China",32,32,P22DT8H36M10S
+224,Apollo 12 landing site,False,-3.01239,-23.42157,,168,"Oceanus Procellarum, Moon",1,1,
+237,Unknown Pad,False,60.8184,-0.7692,United Kingdom,157,SaxaVord Spaceport,0,0,
+146,VLS Pad,True,-2.3177,-44.369984,Brazil,150,"Alcântara Space Center, Federative Republic of Brazil",2,2,P769DT6H
 201,Launch Complex,True,58.022058,-4.402414,United Kingdom,159,Sutherland Spaceport,0,0,
 205,Launch Pad Fredo,True,60.8187,-0.774196,United Kingdom,157,SaxaVord Spaceport,0,0,
 215,Pad 1,True,-31.885558,133.448686,Australia,164,"Koonibba Test Range, South Australia",1,0,
 223,Tranquility Base,False,0.6875,23.4333,,167,"Mare Tranquillitatis, Moon",1,1,
-224,Apollo 12 landing site,False,-3.01239,-23.42157,,168,"Oceanus Procellarum, Moon",1,1,
-237,Unknown Pad,False,60.8184,-0.7692,United Kingdom,157,SaxaVord Spaceport,0,0,
 194,Launch Complex 36,True,32.416944,-106.321944,United States of America,155,White Sands Missile Range,5,0,P161DT22H1M4S
 225,Apollo 14 landing site,False,-3.6453,-17.47136,,169,"Fra Mauro Formation, Moon",1,1,
 227,Apollo 16 landing site,False,-8.97301,15.50019,,171,"Descartes Highlands, Moon",1,1,
@@ -180,17 +180,17 @@ pad_id,pad_name,active,latitude,longitude,country,location_id,location_name,tota
 233,Chang’e 6 landing site,False,-41.6385,-153.9852,,177,"Apollo crater, Moon",1,1,
 238,Eris Pad,True,-19.958151,148.1129553,Australia,181,Bowen Orbital Spaceport,1,1,
 7,81/24 (81P),True,46.071001,62.984999,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",93,93,P6DT22M31S
-144,Yellow Sea (launch location 2),True,34.311667,123.761111,China,185,Haiyang Oriental Spaceport,1,1,
 41,Yoshinobu Launch Complex LP-1,True,30.400813,130.977748,Japan,26,"Tanegashima Space Center, Japan",57,57,P25DT4H54M
+144,Yellow Sea (launch location 2),True,34.311667,123.761111,China,185,Haiyang Oriental Spaceport,1,1,
 212,Unknown launch location,True,36.676794,121.235103,China,185,Haiyang Oriental Spaceport,0,0,
 217,South China Sea (launch location 1),True,21.283333,112.0,China,185,Haiyang Oriental Spaceport,2,2,P20DT3H15M
 221,Rizhao offshore launch location,True,35.391667,119.598667,China,185,Haiyang Oriental Spaceport,7,7,P15DT12H8M
 251,South China Sea (launch location 3),True,21.366667,112.116667,China,185,Haiyang Oriental Spaceport,2,2,P58DT4H55M
 252,Land Launch Pad 1,True,36.664312,121.188333,China,185,Haiyang Oriental Spaceport,0,0,
-186,Yellow Sea (launch location 1),True,34.899444,121.190278,China,185,Haiyang Oriental Spaceport,1,1,
 68,Unknown Pad,True,45.92,63.342,Kazakhstan,15,"Baikonur Cosmodrome, Republic of Kazakhstan",0,0,
 79,Rocket Lab Launch Complex 2 (Launch Area 0 C),True,37.833262,-75.488235,United States of America,21,"Wallops Flight Facility, Virginia, USA",13,5,P8DT28M
 89,Haiyang offshore launch location,True,36.631333,121.198361,China,185,Haiyang Oriental Spaceport,10,10,P25DT21H9M
+186,Yellow Sea (launch location 1),True,34.899444,121.190278,China,185,Haiyang Oriental Spaceport,1,1,
 43,KS Center,True,31.2519752,131.0791609,Japan,24,"Uchinoura Space Center, Japan",7,7,P84DT23H22M
 45,Launch Complex 2 (LC-2),True,28.245504,102.026768,China,16,"Xichang Satellite Launch Center, People's Republic of China",126,126,P16DT14H32M
 46,Gran Canaria,True,27.966667,-15.6,Spain,20,Air launch to orbit,1,1,

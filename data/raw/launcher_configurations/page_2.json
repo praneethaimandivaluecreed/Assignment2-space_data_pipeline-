@@ -6485,6 +6485,397 @@
         },
         {
             "response_mode": "normal",
+            "id": 159,
+            "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/159/",
+            "name": "Delta II",
+            "families": [
+                {
+                    "response_mode": "normal",
+                    "id": 72,
+                    "name": "Delta",
+                    "manufacturer": [
+                        {
+                            "response_mode": "normal",
+                            "id": 80,
+                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/80/",
+                            "name": "Boeing",
+                            "abbrev": "BA",
+                            "type": {
+                                "id": 3,
+                                "name": "Commercial"
+                            },
+                            "featured": false,
+                            "country": [
+                                {
+                                    "id": 2,
+                                    "name": "United States of America",
+                                    "alpha_2_code": "US",
+                                    "alpha_3_code": "USA",
+                                    "nationality_name": "American",
+                                    "nationality_name_composed": "Americano"
+                                }
+                            ],
+                            "description": "Boeing as a space agency has recently provided NASA with assistance on sending humans to the ISS from American with both their construction of the CST-100 Starliner crew capsule and their work on the SLS Avionics to return to the moon and beyond. Their ventures in GPS satellite systems and Tracking and Data Relay Satellites provide information about earth-orbiting craft to stations on the ground. They also enable research on the ISS and will be helping with the construction of the Lunar Gateway.",
+                            "administrator": "CEO: Kelly Ortberg",
+                            "founding_year": 1916,
+                            "launchers": "SLS",
+                            "spacecraft": "Starliner",
+                            "parent": null,
+                            "image": null,
+                            "logo": {
+                                "id": 117,
+                                "name": "[AUTO] Boeing - logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/boeing_logo_20201128183345.png",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184923.png",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            },
+                            "social_logo": {
+                                "id": 46,
+                                "name": "[AUTO] Boeing - social_logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/boeing_nation_20230804083022.jpg",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184740.jpeg",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            }
+                        },
+                        {
+                            "response_mode": "normal",
+                            "id": 153,
+                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/153/",
+                            "name": "McDonnell Douglas",
+                            "abbrev": "MDC",
+                            "type": {
+                                "id": 3,
+                                "name": "Commercial"
+                            },
+                            "featured": false,
+                            "country": [
+                                {
+                                    "id": 2,
+                                    "name": "United States of America",
+                                    "alpha_2_code": "US",
+                                    "alpha_3_code": "USA",
+                                    "nationality_name": "American",
+                                    "nationality_name_composed": "Americano"
+                                }
+                            ],
+                            "description": null,
+                            "administrator": null,
+                            "founding_year": null,
+                            "launchers": "",
+                            "spacecraft": "",
+                            "parent": null,
+                            "image": null,
+                            "logo": null,
+                            "social_logo": null
+                        },
+                        {
+                            "response_mode": "normal",
+                            "id": 124,
+                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/124/",
+                            "name": "United Launch Alliance",
+                            "abbrev": "ULA",
+                            "type": {
+                                "id": 3,
+                                "name": "Commercial"
+                            },
+                            "featured": true,
+                            "country": [
+                                {
+                                    "id": 2,
+                                    "name": "United States of America",
+                                    "alpha_2_code": "US",
+                                    "alpha_3_code": "USA",
+                                    "nationality_name": "American",
+                                    "nationality_name_composed": "Americano"
+                                }
+                            ],
+                            "description": "United Launch Alliance (ULA) is a joint venture of Lockheed Martin Space Systems and Boeing Defense, Space & Security. ULA was formed in December 2006 by combining the teams at these companies which provide spacecraft launch services to the government of the United States. ULA launches from both coasts of the US. They launch their Atlas V vehicle from LC-41 in Cape Canaveral and LC-3E at Vandeberg. Their Delta IV launches from LC-37 at Cape Canaveral and LC-6 at Vandenberg.",
+                            "administrator": "CEO: Mark Peller",
+                            "founding_year": 2006,
+                            "launchers": "Atlas | Delta | Vulcan",
+                            "spacecraft": "",
+                            "parent": null,
+                            "image": {
+                                "id": 30,
+                                "name": "[AUTO] United Launch Alliance - image",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_launch_a_image_20210412201210.png",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184706.png",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            },
+                            "logo": {
+                                "id": 191,
+                                "name": "[AUTO] United Launch Alliance - logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_logo_20210412195953.png",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185148.png",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            },
+                            "social_logo": {
+                                "id": 97,
+                                "name": "[AUTO] United Launch Alliance - social_logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_nation_20230531043703.jpg",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184852.jpeg",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            }
+                        }
+                    ],
+                    "parent": null
+                },
+                {
+                    "response_mode": "normal",
+                    "id": 177,
+                    "name": "Delta II",
+                    "manufacturer": [
+                        {
+                            "response_mode": "normal",
+                            "id": 153,
+                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/153/",
+                            "name": "McDonnell Douglas",
+                            "abbrev": "MDC",
+                            "type": {
+                                "id": 3,
+                                "name": "Commercial"
+                            },
+                            "featured": false,
+                            "country": [
+                                {
+                                    "id": 2,
+                                    "name": "United States of America",
+                                    "alpha_2_code": "US",
+                                    "alpha_3_code": "USA",
+                                    "nationality_name": "American",
+                                    "nationality_name_composed": "Americano"
+                                }
+                            ],
+                            "description": null,
+                            "administrator": null,
+                            "founding_year": null,
+                            "launchers": "",
+                            "spacecraft": "",
+                            "parent": null,
+                            "image": null,
+                            "logo": null,
+                            "social_logo": null
+                        },
+                        {
+                            "response_mode": "normal",
+                            "id": 124,
+                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/124/",
+                            "name": "United Launch Alliance",
+                            "abbrev": "ULA",
+                            "type": {
+                                "id": 3,
+                                "name": "Commercial"
+                            },
+                            "featured": true,
+                            "country": [
+                                {
+                                    "id": 2,
+                                    "name": "United States of America",
+                                    "alpha_2_code": "US",
+                                    "alpha_3_code": "USA",
+                                    "nationality_name": "American",
+                                    "nationality_name_composed": "Americano"
+                                }
+                            ],
+                            "description": "United Launch Alliance (ULA) is a joint venture of Lockheed Martin Space Systems and Boeing Defense, Space & Security. ULA was formed in December 2006 by combining the teams at these companies which provide spacecraft launch services to the government of the United States. ULA launches from both coasts of the US. They launch their Atlas V vehicle from LC-41 in Cape Canaveral and LC-3E at Vandeberg. Their Delta IV launches from LC-37 at Cape Canaveral and LC-6 at Vandenberg.",
+                            "administrator": "CEO: Mark Peller",
+                            "founding_year": 2006,
+                            "launchers": "Atlas | Delta | Vulcan",
+                            "spacecraft": "",
+                            "parent": null,
+                            "image": {
+                                "id": 30,
+                                "name": "[AUTO] United Launch Alliance - image",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_launch_a_image_20210412201210.png",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184706.png",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            },
+                            "logo": {
+                                "id": 191,
+                                "name": "[AUTO] United Launch Alliance - logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_logo_20210412195953.png",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185148.png",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            },
+                            "social_logo": {
+                                "id": 97,
+                                "name": "[AUTO] United Launch Alliance - social_logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_nation_20230531043703.jpg",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184852.jpeg",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            }
+                        }
+                    ],
+                    "parent": {
+                        "response_mode": "list",
+                        "id": 72,
+                        "name": "Delta"
+                    }
+                }
+            ],
+            "full_name": "Delta II 7925",
+            "variant": "7925",
+            "active": false,
+            "is_placeholder": false,
+            "manufacturer": {
+                "response_mode": "normal",
+                "id": 124,
+                "url": "https://ll.thespacedevs.com/2.3.0/agencies/124/",
+                "name": "United Launch Alliance",
+                "abbrev": "ULA",
+                "type": {
+                    "id": 3,
+                    "name": "Commercial"
+                },
+                "featured": true,
+                "country": [
+                    {
+                        "id": 2,
+                        "name": "United States of America",
+                        "alpha_2_code": "US",
+                        "alpha_3_code": "USA",
+                        "nationality_name": "American",
+                        "nationality_name_composed": "Americano"
+                    }
+                ],
+                "description": "United Launch Alliance (ULA) is a joint venture of Lockheed Martin Space Systems and Boeing Defense, Space & Security. ULA was formed in December 2006 by combining the teams at these companies which provide spacecraft launch services to the government of the United States. ULA launches from both coasts of the US. They launch their Atlas V vehicle from LC-41 in Cape Canaveral and LC-3E at Vandeberg. Their Delta IV launches from LC-37 at Cape Canaveral and LC-6 at Vandenberg.",
+                "administrator": "CEO: Mark Peller",
+                "founding_year": 2006,
+                "launchers": "Atlas | Delta | Vulcan",
+                "spacecraft": "",
+                "parent": null,
+                "image": {
+                    "id": 30,
+                    "name": "[AUTO] United Launch Alliance - image",
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_launch_a_image_20210412201210.png",
+                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184706.png",
+                    "credit": null,
+                    "license": {
+                        "id": 1,
+                        "name": "Unknown",
+                        "priority": 9,
+                        "link": null
+                    },
+                    "single_use": true,
+                    "variants": []
+                },
+                "logo": {
+                    "id": 191,
+                    "name": "[AUTO] United Launch Alliance - logo",
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_logo_20210412195953.png",
+                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185148.png",
+                    "credit": null,
+                    "license": {
+                        "id": 1,
+                        "name": "Unknown",
+                        "priority": 9,
+                        "link": null
+                    },
+                    "single_use": true,
+                    "variants": []
+                },
+                "social_logo": {
+                    "id": 97,
+                    "name": "[AUTO] United Launch Alliance - social_logo",
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_nation_20230531043703.jpg",
+                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184852.jpeg",
+                    "credit": null,
+                    "license": {
+                        "id": 1,
+                        "name": "Unknown",
+                        "priority": 9,
+                        "link": null
+                    },
+                    "single_use": true,
+                    "variants": []
+                }
+            },
+            "program": [],
+            "reusable": false,
+            "image": {
+                "id": 1717,
+                "name": "[AUTO] Delta II - image",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta2520ii_image_20190222030440.jpeg",
+                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193556.jpeg",
+                "credit": null,
+                "license": {
+                    "id": 1,
+                    "name": "Unknown",
+                    "priority": 9,
+                    "link": null
+                },
+                "single_use": true,
+                "variants": []
+            },
+            "info_url": "https://www.spacelaunchreport.com/delta2.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/Delta_II"
+        },
+        {
+            "response_mode": "normal",
             "id": 155,
             "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/155/",
             "name": "Delta II",
@@ -6876,8 +7267,8 @@
         },
         {
             "response_mode": "normal",
-            "id": 159,
-            "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/159/",
+            "id": 307,
+            "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/307/",
             "name": "Delta II",
             "families": [
                 {
@@ -7168,21 +7559,21 @@
                     }
                 }
             ],
-            "full_name": "Delta II 7925",
-            "variant": "7925",
+            "full_name": "Delta II 7920-8",
+            "variant": "7920-8",
             "active": false,
             "is_placeholder": false,
             "manufacturer": {
                 "response_mode": "normal",
-                "id": 124,
-                "url": "https://ll.thespacedevs.com/2.3.0/agencies/124/",
-                "name": "United Launch Alliance",
-                "abbrev": "ULA",
+                "id": 153,
+                "url": "https://ll.thespacedevs.com/2.3.0/agencies/153/",
+                "name": "McDonnell Douglas",
+                "abbrev": "MDC",
                 "type": {
                     "id": 3,
                     "name": "Commercial"
                 },
-                "featured": true,
+                "featured": false,
                 "country": [
                     {
                         "id": 2,
@@ -7193,76 +7584,20 @@
                         "nationality_name_composed": "Americano"
                     }
                 ],
-                "description": "United Launch Alliance (ULA) is a joint venture of Lockheed Martin Space Systems and Boeing Defense, Space & Security. ULA was formed in December 2006 by combining the teams at these companies which provide spacecraft launch services to the government of the United States. ULA launches from both coasts of the US. They launch their Atlas V vehicle from LC-41 in Cape Canaveral and LC-3E at Vandeberg. Their Delta IV launches from LC-37 at Cape Canaveral and LC-6 at Vandenberg.",
-                "administrator": "CEO: Mark Peller",
-                "founding_year": 2006,
-                "launchers": "Atlas | Delta | Vulcan",
+                "description": null,
+                "administrator": null,
+                "founding_year": null,
+                "launchers": "",
                 "spacecraft": "",
                 "parent": null,
-                "image": {
-                    "id": 30,
-                    "name": "[AUTO] United Launch Alliance - image",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_launch_a_image_20210412201210.png",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184706.png",
-                    "credit": null,
-                    "license": {
-                        "id": 1,
-                        "name": "Unknown",
-                        "priority": 9,
-                        "link": null
-                    },
-                    "single_use": true,
-                    "variants": []
-                },
-                "logo": {
-                    "id": 191,
-                    "name": "[AUTO] United Launch Alliance - logo",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_logo_20210412195953.png",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185148.png",
-                    "credit": null,
-                    "license": {
-                        "id": 1,
-                        "name": "Unknown",
-                        "priority": 9,
-                        "link": null
-                    },
-                    "single_use": true,
-                    "variants": []
-                },
-                "social_logo": {
-                    "id": 97,
-                    "name": "[AUTO] United Launch Alliance - social_logo",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_nation_20230531043703.jpg",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184852.jpeg",
-                    "credit": null,
-                    "license": {
-                        "id": 1,
-                        "name": "Unknown",
-                        "priority": 9,
-                        "link": null
-                    },
-                    "single_use": true,
-                    "variants": []
-                }
+                "image": null,
+                "logo": null,
+                "social_logo": null
             },
             "program": [],
             "reusable": false,
-            "image": {
-                "id": 1717,
-                "name": "[AUTO] Delta II - image",
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta2520ii_image_20190222030440.jpeg",
-                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193556.jpeg",
-                "credit": null,
-                "license": {
-                    "id": 1,
-                    "name": "Unknown",
-                    "priority": 9,
-                    "link": null
-                },
-                "single_use": true,
-                "variants": []
-            },
-            "info_url": "https://www.spacelaunchreport.com/delta2.html",
+            "image": null,
+            "info_url": null,
             "wiki_url": "https://en.wikipedia.org/wiki/Delta_II"
         },
         {
@@ -8286,8 +8621,8 @@
         },
         {
             "response_mode": "normal",
-            "id": 307,
-            "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/307/",
+            "id": 309,
+            "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/309/",
             "name": "Delta II",
             "families": [
                 {
@@ -8578,8 +8913,8 @@
                     }
                 }
             ],
-            "full_name": "Delta II 7920-8",
-            "variant": "7920-8",
+            "full_name": "Delta II 7925-8",
+            "variant": "7925-8",
             "active": false,
             "is_placeholder": false,
             "manufacturer": {
@@ -8915,341 +9250,6 @@
             ],
             "full_name": "Delta II 7426-9.5",
             "variant": "7426-9.5",
-            "active": false,
-            "is_placeholder": false,
-            "manufacturer": {
-                "response_mode": "normal",
-                "id": 153,
-                "url": "https://ll.thespacedevs.com/2.3.0/agencies/153/",
-                "name": "McDonnell Douglas",
-                "abbrev": "MDC",
-                "type": {
-                    "id": 3,
-                    "name": "Commercial"
-                },
-                "featured": false,
-                "country": [
-                    {
-                        "id": 2,
-                        "name": "United States of America",
-                        "alpha_2_code": "US",
-                        "alpha_3_code": "USA",
-                        "nationality_name": "American",
-                        "nationality_name_composed": "Americano"
-                    }
-                ],
-                "description": null,
-                "administrator": null,
-                "founding_year": null,
-                "launchers": "",
-                "spacecraft": "",
-                "parent": null,
-                "image": null,
-                "logo": null,
-                "social_logo": null
-            },
-            "program": [],
-            "reusable": false,
-            "image": null,
-            "info_url": null,
-            "wiki_url": "https://en.wikipedia.org/wiki/Delta_II"
-        },
-        {
-            "response_mode": "normal",
-            "id": 309,
-            "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/309/",
-            "name": "Delta II",
-            "families": [
-                {
-                    "response_mode": "normal",
-                    "id": 72,
-                    "name": "Delta",
-                    "manufacturer": [
-                        {
-                            "response_mode": "normal",
-                            "id": 80,
-                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/80/",
-                            "name": "Boeing",
-                            "abbrev": "BA",
-                            "type": {
-                                "id": 3,
-                                "name": "Commercial"
-                            },
-                            "featured": false,
-                            "country": [
-                                {
-                                    "id": 2,
-                                    "name": "United States of America",
-                                    "alpha_2_code": "US",
-                                    "alpha_3_code": "USA",
-                                    "nationality_name": "American",
-                                    "nationality_name_composed": "Americano"
-                                }
-                            ],
-                            "description": "Boeing as a space agency has recently provided NASA with assistance on sending humans to the ISS from American with both their construction of the CST-100 Starliner crew capsule and their work on the SLS Avionics to return to the moon and beyond. Their ventures in GPS satellite systems and Tracking and Data Relay Satellites provide information about earth-orbiting craft to stations on the ground. They also enable research on the ISS and will be helping with the construction of the Lunar Gateway.",
-                            "administrator": "CEO: Kelly Ortberg",
-                            "founding_year": 1916,
-                            "launchers": "SLS",
-                            "spacecraft": "Starliner",
-                            "parent": null,
-                            "image": null,
-                            "logo": {
-                                "id": 117,
-                                "name": "[AUTO] Boeing - logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/boeing_logo_20201128183345.png",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184923.png",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            },
-                            "social_logo": {
-                                "id": 46,
-                                "name": "[AUTO] Boeing - social_logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/boeing_nation_20230804083022.jpg",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184740.jpeg",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            }
-                        },
-                        {
-                            "response_mode": "normal",
-                            "id": 153,
-                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/153/",
-                            "name": "McDonnell Douglas",
-                            "abbrev": "MDC",
-                            "type": {
-                                "id": 3,
-                                "name": "Commercial"
-                            },
-                            "featured": false,
-                            "country": [
-                                {
-                                    "id": 2,
-                                    "name": "United States of America",
-                                    "alpha_2_code": "US",
-                                    "alpha_3_code": "USA",
-                                    "nationality_name": "American",
-                                    "nationality_name_composed": "Americano"
-                                }
-                            ],
-                            "description": null,
-                            "administrator": null,
-                            "founding_year": null,
-                            "launchers": "",
-                            "spacecraft": "",
-                            "parent": null,
-                            "image": null,
-                            "logo": null,
-                            "social_logo": null
-                        },
-                        {
-                            "response_mode": "normal",
-                            "id": 124,
-                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/124/",
-                            "name": "United Launch Alliance",
-                            "abbrev": "ULA",
-                            "type": {
-                                "id": 3,
-                                "name": "Commercial"
-                            },
-                            "featured": true,
-                            "country": [
-                                {
-                                    "id": 2,
-                                    "name": "United States of America",
-                                    "alpha_2_code": "US",
-                                    "alpha_3_code": "USA",
-                                    "nationality_name": "American",
-                                    "nationality_name_composed": "Americano"
-                                }
-                            ],
-                            "description": "United Launch Alliance (ULA) is a joint venture of Lockheed Martin Space Systems and Boeing Defense, Space & Security. ULA was formed in December 2006 by combining the teams at these companies which provide spacecraft launch services to the government of the United States. ULA launches from both coasts of the US. They launch their Atlas V vehicle from LC-41 in Cape Canaveral and LC-3E at Vandeberg. Their Delta IV launches from LC-37 at Cape Canaveral and LC-6 at Vandenberg.",
-                            "administrator": "CEO: Mark Peller",
-                            "founding_year": 2006,
-                            "launchers": "Atlas | Delta | Vulcan",
-                            "spacecraft": "",
-                            "parent": null,
-                            "image": {
-                                "id": 30,
-                                "name": "[AUTO] United Launch Alliance - image",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_launch_a_image_20210412201210.png",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184706.png",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            },
-                            "logo": {
-                                "id": 191,
-                                "name": "[AUTO] United Launch Alliance - logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_logo_20210412195953.png",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185148.png",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            },
-                            "social_logo": {
-                                "id": 97,
-                                "name": "[AUTO] United Launch Alliance - social_logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_nation_20230531043703.jpg",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184852.jpeg",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            }
-                        }
-                    ],
-                    "parent": null
-                },
-                {
-                    "response_mode": "normal",
-                    "id": 177,
-                    "name": "Delta II",
-                    "manufacturer": [
-                        {
-                            "response_mode": "normal",
-                            "id": 153,
-                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/153/",
-                            "name": "McDonnell Douglas",
-                            "abbrev": "MDC",
-                            "type": {
-                                "id": 3,
-                                "name": "Commercial"
-                            },
-                            "featured": false,
-                            "country": [
-                                {
-                                    "id": 2,
-                                    "name": "United States of America",
-                                    "alpha_2_code": "US",
-                                    "alpha_3_code": "USA",
-                                    "nationality_name": "American",
-                                    "nationality_name_composed": "Americano"
-                                }
-                            ],
-                            "description": null,
-                            "administrator": null,
-                            "founding_year": null,
-                            "launchers": "",
-                            "spacecraft": "",
-                            "parent": null,
-                            "image": null,
-                            "logo": null,
-                            "social_logo": null
-                        },
-                        {
-                            "response_mode": "normal",
-                            "id": 124,
-                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/124/",
-                            "name": "United Launch Alliance",
-                            "abbrev": "ULA",
-                            "type": {
-                                "id": 3,
-                                "name": "Commercial"
-                            },
-                            "featured": true,
-                            "country": [
-                                {
-                                    "id": 2,
-                                    "name": "United States of America",
-                                    "alpha_2_code": "US",
-                                    "alpha_3_code": "USA",
-                                    "nationality_name": "American",
-                                    "nationality_name_composed": "Americano"
-                                }
-                            ],
-                            "description": "United Launch Alliance (ULA) is a joint venture of Lockheed Martin Space Systems and Boeing Defense, Space & Security. ULA was formed in December 2006 by combining the teams at these companies which provide spacecraft launch services to the government of the United States. ULA launches from both coasts of the US. They launch their Atlas V vehicle from LC-41 in Cape Canaveral and LC-3E at Vandeberg. Their Delta IV launches from LC-37 at Cape Canaveral and LC-6 at Vandenberg.",
-                            "administrator": "CEO: Mark Peller",
-                            "founding_year": 2006,
-                            "launchers": "Atlas | Delta | Vulcan",
-                            "spacecraft": "",
-                            "parent": null,
-                            "image": {
-                                "id": 30,
-                                "name": "[AUTO] United Launch Alliance - image",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_launch_a_image_20210412201210.png",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184706.png",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            },
-                            "logo": {
-                                "id": 191,
-                                "name": "[AUTO] United Launch Alliance - logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_logo_20210412195953.png",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185148.png",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            },
-                            "social_logo": {
-                                "id": 97,
-                                "name": "[AUTO] United Launch Alliance - social_logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_nation_20230531043703.jpg",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184852.jpeg",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            }
-                        }
-                    ],
-                    "parent": {
-                        "response_mode": "list",
-                        "id": 72,
-                        "name": "Delta"
-                    }
-                }
-            ],
-            "full_name": "Delta II 7925-8",
-            "variant": "7925-8",
             "active": false,
             "is_placeholder": false,
             "manufacturer": {
@@ -11134,6 +11134,383 @@
         },
         {
             "response_mode": "normal",
+            "id": 88,
+            "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/88/",
+            "name": "Delta II",
+            "families": [
+                {
+                    "response_mode": "normal",
+                    "id": 72,
+                    "name": "Delta",
+                    "manufacturer": [
+                        {
+                            "response_mode": "normal",
+                            "id": 80,
+                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/80/",
+                            "name": "Boeing",
+                            "abbrev": "BA",
+                            "type": {
+                                "id": 3,
+                                "name": "Commercial"
+                            },
+                            "featured": false,
+                            "country": [
+                                {
+                                    "id": 2,
+                                    "name": "United States of America",
+                                    "alpha_2_code": "US",
+                                    "alpha_3_code": "USA",
+                                    "nationality_name": "American",
+                                    "nationality_name_composed": "Americano"
+                                }
+                            ],
+                            "description": "Boeing as a space agency has recently provided NASA with assistance on sending humans to the ISS from American with both their construction of the CST-100 Starliner crew capsule and their work on the SLS Avionics to return to the moon and beyond. Their ventures in GPS satellite systems and Tracking and Data Relay Satellites provide information about earth-orbiting craft to stations on the ground. They also enable research on the ISS and will be helping with the construction of the Lunar Gateway.",
+                            "administrator": "CEO: Kelly Ortberg",
+                            "founding_year": 1916,
+                            "launchers": "SLS",
+                            "spacecraft": "Starliner",
+                            "parent": null,
+                            "image": null,
+                            "logo": {
+                                "id": 117,
+                                "name": "[AUTO] Boeing - logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/boeing_logo_20201128183345.png",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184923.png",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            },
+                            "social_logo": {
+                                "id": 46,
+                                "name": "[AUTO] Boeing - social_logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/boeing_nation_20230804083022.jpg",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184740.jpeg",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            }
+                        },
+                        {
+                            "response_mode": "normal",
+                            "id": 153,
+                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/153/",
+                            "name": "McDonnell Douglas",
+                            "abbrev": "MDC",
+                            "type": {
+                                "id": 3,
+                                "name": "Commercial"
+                            },
+                            "featured": false,
+                            "country": [
+                                {
+                                    "id": 2,
+                                    "name": "United States of America",
+                                    "alpha_2_code": "US",
+                                    "alpha_3_code": "USA",
+                                    "nationality_name": "American",
+                                    "nationality_name_composed": "Americano"
+                                }
+                            ],
+                            "description": null,
+                            "administrator": null,
+                            "founding_year": null,
+                            "launchers": "",
+                            "spacecraft": "",
+                            "parent": null,
+                            "image": null,
+                            "logo": null,
+                            "social_logo": null
+                        },
+                        {
+                            "response_mode": "normal",
+                            "id": 124,
+                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/124/",
+                            "name": "United Launch Alliance",
+                            "abbrev": "ULA",
+                            "type": {
+                                "id": 3,
+                                "name": "Commercial"
+                            },
+                            "featured": true,
+                            "country": [
+                                {
+                                    "id": 2,
+                                    "name": "United States of America",
+                                    "alpha_2_code": "US",
+                                    "alpha_3_code": "USA",
+                                    "nationality_name": "American",
+                                    "nationality_name_composed": "Americano"
+                                }
+                            ],
+                            "description": "United Launch Alliance (ULA) is a joint venture of Lockheed Martin Space Systems and Boeing Defense, Space & Security. ULA was formed in December 2006 by combining the teams at these companies which provide spacecraft launch services to the government of the United States. ULA launches from both coasts of the US. They launch their Atlas V vehicle from LC-41 in Cape Canaveral and LC-3E at Vandeberg. Their Delta IV launches from LC-37 at Cape Canaveral and LC-6 at Vandenberg.",
+                            "administrator": "CEO: Mark Peller",
+                            "founding_year": 2006,
+                            "launchers": "Atlas | Delta | Vulcan",
+                            "spacecraft": "",
+                            "parent": null,
+                            "image": {
+                                "id": 30,
+                                "name": "[AUTO] United Launch Alliance - image",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_launch_a_image_20210412201210.png",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184706.png",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            },
+                            "logo": {
+                                "id": 191,
+                                "name": "[AUTO] United Launch Alliance - logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_logo_20210412195953.png",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185148.png",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            },
+                            "social_logo": {
+                                "id": 97,
+                                "name": "[AUTO] United Launch Alliance - social_logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_nation_20230531043703.jpg",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184852.jpeg",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            }
+                        }
+                    ],
+                    "parent": null
+                },
+                {
+                    "response_mode": "normal",
+                    "id": 177,
+                    "name": "Delta II",
+                    "manufacturer": [
+                        {
+                            "response_mode": "normal",
+                            "id": 153,
+                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/153/",
+                            "name": "McDonnell Douglas",
+                            "abbrev": "MDC",
+                            "type": {
+                                "id": 3,
+                                "name": "Commercial"
+                            },
+                            "featured": false,
+                            "country": [
+                                {
+                                    "id": 2,
+                                    "name": "United States of America",
+                                    "alpha_2_code": "US",
+                                    "alpha_3_code": "USA",
+                                    "nationality_name": "American",
+                                    "nationality_name_composed": "Americano"
+                                }
+                            ],
+                            "description": null,
+                            "administrator": null,
+                            "founding_year": null,
+                            "launchers": "",
+                            "spacecraft": "",
+                            "parent": null,
+                            "image": null,
+                            "logo": null,
+                            "social_logo": null
+                        },
+                        {
+                            "response_mode": "normal",
+                            "id": 124,
+                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/124/",
+                            "name": "United Launch Alliance",
+                            "abbrev": "ULA",
+                            "type": {
+                                "id": 3,
+                                "name": "Commercial"
+                            },
+                            "featured": true,
+                            "country": [
+                                {
+                                    "id": 2,
+                                    "name": "United States of America",
+                                    "alpha_2_code": "US",
+                                    "alpha_3_code": "USA",
+                                    "nationality_name": "American",
+                                    "nationality_name_composed": "Americano"
+                                }
+                            ],
+                            "description": "United Launch Alliance (ULA) is a joint venture of Lockheed Martin Space Systems and Boeing Defense, Space & Security. ULA was formed in December 2006 by combining the teams at these companies which provide spacecraft launch services to the government of the United States. ULA launches from both coasts of the US. They launch their Atlas V vehicle from LC-41 in Cape Canaveral and LC-3E at Vandeberg. Their Delta IV launches from LC-37 at Cape Canaveral and LC-6 at Vandenberg.",
+                            "administrator": "CEO: Mark Peller",
+                            "founding_year": 2006,
+                            "launchers": "Atlas | Delta | Vulcan",
+                            "spacecraft": "",
+                            "parent": null,
+                            "image": {
+                                "id": 30,
+                                "name": "[AUTO] United Launch Alliance - image",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_launch_a_image_20210412201210.png",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184706.png",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            },
+                            "logo": {
+                                "id": 191,
+                                "name": "[AUTO] United Launch Alliance - logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_logo_20210412195953.png",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185148.png",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            },
+                            "social_logo": {
+                                "id": 97,
+                                "name": "[AUTO] United Launch Alliance - social_logo",
+                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_nation_20230531043703.jpg",
+                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184852.jpeg",
+                                "credit": null,
+                                "license": {
+                                    "id": 1,
+                                    "name": "Unknown",
+                                    "priority": 9,
+                                    "link": null
+                                },
+                                "single_use": true,
+                                "variants": []
+                            }
+                        }
+                    ],
+                    "parent": {
+                        "response_mode": "list",
+                        "id": 72,
+                        "name": "Delta"
+                    }
+                }
+            ],
+            "full_name": "Delta II 7320",
+            "variant": "7320",
+            "active": false,
+            "is_placeholder": false,
+            "manufacturer": {
+                "response_mode": "normal",
+                "id": 124,
+                "url": "https://ll.thespacedevs.com/2.3.0/agencies/124/",
+                "name": "United Launch Alliance",
+                "abbrev": "ULA",
+                "type": {
+                    "id": 3,
+                    "name": "Commercial"
+                },
+                "featured": true,
+                "country": [
+                    {
+                        "id": 2,
+                        "name": "United States of America",
+                        "alpha_2_code": "US",
+                        "alpha_3_code": "USA",
+                        "nationality_name": "American",
+                        "nationality_name_composed": "Americano"
+                    }
+                ],
+                "description": "United Launch Alliance (ULA) is a joint venture of Lockheed Martin Space Systems and Boeing Defense, Space & Security. ULA was formed in December 2006 by combining the teams at these companies which provide spacecraft launch services to the government of the United States. ULA launches from both coasts of the US. They launch their Atlas V vehicle from LC-41 in Cape Canaveral and LC-3E at Vandeberg. Their Delta IV launches from LC-37 at Cape Canaveral and LC-6 at Vandenberg.",
+                "administrator": "CEO: Mark Peller",
+                "founding_year": 2006,
+                "launchers": "Atlas | Delta | Vulcan",
+                "spacecraft": "",
+                "parent": null,
+                "image": {
+                    "id": 30,
+                    "name": "[AUTO] United Launch Alliance - image",
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_launch_a_image_20210412201210.png",
+                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184706.png",
+                    "credit": null,
+                    "license": {
+                        "id": 1,
+                        "name": "Unknown",
+                        "priority": 9,
+                        "link": null
+                    },
+                    "single_use": true,
+                    "variants": []
+                },
+                "logo": {
+                    "id": 191,
+                    "name": "[AUTO] United Launch Alliance - logo",
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_logo_20210412195953.png",
+                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185148.png",
+                    "credit": null,
+                    "license": {
+                        "id": 1,
+                        "name": "Unknown",
+                        "priority": 9,
+                        "link": null
+                    },
+                    "single_use": true,
+                    "variants": []
+                },
+                "social_logo": {
+                    "id": 97,
+                    "name": "[AUTO] United Launch Alliance - social_logo",
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_nation_20230531043703.jpg",
+                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184852.jpeg",
+                    "credit": null,
+                    "license": {
+                        "id": 1,
+                        "name": "Unknown",
+                        "priority": 9,
+                        "link": null
+                    },
+                    "single_use": true,
+                    "variants": []
+                }
+            },
+            "program": [],
+            "reusable": false,
+            "image": null,
+            "info_url": "http://www.spaceflight101.net/delta-ii-7320.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/Delta_II"
+        },
+        {
+            "response_mode": "normal",
             "id": 298,
             "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/298/",
             "name": "Delta II",
@@ -12191,383 +12568,6 @@
             "reusable": false,
             "image": null,
             "info_url": null,
-            "wiki_url": "https://en.wikipedia.org/wiki/Delta_II"
-        },
-        {
-            "response_mode": "normal",
-            "id": 88,
-            "url": "https://ll.thespacedevs.com/2.3.0/launcher_configurations/88/",
-            "name": "Delta II",
-            "families": [
-                {
-                    "response_mode": "normal",
-                    "id": 72,
-                    "name": "Delta",
-                    "manufacturer": [
-                        {
-                            "response_mode": "normal",
-                            "id": 80,
-                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/80/",
-                            "name": "Boeing",
-                            "abbrev": "BA",
-                            "type": {
-                                "id": 3,
-                                "name": "Commercial"
-                            },
-                            "featured": false,
-                            "country": [
-                                {
-                                    "id": 2,
-                                    "name": "United States of America",
-                                    "alpha_2_code": "US",
-                                    "alpha_3_code": "USA",
-                                    "nationality_name": "American",
-                                    "nationality_name_composed": "Americano"
-                                }
-                            ],
-                            "description": "Boeing as a space agency has recently provided NASA with assistance on sending humans to the ISS from American with both their construction of the CST-100 Starliner crew capsule and their work on the SLS Avionics to return to the moon and beyond. Their ventures in GPS satellite systems and Tracking and Data Relay Satellites provide information about earth-orbiting craft to stations on the ground. They also enable research on the ISS and will be helping with the construction of the Lunar Gateway.",
-                            "administrator": "CEO: Kelly Ortberg",
-                            "founding_year": 1916,
-                            "launchers": "SLS",
-                            "spacecraft": "Starliner",
-                            "parent": null,
-                            "image": null,
-                            "logo": {
-                                "id": 117,
-                                "name": "[AUTO] Boeing - logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/boeing_logo_20201128183345.png",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184923.png",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            },
-                            "social_logo": {
-                                "id": 46,
-                                "name": "[AUTO] Boeing - social_logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/boeing_nation_20230804083022.jpg",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184740.jpeg",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            }
-                        },
-                        {
-                            "response_mode": "normal",
-                            "id": 153,
-                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/153/",
-                            "name": "McDonnell Douglas",
-                            "abbrev": "MDC",
-                            "type": {
-                                "id": 3,
-                                "name": "Commercial"
-                            },
-                            "featured": false,
-                            "country": [
-                                {
-                                    "id": 2,
-                                    "name": "United States of America",
-                                    "alpha_2_code": "US",
-                                    "alpha_3_code": "USA",
-                                    "nationality_name": "American",
-                                    "nationality_name_composed": "Americano"
-                                }
-                            ],
-                            "description": null,
-                            "administrator": null,
-                            "founding_year": null,
-                            "launchers": "",
-                            "spacecraft": "",
-                            "parent": null,
-                            "image": null,
-                            "logo": null,
-                            "social_logo": null
-                        },
-                        {
-                            "response_mode": "normal",
-                            "id": 124,
-                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/124/",
-                            "name": "United Launch Alliance",
-                            "abbrev": "ULA",
-                            "type": {
-                                "id": 3,
-                                "name": "Commercial"
-                            },
-                            "featured": true,
-                            "country": [
-                                {
-                                    "id": 2,
-                                    "name": "United States of America",
-                                    "alpha_2_code": "US",
-                                    "alpha_3_code": "USA",
-                                    "nationality_name": "American",
-                                    "nationality_name_composed": "Americano"
-                                }
-                            ],
-                            "description": "United Launch Alliance (ULA) is a joint venture of Lockheed Martin Space Systems and Boeing Defense, Space & Security. ULA was formed in December 2006 by combining the teams at these companies which provide spacecraft launch services to the government of the United States. ULA launches from both coasts of the US. They launch their Atlas V vehicle from LC-41 in Cape Canaveral and LC-3E at Vandeberg. Their Delta IV launches from LC-37 at Cape Canaveral and LC-6 at Vandenberg.",
-                            "administrator": "CEO: Mark Peller",
-                            "founding_year": 2006,
-                            "launchers": "Atlas | Delta | Vulcan",
-                            "spacecraft": "",
-                            "parent": null,
-                            "image": {
-                                "id": 30,
-                                "name": "[AUTO] United Launch Alliance - image",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_launch_a_image_20210412201210.png",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184706.png",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            },
-                            "logo": {
-                                "id": 191,
-                                "name": "[AUTO] United Launch Alliance - logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_logo_20210412195953.png",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185148.png",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            },
-                            "social_logo": {
-                                "id": 97,
-                                "name": "[AUTO] United Launch Alliance - social_logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_nation_20230531043703.jpg",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184852.jpeg",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            }
-                        }
-                    ],
-                    "parent": null
-                },
-                {
-                    "response_mode": "normal",
-                    "id": 177,
-                    "name": "Delta II",
-                    "manufacturer": [
-                        {
-                            "response_mode": "normal",
-                            "id": 153,
-                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/153/",
-                            "name": "McDonnell Douglas",
-                            "abbrev": "MDC",
-                            "type": {
-                                "id": 3,
-                                "name": "Commercial"
-                            },
-                            "featured": false,
-                            "country": [
-                                {
-                                    "id": 2,
-                                    "name": "United States of America",
-                                    "alpha_2_code": "US",
-                                    "alpha_3_code": "USA",
-                                    "nationality_name": "American",
-                                    "nationality_name_composed": "Americano"
-                                }
-                            ],
-                            "description": null,
-                            "administrator": null,
-                            "founding_year": null,
-                            "launchers": "",
-                            "spacecraft": "",
-                            "parent": null,
-                            "image": null,
-                            "logo": null,
-                            "social_logo": null
-                        },
-                        {
-                            "response_mode": "normal",
-                            "id": 124,
-                            "url": "https://ll.thespacedevs.com/2.3.0/agencies/124/",
-                            "name": "United Launch Alliance",
-                            "abbrev": "ULA",
-                            "type": {
-                                "id": 3,
-                                "name": "Commercial"
-                            },
-                            "featured": true,
-                            "country": [
-                                {
-                                    "id": 2,
-                                    "name": "United States of America",
-                                    "alpha_2_code": "US",
-                                    "alpha_3_code": "USA",
-                                    "nationality_name": "American",
-                                    "nationality_name_composed": "Americano"
-                                }
-                            ],
-                            "description": "United Launch Alliance (ULA) is a joint venture of Lockheed Martin Space Systems and Boeing Defense, Space & Security. ULA was formed in December 2006 by combining the teams at these companies which provide spacecraft launch services to the government of the United States. ULA launches from both coasts of the US. They launch their Atlas V vehicle from LC-41 in Cape Canaveral and LC-3E at Vandeberg. Their Delta IV launches from LC-37 at Cape Canaveral and LC-6 at Vandenberg.",
-                            "administrator": "CEO: Mark Peller",
-                            "founding_year": 2006,
-                            "launchers": "Atlas | Delta | Vulcan",
-                            "spacecraft": "",
-                            "parent": null,
-                            "image": {
-                                "id": 30,
-                                "name": "[AUTO] United Launch Alliance - image",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_launch_a_image_20210412201210.png",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184706.png",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            },
-                            "logo": {
-                                "id": 191,
-                                "name": "[AUTO] United Launch Alliance - logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_logo_20210412195953.png",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185148.png",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            },
-                            "social_logo": {
-                                "id": 97,
-                                "name": "[AUTO] United Launch Alliance - social_logo",
-                                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_nation_20230531043703.jpg",
-                                "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184852.jpeg",
-                                "credit": null,
-                                "license": {
-                                    "id": 1,
-                                    "name": "Unknown",
-                                    "priority": 9,
-                                    "link": null
-                                },
-                                "single_use": true,
-                                "variants": []
-                            }
-                        }
-                    ],
-                    "parent": {
-                        "response_mode": "list",
-                        "id": 72,
-                        "name": "Delta"
-                    }
-                }
-            ],
-            "full_name": "Delta II 7320",
-            "variant": "7320",
-            "active": false,
-            "is_placeholder": false,
-            "manufacturer": {
-                "response_mode": "normal",
-                "id": 124,
-                "url": "https://ll.thespacedevs.com/2.3.0/agencies/124/",
-                "name": "United Launch Alliance",
-                "abbrev": "ULA",
-                "type": {
-                    "id": 3,
-                    "name": "Commercial"
-                },
-                "featured": true,
-                "country": [
-                    {
-                        "id": 2,
-                        "name": "United States of America",
-                        "alpha_2_code": "US",
-                        "alpha_3_code": "USA",
-                        "nationality_name": "American",
-                        "nationality_name_composed": "Americano"
-                    }
-                ],
-                "description": "United Launch Alliance (ULA) is a joint venture of Lockheed Martin Space Systems and Boeing Defense, Space & Security. ULA was formed in December 2006 by combining the teams at these companies which provide spacecraft launch services to the government of the United States. ULA launches from both coasts of the US. They launch their Atlas V vehicle from LC-41 in Cape Canaveral and LC-3E at Vandeberg. Their Delta IV launches from LC-37 at Cape Canaveral and LC-6 at Vandenberg.",
-                "administrator": "CEO: Mark Peller",
-                "founding_year": 2006,
-                "launchers": "Atlas | Delta | Vulcan",
-                "spacecraft": "",
-                "parent": null,
-                "image": {
-                    "id": 30,
-                    "name": "[AUTO] United Launch Alliance - image",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_launch_a_image_20210412201210.png",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184706.png",
-                    "credit": null,
-                    "license": {
-                        "id": 1,
-                        "name": "Unknown",
-                        "priority": 9,
-                        "link": null
-                    },
-                    "single_use": true,
-                    "variants": []
-                },
-                "logo": {
-                    "id": 191,
-                    "name": "[AUTO] United Launch Alliance - logo",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_logo_20210412195953.png",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185148.png",
-                    "credit": null,
-                    "license": {
-                        "id": 1,
-                        "name": "Unknown",
-                        "priority": 9,
-                        "link": null
-                    },
-                    "single_use": true,
-                    "variants": []
-                },
-                "social_logo": {
-                    "id": 97,
-                    "name": "[AUTO] United Launch Alliance - social_logo",
-                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_nation_20230531043703.jpg",
-                    "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305184852.jpeg",
-                    "credit": null,
-                    "license": {
-                        "id": 1,
-                        "name": "Unknown",
-                        "priority": 9,
-                        "link": null
-                    },
-                    "single_use": true,
-                    "variants": []
-                }
-            },
-            "program": [],
-            "reusable": false,
-            "image": null,
-            "info_url": "http://www.spaceflight101.net/delta-ii-7320.html",
             "wiki_url": "https://en.wikipedia.org/wiki/Delta_II"
         },
         {
